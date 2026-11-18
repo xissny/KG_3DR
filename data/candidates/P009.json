@@ -1,0 +1,1396 @@
+[
+  {
+    "id": "F_a85e27ac0ce77e4ff06b",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MUSt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "quote": "we propose a Multi-view Network for Stereo 3D Reconstruction, or MUSt3R",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:23.313092+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MUSt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "quote": "we propose a Multi-view Network for Stereo 3D Reconstruction, or MUSt3R",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:05.358586+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ce769d6f4c1a1a059d6d404c5dea1df09f73f1f0ceb58f1f21752e9bed7a30cc",
+    "reviewed_at": "2026-11-16T11:53:23.313170+00:00"
+  },
+  {
+    "id": "F_fa3bec57810057213071",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "multi-layer memory mechanism"
+      },
+      "quote": "we entail the model with a multi-layer memory mechanism",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:23.332813+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "multi-layer memory mechanism"
+            },
+            "quote": "we entail the model with a multi-layer memory mechanism",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:05.358843+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ce769d6f4c1a1a059d6d404c5dea1df09f73f1f0ceb58f1f21752e9bed7a30cc",
+    "reviewed_at": "2026-11-16T11:53:23.332866+00:00"
+  },
+  {
+    "id": "F_82c7d2f560c3240c044a",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "Stereo 3D Reconstruction"
+      },
+      "quote": "Multi-view Network for Stereo 3D Reconstruction",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:23.346233+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "Stereo 3D Reconstruction"
+            },
+            "quote": "Multi-view Network for Stereo 3D Reconstruction",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:05.359044+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ce769d6f4c1a1a059d6d404c5dea1df09f73f1f0ceb58f1f21752e9bed7a30cc",
+    "reviewed_at": "2026-11-16T11:53:23.346277+00:00"
+  },
+  {
+    "id": "F_161ba6466388ebda6833",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "3D pointmaps"
+      },
+      "quote": "inferring thousands of 3D pointmaps at high frame-rates",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:23.354403+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "3D pointmaps"
+            },
+            "quote": "inferring thousands of 3D pointmaps at high frame-rates",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:05.359244+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ce769d6f4c1a1a059d6d404c5dea1df09f73f1f0ceb58f1f21752e9bed7a30cc",
+    "reviewed_at": "2026-11-16T11:53:23.354444+00:00"
+  },
+  {
+    "id": "F_9de800d16cbcc06d47fd",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Aachen Day-Night"
+      },
+      "quote": "MUSt3R reconstructions of Aachen Day-Night [82] nexus4 sequence 5",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:23.362613+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Aachen Day-Night"
+            },
+            "quote": "MUSt3R reconstructions of Aachen Day-Night [82] nexus4 sequence 5",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:05.359446+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ce769d6f4c1a1a059d6d404c5dea1df09f73f1f0ceb58f1f21752e9bed7a30cc",
+    "reviewed_at": "2026-11-16T11:53:23.362655+00:00"
+  },
+  {
+    "id": "F_8939d54ea934741b2d40",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM-RGBD"
+      },
+      "quote": "TUM-RGBD [56] Freiburg1-room sequence",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:23.375013+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM-RGBD"
+            },
+            "quote": "TUM-RGBD [56] Freiburg1-room sequence",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:05.359633+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ce769d6f4c1a1a059d6d404c5dea1df09f73f1f0ceb58f1f21752e9bed7a30cc",
+    "reviewed_at": "2026-11-16T11:53:23.375125+00:00"
+  },
+  {
+    "id": "F_82a936d5da85483e3838",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "memory mechanism"
+      },
+      "quote": "it with a memory mechanism that allows to de-",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:23.385109+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "memory mechanism"
+            },
+            "quote": "it with a memory mechanism that allows to de-",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:08.638246+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cf256a400b976db1622cd69d69c165d21894fa3e50f918c3e9cb9a0b527ab382",
+    "reviewed_at": "2026-11-16T11:53:23.385162+00:00"
+  },
+  {
+    "id": "F_02aecccd5313d2cdef15",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "local pointmap"
+      },
+      "quote": "The network predicts both local Xi,i and global Xi,1 pointmaps",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:43.542540+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "local pointmap Xi,i"
+            },
+            "quote": "The network predicts both local Xi,i and global Xi,1 pointmaps",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-16T11:53:54.741766+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "local pointmap"
+            },
+            "quote": "The network predicts both local Xi,i and global Xi,1 pointmaps",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:08.638579+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cf256a400b976db1622cd69d69c165d21894fa3e50f918c3e9cb9a0b527ab382",
+    "reviewed_at": "2026-11-16T11:53:54.741873+00:00"
+  },
+  {
+    "id": "F_e6c59a0adc802f08ca54",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "global pointmap"
+      },
+      "quote": "The network predicts both local Xi,i and global Xi,1 pointmaps",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:53:50.727624+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "global pointmap Xi,1"
+            },
+            "quote": "The network predicts both local Xi,i and global Xi,1 pointmaps",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-16T11:53:54.751183+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "global pointmap"
+            },
+            "quote": "The network predicts both local Xi,i and global Xi,1 pointmaps",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:08.638890+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cf256a400b976db1622cd69d69c165d21894fa3e50f918c3e9cb9a0b527ab382",
+    "reviewed_at": "2026-11-16T11:53:54.751228+00:00"
+  },
+  {
+    "id": "F_5bece3552656cc4641e4",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "Qualitative example of uncalibrated Visual Odometry on the ETH3D “boxes” sequence",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.829556+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "Qualitative example of uncalibrated Visual Odometry on the ETH3D “boxes” sequence",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:08.639208+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cf256a400b976db1622cd69d69c165d21894fa3e50f918c3e9cb9a0b527ab382",
+    "reviewed_at": "2026-11-16T11:54:51.829641+00:00"
+  },
+  {
+    "id": "F_b522e0da37c671289e8e",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "extends the DUSt3R archi-",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.840347+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "extends the DUSt3R archi-",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:08.639503+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cf256a400b976db1622cd69d69c165d21894fa3e50f918c3e9cb9a0b527ab382",
+    "reviewed_at": "2026-11-16T11:54:51.840393+00:00"
+  },
+  {
+    "id": "F_b65a8d50cde9c6f0ff6f",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Mast3R-SfM"
+      },
+      "quote": "While these legitimate concerns are partially addressed in",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.849035+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Mast3R-SfM"
+            },
+            "quote": "While these legitimate concerns are partially addressed in",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:08.639803+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cf256a400b976db1622cd69d69c165d21894fa3e50f918c3e9cb9a0b527ab382",
+    "reviewed_at": "2026-11-16T11:54:51.849077+00:00"
+  },
+  {
+    "id": "F_ad35577a884673df2716",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "Spann3R [65], a concurrent work in the DUSt3R framework",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.857840+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "Spann3R [65], a concurrent work in the DUSt3R framework",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:08.640101+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cf256a400b976db1622cd69d69c165d21894fa3e50f918c3e9cb9a0b527ab382",
+    "reviewed_at": "2026-11-16T11:54:51.857881+00:00"
+  },
+  {
+    "id": "F_5efcc460b8ed5181918c",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Blended MVS"
+      },
+      "quote": "MVS [75], MegaDepth [32], Static Scenes 3D [37], Scan-",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.866685+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Blended MVS"
+            },
+            "quote": "MVS [75], MegaDepth [32], Static Scenes 3D [37], Scan-",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.267569+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.866728+00:00"
+  },
+  {
+    "id": "F_59d25c196f063bf504df",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MegaDepth"
+      },
+      "quote": "MVS [75], MegaDepth [32], Static Scenes 3D [37], Scan-",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.875594+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MegaDepth"
+            },
+            "quote": "MVS [75], MegaDepth [32], Static Scenes 3D [37], Scan-",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.267916+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.875637+00:00"
+  },
+  {
+    "id": "F_041070e9a20baf55cc06",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Static Scenes 3D"
+      },
+      "quote": "MVS [75], MegaDepth [32], Static Scenes 3D [37], Scan-",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.884349+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Static Scenes 3D"
+            },
+            "quote": "MVS [75], MegaDepth [32], Static Scenes 3D [37], Scan-",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.268233+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.884392+00:00"
+  },
+  {
+    "id": "F_37ff15574cc87f67c627",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet++"
+      },
+      "quote": "Net++ [76], CO3D-v2 [45], Map-free [3], WildRGB-",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.893259+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet++"
+            },
+            "quote": "Net++ [76], CO3D-v2 [45], Map-free [3], WildRGB-",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.268533+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.893302+00:00"
+  },
+  {
+    "id": "F_0e1d9e6c2a098d314acb",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "CO3D-v2"
+      },
+      "quote": "Net++ [76], CO3D-v2 [45], Map-free [3], WildRGB-",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.902294+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "CO3D-v2"
+            },
+            "quote": "Net++ [76], CO3D-v2 [45], Map-free [3], WildRGB-",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.268832+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.902337+00:00"
+  },
+  {
+    "id": "F_24ff50b3639d8b9aed40",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Map-free"
+      },
+      "quote": "Net++ [76], CO3D-v2 [45], Map-free [3], WildRGB-",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.911221+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Map-free"
+            },
+            "quote": "Net++ [76], CO3D-v2 [45], Map-free [3], WildRGB-",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.269136+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.911263+00:00"
+  },
+  {
+    "id": "F_d42a537a7ecb82756fdc",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "WildRGB-D"
+      },
+      "quote": "D [73], Virtual KITTI [7], Unreal4K [62], DL3DV [34],",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.920115+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "WildRGB-D"
+            },
+            "quote": "D [73], Virtual KITTI [7], Unreal4K [62], DL3DV [34],",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.269435+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.920157+00:00"
+  },
+  {
+    "id": "F_626100a160b4641548ba",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Virtual KITTI"
+      },
+      "quote": "D [73], Virtual KITTI [7], Unreal4K [62], DL3DV [34],",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.929293+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Virtual KITTI"
+            },
+            "quote": "D [73], Virtual KITTI [7], Unreal4K [62], DL3DV [34],",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.269733+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.929336+00:00"
+  },
+  {
+    "id": "F_eb3c462f52e3e775f5c6",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Unreal4K"
+      },
+      "quote": "D [73], Virtual KITTI [7], Unreal4K [62], DL3DV [34],",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.938318+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Unreal4K"
+            },
+            "quote": "D [73], Virtual KITTI [7], Unreal4K [62], DL3DV [34],",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.270074+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.938361+00:00"
+  },
+  {
+    "id": "F_ae02e2b3c6f94072093b",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DL3DV"
+      },
+      "quote": "D [73], Virtual KITTI [7], Unreal4K [62], DL3DV [34],",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.947334+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DL3DV"
+            },
+            "quote": "D [73], Virtual KITTI [7], Unreal4K [62], DL3DV [34],",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.270382+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.947377+00:00"
+  },
+  {
+    "id": "F_541ae1b8ece612122554",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TartanAir"
+      },
+      "quote": "TartanAir [70] and an internal dataset.",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.956379+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TartanAir"
+            },
+            "quote": "TartanAir [70] and an internal dataset.",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:35.270694+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8c002418e45a624a85f4496dcba35adedf15bc34cffdcfa7f47252f3bd9d81a0",
+    "reviewed_at": "2026-11-16T11:54:51.956424+00:00"
+  },
+  {
+    "id": "F_5e2009c2b64241b1485f",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RRA@15"
+      },
+      "quote": "Relative Rotation Accuracy below 15◦(RRA@15)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.965457+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RRA@15"
+            },
+            "quote": "Relative Rotation Accuracy below 15◦(RRA@15)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:41.695983+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0a64d4078423af7b73b1b65cc547c2047d0abfb9e933fc606391629e7e6c5bf8",
+    "reviewed_at": "2026-11-16T11:54:51.965501+00:00"
+  },
+  {
+    "id": "F_01e84f956f5c5507c93e",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "mAA@30"
+      },
+      "quote": "mean Average Accuracy below 30◦(mAA@30)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:54:51.974817+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "mAA@30"
+            },
+            "quote": "mean Average Accuracy below 30◦(mAA@30)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:41.696571+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0a64d4078423af7b73b1b65cc547c2047d0abfb9e933fc606391629e7e6c5bf8",
+    "reviewed_at": "2026-11-16T11:54:51.974858+00:00"
+  },
+  {
+    "id": "F_2611eab8f35686bfc484",
+    "paper_id": "P009",
+    "pdf_sha256": "adbdbe9a705f863c1b27f0afe7c2abfae7279beea5a468996b2cddb1e5c89dea",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "11 sequences commonly used for evaluating in the VO setting"
+      },
+      "quote": "ntains the 11 sequences commonly used for      cost of accuracy. MUSt3R, which also leverages a working\nevaluating in the VO setting [15, 59, 78]. We complete    memory expressing all views in the same coordinate sys-\nthe evaluation by running both Spann3R and MUSt3R on     tem, yields better performance than all baselines.",
+      "page": 7
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:55:00.284148+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "11 sequences commonly used for evaluating in the VO setting"
+            },
+            "quote": "ntains the 11 sequences commonly used for      cost of accuracy. MUSt3R, which also leverages a working\nevaluating in the VO setting [15, 59, 78]. We complete    memory expressing all views in the same coordinate sys-\nthe evaluation by running both Spann3R and MUSt3R on     tem, yields better performance than all baselines.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:38:42.883362+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "322cd76fec373f216878c4ef4899cbe7f4051239b8568bd374c0555de88c9938",
+    "reviewed_at": "2026-11-16T11:55:00.284233+00:00"
+  }
+]

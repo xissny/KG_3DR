@@ -1,0 +1,20 @@
+{
+  "paper_id": "P009",
+  "sha256": "dfa8efc9ba905efcb6344b7ff105a55c59f654769a964cbf9c2418204b8f985e",
+  "parser_version": "pages-v1",
+  "pages": [
+    {
+      "page": 1,
+      "text": "TEACHING ONLY - Synthetic Paper 09\n\nSYNTHETIC EDUCATIONAL DATA. NOT A REAL RESEARCH PAPER.\n\nTEACHING ONLY - Synthetic Paper 09 proposes Teaching Method 09 for this fictional teaching\nexample.\n\nTeaching Method 09 uses Pairwise attention as its principal component.\n\nTeaching Method 09 is evaluated on Teaching Dataset A in the synthetic setup.\n\nTeaching Method 09 solves the task of Depth estimation in this fictional example.\n\nTeaching Method 09 outputs Teaching geometry in this artificial example.",
+      "section": "Unknown"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "1_0",
+      "page": 1,
+      "section": "Unknown",
+      "text": "TEACHING ONLY - Synthetic Paper 09\n\nSYNTHETIC EDUCATIONAL DATA. NOT A REAL RESEARCH PAPER.\n\nTEACHING ONLY - Synthetic Paper 09 proposes Teaching Method 09 for this fictional teaching\nexample.\n\nTeaching Method 09 uses Pairwise attention as its principal component.\n\nTeaching Method 09 is evaluated on Teaching Dataset A in the synthetic setup.\n\nTeaching Method 09 solves the task of Depth estimation in this fictional example.\n\nTeaching Method 09 outputs Teaching geometry in this artificial example."
+    }
+  ]
+}

@@ -1,0 +1,4702 @@
+[
+  {
+    "id": "F_8ec24ae221b180777259",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "quote": "Slot3R realizes this principle as a training-free, set-associative retrofit that lets multiple states coexist at a shared address while keeping the pretrained Point3R backbone frozen.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:02.794539+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "quote": "Slot3R realizes this principle as a training-free, set-associative retrofit that lets multiple states coexist at a shared address while keeping the pretrained Point3R backbone frozen.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:39.911533+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc48eee33693c66b38fcb328010587d288b9c8ba89b2b8e6854865e4f86b074c",
+    "reviewed_at": "2026-11-17T16:31:02.794614+00:00"
+  },
+  {
+    "id": "F_9b8f9cb83d07c6301364",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "pretrained Point3R backbone"
+      },
+      "quote": "keeping the pretrained Point3R backbone frozen",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.800301+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "pretrained Point3R backbone"
+            },
+            "quote": "keeping the pretrained Point3R backbone frozen",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:39.911739+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc48eee33693c66b38fcb328010587d288b9c8ba89b2b8e6854865e4f86b074c",
+    "reviewed_at": "2026-11-17T16:31:03.800351+00:00"
+  },
+  {
+    "id": "F_8b0dfbf31d14c2fe8064",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "bounded sparse readout"
+      },
+      "quote": "A bounded sparse readout further decouples persistent storage from per-frame decoder access.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.837304+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "bounded sparse readout"
+            },
+            "quote": "A bounded sparse readout further decouples persistent storage from per-frame decoder access.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:39.911910+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc48eee33693c66b38fcb328010587d288b9c8ba89b2b8e6854865e4f86b074c",
+    "reviewed_at": "2026-11-17T16:31:03.837359+00:00"
+  },
+  {
+    "id": "F_5fa999f1f3bb95e23fd1",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "Streaming 3D reconstruction"
+      },
+      "quote": "Streaming 3D reconstruction must preserve evidence from each frame while processing an expanding scene online.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.855420+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "Streaming 3D reconstruction"
+            },
+            "quote": "Streaming 3D reconstruction must preserve evidence from each frame while processing an expanding scene online.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:39.912074+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc48eee33693c66b38fcb328010587d288b9c8ba89b2b8e6854865e4f86b074c",
+    "reviewed_at": "2026-11-17T16:31:03.855463+00:00"
+  },
+  {
+    "id": "F_9ff953044571b2ca8e54",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NeuralRGBD"
+      },
+      "quote": "64.0%–72.0% on NeuralRGBD",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.891906+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NeuralRGBD"
+            },
+            "quote": "64.0%–72.0% on NeuralRGBD",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:39.912381+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc48eee33693c66b38fcb328010587d288b9c8ba89b2b8e6854865e4f86b074c",
+    "reviewed_at": "2026-11-17T16:31:03.891949+00:00"
+  },
+  {
+    "id": "F_49d7d9940c7bc8843a0b",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Sim(3)-aligned absolute trajectory error (ATE)"
+      },
+      "quote": "lowers Sim(3)-aligned absolute trajectory error (ATE) on all three pose benchmarks",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.375433+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Sim(3)-aligned absolute trajectory error (ATE)"
+            },
+            "quote": "lowers Sim(3)-aligned absolute trajectory error (ATE) on all three pose benchmarks",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:39.912678+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc48eee33693c66b38fcb328010587d288b9c8ba89b2b8e6854865e4f86b074c",
+    "reviewed_at": "2026-11-17T16:31:04.375487+00:00"
+  },
+  {
+    "id": "F_5a95763b5f4ecec14b5c",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "quote": "whereas Point3R and InfiniteVGGT run out of memory at 800 frames and beyond",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.393714+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "quote": "whereas Point3R and InfiniteVGGT run out of memory at 800 frames and beyond",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:39.912975+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc48eee33693c66b38fcb328010587d288b9c8ba89b2b8e6854865e4f86b074c",
+    "reviewed_at": "2026-11-17T16:31:04.393757+00:00"
+  },
+  {
+    "id": "F_d1330a247685a8c86d98",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "quote": "We introduce Slot3R, a spatial pointer memory framework with set-associative spatial storage.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:02.823005+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "quote": "We introduce Slot3R, a spatial pointer memory framework with set-associative spatial storage.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.522427+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:02.823063+00:00"
+  },
+  {
+    "id": "F_03e7d0ffb908f756a40e",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "spherical hash"
+      },
+      "quote": "we quantize 3D space with a spherical hash, where each spatial bucket maintains up to K independent position–feature slots",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.412108+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "spherical hash"
+            },
+            "quote": "we quantize 3D space with a spherical hash, where each spatial bucket maintains up to K independent position–feature slots",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.523295+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:04.412148+00:00"
+  },
+  {
+    "id": "F_c5291ca4a8e357725e0d",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "frame-wise confidence filter"
+      },
+      "quote": "a frame-wise confidence filter first removes unreliable observations",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.450919+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "frame-wise confidence filter"
+            },
+            "quote": "a frame-wise confidence filter first removes unreliable observations",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.523651+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:04.450972+00:00"
+  },
+  {
+    "id": "F_4313c50c90e34592a596",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "pointer–image interaction module"
+      },
+      "quote": "Only a fixed number of these selected tokens are passed to the pointer–image interaction module.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.484331+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "pointer–image interaction module"
+            },
+            "quote": "Only a fixed number of these selected tokens are passed to the pointer–image interaction module.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.523999+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:04.484374+00:00"
+  },
+  {
+    "id": "F_7896bdca19feba92cbbc",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "streaming 3D reconstruction"
+      },
+      "quote": "Slot3R preserves long-term spatial evidence as the scene expands while keeping memory-dependent decoder cost bounded regardless of the total memory size.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.873823+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "streaming 3D reconstruction"
+            },
+            "quote": "Slot3R preserves long-term spatial evidence as the scene expands while keeping memory-dependent decoder cost bounded regardless of the total memory size.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.524332+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:03.873871+00:00"
+  },
+  {
+    "id": "F_450109a7aad81300e5da",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "Slot3R sets a new state of the art on 7Scenes",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.502819+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "Slot3R sets a new state of the art on 7Scenes",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.524656+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:04.502861+00:00"
+  },
+  {
+    "id": "F_dc0d353f85e887d4dec8",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NeuralRGBD"
+      },
+      "quote": "remains competitive with state-of-the-art methods on NeuralRGBD",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.539851+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NeuralRGBD"
+            },
+            "quote": "remains competitive with state-of-the-art methods on NeuralRGBD",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.524969+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:04.539893+00:00"
+  },
+  {
+    "id": "F_9b0ce4741e57de66f265",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Acc"
+      },
+      "quote": "Slot3R reduces Point3R’s Acc by 57.1%–63.1% on 7Scenes",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.558697+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Acc"
+            },
+            "quote": "Slot3R reduces Point3R’s Acc by 57.1%–63.1% on 7Scenes",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.525282+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:04.558740+00:00"
+  },
+  {
+    "id": "F_929736569e00d80abdea",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Sim(3)-aligned ATE"
+      },
+      "quote": "It also improves Sim(3)-aligned ATE on all three pose benchmarks",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.582364+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Sim(3)-aligned ATE"
+            },
+            "quote": "It also improves Sim(3)-aligned ATE on all three pose benchmarks",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:43.525593+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a6d363f3bac7fea85a4921a38ebd020a5abc916b024470d4522228586a088333",
+    "reviewed_at": "2026-11-17T16:31:04.582409+00:00"
+  },
+  {
+    "id": "F_607c63440981f0f074a6",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "quote": "We introduce Slot3R, a training-free streaming 3D reconstruction method with a set-associative spatial memory",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:02.864726+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "quote": "We introduce Slot3R, a training-free streaming 3D reconstruction method with a set-associative spatial memory",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.134526+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:02.864786+00:00"
+  },
+  {
+    "id": "F_2edf6f9fcb14404af25d",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "bounded sparse spatial readout"
+      },
+      "quote": "We develop a bounded sparse spatial readout that decouples allocated persistent storage from per-frame access cost.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.619563+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "bounded sparse spatial readout"
+            },
+            "quote": "We develop a bounded sparse spatial readout that decouples allocated persistent storage from per-frame access cost.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.134838+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:04.619604+00:00"
+  },
+  {
+    "id": "F_1f92a4fb6669908b71c7",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "set-associative spatial memory"
+      },
+      "quote": "a training-free streaming 3D reconstruction method with a set-associative spatial memory that retains multiple feature states at each spatial address",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.640539+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "set-associative spatial memory"
+            },
+            "quote": "a training-free streaming 3D reconstruction method with a set-associative spatial memory that retains multiple feature states at each spatial address",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.135106+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:04.640581+00:00"
+  },
+  {
+    "id": "F_8145327a481b1ba63978",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "long-sequence point-cloud reconstruction"
+      },
+      "quote": "Without any additional training, Slot3R sets a new state of the art for long-sequence point-cloud reconstruction on 7Scenes",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.659336+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "long-sequence point-cloud reconstruction"
+            },
+            "quote": "Without any additional training, Slot3R sets a new state of the art for long-sequence point-cloud reconstruction on 7Scenes",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.135359+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:04.659378+00:00"
+  },
+  {
+    "id": "F_14805b5e1a5b95e3bf37",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "sets a new state of the art for long-sequence point-cloud reconstruction on 7Scenes",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.521234+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "sets a new state of the art for long-sequence point-cloud reconstruction on 7Scenes",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.135606+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:04.521277+00:00"
+  },
+  {
+    "id": "F_625c48d0f73fff4961c3",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera pose"
+      },
+      "quote": "predicts a camera pose Tt, a depth map Dt, and a pointmap Xt for each frame as it arrives",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.678057+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera pose"
+            },
+            "quote": "predicts a camera pose Tt, a depth map Dt, and a pointmap Xt for each frame as it arrives",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.135851+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:04.678100+00:00"
+  },
+  {
+    "id": "F_406cc5fa863732b22350",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth map"
+      },
+      "quote": "predicts a camera pose Tt, a depth map Dt, and a pointmap Xt for each frame as it arrives",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.696723+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth map"
+            },
+            "quote": "predicts a camera pose Tt, a depth map Dt, and a pointmap Xt for each frame as it arrives",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.136099+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:04.696764+00:00"
+  },
+  {
+    "id": "F_d49b12af5d8dc4df918a",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "pointmap"
+      },
+      "quote": "predicts a camera pose Tt, a depth map Dt, and a pointmap Xt for each frame as it arrives",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:45.902258+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "pointmap"
+            },
+            "quote": "predicts a camera pose Tt, a depth map Dt, and a pointmap Xt for each frame as it arrives",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.136344+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:45.902364+00:00"
+  },
+  {
+    "id": "F_7ec37a45c1f3a61853cf",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Point3R's spatial pointer memory"
+      },
+      "quote": "our method builds on Point3R’s spatial pointer memory [11]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:45.926205+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Point3R's spatial pointer memory"
+            },
+            "quote": "our method builds on Point3R’s spatial pointer memory [11]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.136598+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:45.926261+00:00"
+  },
+  {
+    "id": "F_b9c7a3d7cd5cc4da7104",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "quote": "our method builds on Point3R’s spatial pointer memory [11]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:45.945354+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "quote": "our method builds on Point3R’s spatial pointer memory [11]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.136840+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:45.945396+00:00"
+  },
+  {
+    "id": "F_c9e436daff42799f5f34",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "Spann3R retrieves by feature affinity, with geometry encoded in its values [10]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:45.964362+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "Spann3R retrieves by feature affinity, with geometry encoded in its values [10]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.137084+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:45.964403+00:00"
+  },
+  {
+    "id": "F_241072c21f68c6a1651c",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "LONG3R"
+      },
+      "quote": "LONG3R combines recurrent memory gating with adaptive 3D spatio-temporal management [30]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:45.984073+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "LONG3R"
+            },
+            "quote": "LONG3R combines recurrent memory gating with adaptive 3D spatio-temporal management [30]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.137325+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:45.984117+00:00"
+  },
+  {
+    "id": "F_1359e32b4cec69fa19ea",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "ZipMap"
+      },
+      "quote": "although ZipMap also supports sequential inference [22]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:46.005261+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "ZipMap"
+            },
+            "quote": "although ZipMap also supports sequential inference [22]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:47.137563+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5b06cac93f22df5889f588e02a2707287eb487cc6d24edcf1adddb15b4ad4c4d",
+    "reviewed_at": "2026-11-17T16:31:46.005318+00:00"
+  },
+  {
+    "id": "F_80c1bfdd5837dd33f3ef",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "quote": "Overview of the core Slot3R pipeline.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:02.987717+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "quote": "Overview of the core Slot3R pipeline.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:49.013173+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "851bc375daf8fb4dfe02a7ae9ce9233551841c9622f4468d4b6b1eee497b4bb8",
+    "reviewed_at": "2026-11-17T16:31:02.987777+00:00"
+  },
+  {
+    "id": "F_680f6b608cad85cf2b8b",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "frozen Point3R backbone"
+      },
+      "quote": "the frozen Point3R backbone interacts image tokens with selected memory states",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:46.026496+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "frozen Point3R backbone"
+            },
+            "quote": "the frozen Point3R backbone interacts image tokens with selected memory states",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:49.013470+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "851bc375daf8fb4dfe02a7ae9ce9233551841c9622f4468d4b6b1eee497b4bb8",
+    "reviewed_at": "2026-11-17T16:31:46.026541+00:00"
+  },
+  {
+    "id": "F_0083db28db0745e4d529",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "K-way set-associative spatial memory"
+      },
+      "quote": "K-way set-associative spatial memory retains multiple states at each discrete 3D address",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:46.053120+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "K-way set-associative spatial memory"
+            },
+            "quote": "K-way set-associative spatial memory retains multiple states at each discrete 3D address",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:49.013723+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "851bc375daf8fb4dfe02a7ae9ce9233551841c9622f4468d4b6b1eee497b4bb8",
+    "reviewed_at": "2026-11-17T16:31:46.053204+00:00"
+  },
+  {
+    "id": "F_c95f1f4795ee4ea48f58",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Confidence-Aware Updates"
+      },
+      "quote": "Confidence and feature similarity govern the memory-write path through rejection, insertion, fusion, and replacement",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:46.072669+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Confidence-Aware Updates"
+            },
+            "quote": "Confidence and feature similarity govern the memory-write path through rejection, insertion, fusion, and replacement",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:49.014018+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "851bc375daf8fb4dfe02a7ae9ce9233551841c9622f4468d4b6b1eee497b4bb8",
+    "reviewed_at": "2026-11-17T16:31:46.072713+00:00"
+  },
+  {
+    "id": "F_e7101cd444c720dc23fb",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Sparse Spatial Readout"
+      },
+      "quote": "Previous-frame spatial priors retrieve neighboring buckets; the resulting local states are combined with uniformly sampled global anchors under a fixed readout budget",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:46.092138+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Sparse Spatial Readout"
+            },
+            "quote": "Previous-frame spatial priors retrieve neighboring buckets; the resulting local states are combined with uniformly sampled global anchors under a fixed readout budget",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:49.014265+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "851bc375daf8fb4dfe02a7ae9ce9233551841c9622f4468d4b6b1eee497b4bb8",
+    "reviewed_at": "2026-11-17T16:31:46.092180+00:00"
+  },
+  {
+    "id": "F_f1c6d993880dfeb2d75c",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "geometry and camera pose"
+      },
+      "quote": "predicts geometry and camera pose",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:46.111471+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "geometry and camera pose"
+            },
+            "quote": "predicts geometry and camera pose",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:49.014513+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "851bc375daf8fb4dfe02a7ae9ce9233551841c9622f4468d4b6b1eee497b4bb8",
+    "reviewed_at": "2026-11-17T16:31:46.111512+00:00"
+  },
+  {
+    "id": "F_e920193350df86ec3996",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "quantized spherical grid"
+      },
+      "quote": "we map its 3D position to a discrete address on a quantized spherical grid",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:46.130771+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "quantized spherical grid"
+            },
+            "quote": "we map its 3D position to a discrete address on a quantized spherical grid",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:49.014771+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "851bc375daf8fb4dfe02a7ae9ce9233551841c9622f4468d4b6b1eee497b4bb8",
+    "reviewed_at": "2026-11-17T16:31:46.130813+00:00"
+  },
+  {
+    "id": "F_728fb88f88a079ed23e4",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "quote": "The differently colored markers for Slot3R represent appearance-distinct states retained in separate slots of the same spatial bucket",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.389222+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "quote": "The differently colored markers for Slot3R represent appearance-distinct states retained in separate slots of the same spatial bucket",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:50.461741+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8b12edb5b8ab1dfce0d2bb6629e2082cb37c99a39a227cd3bf9fe2b34399aef0",
+    "reviewed_at": "2026-11-17T16:31:03.389309+00:00"
+  },
+  {
+    "id": "F_afdc64eb6cdb24820a00",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "discrete address"
+      },
+      "quote": "we concatenate the three indices to obtain the address",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:46.149911+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "discrete address"
+            },
+            "quote": "we concatenate the three indices to obtain the address",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:50.462354+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8b12edb5b8ab1dfce0d2bb6629e2082cb37c99a39a227cd3bf9fe2b34399aef0",
+    "reviewed_at": "2026-11-17T16:31:46.149952+00:00"
+  },
+  {
+    "id": "F_ece742c236a51d2a70ce",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "Point-cloud reconstruction on 7Scenes and NeuralRGBD with k = 2 at 300–500 frames.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.352650+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "Point-cloud reconstruction on 7Scenes and NeuralRGBD with k = 2 at 300–500 frames.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.466317+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.352727+00:00"
+  },
+  {
+    "id": "F_9a8b4d8d39183843bc5a",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NeuralRGBD"
+      },
+      "quote": "Point-cloud reconstruction on 7Scenes and NeuralRGBD with k = 2 at 300–500 frames.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.916171+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NeuralRGBD"
+            },
+            "quote": "Point-cloud reconstruction on 7Scenes and NeuralRGBD with k = 2 at 300–500 frames.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.466606+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:31:03.916227+00:00"
+  },
+  {
+    "id": "F_45915d0ef6f95f93b20d",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Acc"
+      },
+      "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.411015+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Acc"
+            },
+            "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.466840+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.411057+00:00"
+  },
+  {
+    "id": "F_30791abddcef1fb223d8",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Comp"
+      },
+      "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.476756+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Comp"
+            },
+            "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.467069+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.476822+00:00"
+  },
+  {
+    "id": "F_96faa1c47dbc609ddd10",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "NC"
+      },
+      "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.535405+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "NC"
+            },
+            "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.467295+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.535472+00:00"
+  },
+  {
+    "id": "F_3f11c979664a1f35c3bc",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Avg. FPS"
+      },
+      "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.639819+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Avg. FPS"
+            },
+            "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.467526+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.639863+00:00"
+  },
+  {
+    "id": "F_394d882884932a347eb0",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "Under per-sequence alignment, Ours improves Point3R’s AbsRel on all three datasets",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.679234+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "Under per-sequence alignment, Ours improves Point3R’s AbsRel on all three datasets",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.467761+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.679277+00:00"
+  },
+  {
+    "id": "F_7aa30853ebef2bba06a3",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ < 1.25"
+      },
+      "quote": "while matching or improving δ < 1.25 (Table 2)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.718994+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ < 1.25"
+            },
+            "quote": "while matching or improving δ < 1.25 (Table 2)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.467984+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.719048+00:00"
+  },
+  {
+    "id": "F_4495f2feeaaf3d3f73c4",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "ATE"
+      },
+      "quote": "Ours improves Point3R’s ATE on all three benchmarks but not its RPE consistently (Table 3).",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.759021+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "ATE"
+            },
+            "quote": "Ours improves Point3R’s ATE on all three benchmarks but not its RPE consistently (Table 3).",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.468206+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.759068+00:00"
+  },
+  {
+    "id": "F_67a5fd37fb7448dd80b2",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RPE"
+      },
+      "quote": "Ours improves Point3R’s ATE on all three benchmarks but not its RPE consistently (Table 3).",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.779021+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RPE"
+            },
+            "quote": "Ours improves Point3R’s ATE on all three benchmarks but not its RPE consistently (Table 3).",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.468428+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.779070+00:00"
+  },
+  {
+    "id": "F_09a97b4ebe0339fe6c77",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet"
+      },
+      "quote": "Metric-scale results improve on ScanNet but not Bonn or KITTI",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.799072+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet"
+            },
+            "quote": "Metric-scale results improve on ScanNet but not Bonn or KITTI",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.468647+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.799122+00:00"
+  },
+  {
+    "id": "F_2d393716bc3858d88d9b",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "Metric-scale results improve on ScanNet but not Bonn or KITTI",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.819064+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "Metric-scale results improve on ScanNet but not Bonn or KITTI",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.468869+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.819105+00:00"
+  },
+  {
+    "id": "F_9f4e6b541086ee514a5d",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "Metric-scale results improve on ScanNet but not Bonn or KITTI",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.839362+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "Metric-scale results improve on ScanNet but not Bonn or KITTI",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.469078+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.839405+00:00"
+  },
+  {
+    "id": "F_86f4050211a3c4530b0c",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "RetrieveVGGT"
+      },
+      "quote": "† marks reconstruction values reported by RetrieveVGGT [16]",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.859531+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "RetrieveVGGT"
+            },
+            "quote": "† marks reconstruction values reported by RetrieveVGGT [16]",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:13.469292+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "89e0cf824317941ccb37e8aab44d3a2aad68de19423e076de44697d1ea23ff4e",
+    "reviewed_at": "2026-11-17T16:33:16.859570+00:00"
+  },
+  {
+    "id": "F_a39c3fffb67eb8c131b0",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "quote": "We introduced Slot3R, a training-free set-associative spatial memory that separates spatial addressing from state identity and",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.779716+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "quote": "We introduced Slot3R, a training-free set-associative spatial memory that separates spatial addressing from state identity and",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:25.896708+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f94a0276b1323a1f955d117877e3dc6786c6211fd269e779c18abc8a57d3f142",
+    "reviewed_at": "2026-11-17T16:31:03.779830+00:00"
+  },
+  {
+    "id": "F_3a91c4fd763eb84434ad",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "pretrained Point3R backbone"
+      },
+      "quote": "bounds per-frame decoder access while keeping the pretrained Point3R backbone frozen",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:03.819315+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "pretrained Point3R backbone"
+            },
+            "quote": "bounds per-frame decoder access while keeping the pretrained Point3R backbone frozen",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:25.896866+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f94a0276b1323a1f955d117877e3dc6786c6211fd269e779c18abc8a57d3f142",
+    "reviewed_at": "2026-11-17T16:31:03.819363+00:00"
+  },
+  {
+    "id": "F_b975f3a36f56f9c4ff40",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "three pose benchmarks"
+      },
+      "quote": "reducing Point3R’s Sim(3)-aligned ATE by 29.1%–53.1% and translation RPE by 47.8%–79.7% across the three pose benchmarks",
+      "page": 9
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:29.280549+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "three pose benchmarks"
+            },
+            "quote": "reducing Point3R’s Sim(3)-aligned ATE by 29.1%–53.1% and translation RPE by 47.8%–79.7% across the three pose benchmarks",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:25.896981+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f94a0276b1323a1f955d117877e3dc6786c6211fd269e779c18abc8a57d3f142",
+    "reviewed_at": "2026-11-17T16:33:29.280621+00:00"
+  },
+  {
+    "id": "F_10387ca40ea32f414c95",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "point-cloud Acc"
+      },
+      "quote": "core Ours reduces Point3R’s point-cloud Acc by 57.1%–72.0%",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.879556+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "point-cloud Acc"
+            },
+            "quote": "core Ours reduces Point3R’s point-cloud Acc by 57.1%–72.0%",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:25.897078+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f94a0276b1323a1f955d117877e3dc6786c6211fd269e779c18abc8a57d3f142",
+    "reviewed_at": "2026-11-17T16:33:16.879597+00:00"
+  },
+  {
+    "id": "F_1f8cd5442e4296522171",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "normal consistency"
+      },
+      "quote": "improves normal consistency, and provides 5.6%–14.3%",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.899496+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "normal consistency"
+            },
+            "quote": "improves normal consistency, and provides 5.6%–14.3%",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:25.897169+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f94a0276b1323a1f955d117877e3dc6786c6211fd269e779c18abc8a57d3f142",
+    "reviewed_at": "2026-11-17T16:33:16.899544+00:00"
+  },
+  {
+    "id": "F_f99631c4b74f7635e17f",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "for depth, it improves per-sequence AbsRel on all three benchmarks",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.919516+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "for depth, it improves per-sequence AbsRel on all three benchmarks",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:25.897257+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f94a0276b1323a1f955d117877e3dc6786c6211fd269e779c18abc8a57d3f142",
+    "reviewed_at": "2026-11-17T16:33:16.919557+00:00"
+  },
+  {
+    "id": "F_2e2df9965dadd8b9daee",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Sim(3)-aligned ATE"
+      },
+      "quote": "with Ours-VPC-A reducing Point3R’s Sim(3)-aligned ATE by 29.1%–",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.600849+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Sim(3)-aligned ATE"
+            },
+            "quote": "with Ours-VPC-A reducing Point3R’s Sim(3)-aligned ATE by 29.1%–",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:25.897346+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f94a0276b1323a1f955d117877e3dc6786c6211fd269e779c18abc8a57d3f142",
+    "reviewed_at": "2026-11-17T16:31:04.600892+00:00"
+  },
+  {
+    "id": "F_12adddbe1bc051049d51",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "translation RPE"
+      },
+      "quote": "53.1% and translation RPE by 47.8%–79.7% across the three pose benchmarks",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.939853+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "translation RPE"
+            },
+            "quote": "53.1% and translation RPE by 47.8%–79.7% across the three pose benchmarks",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:25.897435+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f94a0276b1323a1f955d117877e3dc6786c6211fd269e779c18abc8a57d3f142",
+    "reviewed_at": "2026-11-17T16:33:16.939895+00:00"
+  },
+  {
+    "id": "F_86c9595f6d56ec120aa6",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Ours-VPC-M"
+      },
+      "quote": "Ours-VPC-M uses motion- and agreement-gated mixing, whereas Ours-VPC-A uses agreement-only mixing with per-frame bank refresh.",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.960334+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Ours-VPC-M"
+            },
+            "quote": "Ours-VPC-M uses motion- and agreement-gated mixing, whereas Ours-VPC-A uses agreement-only mixing with per-frame bank refresh.",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:29.444648+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5933c13ee50a311a7197f55e9ed477c3b72a9f9e99d31a6795eea52e8cb83831",
+    "reviewed_at": "2026-11-17T16:33:16.960376+00:00"
+  },
+  {
+    "id": "F_6e6aaef32f5ef0f60f5a",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Ours-VPC-A"
+      },
+      "quote": "Ours-VPC-M uses motion- and agreement-gated mixing, whereas Ours-VPC-A uses agreement-only mixing with per-frame bank refresh.",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.980895+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Ours-VPC-A"
+            },
+            "quote": "Ours-VPC-M uses motion- and agreement-gated mixing, whereas Ours-VPC-A uses agreement-only mixing with per-frame bank refresh.",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:29.445064+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5933c13ee50a311a7197f55e9ed477c3b72a9f9e99d31a6795eea52e8cb83831",
+    "reviewed_at": "2026-11-17T16:33:16.980940+00:00"
+  },
+  {
+    "id": "F_ec03f21514d3775a785e",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Ours-VPC-M"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "auxiliary viewpoint bank"
+      },
+      "quote": "Ours-VPC-M updates the auxiliary bank every four frames, whereas Ours-VPC-A refreshes it every frame.",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.006924+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Ours-VPC-M"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "auxiliary viewpoint bank"
+            },
+            "quote": "Ours-VPC-M updates the auxiliary bank every four frames, whereas Ours-VPC-A refreshes it every frame.",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:29.445428+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5933c13ee50a311a7197f55e9ed477c3b72a9f9e99d31a6795eea52e8cb83831",
+    "reviewed_at": "2026-11-17T16:33:17.007037+00:00"
+  },
+  {
+    "id": "F_a906a8e3aabc4f5d0b97",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Ours-VPC-A"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "auxiliary viewpoint bank"
+      },
+      "quote": "Ours-VPC-M updates the auxiliary bank every four frames, whereas Ours-VPC-A refreshes it every frame.",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.028221+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Ours-VPC-A"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "auxiliary viewpoint bank"
+            },
+            "quote": "Ours-VPC-M updates the auxiliary bank every four frames, whereas Ours-VPC-A refreshes it every frame.",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:29.445801+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5933c13ee50a311a7197f55e9ed477c3b72a9f9e99d31a6795eea52e8cb83831",
+    "reviewed_at": "2026-11-17T16:33:17.028263+00:00"
+  },
+  {
+    "id": "F_20846f58e3480207515c",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Li et al. [39]"
+      },
+      "quote": "We adapt the direction-conditioned association and retain-or-replace update of Li et al. [39] for this auxiliary bank.",
+      "page": 12
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:29.302236+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Li et al. [39]"
+            },
+            "quote": "We adapt the direction-conditioned association and retain-or-replace update of Li et al. [39] for this auxiliary bank.",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:29.446158+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5933c13ee50a311a7197f55e9ed477c3b72a9f9e99d31a6795eea52e8cb83831",
+    "reviewed_at": "2026-11-17T16:33:29.302278+00:00"
+  },
+  {
+    "id": "F_28c0eccd27fc7d07f33c",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Ours-VPC-M"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "motion gate"
+      },
+      "quote": "Motion gate for Ours-VPC-M.  Ours-VPC-M additionally modulates the auxiliary context according to the change in recent\nrotational motion.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.056893+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Ours-VPC-M"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "motion gate"
+            },
+            "quote": "Motion gate for Ours-VPC-M.  Ours-VPC-M additionally modulates the auxiliary context according to the change in recent\nrotational motion.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.750218+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:17.056954+00:00"
+  },
+  {
+    "id": "F_7ba84c7baf711c69c9b4",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Ours-VPC-A"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "agreement factor"
+      },
+      "quote": "Ours-VPC-A uses the same auxiliary bank, spatial retrieval, cosine attention,\nand agreement factor, but removes the motion-dependent weighting.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.077777+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Ours-VPC-A"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "agreement factor"
+            },
+            "quote": "Ours-VPC-A uses the same auxiliary bank, spatial retrieval, cosine attention,\nand agreement factor, but removes the motion-dependent weighting.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.750448+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:17.077837+00:00"
+  },
+  {
+    "id": "F_f25c0efd703c4378f034",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Ours-VPC-A"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "cosine attention"
+      },
+      "quote": "Ours-VPC-A uses the same auxiliary bank, spatial retrieval, cosine attention,\nand agreement factor, but removes the motion-dependent weighting.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.098767+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Ours-VPC-A"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "cosine attention"
+            },
+            "quote": "Ours-VPC-A uses the same auxiliary bank, spatial retrieval, cosine attention,\nand agreement factor, but removes the motion-dependent weighting.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.750633+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:17.098814+00:00"
+  },
+  {
+    "id": "F_314143535ccfecea87c7",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Ours-VPC-A"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "spatial retrieval"
+      },
+      "quote": "Ours-VPC-A uses the same auxiliary bank, spatial retrieval, cosine attention,\nand agreement factor, but removes the motion-dependent weighting.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.120759+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Ours-VPC-A"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "spatial retrieval"
+            },
+            "quote": "Ours-VPC-A uses the same auxiliary bank, spatial retrieval, cosine attention,\nand agreement factor, but removes the motion-dependent weighting.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.750808+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:17.120803+00:00"
+  },
+  {
+    "id": "F_331d5859879d102de67e",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Ours-VPC-A"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "auxiliary bank"
+      },
+      "quote": "Ours-VPC-A uses the same auxiliary bank, spatial retrieval, cosine attention,\nand agreement factor, but removes the motion-dependent weighting.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.141899+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Ours-VPC-A"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "auxiliary bank"
+            },
+            "quote": "Ours-VPC-A uses the same auxiliary bank, spatial retrieval, cosine attention,\nand agreement factor, but removes the motion-dependent weighting.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.750979+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:17.141941+00:00"
+  },
+  {
+    "id": "F_37491ec17f9b5dedaed6",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Slot3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "sparse readout"
+      },
+      "quote": "The decoder memory\ncontext still comes from the core Slot3R sparse readout, and no second decoder forward is introduced.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.162834+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Slot3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "sparse readout"
+            },
+            "quote": "The decoder memory\ncontext still comes from the core Slot3R sparse readout, and no second decoder forward is introduced.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.751151+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:17.162885+00:00"
+  },
+  {
+    "id": "F_7d3565ce3880f4100379",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NeuralRGBD"
+      },
+      "quote": "On NeuralRGBD, Ours averages\n18.91 FPS; its peak GPU memory at 600, 700, 800, 900, and 1000 frames is 17.6074, 19.8434, 17.3587, 18.6159, and 20.0095\nGB, respectively.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.165370+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NeuralRGBD"
+            },
+            "quote": "On NeuralRGBD, Ours averages\n18.91 FPS; its peak GPU memory at 600, 700, 800, 900, and 1000 frames is 17.6074, 19.8434, 17.3587, 18.6159, and 20.0095\nGB, respectively.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.751328+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:31:04.165451+00:00"
+  },
+  {
+    "id": "F_dbbece0777b5ca7049df",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "FPS"
+      },
+      "quote": "On NeuralRGBD, Ours averages\n18.91 FPS",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.183860+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "FPS"
+            },
+            "quote": "On NeuralRGBD, Ours averages\n18.91 FPS",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.751495+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:17.183901+00:00"
+  },
+  {
+    "id": "F_284e60eda72d7c6aec3e",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "peak GPU memory"
+      },
+      "quote": "its peak GPU memory at 600, 700, 800, 900, and 1000 frames is 17.6074, 19.8434, 17.3587, 18.6159, and 20.0095\nGB, respectively.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.247253+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "peak GPU memory"
+            },
+            "quote": "its peak GPU memory at 600, 700, 800, 900, and 1000 frames is 17.6074, 19.8434, 17.3587, 18.6159, and 20.0095\nGB, respectively.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.751668+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:17.247295+00:00"
+  },
+  {
+    "id": "F_1ff8eaf9b750350ef26a",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "NC"
+      },
+      "quote": "The VPC variants sustain 16–17 FPS and stable NC.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.554986+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "NC"
+            },
+            "quote": "The VPC variants sustain 16–17 FPS and stable NC.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:32.751843+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e9ac5f320c255f805ae806fdd642efcd9689b24d534a7bbdad868d05fa76cc97",
+    "reviewed_at": "2026-11-17T16:33:16.555034+00:00"
+  },
+  {
+    "id": "F_b432c90635ad3c34ba4e",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "Extended-sequence point-cloud reconstruction on 7Scenes and NeuralRGBD with k-frame sampling k = 1.",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.372473+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "Extended-sequence point-cloud reconstruction on 7Scenes and NeuralRGBD with k-frame sampling k = 1.",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:34.790171+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d4c3fc12c18499cf19a64a6f9ec44c4b3ccd473e4152f9aefe831861bdc0898d",
+    "reviewed_at": "2026-11-17T16:33:16.372518+00:00"
+  },
+  {
+    "id": "F_b3bf6de4412b05de5fb1",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NeuralRGBD"
+      },
+      "quote": "Extended-sequence point-cloud reconstruction on 7Scenes and NeuralRGBD with k-frame sampling k = 1.",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.330359+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NeuralRGBD"
+            },
+            "quote": "Extended-sequence point-cloud reconstruction on 7Scenes and NeuralRGBD with k-frame sampling k = 1.",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:34.790483+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d4c3fc12c18499cf19a64a6f9ec44c4b3ccd473e4152f9aefe831861bdc0898d",
+    "reviewed_at": "2026-11-17T16:31:04.330432+00:00"
+  },
+  {
+    "id": "F_77abfe247441c165e101",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Acc"
+      },
+      "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.437359+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Acc"
+            },
+            "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:34.790772+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d4c3fc12c18499cf19a64a6f9ec44c4b3ccd473e4152f9aefe831861bdc0898d",
+    "reviewed_at": "2026-11-17T16:33:16.437455+00:00"
+  },
+  {
+    "id": "F_5d10470c9c6e011e1727",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Comp"
+      },
+      "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.496286+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Comp"
+            },
+            "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:34.791028+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d4c3fc12c18499cf19a64a6f9ec44c4b3ccd473e4152f9aefe831861bdc0898d",
+    "reviewed_at": "2026-11-17T16:33:16.496335+00:00"
+  },
+  {
+    "id": "F_ac57920b7605dd80c90d",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "NC"
+      },
+      "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.580836+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "NC"
+            },
+            "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:34.791281+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d4c3fc12c18499cf19a64a6f9ec44c4b3ccd473e4152f9aefe831861bdc0898d",
+    "reviewed_at": "2026-11-17T16:33:16.580889+00:00"
+  },
+  {
+    "id": "F_efce469bb09d5b2c9e84",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Avg. FPS"
+      },
+      "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.659622+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Avg. FPS"
+            },
+            "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:34.791538+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d4c3fc12c18499cf19a64a6f9ec44c4b3ccd473e4152f9aefe831861bdc0898d",
+    "reviewed_at": "2026-11-17T16:33:16.659663+00:00"
+  },
+  {
+    "id": "F_55cb3476beaeb9f1a65b",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Ours (Core)"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Confidence-Aware Memory Update"
+      },
+      "quote": "A.3. Confidence-Aware Memory Update",
+      "page": 14
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:29.323465+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Ours (Core)"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Confidence-Aware Memory Update"
+            },
+            "quote": "A.3. Confidence-Aware Memory Update",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:34.791795+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d4c3fc12c18499cf19a64a6f9ec44c4b3ccd473e4152f9aefe831861bdc0898d",
+    "reviewed_at": "2026-11-17T16:33:29.323506+00:00"
+  },
+  {
+    "id": "F_3c6df78c201184734d1c",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Snapshot-based confidence-aware memory update"
+      },
+      "quote": "Algorithm 1 summarizes this snapshot-based batched update.",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.268468+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Snapshot-based confidence-aware memory update"
+            },
+            "quote": "Algorithm 1 summarizes this snapshot-based batched update.",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:36.562765+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aaaf092badd72aec682cb843367882c11d9d2092b978b30b1a5826ed078e7bdb",
+    "reviewed_at": "2026-11-17T16:33:17.268511+00:00"
+  },
+  {
+    "id": "F_3d4c2b506dd7954b6702",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Snapshot-based confidence-aware memory update"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "confidence-weighted fusion"
+      },
+      "quote": "Compute confidence-weighted ¯pb,j, ¯mb,j, and mean confidence ¯cb,j",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.289609+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Snapshot-based confidence-aware memory update"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "confidence-weighted fusion"
+            },
+            "quote": "Compute confidence-weighted ¯pb,j, ¯mb,j, and mean confidence ¯cb,j",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:36.562998+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aaaf092badd72aec682cb843367882c11d9d2092b978b30b1a5826ed078e7bdb",
+    "reviewed_at": "2026-11-17T16:33:17.289650+00:00"
+  },
+  {
+    "id": "F_76f98dc927cf6ef2cb23",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "FPS"
+      },
+      "quote": "memory is 23.5% smaller, and FPS is 7.1% higher than at q = 0.",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.204814+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "FPS"
+            },
+            "quote": "memory is 23.5% smaller, and FPS is 7.1% higher than at q = 0.",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:36.563196+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aaaf092badd72aec682cb843367882c11d9d2092b978b30b1a5826ed078e7bdb",
+    "reviewed_at": "2026-11-17T16:33:17.204864+00:00"
+  },
+  {
+    "id": "F_777f90689cbe907cb8b0",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "NC"
+      },
+      "quote": "at q = 0.25, NC is highest, memory is 23.5% smaller",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.600311+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "NC"
+            },
+            "quote": "at q = 0.25, NC is highest, memory is 23.5% smaller",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:36.563358+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aaaf092badd72aec682cb843367882c11d9d2092b978b30b1a5826ed078e7bdb",
+    "reviewed_at": "2026-11-17T16:33:16.600363+00:00"
+  },
+  {
+    "id": "F_d51115be6b498b5cd9ac",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "Bucket-capacity ablation on 7Scenes with k = 2 and 200 sampled frames",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.391701+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "Bucket-capacity ablation on 7Scenes with k = 2 and 200 sampled frames",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:46.728256+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "446fc08ca1556b72c50e0e9e215e260936eabbcb297ded07fd84cf5e377405e1",
+    "reviewed_at": "2026-11-17T16:33:16.391742+00:00"
+  },
+  {
+    "id": "F_b3fb6c3e58a95dab0e41",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NeuralRGBD"
+      },
+      "quote": "Sparse-readout budget sensitivity on NeuralRGBD point-cloud reconstruction with k = 2 and 200 sampled frames.",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:31:04.354304+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NeuralRGBD"
+            },
+            "quote": "Sparse-readout budget sensitivity on NeuralRGBD point-cloud reconstruction with k = 2 and 200 sampled frames.",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:46.728467+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "446fc08ca1556b72c50e0e9e215e260936eabbcb297ded07fd84cf5e377405e1",
+    "reviewed_at": "2026-11-17T16:31:04.354353+00:00"
+  },
+  {
+    "id": "F_271d1c7b816ce88590b8",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Acc"
+      },
+      "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.457288+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Acc"
+            },
+            "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:46.728649+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "446fc08ca1556b72c50e0e9e215e260936eabbcb297ded07fd84cf5e377405e1",
+    "reviewed_at": "2026-11-17T16:33:16.457335+00:00"
+  },
+  {
+    "id": "F_3e09313e0f28540f689e",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Comp"
+      },
+      "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.515602+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Comp"
+            },
+            "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:46.728813+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "446fc08ca1556b72c50e0e9e215e260936eabbcb297ded07fd84cf5e377405e1",
+    "reviewed_at": "2026-11-17T16:33:16.515648+00:00"
+  },
+  {
+    "id": "F_9b8508639998ea3451be",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "NC"
+      },
+      "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.619849+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "NC"
+            },
+            "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:46.728974+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "446fc08ca1556b72c50e0e9e215e260936eabbcb297ded07fd84cf5e377405e1",
+    "reviewed_at": "2026-11-17T16:33:16.619902+00:00"
+  },
+  {
+    "id": "F_c039638032c1a70cf0bc",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "FPS"
+      },
+      "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:17.225918+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "FPS"
+            },
+            "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:46.729132+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "446fc08ca1556b72c50e0e9e215e260936eabbcb297ded07fd84cf5e377405e1",
+    "reviewed_at": "2026-11-17T16:33:17.225962+00:00"
+  },
+  {
+    "id": "F_40042e69d60f2026e392",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "Sparse budget AbsRel ↓δ < 1.25 ↑",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.699066+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "Sparse budget AbsRel ↓δ < 1.25 ↑",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:46.729291+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "446fc08ca1556b72c50e0e9e215e260936eabbcb297ded07fd84cf5e377405e1",
+    "reviewed_at": "2026-11-17T16:33:16.699126+00:00"
+  },
+  {
+    "id": "F_c2f4b071096a167ab0b8",
+    "paper_id": "P021",
+    "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+    "section": "2026                                               Abstract",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Slot3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ < 1.25"
+      },
+      "quote": "Sparse budget AbsRel ↓δ < 1.25 ↑",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:33:16.739081+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Slot3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ < 1.25"
+            },
+            "quote": "Sparse budget AbsRel ↓δ < 1.25 ↑",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:29:46.729450+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "446fc08ca1556b72c50e0e9e215e260936eabbcb297ded07fd84cf5e377405e1",
+    "reviewed_at": "2026-11-17T16:33:16.739123+00:00"
+  }
+]

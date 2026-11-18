@@ -1,0 +1,42 @@
+# 本地依赖环境；使用 environment.yml / requirements*.txt 重建。
+/.conda/
+/.venv/
+/venv/
+
+# 本地密钥与配置；保留可提交的配置模板。
+.env
+.env.*
+!.env.example
+
+# Python 与测试缓存（所有层级）。
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 安装包、Java、Neo4j 数据库、浏览器、进程文件和服务日志。
+/runtime/
+
+# 正式工作区的原始 PDF 和可再生解析；不影响 examples/workspace/。
+/data/pdfs/
+/data/parsed/
+
+# 模型请求缓存、后台任务、失败诊断与并发锁。
+/data/cache/
+/data/jobs/
+/data/failures/
+/data/locks/
+
+# 删除、重编号及实体合并产生的本地恢复备份。
+/data/deleted/
+/data/renumbered/
+/data/entity_resolution_backups/
+
+# 模型二进制可重训；保留实验 JSON、人工评价和类别历史。
+/experiments/*.joblib
+
+# 由导出、材料生成与浏览器检查脚本生成的成果。
+/outputs/
+
+# 原子写入被中断时留下的临时文件。
+/data/**/*.tmp
+/experiments/**/*.tmp

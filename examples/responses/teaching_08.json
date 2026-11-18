@@ -1,0 +1,69 @@
+{
+  "facts": [
+    {
+      "subject": {
+        "type": "Paper",
+        "name": "TEACHING ONLY - Synthetic Paper 08"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "quote": "TEACHING ONLY - Synthetic Paper 08 proposes Teaching Method 08 for this fictional teaching example.",
+      "page": 1
+    },
+    {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Pairwise attention"
+      },
+      "quote": "Teaching Method 08 uses Pairwise attention as its principal component.",
+      "page": 1
+    },
+    {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Teaching Dataset B"
+      },
+      "quote": "Teaching Method 08 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "page": 1
+    },
+    {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "Depth estimation"
+      },
+      "quote": "Teaching Method 08 solves the task of Depth estimation in this fictional example.",
+      "page": 1
+    },
+    {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "Teaching geometry"
+      },
+      "quote": "Teaching Method 08 outputs Teaching geometry in this artificial example.",
+      "page": 1
+    }
+  ]
+}

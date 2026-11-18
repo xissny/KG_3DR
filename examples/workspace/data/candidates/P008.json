@@ -1,0 +1,132 @@
+[
+  {
+    "id": "F_90cfda72771cadab5d02",
+    "paper_id": "P008",
+    "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "TEACHING ONLY - Synthetic Paper 08"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "quote": "TEACHING ONLY - Synthetic Paper 08 proposes Teaching Method 08 for this fictional teaching example.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.247252+00:00",
+    "created_at": "2026-11-11T04:28:16.247258+00:00",
+    "prompt_version": "fixture-v1"
+  },
+  {
+    "id": "F_f962db9daf18d94a84cf",
+    "paper_id": "P008",
+    "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Pairwise attention"
+      },
+      "quote": "Teaching Method 08 uses Pairwise attention as its principal component.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.247277+00:00",
+    "created_at": "2026-11-11T04:28:16.247280+00:00",
+    "prompt_version": "fixture-v1"
+  },
+  {
+    "id": "F_d6c02791fa21bd120c24",
+    "paper_id": "P008",
+    "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Teaching Dataset B"
+      },
+      "quote": "Teaching Method 08 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.247297+00:00",
+    "created_at": "2026-11-11T04:28:16.247300+00:00",
+    "prompt_version": "fixture-v1"
+  },
+  {
+    "id": "F_16127b2d6fe689306678",
+    "paper_id": "P008",
+    "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "Depth estimation"
+      },
+      "quote": "Teaching Method 08 solves the task of Depth estimation in this fictional example.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.247316+00:00",
+    "created_at": "2026-11-11T04:28:16.247319+00:00",
+    "prompt_version": "fixture-v1"
+  },
+  {
+    "id": "F_e35c0aa46ad7ea244953",
+    "paper_id": "P008",
+    "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 08"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "Teaching geometry"
+      },
+      "quote": "Teaching Method 08 outputs Teaching geometry in this artificial example.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.247335+00:00",
+    "created_at": "2026-11-11T04:28:16.247337+00:00",
+    "prompt_version": "fixture-v1"
+  }
+]

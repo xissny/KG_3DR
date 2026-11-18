@@ -1,0 +1,20 @@
+{
+  "paper_id": "P007",
+  "sha256": "5d4f900b823b86fe4a7bb6520023e97adb9a70463a1aa3365014ba9d9e3d3de2",
+  "parser_version": "pages-v1",
+  "pages": [
+    {
+      "page": 1,
+      "text": "TEACHING ONLY - Synthetic Paper 07\n\nSYNTHETIC EDUCATIONAL DATA. NOT A REAL RESEARCH PAPER.\n\nTEACHING ONLY - Synthetic Paper 07 proposes Teaching Method 07 for this fictional teaching\nexample.\n\nTeaching Method 07 uses Pairwise attention as its principal component.\n\nTeaching Method 07 is evaluated on Teaching Dataset A in the synthetic setup.\n\nTeaching Method 07 solves the task of Depth estimation in this fictional example.\n\nTeaching Method 07 outputs Teaching geometry in this artificial example.",
+      "section": "Unknown"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "1_0",
+      "page": 1,
+      "section": "Unknown",
+      "text": "TEACHING ONLY - Synthetic Paper 07\n\nSYNTHETIC EDUCATIONAL DATA. NOT A REAL RESEARCH PAPER.\n\nTEACHING ONLY - Synthetic Paper 07 proposes Teaching Method 07 for this fictional teaching\nexample.\n\nTeaching Method 07 uses Pairwise attention as its principal component.\n\nTeaching Method 07 is evaluated on Teaching Dataset A in the synthetic setup.\n\nTeaching Method 07 solves the task of Depth estimation in this fictional example.\n\nTeaching Method 07 outputs Teaching geometry in this artificial example."
+    }
+  ]
+}

@@ -1,0 +1,4402 @@
+[
+  {
+    "id": "F_793d2c7c6f235a9d79e7",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.5  Impact of Knowledge Distillation",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "ViT-g trained on LVD-142M"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "LVD-142M"
+      },
+      "quote": "The ViT-g trained on LVD-142M surpasses the ViT-g trained on ImageNet-22k on most benchmarks.",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:52:50.997235+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "ViT-g trained on LVD-142M"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "LVD-142M"
+            },
+            "quote": "The ViT-g trained on LVD-142M surpasses the ViT-g trained on ImageNet-22k on most benchmarks.",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:37:57.443028+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "62159361b96aef775ee315aab5cfbb4bd744321c40db3b3fdc58785bd38dacde",
+    "reviewed_at": "2026-11-16T10:52:50.997311+00:00"
+  },
+  {
+    "id": "F_2224a9ced7411f7d9a66",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.5  Impact of Knowledge Distillation",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "ViT-g trained on ImageNet-22k"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-22k"
+      },
+      "quote": "two different pretraining datasets: ImageNet-22k (14M images) and LVD-142M (142M images)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:52:51.008146+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "ViT-g trained on ImageNet-22k"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-22k"
+            },
+            "quote": "two different pretraining datasets: ImageNet-22k (14M images) and LVD-142M (142M images)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:37:57.443253+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "62159361b96aef775ee315aab5cfbb4bd744321c40db3b3fdc58785bd38dacde",
+    "reviewed_at": "2026-11-16T10:52:51.008197+00:00"
+  },
+  {
+    "id": "F_6257e7ab2d595b92d250",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.5  Impact of Knowledge Distillation",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "KoLeo loss"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Oxford-M"
+      },
+      "quote": "The KoLeo loss term improves nearest-neighbor search tasks (e.g. retrieval)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:52:51.017962+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "KoLeo loss"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Oxford-M"
+            },
+            "quote": "The KoLeo loss term improves nearest-neighbor search tasks (e.g. retrieval)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:37:57.443447+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "62159361b96aef775ee315aab5cfbb4bd744321c40db3b3fdc58785bd38dacde",
+    "reviewed_at": "2026-11-16T10:52:51.018003+00:00"
+  },
+  {
+    "id": "F_eb251eb0614177bb2777",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.5  Impact of Knowledge Distillation",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "iBOT Masked Image Modeling (MIM) loss"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ADE-20k"
+      },
+      "quote": "the MIM loss improves patch-level tasks (e.g. segmentation)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:52:51.031872+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "iBOT Masked Image Modeling (MIM) loss"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ADE-20k"
+            },
+            "quote": "the MIM loss improves patch-level tasks (e.g. segmentation)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:37:57.443637+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "62159361b96aef775ee315aab5cfbb4bd744321c40db3b3fdc58785bd38dacde",
+    "reviewed_at": "2026-11-16T10:52:51.031980+00:00"
+  },
+  {
+    "id": "F_04c2f1becf229c3e049b",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.5  Impact of Knowledge Distillation",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "distilled ViT-L/14"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "12 benchmarks"
+      },
+      "quote": "The distilled model outperforms the one trained from scratch on all 12 benchmarks",
+      "page": 9
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:52:55.016115+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "distilled ViT-L/14"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "12 benchmarks"
+            },
+            "quote": "The distilled model outperforms the one trained from scratch on all 12 benchmarks",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:37:57.443831+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "62159361b96aef775ee315aab5cfbb4bd744321c40db3b3fdc58785bd38dacde",
+    "reviewed_at": "2026-11-16T10:52:55.016196+00:00"
+  },
+  {
+    "id": "F_6b26fa2c88d2d692356e",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.5  Impact of Knowledge Distillation",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "linear probe"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "accuracy"
+      },
+      "quote": "ImageNet-{1k,A} (classification with linear probe, accuracy %)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:12:25.298487+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "linear probe"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "accuracy"
+            },
+            "quote": "ImageNet-{1k,A} (classification with linear probe, accuracy %)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:37:57.444193+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "62159361b96aef775ee315aab5cfbb4bd744321c40db3b3fdc58785bd38dacde",
+    "reviewed_at": "2026-11-16T11:12:25.298583+00:00"
+  },
+  {
+    "id": "F_8ba9692009edce39f5ba",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.5  Impact of Knowledge Distillation",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "linear layer segmentation"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "mIoU"
+      },
+      "quote": "ADE-20k (segmentation with linear layer, mIoU)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:12:25.308319+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "linear layer segmentation"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "mIoU"
+            },
+            "quote": "ADE-20k (segmentation with linear layer, mIoU)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:37:57.444379+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "62159361b96aef775ee315aab5cfbb4bd744321c40db3b3fdc58785bd38dacde",
+    "reviewed_at": "2026-11-16T11:12:25.308366+00:00"
+  },
+  {
+    "id": "F_e6ccce9da608927f43fa",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.5  Impact of Knowledge Distillation",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "image retrieval"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "mAP"
+      },
+      "quote": "Oxford-M (image retrieval, mAP)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:12:25.317528+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "image retrieval"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "mAP"
+            },
+            "quote": "Oxford-M (image retrieval, mAP)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:37:57.444558+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "62159361b96aef775ee315aab5cfbb4bd744321c40db3b3fdc58785bd38dacde",
+    "reviewed_at": "2026-11-16T11:12:25.317571+00:00"
+  },
+  {
+    "id": "F_546923f8fc738f0db15e",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.6  Impact of Resolution",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "ViT-L/16"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-1k"
+      },
+      "quote": "a ViT-L/16 trained on ImageNet1k",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:12:25.326738+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "ViT-L/16"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-1k"
+            },
+            "quote": "a ViT-L/16 trained on ImageNet1k",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:02.010367+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7f4b021dff9a642e27ccb9ba48eaef1bfeee63d78a47fe71735fc6e4409ab099",
+    "reviewed_at": "2026-11-16T11:12:25.326779+00:00"
+  },
+  {
+    "id": "F_bc57e462b320bb32704d",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.6  Impact of Resolution",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "ViT-L/16"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-1k"
+      },
+      "quote": "we report the performance of a linear probe on ImageNet-1k and ADE-20k",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:12:25.336004+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "ViT-L/16"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-1k"
+            },
+            "quote": "we report the performance of a linear probe on ImageNet-1k and ADE-20k",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:02.010578+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7f4b021dff9a642e27ccb9ba48eaef1bfeee63d78a47fe71735fc6e4409ab099",
+    "reviewed_at": "2026-11-16T11:12:25.336045+00:00"
+  },
+  {
+    "id": "F_cb07606d5898999b1fd3",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.6  Impact of Resolution",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "ViT-L/16"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ADE-20k"
+      },
+      "quote": "we report the performance of a linear probe on ImageNet-1k and ADE-20k",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:12:25.345194+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "ViT-L/16"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ADE-20k"
+            },
+            "quote": "we report the performance of a linear probe on ImageNet-1k and ADE-20k",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:02.010759+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7f4b021dff9a642e27ccb9ba48eaef1bfeee63d78a47fe71735fc6e4409ab099",
+    "reviewed_at": "2026-11-16T11:12:25.345237+00:00"
+  },
+  {
+    "id": "F_8cd28d78341ef3417e28",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.6  Impact of Resolution",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "ViT-L/16"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Top-1 accuracy"
+      },
+      "quote": "report Top-1 accuracy on ImageNet and mIoU on ADE-20k",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:12.989047+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "ViT-L/16"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Top-1 accuracy"
+            },
+            "quote": "report Top-1 accuracy on ImageNet and mIoU on ADE-20k",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:02.010934+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7f4b021dff9a642e27ccb9ba48eaef1bfeee63d78a47fe71735fc6e4409ab099",
+    "reviewed_at": "2026-11-16T11:14:12.989130+00:00"
+  },
+  {
+    "id": "F_0ec1ec08a6f6dd963aea",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "6.6  Impact of Resolution",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "ViT-L/16"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "mIoU"
+      },
+      "quote": "report Top-1 accuracy on ImageNet and mIoU on ADE-20k",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:12.999008+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "ViT-L/16"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "mIoU"
+            },
+            "quote": "report Top-1 accuracy on ImageNet and mIoU on ADE-20k",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:02.011101+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7f4b021dff9a642e27ccb9ba48eaef1bfeee63d78a47fe71735fc6e4409ab099",
+    "reviewed_at": "2026-11-16T11:14:12.999056+00:00"
+  },
+  {
+    "id": "F_ce90755e3872a25cd089",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-1k"
+      },
+      "quote": "we probe the quality of the holistic image representation produced by the model on the ImageNet-1k classification dataset",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.015238+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-1k"
+            },
+            "quote": "we probe the quality of the holistic image representation produced by the model on the ImageNet-1k classification dataset",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.388256+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.015284+00:00"
+  },
+  {
+    "id": "F_c3031365b454415daf87",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-ReaL"
+      },
+      "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.025305+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-ReaL"
+            },
+            "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.388544+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.025351+00:00"
+  },
+  {
+    "id": "F_a75f1adecaddae11d1c3",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-V2"
+      },
+      "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.144676+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-V2"
+            },
+            "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.388802+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.144745+00:00"
+  },
+  {
+    "id": "F_479bd829e752eb8aa959",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "top-1 accuracy"
+      },
+      "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.154784+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "top-1 accuracy"
+            },
+            "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.389055+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.154829+00:00"
+  },
+  {
+    "id": "F_a75a2b33f50240ff5105",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MAE"
+      },
+      "quote": "we run our evaluations for MAE (He et al., 2022)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.173951+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MAE"
+            },
+            "quote": "we run our evaluations for MAE (He et al., 2022)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.389304+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.173992+00:00"
+  },
+  {
+    "id": "F_4c1a758bc02688855368",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DINO"
+      },
+      "quote": "DINO (Caron et al., 2021), SEERv2 (Goyal et al., 2022a)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.183481+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DINO"
+            },
+            "quote": "DINO (Caron et al., 2021), SEERv2 (Goyal et al., 2022a)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.389550+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.183525+00:00"
+  },
+  {
+    "id": "F_e3e73e4ac9fda91afc57",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SEERv2"
+      },
+      "quote": "DINO (Caron et al., 2021), SEERv2 (Goyal et al., 2022a)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.193471+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SEERv2"
+            },
+            "quote": "DINO (Caron et al., 2021), SEERv2 (Goyal et al., 2022a)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.389812+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.193513+00:00"
+  },
+  {
+    "id": "F_2366e365ad747601ee35",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MSN"
+      },
+      "quote": "MSN (Assran et al., 2022), EsViT (Li et al., 2022a)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.203429+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MSN"
+            },
+            "quote": "MSN (Assran et al., 2022), EsViT (Li et al., 2022a)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.390060+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.203473+00:00"
+  },
+  {
+    "id": "F_99505cf12cbda50fd5f2",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "EsViT"
+      },
+      "quote": "MSN (Assran et al., 2022), EsViT (Li et al., 2022a)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.217323+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "EsViT"
+            },
+            "quote": "MSN (Assran et al., 2022), EsViT (Li et al., 2022a)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.390301+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.217365+00:00"
+  },
+  {
+    "id": "F_86c6f5a67b7cc5705277",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Mugs"
+      },
+      "quote": "Mugs (Zhou et al., 2022b) and iBOT (Zhou et al., 2022a)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.227226+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Mugs"
+            },
+            "quote": "Mugs (Zhou et al., 2022b) and iBOT (Zhou et al., 2022a)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.390546+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.227270+00:00"
+  },
+  {
+    "id": "F_57a2c802e6b8053d2a05",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "iBOT"
+      },
+      "quote": "Mugs (Zhou et al., 2022b) and iBOT (Zhou et al., 2022a)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.237071+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "iBOT"
+            },
+            "quote": "Mugs (Zhou et al., 2022b) and iBOT (Zhou et al., 2022a)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.390789+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.237116+00:00"
+  },
+  {
+    "id": "F_0e46fb80780024cdf9b1",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CLIP"
+      },
+      "quote": "weakly-supervised models such as CLIP (Radford et al., 2021)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.247424+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CLIP"
+            },
+            "quote": "weakly-supervised models such as CLIP (Radford et al., 2021)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.391035+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.247470+00:00"
+  },
+  {
+    "id": "F_fced3ad863d58841fb73",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "OpenCLIP"
+      },
+      "quote": "OpenCLIP (Ilharco et al., 2021; Cherti et al., 2023), and SWAG (Singh et al., 2022)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.257410+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "OpenCLIP"
+            },
+            "quote": "OpenCLIP (Ilharco et al., 2021; Cherti et al., 2023), and SWAG (Singh et al., 2022)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.391280+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.257452+00:00"
+  },
+  {
+    "id": "F_d56044909fb44344f7a6",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SWAG"
+      },
+      "quote": "OpenCLIP (Ilharco et al., 2021; Cherti et al., 2023), and SWAG (Singh et al., 2022)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.278304+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SWAG"
+            },
+            "quote": "OpenCLIP (Ilharco et al., 2021; Cherti et al., 2023), and SWAG (Singh et al., 2022)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.391530+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.278347+00:00"
+  },
+  {
+    "id": "F_a4d6b91efce490be98c4",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "EVA-CLIP"
+      },
+      "quote": "surpases the performance of OpenCLIP with a ViT-G/14 architecture (+0.3%) and EVA-CLIP with a ViT-g/14 (+0.1%)",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.288281+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "EVA-CLIP"
+            },
+            "quote": "surpases the performance of OpenCLIP with a ViT-G/14 architecture (+0.3%) and EVA-CLIP with a ViT-g/14 (+0.1%)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.391779+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:13.288322+00:00"
+  },
+  {
+    "id": "F_3817b5ab8f1a13e86950",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Touvron et al. (2022)"
+      },
+      "quote": "we apply the finetuning pipeline from Touvron et al. (2022)",
+      "page": 11
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:16.657609+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Touvron et al. (2022)"
+            },
+            "quote": "we apply the finetuning pipeline from Touvron et al. (2022)",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:06.392028+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "99af05df9d5bdac9b32fbb0fa47e0b65c78a420da8ba9e72cb7debdb32673dfb",
+    "reviewed_at": "2026-11-16T11:14:16.657683+00:00"
+  },
+  {
+    "id": "F_a19fa7047a69a7d91978",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "quote": "DINOv2\n                   ViT-L/14      LVD-142M    ✕        83.5      86.3    89.5    78.0",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.736200+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "quote": "DINOv2\n                   ViT-L/14      LVD-142M    ✕        83.5      86.3    89.5    78.0",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.688319+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:14:43.736299+00:00"
+  },
+  {
+    "id": "F_72e72de1413b9ff9e9b5",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "LVD-142M"
+      },
+      "quote": "DINOv2\n                   ViT-L/14      LVD-142M    ✕        83.5      86.3    89.5    78.0",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.757736+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "LVD-142M"
+            },
+            "quote": "DINOv2\n                   ViT-L/14      LVD-142M    ✕        83.5      86.3    89.5    78.0",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.688525+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:14:43.757777+00:00"
+  },
+  {
+    "id": "F_3b66c3d1c98c36639afd",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-1k"
+      },
+      "quote": "Linear evaluation on ImageNet-1k of frozen pretrained features.",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.778189+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-1k"
+            },
+            "quote": "Linear evaluation on ImageNet-1k of frozen pretrained features.",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.688704+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:14:43.778231+00:00"
+  },
+  {
+    "id": "F_31123763e141e9397580",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Top-1 accuracy"
+      },
+      "quote": "We report Top-1 accuracy\non the validation set for publicly available models",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.788184+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Top-1 accuracy"
+            },
+            "quote": "We report Top-1 accuracy\non the validation set for publicly available models",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.688877+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:14:43.788224+00:00"
+  },
+  {
+    "id": "F_f9cdbbaa045d9fd2b475",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-A"
+      },
+      "quote": "Our model\nalso improves upon the best weakly-supervised model on ImageNet-A",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.798466+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-A"
+            },
+            "quote": "Our model\nalso improves upon the best weakly-supervised model on ImageNet-A",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.689045+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:14:43.798507+00:00"
+  },
+  {
+    "id": "F_d4b49b7ff39115ba0709",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-R"
+      },
+      "quote": "our models shows drastically better robustness (+29.6% on A (Hendrycks et al., 2021b), +22.1%\non R (Hendrycks et al., 2021a)",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.808888+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-R"
+            },
+            "quote": "our models shows drastically better robustness (+29.6% on A (Hendrycks et al., 2021b), +22.1%\non R (Hendrycks et al., 2021a)",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.689220+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:14:43.808929+00:00"
+  },
+  {
+    "id": "F_81dd94b11330d69ba206",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sketch"
+      },
+      "quote": "+23.0% on Sketch (Wang et al., 2019) compared to iBOT",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.819286+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sketch"
+            },
+            "quote": "+23.0% on Sketch (Wang et al., 2019) compared to iBOT",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.689391+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:14:43.819326+00:00"
+  },
+  {
+    "id": "F_a1729b2abb7a0162cfd1",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Touvron et al. (2022)"
+      },
+      "quote": "We use the pipeline of Touvron et al. (2022) to\nfinetune our encoders on ImageNet-1k",
+      "page": 12
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:16.672823+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Touvron et al. (2022)"
+            },
+            "quote": "We use the pipeline of Touvron et al. (2022) to\nfinetune our encoders on ImageNet-1k",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.689563+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:14:16.672869+00:00"
+  },
+  {
+    "id": "F_c96c0cbeb40809ac5034",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Hendrycks et al., 2021b"
+      },
+      "quote": "+29.6% on A (Hendrycks et al., 2021b)",
+      "page": 12
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:15:00.256475+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Hendrycks et al., 2021b"
+            },
+            "quote": "+29.6% on A (Hendrycks et al., 2021b)",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.689733+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:15:00.256569+00:00"
+  },
+  {
+    "id": "F_880722039f972a2577f4",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Hendrycks et al., 2021a"
+      },
+      "quote": "+22.1%\non R (Hendrycks et al., 2021a)",
+      "page": 12
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:15:00.267985+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Hendrycks et al., 2021a"
+            },
+            "quote": "+22.1%\non R (Hendrycks et al., 2021a)",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.689923+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:15:00.268029+00:00"
+  },
+  {
+    "id": "F_688be7c6f71e92b73b50",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Wang et al., 2019"
+      },
+      "quote": "+23.0% on Sketch (Wang et al., 2019)",
+      "page": 12
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:15:00.278391+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Wang et al., 2019"
+            },
+            "quote": "+23.0% on Sketch (Wang et al., 2019)",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.690086+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:15:00.278432+00:00"
+  },
+  {
+    "id": "F_702265213efbab77b1a9",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Fang et al., 2023"
+      },
+      "quote": "see paper for details (Fang et al., 2023)",
+      "page": 12
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:15:00.288802+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Fang et al., 2023"
+            },
+            "quote": "see paper for details (Fang et al., 2023)",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.690255+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:15:00.288845+00:00"
+  },
+  {
+    "id": "F_c8027773ddeb8ae180b2",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.1  ImageNet Classification",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Chen et al. (2023a)"
+      },
+      "quote": "obtained by Chen et al. (2023a)",
+      "page": 12
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:15:00.299497+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Chen et al. (2023a)"
+            },
+            "quote": "obtained by Chen et al. (2023a)",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:10.690456+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bf5134a97b5581a93e6a5c7e1b24a78369891c7506a0bbef292ea3958e598fe0",
+    "reviewed_at": "2026-11-16T11:15:00.299540+00:00"
+  },
+  {
+    "id": "F_3b96a71288f307785b56",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "iNaturalist 2018"
+      },
+      "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.610701+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "iNaturalist 2018"
+            },
+            "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.430514+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.610800+00:00"
+  },
+  {
+    "id": "F_951743363166c346bf89",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "iNaturalist 2021"
+      },
+      "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.622261+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "iNaturalist 2021"
+            },
+            "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.430749+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.622307+00:00"
+  },
+  {
+    "id": "F_163ad021f5cdd6932c7a",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Places205"
+      },
+      "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.632922+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Places205"
+            },
+            "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.430955+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.632965+00:00"
+  },
+  {
+    "id": "F_8debae069dc09aaf5e6f",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "UCF-101"
+      },
+      "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.643485+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "UCF-101"
+            },
+            "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.431159+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.643526+00:00"
+  },
+  {
+    "id": "F_ee39a833c2ad460801b4",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Kinetics-400"
+      },
+      "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.654381+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Kinetics-400"
+            },
+            "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.431360+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.654423+00:00"
+  },
+  {
+    "id": "F_90d978ad0b4cfff29773",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Something-Something v2"
+      },
+      "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.669379+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Something-Something v2"
+            },
+            "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.431553+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.669484+00:00"
+  },
+  {
+    "id": "F_0de45c27a5fbee5ebbb7",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "top-1 accuracy"
+      },
+      "quote": "We report top-1 accuracy for those three datasets in Table 7.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:13.164333+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "top-1 accuracy"
+            },
+            "quote": "We report top-1 accuracy for those three datasets in Table 7.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.431741+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:14:13.164376+00:00"
+  },
+  {
+    "id": "F_f2c038fee1ca60480ffc",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "average accuracy"
+      },
+      "quote": "For each dataset, we measure average accuracy and report the results in Table 7.",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.685903+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "average accuracy"
+            },
+            "quote": "For each dataset, we measure average accuracy and report the results in Table 7.",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.431931+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.685953+00:00"
+  },
+  {
+    "id": "F_737cdf14ce2c2d708d2d",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SimCLR"
+      },
+      "quote": "we use the 12 image classification tasks originally proposed in SimCLR (Chen et al., 2020)",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.697014+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SimCLR"
+            },
+            "quote": "we use the 12 image classification tasks originally proposed in SimCLR (Chen et al., 2020)",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.432122+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.697057+00:00"
+  },
+  {
+    "id": "F_f6e4fa5eb8b54fc93448",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "UCF-101"
+      },
+      "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012)",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.708083+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "UCF-101"
+            },
+            "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012)",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.432310+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.708126+00:00"
+  },
+  {
+    "id": "F_6ce39bd7e1bec2078d99",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Kinetics-400"
+      },
+      "quote": "Kinetics-400 (Kay et al., 2017)",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.718985+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Kinetics-400"
+            },
+            "quote": "Kinetics-400 (Kay et al., 2017)",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.432496+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.719029+00:00"
+  },
+  {
+    "id": "F_4722cf1be168beb26e29",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.2  Additional Image and Video classification Benchmarks",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Something-Something v2"
+      },
+      "quote": "Something-Something v2 (Goyal et al., 2017)",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:25.730021+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Something-Something v2"
+            },
+            "quote": "Something-Something v2 (Goyal et al., 2017)",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:14.432682+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5993ff42134b63bbf40cf9fe7f1413920e79d6eb0d4f89898a11fe52165a5331",
+    "reviewed_at": "2026-11-16T11:16:25.730064+00:00"
+  },
+  {
+    "id": "F_62c5aabb49f595af1908",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.3  Instance Recognition",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Met"
+      },
+      "quote": "We also evaluated on Met, a dataset of artworks from the Metropolitan museum, and AmsterTime, containing street view images matched to archival images of Amsterdam.",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:48.721557+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Met"
+            },
+            "quote": "We also evaluated on Met, a dataset of artworks from the Metropolitan museum, and AmsterTime, containing street view images matched to archival images of Amsterdam.",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:17.331256+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e7dc153bc70641a60d69b98394cf445de536f31a355393dd186377b6282fdb4e",
+    "reviewed_at": "2026-11-16T11:16:48.721644+00:00"
+  },
+  {
+    "id": "F_088c152de003678e3520",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.3  Instance Recognition",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "AmsterTime"
+      },
+      "quote": "We also evaluated on Met, a dataset of artworks from the Metropolitan museum, and AmsterTime, containing street view images matched to archival images of Amsterdam.",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:48.733531+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "AmsterTime"
+            },
+            "quote": "We also evaluated on Met, a dataset of artworks from the Metropolitan museum, and AmsterTime, containing street view images matched to archival images of Amsterdam.",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:17.331466+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e7dc153bc70641a60d69b98394cf445de536f31a355393dd186377b6282fdb4e",
+    "reviewed_at": "2026-11-16T11:16:48.733578+00:00"
+  },
+  {
+    "id": "F_3db1bc171f68814330e1",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.3  Instance Recognition",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "CUB"
+      },
+      "quote": "We replace the Birdsnap dataset with CUB because the former was not publicly available in its entirety.",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:16:48.744580+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "CUB"
+            },
+            "quote": "We replace the Birdsnap dataset with CUB because the former was not publicly available in its entirety.",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:17.331810+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e7dc153bc70641a60d69b98394cf445de536f31a355393dd186377b6282fdb4e",
+    "reviewed_at": "2026-11-16T11:16:48.744624+00:00"
+  },
+  {
+    "id": "F_2aae86247b9b9f81307d",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "7.3  Instance Recognition",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Chen et al. (2020)"
+      },
+      "quote": "We follow the experimental protocol as outlined by Chen et al. (2020), namely training a logistic regression on precomputed features.",
+      "page": 14
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:05.995534+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Chen et al. (2020)"
+            },
+            "quote": "We follow the experimental protocol as outlined by Chen et al. (2020), namely training a logistic regression on precomputed features.",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:17.331995+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e7dc153bc70641a60d69b98394cf445de536f31a355393dd186377b6282fdb4e",
+    "reviewed_at": "2026-11-16T11:17:05.995619+00:00"
+  },
+  {
+    "id": "F_7da4a3b499366bca80f2",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "8.1  Geographical Fairness",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Dollar Street"
+      },
+      "quote": "We evaluate geographical fairness on the Dollar Street dataset introduced in De Vries et al. (2019)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:48.839479+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Dollar Street"
+            },
+            "quote": "We evaluate geographical fairness on the Dollar Street dataset introduced in De Vries et al. (2019)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:37.083093+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5af46be71f1e2e0ddec149be46f8438de279ecb14a195868fed8b0fa3fa9ad11",
+    "reviewed_at": "2026-11-16T11:17:48.839553+00:00"
+  },
+  {
+    "id": "F_b485fe69bdede036fb80",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "8.1  Geographical Fairness",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "De Vries et al. (2019)"
+      },
+      "quote": "the Dollar Street dataset introduced in De Vries et al. (2019)",
+      "page": 18
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.014577+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "De Vries et al. (2019)"
+            },
+            "quote": "the Dollar Street dataset introduced in De Vries et al. (2019)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:37.083292+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5af46be71f1e2e0ddec149be46f8438de279ecb14a195868fed8b0fa3fa9ad11",
+    "reviewed_at": "2026-11-16T11:17:06.014625+00:00"
+  },
+  {
+    "id": "F_1c4794ff64e97cd060b0",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "8.1  Geographical Fairness",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Goyal et al. (2022b)"
+      },
+      "quote": "using the evaluation protocol of Goyal et al. (2022b)",
+      "page": 18
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.025678+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Goyal et al. (2022b)"
+            },
+            "quote": "using the evaluation protocol of Goyal et al. (2022b)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:37.083472+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5af46be71f1e2e0ddec149be46f8438de279ecb14a195868fed8b0fa3fa9ad11",
+    "reviewed_at": "2026-11-16T11:17:06.025721+00:00"
+  },
+  {
+    "id": "F_2a36e3b286929e969acc",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "8.1  Geographical Fairness",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Goyal et al. (2022a)"
+      },
+      "quote": "we compare our model with SEERv2 (Goyal et al., 2022a)",
+      "page": 18
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.058712+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Goyal et al. (2022a)"
+            },
+            "quote": "we compare our model with SEERv2 (Goyal et al., 2022a)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:37.083647+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5af46be71f1e2e0ddec149be46f8438de279ecb14a195868fed8b0fa3fa9ad11",
+    "reviewed_at": "2026-11-16T11:17:06.058753+00:00"
+  },
+  {
+    "id": "F_c0135d3a0ec48d7ce9f3",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "8.1  Geographical Fairness",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "LVD-142M"
+      },
+      "quote": "DINOv2  ViT-g/14  LVD-142M",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.767933+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "LVD-142M"
+            },
+            "quote": "DINOv2  ViT-g/14  LVD-142M",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:38.834668+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b7beeb11cd7e15eefb885bc9173a84f7adb00c949d06b293368a1571ebef87b2",
+    "reviewed_at": "2026-11-16T11:14:43.767974+00:00"
+  },
+  {
+    "id": "F_f23f53555ae7655acdd5",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "8.1  Geographical Fairness",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Casual Conversations"
+      },
+      "quote": "we run inference on 2955 images from the Casual Conversations dataset",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:48.851277+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Casual Conversations"
+            },
+            "quote": "we run inference on 2955 images from the Casual Conversations dataset",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:38.834798+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b7beeb11cd7e15eefb885bc9173a84f7adb00c949d06b293368a1571ebef87b2",
+    "reviewed_at": "2026-11-16T11:17:48.851319+00:00"
+  },
+  {
+    "id": "F_37a6e1c5af27a078ea67",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "8.1  Geographical Fairness",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Goyal et al. (2022b)"
+      },
+      "quote": "We follow the protocol of Goyal et al. (2022b)",
+      "page": 19
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.036563+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Goyal et al. (2022b)"
+            },
+            "quote": "We follow the protocol of Goyal et al. (2022b)",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:38.834904+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b7beeb11cd7e15eefb885bc9173a84f7adb00c949d06b293368a1571ebef87b2",
+    "reviewed_at": "2026-11-16T11:17:06.036603+00:00"
+  },
+  {
+    "id": "F_067eac82132ee4dec00a",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "8.1  Geographical Fairness",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Hazirbas et al., 2021"
+      },
+      "quote": "Casual Conversations dataset (Hazirbas et al., 2021)",
+      "page": 19
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.069730+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Hazirbas et al., 2021"
+            },
+            "quote": "Casual Conversations dataset (Hazirbas et al., 2021)",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:38.835002+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b7beeb11cd7e15eefb885bc9173a84f7adb00c949d06b293368a1571ebef87b2",
+    "reviewed_at": "2026-11-16T11:17:06.069769+00:00"
+  },
+  {
+    "id": "F_f3b658f4d9391984a062",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "9  Estimating the Environmental Impact of Training our Models",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-22k"
+      },
+      "quote": "we simply learn a linear classifier on the subset of 619 classes of ImageNet-22k.",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:48.862813+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-22k"
+            },
+            "quote": "we simply learn a linear classifier on the subset of 619 classes of ImageNet-22k.",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:41.070608+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d71fde14da6a804364cd76a7e6371b039aefa620d0680cdb01006738bec53d91",
+    "reviewed_at": "2026-11-16T11:17:48.862857+00:00"
+  },
+  {
+    "id": "F_0f1b82997ff591916f81",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "9  Estimating the Environmental Impact of Training our Models",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Goyal et al. (2022b)"
+      },
+      "quote": "We\nfollow the protocol proposed by Goyal et al. (2022b) with a slight modification.",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.047498+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Goyal et al. (2022b)"
+            },
+            "quote": "We\nfollow the protocol proposed by Goyal et al. (2022b) with a slight modification.",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:41.070819+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d71fde14da6a804364cd76a7e6371b039aefa620d0680cdb01006738bec53d91",
+    "reviewed_at": "2026-11-16T11:17:06.047539+00:00"
+  },
+  {
+    "id": "F_77399882bbf898bfba75",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "9  Estimating the Environmental Impact of Training our Models",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Patterson et al. (2021)"
+      },
+      "quote": "Patterson et al. (2021) propose a methodology to report an estimation of the carbon emitted during the\ntraining of a model",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.080804+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Patterson et al. (2021)"
+            },
+            "quote": "Patterson et al. (2021) propose a methodology to report an estimation of the carbon emitted during the\ntraining of a model",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:41.071013+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d71fde14da6a804364cd76a7e6371b039aefa620d0680cdb01006738bec53d91",
+    "reviewed_at": "2026-11-16T11:17:06.080844+00:00"
+  },
+  {
+    "id": "F_d9ed812c3433f6bc1597",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "9  Estimating the Environmental Impact of Training our Models",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Strubell et al., 2019"
+      },
+      "quote": "This methodology\nwas used in previous work in natural language processing (Strubell et al., 2019; Touvron et al., 2023)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.096019+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Strubell et al., 2019"
+            },
+            "quote": "This methodology\nwas used in previous work in natural language processing (Strubell et al., 2019; Touvron et al., 2023)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:41.071201+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d71fde14da6a804364cd76a7e6371b039aefa620d0680cdb01006738bec53d91",
+    "reviewed_at": "2026-11-16T11:17:06.096062+00:00"
+  },
+  {
+    "id": "F_d67e8fe8914f72cb5c89",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "9  Estimating the Environmental Impact of Training our Models",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Touvron et al., 2023"
+      },
+      "quote": "This methodology\nwas used in previous work in natural language processing (Strubell et al., 2019; Touvron et al., 2023)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:06.107144+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Touvron et al., 2023"
+            },
+            "quote": "This methodology\nwas used in previous work in natural language processing (Strubell et al., 2019; Touvron et al., 2023)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:41.071385+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d71fde14da6a804364cd76a7e6371b039aefa620d0680cdb01006738bec53d91",
+    "reviewed_at": "2026-11-16T11:17:06.107188+00:00"
+  },
+  {
+    "id": "F_74301b08eb5531a1d7ed",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "quote": "In this work, we present DINOv2, a new series of image encoders pretrained on large curated data with no supervision.",
+      "page": 21
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:14:43.747059+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "quote": "In this work, we present DINOv2, a new series of image encoders pretrained on large curated data with no supervision.",
+            "page": 21
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:42.992931+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "025ffff9b985bbb47010d975f1856656d466d65628e23517ea11ccfb88430eca",
+    "reviewed_at": "2026-11-16T11:14:43.747242+00:00"
+  },
+  {
+    "id": "F_74b72ac5d527da734670",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "large curated data"
+      },
+      "quote": "a new series of image encoders pretrained on large curated data with no supervision",
+      "page": 21
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:48.874314+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "large curated data"
+            },
+            "quote": "a new series of image encoders pretrained on large curated data with no supervision",
+            "page": 21
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:42.993182+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "025ffff9b985bbb47010d975f1856656d466d65628e23517ea11ccfb88430eca",
+    "reviewed_at": "2026-11-16T11:17:48.874353+00:00"
+  },
+  {
+    "id": "F_aa69705bba802112dd77",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "visual features"
+      },
+      "quote": "leads to visual features that close the performance gap with (weakly) supervised alternatives",
+      "page": 21
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:17:48.885897+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "visual features"
+            },
+            "quote": "leads to visual features that close the performance gap with (weakly) supervised alternatives",
+            "page": 21
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:42.993405+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "025ffff9b985bbb47010d975f1856656d466d65628e23517ea11ccfb88430eca",
+    "reviewed_at": "2026-11-16T11:17:48.885939+00:00"
+  },
+  {
+    "id": "F_370cafef00d9d997a79b",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Deep vit features as dense visual descriptors"
+      },
+      "quote": "Shir Amir, Yossi Gandelsman, Shai Bagon, and Tali Dekel. Deep vit features as dense visual descriptors.",
+      "page": 21
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:00.169702+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Deep vit features as dense visual descriptors"
+            },
+            "quote": "Shir Amir, Yossi Gandelsman, Shai Bagon, and Tali Dekel. Deep vit features as dense visual descriptors.",
+            "page": 21
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:42.993623+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "025ffff9b985bbb47010d975f1856656d466d65628e23517ea11ccfb88430eca",
+    "reviewed_at": "2026-11-16T11:18:00.169779+00:00"
+  },
+  {
+    "id": "F_865627d509470628c1d5",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Self-labelling via simultaneous clustering and representation learning"
+      },
+      "quote": "Yuki Markus Asano, Christian Rupprecht, and Andrea Vedaldi.  Self-labelling via simultaneous clustering",
+      "page": 21
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:00.182575+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Self-labelling via simultaneous clustering and representation learning"
+            },
+            "quote": "Yuki Markus Asano, Christian Rupprecht, and Andrea Vedaldi.  Self-labelling via simultaneous clustering",
+            "page": 21
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:42.993863+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "025ffff9b985bbb47010d975f1856656d466d65628e23517ea11ccfb88430eca",
+    "reviewed_at": "2026-11-16T11:18:00.182623+00:00"
+  },
+  {
+    "id": "F_905b48c9a6720474433f",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Masked siamese networks for label-efficient learning"
+      },
+      "quote": "Mahmoud Assran, Mathilde Caron, Ishan Misra, Piotr Bojanowski, Florian Bordes, Pascal Vincent, Armand",
+      "page": 21
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:00.194929+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Masked siamese networks for label-efficient learning"
+            },
+            "quote": "Mahmoud Assran, Mathilde Caron, Ishan Misra, Piotr Bojanowski, Florian Bordes, Pascal Vincent, Armand",
+            "page": 21
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:38:42.994078+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "025ffff9b985bbb47010d975f1856656d466d65628e23517ea11ccfb88430eca",
+    "reviewed_at": "2026-11-16T11:18:00.194972+00:00"
+  },
+  {
+    "id": "F_8ca83d0b5a60d1a7c534",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2-S (distilled)"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT-S/14"
+      },
+      "quote": "DINOv2-S (distilled)       ViT-S/14       0        1e-3      2048",
+      "page": 31
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:25.260568+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2-S (distilled)"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT-S/14"
+            },
+            "quote": "DINOv2-S (distilled)       ViT-S/14       0        1e-3      2048",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.166611+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:18:25.260654+00:00"
+  },
+  {
+    "id": "F_b7d841de56de4efdf2bd",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2-B (distilled)"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT-B/14"
+      },
+      "quote": "DINOv2-B (distilled)      ViT-B/14      0        1e-3      2048",
+      "page": 31
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:25.273558+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2-B (distilled)"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT-B/14"
+            },
+            "quote": "DINOv2-B (distilled)      ViT-B/14      0        1e-3      2048",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.166809+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:18:25.273603+00:00"
+  },
+  {
+    "id": "F_3a97c49053b7a9cb9d0f",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2-L (distilled)"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT-L/14"
+      },
+      "quote": "DINOv2-L (distilled)      ViT-L/14      0        1e-3      2048",
+      "page": 31
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:25.285395+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2-L (distilled)"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT-L/14"
+            },
+            "quote": "DINOv2-L (distilled)      ViT-L/14      0        1e-3      2048",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.166976+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:18:25.285437+00:00"
+  },
+  {
+    "id": "F_1a8269a2d6f7ba25b09a",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2-L (from scratch)"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT-L/14"
+      },
+      "quote": "DINOv2-L (from scratch)   ViT-L/14       0.4       3.5e-4     3072",
+      "page": 31
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:25.297187+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2-L (from scratch)"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT-L/14"
+            },
+            "quote": "DINOv2-L (from scratch)   ViT-L/14       0.4       3.5e-4     3072",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.167141+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:18:25.297228+00:00"
+  },
+  {
+    "id": "F_29d841c34b19eed3c12b",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2-g (from scratch)"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT-g/14"
+      },
+      "quote": "DINOv2-g (from scratch)   ViT-g/14       0.4       3.5e-4     3072",
+      "page": 31
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:25.308984+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2-g (from scratch)"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT-g/14"
+            },
+            "quote": "DINOv2-g (from scratch)   ViT-g/14       0.4       3.5e-4     3072",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.167302+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:18:25.309024+00:00"
+  },
+  {
+    "id": "F_7cbb56c9eec92d27e03d",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "AdamW"
+      },
+      "quote": "All\nmodels run for 625k iterations with optimizer AdamW",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:37.310034+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "AdamW"
+            },
+            "quote": "All\nmodels run for 625k iterations with optimizer AdamW",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.167466+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:18:37.310110+00:00"
+  },
+  {
+    "id": "F_88e1b20bf74d7fa71e20",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "SwiGLU"
+      },
+      "quote": "We use MLP\nfeed-forward networks for distilled models, and SwiGLU (Shazeer, 2020) when training from scratch.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:37.324852+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "SwiGLU"
+            },
+            "quote": "We use MLP\nfeed-forward networks for distilled models, and SwiGLU (Shazeer, 2020) when training from scratch.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.167629+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:18:37.324908+00:00"
+  },
+  {
+    "id": "F_e2cc035f4e1a690bf202",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Shazeer, 2020"
+      },
+      "quote": "SwiGLU (Shazeer, 2020)",
+      "page": 31
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:18:40.691377+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Shazeer, 2020"
+            },
+            "quote": "SwiGLU (Shazeer, 2020)",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.167785+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:18:40.691475+00:00"
+  },
+  {
+    "id": "F_22ecf1c2dfae62dedbd2",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DINOv2"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "exponential moving average teacher"
+      },
+      "quote": "The teacher is initialized with the same state as the student, and is an\nexponential moving average of the student network",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:19:24.711858+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DINOv2"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "exponential moving average teacher"
+            },
+            "quote": "The teacher is initialized with the same state as the student, and is an\nexponential moving average of the student network",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.167950+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:19:24.711936+00:00"
+  },
+  {
+    "id": "F_ea41977f2f63a640b983",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "linear probing"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "SGD"
+      },
+      "quote": "We train our linear layer with SGD for 12500 iterations",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:19:24.724427+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "linear probing"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "SGD"
+            },
+            "quote": "We train our linear layer with SGD for 12500 iterations",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.168130+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:19:24.724474+00:00"
+  },
+  {
+    "id": "F_fbc328f20af63645951d",
+    "paper_id": "P006",
+    "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+    "section": "10  Future work and Discussion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "linear probing"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "accuracy"
+      },
+      "quote": "We then report the highest accuracy value obtained on the validation set as is common practice.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:19:24.736798+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "linear probing"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "accuracy"
+            },
+            "quote": "We then report the highest accuracy value obtained on the validation set as is common practice.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:39:03.168294+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7c79c07150ba25e79a80f02bb231e5a3009f7ecb0695e3e11d725b65b26f7f28",
+    "reviewed_at": "2026-11-16T11:19:24.736842+00:00"
+  }
+]

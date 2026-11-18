@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3DR · Knowledge Lab</title><link rel="stylesheet" href="style.css?v=separate-outputs-20261117">
+  <script src="snapshot.js?v=entity-resolution-tolerance-20261117"></script><script src="vendor/cytoscape.min.js"></script>
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#overview"><span class="brand-icon">◈</span><span>3DR<span class="brand-sub">KNOWLEDGE LAB</span></span></a>
+  <div class="nav-label">研究工作台 / WORKSPACE</div>
+  <nav aria-label="主要导航">
+    <a href="#overview" data-page="overview"><span>◫</span>项目概览</a>
+    <a href="#papers" data-page="papers"><span>▤</span>论文管理<span class="nav-count" id="nav-paper-count">0</span></a>
+    <a href="#graph" data-page="graph"><span>⌘</span>知识抽取与图谱</a>
+    <div class="nav-label">图谱应用 / APPLICATIONS</div>
+    <a href="#classification" data-page="classification"><span>▦</span>论文分类</a>
+    <a href="#prediction" data-page="prediction"><span>⤴</span>关系预测</a>
+    <a href="#generation" data-page="generation"><span>✧</span>证据问答</a>
+  </nav>
+  <div class="side-note"><div class="live-dot"></div><strong id="mode-text">服务器工作区</strong><p>从论文到事实，从联系到洞察。</p><button class="text-button" id="teaching-button">打开独立教学图谱 ↗</button></div>
+  <div class="sidebar-footer">COURSE PROJECT <span>01 / 3DR</span></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><div><span class="muted">研究项目</span><span class="separator">/</span><span id="breadcrumb">项目概览</span></div><div class="topbar-right"><span id="connection" class="pill">连接检查中</span><a id="neo-link" href="http://localhost:7474/browser/" target="_blank" rel="noopener">Neo4j Browser ↗</a></div></header>
+  <main>
+    <section id="overview" class="page active">
+      <div class="eyebrow">PAPER → KNOWLEDGE → INSIGHT</div>
+      <div class="page-heading"><div><h1>让论文之间的联系，<br><span class="accent">变得清晰可见。</span></h1><p class="intro">前馈式三维重建论文知识图谱 · 有证据的抽取，可追溯的分析。</p></div><a class="button primary" href="#papers">开始整理论文 <span>↗</span></a></div>
+      <div class="stat-grid" id="stats"></div>
+      <div class="overview-grid">
+        <article class="card pipeline-card"><div class="card-heading"><h2>研究流程</h2><span class="micro">逐阶段运行 · 产物自动保存</span></div><div class="pipeline">
+          <a href="#papers"><span class="step-number">01</span><div><h3>载入论文</h3><p>上传 PDF，整理可核对的论文清单</p></div><span>↗</span></a>
+          <a href="#graph"><span class="step-number">02</span><div><h3>抽取与核验</h3><p>DeepSeek 提取候选事实，人工确认原文</p></div><span>↗</span></a>
+          <a href="#graph"><span class="step-number">03</span><div><h3>连接知识</h3><p>导入 Neo4j，探索方法与任务之间的联系</p></div><span>↗</span></a>
+          <a href="#classification"><span class="step-number">04</span><div><h3>应用与分析</h3><p>分类、关系补全与带证据的问答</p></div><span>↗</span></a>
+        </div></article>
+        <article class="card graph-preview"><div class="card-heading"><h2>图谱预览</h2><a href="#graph">展开 ↗</a></div><div id="mini-graph"></div><div class="preview-caption" id="preview-caption">正式图谱等待已审核论文事实</div></article>
+      </div>
+    </section>
+    <section id="papers" class="page">
+      <div class="eyebrow">01 / CORPUS</div><div class="page-heading"><div><h1>论文管理</h1><p class="intro">完整 PDF 是事实的起点。元数据自动整理后，请核对标题与筛选依据。</p></div><a class="button" href="/api/papers.csv" id="csv-link">导出清单 ↓</a></div>
+      <div class="card upload-card"><div><h2>载入论文</h2><p>支持批量 PDF，每篇不超过 100 MB。重复文件自动识别。</p></div><label class="button" for="pdf-input">选择 PDF<input id="pdf-input" type="file" accept=".pdf" multiple hidden></label><span id="file-count" class="muted" aria-live="polite">未选择文件</span><button id="upload-button">上传文件</button><button class="primary" data-run="papers">生成论文清单</button><div id="selected-files" hidden><strong>已选文件</strong><ul id="selected-file-list" aria-label="已选择的论文文件名"></ul></div></div>
+      <div class="notice" id="corpus-notice"></div><div class="card table-card"><div class="card-heading"><h2>论文清单</h2><span class="micro">点击“编辑”补全纳入依据与发表信息</span></div><div class="table-scroll"><table><thead><tr><th>ID</th><th>标题 / 文件</th><th>年份</th><th>状态</th><th>纳入</th><th>操作</th></tr></thead><tbody id="papers-body"></tbody></table></div></div>
+    </section>
+    <section id="graph" class="page">
+      <div class="eyebrow">02–03 / EXTRACTION & GRAPH</div><div class="page-heading"><div><h1>把原文转成可核查的联系</h1><p class="intro">候选图谱用于审核；正式图谱只包含经人工确认的事实。</p></div></div>
+      <div class="card control-card"><label>处理范围<select id="extract-paper"><option value="">全部纳入论文</option></select></label><button data-run="parse">仅解析正文</button><button class="primary" id="pipeline-button">开始抽取并展示图谱</button><button data-run="validate">校验已审核事实</button><button id="import-button">将已审核事实导入 Neo4j</button></div>
+      <div class="graph-toolbar"><div class="segmented"><button id="official-graph" class="selected">正式 Neo4j 图谱</button><button id="candidate-graph">候选图谱</button><button id="example-graph">教学样例</button></div><input id="graph-search" placeholder="搜索名称或 ID" aria-label="搜索图谱"><select id="graph-type" aria-label="筛选实体类型"><option value="">所有实体类型</option></select><button id="local-case">三论文局部案例</button><button id="graph-reset">重置视图</button></div>
+      <article class="card graph-paper-filter" aria-label="图谱论文筛选">
+        <div class="card-heading"><h2>选择要展示的论文</h2><div class="button-row"><button id="graph-papers-all">全选</button><button id="graph-papers-none">全不选</button><button id="copy-paper-query">复制所选论文 Neo4j 查询</button></div></div>
+        <div id="graph-paper-options" class="paper-checkbox-list"></div>
+        <p class="micro" id="graph-paper-summary" aria-live="polite"></p>
+        <p class="micro">按事实来源筛选。公共实体会合并；勾选只影响展示，不改变论文纳入、审核记录或数据库。</p>
+      </article>
+      <div class="graph-layout"><div class="card graph-card"><div class="graph-caption"><span class="pill" id="graph-source">正式图谱</span><span class="micro">点击查看详情 · 双击节点聚焦邻域</span></div><div id="main-graph"></div><div id="graph-legend" class="legend"></div></div><aside class="card detail-panel"><h2>节点与证据</h2><div id="graph-detail" class="muted">选择节点或关系，查看含义和原文来源。</div></aside></div>
+      <article class="card"><div class="card-heading"><h2>三元组与证据审核</h2><div class="button-row"><input id="reviewer" placeholder="审核者姓名" aria-label="审核者"><button id="refresh-candidates">刷新</button><button id="approve-selected">通过所选证据</button><button id="reject-selected">拒绝所选证据</button></div></div><div class="review-filter-bar"><label>按论文查看<select id="review-paper" aria-label="审核区论文筛选"><option value="">全部论文</option></select></label><div class="segmented review-tabs" role="tablist" aria-label="审核状态"><button id="review-pending" type="button" role="tab" data-review-status="pending" class="selected" aria-selected="true">待审核</button><button id="review-approved" type="button" role="tab" data-review-status="approved" aria-selected="false">已通过</button><button id="review-rejected" type="button" role="tab" data-review-status="rejected" aria-selected="false">已拒绝</button></div></div><p class="micro" id="candidate-summary"></p><div class="table-scroll"><table><thead><tr><th><input type="checkbox" id="select-all-facts" aria-label="选择所有候选事实"></th><th>事实</th><th>证据</th><th>审核状态</th><th>操作</th></tr></thead><tbody id="facts-body"></tbody></table></div></article>
+      <article class="card" id="entity-resolution">
+        <div class="card-heading"><div><h2>实体合并审核</h2><p class="micro">比较全部已通过的六类知识实体，跨论文推荐同义名称。确认后保存别名，再校验并导入正式图谱。</p></div><div class="button-row"><button id="resolution-detect" class="primary">AI 检测同义实体</button><button id="resolution-reload">刷新建议</button></div></div>
+        <div class="button-row"><label>审核者姓名<input id="resolution-reviewer" placeholder="确认或拒绝前填写姓名"></label><label>查看<select id="resolution-status"><option value="pending">待审核</option><option value="confirmed">已合并</option><option value="rejected">已拒绝</option><option value="stale">已过期</option><option value="all">全部</option></select></label><label><input type="checkbox" id="resolution-force"> 重新请求模型</label></div>
+        <p id="resolution-progress" role="status"></p><p id="resolution-notice" class="notice" role="status" hidden></p><p id="resolution-error" class="error" role="alert"></p><div id="resolution-list"></div>
+      </article>
+      <details class="card learning"><summary>实体别名与标准名称</summary><p>格式为“类型:原名”到标准名的映射，例如 {"Component:global attn":"global attention"}。保存后重新校验和导入。</p><textarea id="aliases-editor" rows="5" aria-label="别名 JSON"></textarea><button id="save-aliases">保存别名表</button></details>
+    </section>
+    <section id="classification" class="page">
+      <div class="eyebrow">04A / GRAPH CLASSIFICATION</div>
+      <div class="page-heading"><div><h1>论文主题与类别分析</h1><p class="intro">利用图谱自动整理研究主题、方法类型与任务类别，无需预先人工标注。</p></div><button class="primary" id="auto-classify-all">分类全部论文</button></div>
+      <div id="auto-summary" class="metric-grid" aria-live="polite"></div>
+      <div class="card auto-controls"><div class="button-row"><button id="auto-classify-selected">分类所选论文</button><button id="auto-taxonomy-update">更新类别体系</button><button id="auto-taxonomy-history">类别历史与恢复</button><button id="auto-reload">刷新结果</button><label><input type="checkbox" id="auto-force"> 重新请求模型</label></div><p class="micro">默认复用已保存结果与请求缓存。更新类别体系后请重新分类。推断使用 DeepSeek；明确关系分类无需人工标签。</p><p id="auto-job-progress" role="status"></p><p id="auto-notice" class="notice" hidden></p></div>
+      <div class="auto-layout"><aside class="card auto-categories"><h2>按类别浏览</h2><p class="micro">同维度多选取并集，跨维度取交集。</p><button id="auto-clear-filters" class="text-button">清除筛选</button><div id="auto-category-filters"></div></aside>
+        <article class="card auto-results"><div class="auto-search"><label>搜索论文<input type="search" id="auto-search" placeholder="编号或标题"></label><label>分类状态<select id="auto-status"><option value="all">全部状态</option><option value="pending">尚未分类</option><option value="complete">三个维度均有结果</option><option value="partial">部分完成</option><option value="insufficient">信息不足</option><option value="failed">运行失败</option><option value="stale">结果已过期</option></select></label></div><p id="auto-selection-count" class="micro"></p><div class="table-scroll"><table class="auto-table"><thead><tr><th><input type="checkbox" id="auto-select-visible" aria-label="选择当前筛选的论文"></th><th>论文</th><th>研究主题</th><th>方法类型</th><th>任务类别</th><th>状态 / 依据</th></tr></thead><tbody id="auto-papers-body"></tbody></table></div></article></div>
+      <details id="classification-advanced" class="card"><summary>高级实验：人工标签与逻辑回归评测（可选）</summary><p class="muted">以下为监督学习实验，需要人工金标准；不影响上方自动分类。模型分数与自动分类结果分开保存。</p><button data-run="classification">运行分类评测</button>
+      <div class="card control-card"><label>单篇演示<select id="classify-paper"></select></label><button id="classify-button">预测所选论文类别</button><button id="edit-labels">审核论文标签</button></div>
+      <article id="label-review" class="card" hidden>
+        <div class="card-heading"><div><h2>论文任务标签审核</h2><span class="micro">可视化审核 · 2026-11-17</span><p class="muted">建议来自已审核图谱的 SOLVES 关系，可能有遗漏。核对完整任务集合后，逐篇点击确认。</p></div><button id="reload-labels">重新加载</button></div>
+        <div class="label-toolbar"><label>审核者姓名<input id="label-reviewer" placeholder="确认前填写姓名"></label><label>搜索论文<input id="label-search" type="search" placeholder="论文编号或标题"></label><label>审核状态<select id="label-status"><option value="all">全部论文</option><option value="pending">待确认</option><option value="verified">已确认</option></select></label></div>
+        <p id="label-progress" aria-live="polite"></p>
+        <details open><summary>全部任务标签与评测样本数量</summary><div id="label-catalog" class="table-scroll"></div></details>
+        <div id="label-paper-list"></div>
+      </article>
+      <div id="classification-output" class="result-area"></div><div id="classify-single"></div>
+      <details class="card learning"><summary>课程知识：如何从图谱得到特征，为什么要防止标签泄漏？</summary><p>将允许的邻域编码为稀疏特征，再用逻辑回归分类。全部 Task 节点、SOLVES 关系和原文文本在构造特征前移除。每轮留一验证只在训练论文上拟合特征词表。单篇全量模型演示不能当作独立测试成绩。</p><code>feature_graph → build_features → DictVectorizer → LogisticRegression → F1</code></details>
+      </details>
+    </section>
+    <section id="prediction" class="page">
+      <div class="eyebrow">04B / LINK PREDICTION</div>
+      <div class="page-heading"><div><h1>发现图谱中缺失的关系</h1><p class="intro">从已核验的图谱结构寻找线索，让每一条预测都能追溯。</p></div><span class="pill">结构预测 · 待核验建议</span></div>
+      <div id="relation-stats" class="stat-grid"></div>
+      <article class="card relation-controls">
+        <div class="card-heading"><h2>设置预测范围</h2><span class="micro">二跳路径 × 1 ＋ 三跳路径 × 0.5</span></div>
+        <div class="relation-control-row"><label>预测模式<select id="relation-mode"><option value="all">全图扫描</option><option value="single">单实体预测</option></select></label><label id="relation-source-label" hidden>搜索源实体<input id="relation-source-search" type="search" placeholder="输入实体名称"><select id="relation-source" aria-label="选择源实体"></select></label></div>
+        <fieldset class="relation-types"><legend>预测关系类型</legend><div id="relation-types"></div></fieldset>
+        <div class="button-row"><button class="primary" id="relation-run">开始预测 ↗</button><span class="micro">每个实体的每类关系保留前 10 条候选</span></div>
+        <div id="relation-job" role="status" aria-live="polite"></div>
+      </article>
+      <div class="notice">路径分数反映结构关联强度，并非正确概率。路径中的原文支持已有关系，预测关系本身仍需核验。</div>
+      <div id="relation-version-notice"></div>
+      <div class="relation-layout">
+        <article class="card relation-results"><div class="card-heading"><h2>候选关系</h2><span id="relation-result-count" class="micro"></span></div>
+          <div class="relation-filters"><label>搜索实体<input id="relation-result-search" type="search" placeholder="源实体或目标实体名称"></label><label>关系类型<select id="relation-result-type"><option value="">全部关系</option></select></label></div>
+          <div id="relation-results" class="table-scroll"></div><div id="relation-pagination" class="button-row"></div>
+        </article>
+        <aside class="card relation-detail" id="relation-detail"><h2>预测依据</h2><div class="empty">选择一条候选关系，查看路径与原文线索。</div></aside>
+      </div>
+      <details class="card learning" id="prediction-advanced"><summary>高级评测与课程说明 · 方法使用组件</summary>
+        <p>按论文和方法分组隐藏组件关系，再评估恢复排名。此实验保持原有口径，不代表六类关系的整体准确率。</p>
+        <button data-run="prediction">运行关系补全评测</button><div id="prediction-output" class="result-area"></div>
+        <div class="control-card"><label>选择方法<select id="predict-method"></select></label><button id="predict-button">运行原有组件预测</button></div><div id="predict-single"></div>
+        <p>路径分数 = 二跳路径数 + 0.5 × 三跳路径数。评测过滤其他已知正确组件，并列使用平均秩。未知关系不是负事实。</p>
+      </details>
+    </section>
+    <section id="generation" class="page">
+      <div class="eyebrow">04C / GROUNDED GENERATION</div>
+      <div class="page-heading"><div><h1>基于图谱的问答与研究综述</h1><p class="intro">从已核验事实出发，让回答、总结与研究建议都有可追溯的依据。</p></div></div>
+      <div class="card ask-card">
+        <div class="generation-tabs" role="tablist" aria-label="生成任务">
+          <button type="button" role="tab" aria-selected="true" data-generation-task="qa">问题回答</button>
+          <button type="button" role="tab" aria-selected="false" data-generation-task="summary">主题总结</button>
+          <button type="button" role="tab" aria-selected="false" data-generation-task="review">研究方向综述</button>
+        </div>
+        <div id="generation-guide" class="generation-guide" aria-live="polite"></div>
+        <div id="generation-template-panel" class="generation-template-panel">
+          <p><strong>1. 选择问题模板</strong><span class="muted">2. 选择对应实体 → 自动生成问题；更换模板或实体会更新问题。</span></p>
+          <button type="button" id="generation-custom-question" aria-pressed="true">自行提问</button>
+          <div id="generation-question-templates" class="generation-question-templates" role="group" aria-label="问题模板"></div>
+          <div id="generation-template-entities" class="generation-template-entities" hidden></div>
+        </div>
+        <div id="generation-question-controls">
+        <label id="generation-question-label" for="question">你想了解什么？</label>
+        <textarea id="question" rows="3" maxlength="4000"></textarea>
+        </div>
+        <div class="generation-selectors">
+          <div id="generation-anchor-controls"><label for="generation-entity-search">实体锚点 <span id="generation-anchor-hint" class="muted">可选</span></label><input id="generation-entity-search" type="search" placeholder="搜索标准名或已确认别名"><div id="generation-entities" class="generation-options" aria-label="选择实体"></div></div>
+          <div><label for="generation-papers">论文范围 <span id="generation-paper-hint" class="muted">不选表示全部正式入图论文</span></label><div id="generation-papers" class="generation-options" role="group" aria-label="选择论文"></div></div>
+        </div>
+        <p id="generation-input-error" class="error" role="alert"></p>
+        <div class="button-row"><button class="primary" id="ask-button">基于图谱生成回答 ↗</button><label><input type="checkbox" id="generation-force"> 重新请求模型</label></div>
+      </div>
+      <div id="generation-output" class="result-area" aria-live="polite"></div>
+      <details class="card learning" id="generation-advanced"><summary>高级评测与课程说明</summary>
+        <p>三类任务分别评价；自动检查只验证引用结构，语义支持仍需人工核验。没有人工评价时指标为空。</p>
+        <div class="button-row"><button data-run="generation_eval">运行生成评测</button><button id="edit-questions">维护评测题</button><button id="review-generation">填写人工评测</button></div>
+        <div id="generation-eval-output"></div>
+      </details>
+    </section>
+    <section class="card job-card"><div class="card-heading"><h2>运行记录</h2><div class="button-row"><button id="clear-jobs" title="清除已完成、失败和中断的记录；保留正在运行和排队的任务">清除已结束记录</button><button id="refresh-state" class="text-button">刷新 ↻</button></div></div><div id="jobs"></div></section>
+    <footer>3DR KNOWLEDGE LAB <span id="version-footer">等待正式数据</span></footer>
+  </main>
+</div>
+<dialog id="editor-dialog"><form id="editor-form"><div class="card-heading"><h2 id="editor-title">编辑</h2><button type="button" id="close-dialog">关闭 ×</button></div><p id="editor-help" class="muted"></p><div id="editor-fields"></div><textarea id="editor-json" rows="18" spellcheck="false" aria-label="JSON 编辑器"></textarea><div class="button-row"><button class="primary" type="submit">保存</button><span id="editor-error" class="error"></span></div></form></dialog>
+<dialog id="taxonomy-history-dialog"><div class="card-heading"><h2>类别体系历史与恢复</h2><button type="button" id="taxonomy-history-close">关闭 ×</button></div><p class="micro">每次更新或恢复均保存独立快照。恢复只切换类别体系，不修改图谱，也不会自动重跑论文分类。</p><p id="taxonomy-history-error" class="error" role="alert"></p><div id="taxonomy-history-list"></div><div class="history-selectors"><label>对比基准<select id="taxonomy-history-before"></select></label><span>→</span><label>查看版本<select id="taxonomy-history-after"></select></label></div><div id="taxonomy-history-comparison"></div><div id="taxonomy-history-detail"></div></dialog>
+<dialog id="auto-detail-dialog"><div class="card-heading"><h2 id="auto-detail-title">分类依据</h2><button id="auto-detail-close" type="button">关闭 ×</button></div><div id="auto-detail-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div><script src="filters.js?v=entity-resolution-tolerance-20261117"></script><script src="automatic.js?v=entity-resolution-tolerance-20261117"></script><script src="taxonomy-history.js?v=entity-resolution-tolerance-20261117"></script><script src="entity-resolution.js?v=entity-resolution-tolerance-20261117"></script><script src="prediction.js?v=relations-20261117"></script><script src="generation.js?v=separate-outputs-20261117"></script><script src="app.js?v=separate-outputs-20261117"></script>
+</body></html>

@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "F_e159d399eb7844f3cc12",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "BlendedMVS"
+      },
+      "quote": "BlendedMVS [76]     ✓    ✓     Stereo    115K",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.867237+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "BlendedMVS"
+            },
+            "quote": "BlendedMVS [76]     ✓    ✓     Stereo    115K",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.306750+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.867330+00:00"
+  },
+  {
+    "id": "F_269dc22afa0fe1ff68d8",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DIML"
+      },
+      "quote": "DIML [13]         ✓    ✓     Stereo    927K",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.878238+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DIML"
+            },
+            "quote": "DIML [13]         ✓    ✓     Stereo    927K",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.307058+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.878283+00:00"
+  },
+  {
+    "id": "F_0574362d2ce62c3f6b76",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HRWSI"
+      },
+      "quote": "HRWSI [67]        ✓    ✓     Stereo     20K",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.888813+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HRWSI"
+            },
+            "quote": "HRWSI [67]        ✓    ✓     Stereo     20K",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.307321+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.888852+00:00"
+  },
+  {
+    "id": "F_e379d18f7cde5253c334",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "IRS"
+      },
+      "quote": "IRS [61]           ✓              Stereo    103K",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.899290+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "IRS"
+            },
+            "quote": "IRS [61]           ✓              Stereo    103K",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.307580+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.899328+00:00"
+  },
+  {
+    "id": "F_fcb35e5cae78df8cd89e",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MegaDepth"
+      },
+      "quote": "MegaDepth [32]            ✓    SfM      128K",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.909707+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MegaDepth"
+            },
+            "quote": "MegaDepth [32]            ✓    SfM      128K",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.307832+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.909745+00:00"
+  },
+  {
+    "id": "F_5818ca06fd45e095bc3c",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TartanAir"
+      },
+      "quote": "TartanAir [62]        ✓    ✓     Stereo    306K",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.920048+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TartanAir"
+            },
+            "quote": "TartanAir [62]        ✓    ✓     Stereo    306K",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.308087+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.920098+00:00"
+  },
+  {
+    "id": "F_f23f955c24e241a3b7ed",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "BDD100K"
+      },
+      "quote": "BDD100K [81]            ✓    None     8.2M",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.930497+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "BDD100K"
+            },
+            "quote": "BDD100K [81]            ✓    None     8.2M",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.308341+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.930534+00:00"
+  },
+  {
+    "id": "F_3d04896a69472de53e16",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Google Landmarks"
+      },
+      "quote": "Google Landmarks [64]        ✓    None     4.1M",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.941054+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Google Landmarks"
+            },
+            "quote": "Google Landmarks [64]        ✓    None     4.1M",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.308593+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.941090+00:00"
+  },
+  {
+    "id": "F_0d6d60d388a7c4504e0d",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ImageNet-21K"
+      },
+      "quote": "ImageNet-21K [49]     ✓    ✓    None    13.1M",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.951593+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ImageNet-21K"
+            },
+            "quote": "ImageNet-21K [49]     ✓    ✓    None    13.1M",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.308850+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.951630+00:00"
+  },
+  {
+    "id": "F_c1d2745bb2baeb0b32b5",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "LSUN"
+      },
+      "quote": "LSUN [80]         ✓           None     9.8M",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.962160+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "LSUN"
+            },
+            "quote": "LSUN [80]         ✓           None     9.8M",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.309104+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.962196+00:00"
+  },
+  {
+    "id": "F_489b0cdc49aaedc15606",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Objects365"
+      },
+      "quote": "Objects365 [52]       ✓    ✓    None     1.7M",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.972730+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Objects365"
+            },
+            "quote": "Objects365 [52]       ✓    ✓    None     1.7M",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.309358+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.972776+00:00"
+  },
+  {
+    "id": "F_8fc865436be52c999b85",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Open Images V7"
+      },
+      "quote": "Open Images V7 [29]    ✓    ✓    None     7.8M",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.983430+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Open Images V7"
+            },
+            "quote": "Open Images V7 [29]    ✓    ✓    None     7.8M",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.309605+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.983467+00:00"
+  },
+  {
+    "id": "F_b65b7e8a6bc2d6abffad",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Places365"
+      },
+      "quote": "Places365 [87]       ✓    ✓    None     6.5M",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:18.994178+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Places365"
+            },
+            "quote": "Places365 [87]       ✓    ✓    None     6.5M",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.309874+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:18.994217+00:00"
+  },
+  {
+    "id": "F_4682d60ce73d916e4309",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "SA-1B"
+      },
+      "quote": "SA-1B [26]         ✓    ✓    None    11.1M",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.004950+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "SA-1B"
+            },
+            "quote": "SA-1B [26]         ✓    ✓    None    11.1M",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.310120+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:19.004993+00:00"
+  },
+  {
+    "id": "F_22cf25ae8b8100b30636",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MiDaS"
+      },
+      "quote": "This process is similar to the training of MiDaS [5, 45].",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.015790+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MiDaS"
+            },
+            "quote": "This process is similar to the training of MiDaS [5, 45].",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:18.311052+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f1554f093a21c2b8463b1be2385b1fbb4cc0fc969db58fd461bfc01f9b716adb",
+    "reviewed_at": "2026-11-17T16:12:19.015828+00:00"
+  },
+  {
+    "id": "F_8363083c971828f5c71a",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NYUv2"
+      },
+      "quote": "we do not use NYUv2 [54] and KITTI [17] datasets to ensure zero-shot evaluation on them",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.037846+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NYUv2"
+            },
+            "quote": "we do not use NYUv2 [54] and KITTI [17] datasets to ensure zero-shot evaluation on them",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:19.741105+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5cf737df39d17ddd6a8a353a9f47b706a4f1e0dd2c47334f4f52ec8eb30c8f81",
+    "reviewed_at": "2026-11-17T16:12:19.037886+00:00"
+  },
+  {
+    "id": "F_cdc5df3161145d087894",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "we do not use NYUv2 [54] and KITTI [17] datasets to ensure zero-shot evaluation on them",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.053980+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "we do not use NYUv2 [54] and KITTI [17] datasets to ensure zero-shot evaluation on them",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:19.741407+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5cf737df39d17ddd6a8a353a9f47b706a4f1e0dd2c47334f4f52ec8eb30c8f81",
+    "reviewed_at": "2026-11-17T16:12:19.054022+00:00"
+  },
+  {
+    "id": "F_51dc551146b6049b7d73",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DINOv2 encoder"
+      },
+      "quote": "We adopt the DINOv2 encoder [42] for feature extraction.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.064994+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DINOv2 encoder"
+            },
+            "quote": "We adopt the DINOv2 encoder [42] for feature extraction.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:30.436446+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a98871f881800c0d8a15d0b9dd96290ed979e92f124c65c391c2ae99dac13bb7",
+    "reviewed_at": "2026-11-17T16:12:19.065032+00:00"
+  },
+  {
+    "id": "F_4164f14af5721d6604ed",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DPT decoder"
+      },
+      "quote": "Following MiDaS [5, 45], we use the DPT [46] decoder for",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.076004+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DPT decoder"
+            },
+            "quote": "Following MiDaS [5, 45], we use the DPT [46] decoder for",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:30.436761+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a98871f881800c0d8a15d0b9dd96290ed979e92f124c65c391c2ae99dac13bb7",
+    "reviewed_at": "2026-11-17T16:12:19.076042+00:00"
+  },
+  {
+    "id": "F_d4ed780c3614d162333e",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "KITTI [17], NYUv2 [54], Sintel [7], DDAD [19]",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.087254+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "KITTI [17], NYUv2 [54], Sintel [7], DDAD [19]",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:30.437532+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a98871f881800c0d8a15d0b9dd96290ed979e92f124c65c391c2ae99dac13bb7",
+    "reviewed_at": "2026-11-17T16:12:19.087290+00:00"
+  },
+  {
+    "id": "F_3d1b9087b13d94c3fa70",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DIODE"
+      },
+      "quote": "ETH3D [51], and DIODE [59]",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.098427+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DIODE"
+            },
+            "quote": "ETH3D [51], and DIODE [59]",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:30.438304+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a98871f881800c0d8a15d0b9dd96290ed979e92f124c65c391c2ae99dac13bb7",
+    "reviewed_at": "2026-11-17T16:12:19.098477+00:00"
+  },
+  {
+    "id": "F_5644e554697ac26ee8f7",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "in terms of both the AbsRel (absolute relative error:",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.109607+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "in terms of both the AbsRel (absolute relative error:",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:30.438567+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a98871f881800c0d8a15d0b9dd96290ed979e92f124c65c391c2ae99dac13bb7",
+    "reviewed_at": "2026-11-17T16:12:19.109642+00:00"
+  },
+  {
+    "id": "F_19a8e239ae9cbdda8f1f",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Depth Anything"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "quote": "We adopt the DINOv2 encoder [42] for feature extraction.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.131902+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Depth Anything"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "quote": "We adopt the DINOv2 encoder [42] for feature extraction.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:30.439317+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a98871f881800c0d8a15d0b9dd96290ed979e92f124c65c391c2ae99dac13bb7",
+    "reviewed_at": "2026-11-17T16:12:19.131941+00:00"
+  },
+  {
+    "id": "F_bf340d4ab94600f556d5",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NYUv2"
+      },
+      "quote": "0.951 vs. 0.984 in the δ1 metric on NYUv2",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.143357+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NYUv2"
+            },
+            "quote": "0.951 vs. 0.984 in the δ1 metric on NYUv2",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.166341+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.143395+00:00"
+  },
+  {
+    "id": "F_b14c921d25e3b4ee3d8f",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "NYUv2       KITTI     Cityscapes ADE20K",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.154575+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "NYUv2       KITTI     Cityscapes ADE20K",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.166616+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.154615+00:00"
+  },
+  {
+    "id": "F_df54ba3deacc4927a370",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Cityscapes"
+      },
+      "quote": "NYUv2       KITTI     Cityscapes ADE20K",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.165895+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Cityscapes"
+            },
+            "quote": "NYUv2       KITTI     Cityscapes ADE20K",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.166831+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.165931+00:00"
+  },
+  {
+    "id": "F_87fb47ad05020f74c1d6",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "Better performance: AbsRel ↓, δ1 ↑, mIoU ↑.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.120722+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "Better performance: AbsRel ↓, δ1 ↑, mIoU ↑.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.167242+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.120757+00:00"
+  },
+  {
+    "id": "F_d945cd6b3b0182f60324",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ1"
+      },
+      "quote": "Better performance: AbsRel ↓, δ1 ↑, mIoU ↑.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.177177+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ1"
+            },
+            "quote": "Better performance: AbsRel ↓, δ1 ↑, mIoU ↑.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.167454+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.177214+00:00"
+  },
+  {
+    "id": "F_e072f5edd7cbe776cea8",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "mIoU"
+      },
+      "quote": "Better performance: AbsRel ↓, δ1 ↑, mIoU ↑.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.188600+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "mIoU"
+            },
+            "quote": "Better performance: AbsRel ↓, δ1 ↑, mIoU ↑.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.167660+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.188637+00:00"
+  },
+  {
+    "id": "F_f94188a244b399da6dcd",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ControlNet"
+      },
+      "quote": "we use ControlNet to synthesize new images from the depth map",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.199985+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ControlNet"
+            },
+            "quote": "we use ControlNet to synthesize new images from the depth map",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.168059+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.200022+00:00"
+  },
+  {
+    "id": "F_e001226f71283d314808",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MiDaS"
+      },
+      "quote": "we compare our depth prediction with MiDaS",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.026808+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MiDaS"
+            },
+            "quote": "we compare our depth prediction with MiDaS",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.168265+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.026846+00:00"
+  },
+  {
+    "id": "F_decf5e9b959775a09709",
+    "paper_id": "P014",
+    "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "ControlNet"
+      },
+      "quote": "with ControlNet [84]",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:12:19.211455+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "ControlNet"
+            },
+            "quote": "with ControlNet [84]",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:55:54.168655+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "68f58e9537dc1ab85c0cb301590ae61b018238452f84902f241441fe0b2cdbf8",
+    "reviewed_at": "2026-11-17T16:12:19.211493+00:00"
+  }
+]

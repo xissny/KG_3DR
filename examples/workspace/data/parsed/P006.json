@@ -1,0 +1,20 @@
+{
+  "paper_id": "P006",
+  "sha256": "6478eab10175849e847b06696a9fbc1ed9cff4e3fa468245f3bfd2ee848c2e74",
+  "parser_version": "pages-v1",
+  "pages": [
+    {
+      "page": 1,
+      "text": "TEACHING ONLY - Synthetic Paper 06\n\nSYNTHETIC EDUCATIONAL DATA. NOT A REAL RESEARCH PAPER.\n\nTEACHING ONLY - Synthetic Paper 06 proposes Teaching Method 06 for this fictional teaching\nexample.\n\nTeaching Method 06 uses Global attention as its principal component.\n\nTeaching Method 06 is evaluated on Teaching Dataset B in the synthetic setup.\n\nTeaching Method 06 solves the task of Camera estimation in this fictional example.\n\nTeaching Method 06 outputs Teaching geometry in this artificial example.",
+      "section": "Unknown"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "1_0",
+      "page": 1,
+      "section": "Unknown",
+      "text": "TEACHING ONLY - Synthetic Paper 06\n\nSYNTHETIC EDUCATIONAL DATA. NOT A REAL RESEARCH PAPER.\n\nTEACHING ONLY - Synthetic Paper 06 proposes Teaching Method 06 for this fictional teaching\nexample.\n\nTeaching Method 06 uses Global attention as its principal component.\n\nTeaching Method 06 is evaluated on Teaching Dataset B in the synthetic setup.\n\nTeaching Method 06 solves the task of Camera estimation in this fictional example.\n\nTeaching Method 06 outputs Teaching geometry in this artificial example."
+    }
+  ]
+}

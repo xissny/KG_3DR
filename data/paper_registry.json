@@ -1,0 +1,87 @@
+{
+  "next_number": 25,
+  "deleted": [
+    {
+      "paper_id": "P001",
+      "sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+      "deleted_at": "2026-11-11T09:20:40.685139+00:00",
+      "backup": "/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/deleted/P001_7446afd00269"
+    },
+    {
+      "paper_id": "P002",
+      "sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+      "deleted_at": "2026-11-11T09:45:22.587039+00:00",
+      "backup": "/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/deleted/P002_e34a8963d2db"
+    },
+    {
+      "paper_id": "P011",
+      "sha256": "a9bec83952481daa8b8e40fecf0b0cee255054683beb8e79bb28b8c93027ed4b",
+      "deleted_at": "2026-11-11T13:54:06.193963+00:00",
+      "backup": "/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/deleted/P011_530088d01512"
+    },
+    {
+      "paper_id": "P007",
+      "sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+      "deleted_at": "2026-11-11T13:54:24.232629+00:00",
+      "backup": "/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/deleted/P007_1e9d08b6bf66"
+    },
+    {
+      "paper_id": "P025",
+      "sha256": "c965081317c9d74f328850eceebebba68a39ac9da4ba219307cabcaa28e52627",
+      "deleted_at": "2026-11-17T17:30:02.327318+00:00",
+      "backup": "/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/deleted/P025_e8374d08cfe3"
+    },
+    {
+      "paper_id": "P024",
+      "sha256": "b79e8eda4fab599917971f98896585d2e076bf6e10ad34018dd6f1f0ef83fb63",
+      "deleted_at": "2026-11-17T17:30:15.755029+00:00",
+      "backup": "/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/deleted/P024_ba240651130a"
+    }
+  ],
+  "reactivated_hashes": [
+    "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "a9bec83952481daa8b8e40fecf0b0cee255054683beb8e79bb28b8c93027ed4b",
+    "b79e8eda4fab599917971f98896585d2e076bf6e10ad34018dd6f1f0ef83fb63"
+  ],
+  "numbering_policy": "contiguous",
+  "numbering_revision": "41d6f1ac66f34899ba0d6d2a5d56433a",
+  "numbering_history": [
+    {
+      "revision": "6ac711ad29424956a9c252f3dc024e45",
+      "time": "2026-11-11T13:11:54.311855+00:00",
+      "mapping": {
+        "P003": "P001",
+        "P004": "P002",
+        "P005": "P003",
+        "P006": "P004",
+        "P007": "P005",
+        "P008": "P006",
+        "P009": "P007"
+      }
+    },
+    {
+      "revision": "c25119b8eb224aff9e064b3d62397c43",
+      "time": "2026-11-11T13:54:06.219397+00:00",
+      "mapping": {
+        "P012": "P011",
+        "P013": "P012",
+        "P014": "P013",
+        "P015": "P014"
+      }
+    },
+    {
+      "revision": "41d6f1ac66f34899ba0d6d2a5d56433a",
+      "time": "2026-11-11T13:54:24.255059+00:00",
+      "mapping": {
+        "P008": "P007",
+        "P009": "P008",
+        "P010": "P009",
+        "P011": "P010",
+        "P012": "P011",
+        "P013": "P012",
+        "P014": "P013"
+      }
+    }
+  ]
+}

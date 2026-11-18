@@ -1,0 +1,4074 @@
+[
+  {
+    "id": "F_c972c4a7e5361c69f7fc",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "quote": "our approach, coined MASt3R, signiﬁcantly outperforms the state of the art on multiple matching tasks",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.098968+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "quote": "our approach, coined MASt3R, signiﬁcantly outperforms the state of the art on multiple matching tasks",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:18.750359+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ed8cf2c40c0cb38009453b98a41ce1db5853bd968542a9884015d161a3062d94",
+    "reviewed_at": "2026-11-16T04:20:56.099017+00:00"
+  },
+  {
+    "id": "F_864358e985c6ad384115",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DUSt3R network"
+      },
+      "quote": "augment the DUSt3R network with a new head that outputs dense local features",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.137983+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DUSt3R network"
+            },
+            "quote": "augment the DUSt3R network with a new head that outputs dense local features",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:18.750548+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ed8cf2c40c0cb38009453b98a41ce1db5853bd968542a9884015d161a3062d94",
+    "reviewed_at": "2026-11-16T04:20:56.138013+00:00"
+  },
+  {
+    "id": "F_f3b58ea26edcedc68160",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "fast reciprocal matching scheme"
+      },
+      "quote": "We introduce a fast reciprocal matching scheme that not only accelerates matching by orders of magnitude",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.144315+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "fast reciprocal matching scheme"
+            },
+            "quote": "We introduce a fast reciprocal matching scheme that not only accelerates matching by orders of magnitude",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:18.750710+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ed8cf2c40c0cb38009453b98a41ce1db5853bd968542a9884015d161a3062d94",
+    "reviewed_at": "2026-11-16T04:20:56.144344+00:00"
+  },
+  {
+    "id": "F_5a5189a28743cb794c4c",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "dense local features"
+      },
+      "quote": "a new head that outputs dense local features, trained with an additional matching loss",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.150225+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "dense local features"
+            },
+            "quote": "a new head that outputs dense local features, trained with an additional matching loss",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:18.750863+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ed8cf2c40c0cb38009453b98a41ce1db5853bd968542a9884015d161a3062d94",
+    "reviewed_at": "2026-11-16T04:20:56.150252+00:00"
+  },
+  {
+    "id": "F_e87897ab3e9c031f240e",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "pairwise image matching"
+      },
+      "quote": "this paper, we focus on this core task and aim at producing, given two images,\na list of pairwise correspondences, denoted as matches.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.156017+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "pairwise image matching"
+            },
+            "quote": "this paper, we focus on this core task and aim at producing, given two images,\na list of pairwise correspondences, denoted as matches.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.829733+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T04:20:56.156044+00:00"
+  },
+  {
+    "id": "F_2afe281fc85c68a62d5b",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SIFT"
+      },
+      "quote": "This explains the success\nand persistence of SIFT [54] in 3D reconstruction pipelines like COLMAP [81].",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.161816+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SIFT"
+            },
+            "quote": "This explains the success\nand persistence of SIFT [54] in 3D reconstruction pipelines like COLMAP [81].",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.829975+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T04:20:56.161848+00:00"
+  },
+  {
+    "id": "F_e8d264bc41c2e6965a48",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "COLMAP"
+      },
+      "quote": "This explains the success\nand persistence of SIFT [54] in 3D reconstruction pipelines like COLMAP [81].",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.173536+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "COLMAP"
+            },
+            "quote": "This explains the success\nand persistence of SIFT [54] in 3D reconstruction pipelines like COLMAP [81].",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.830171+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T04:20:56.173562+00:00"
+  },
+  {
+    "id": "F_e92b80d2291b4f5b4566",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SuperGlue"
+      },
+      "quote": "which SuperGlue and similar methods successfully implemented [53,78].",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.185415+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SuperGlue"
+            },
+            "quote": "which SuperGlue and similar methods successfully implemented [53,78].",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.830360+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T04:20:56.185441+00:00"
+  },
+  {
+    "id": "F_7437f075c7c82d4c886b",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "LoFTR"
+      },
+      "quote": "Such approaches,\nlike LoFTR [87], thus consider images as a whole",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.206097+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "LoFTR"
+            },
+            "quote": "Such approaches,\nlike LoFTR [87], thus consider images as a whole",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.830545+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T04:20:56.206124+00:00"
+  },
+  {
+    "id": "F_d5c766e6cbff511361f7",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "the current top-performer on the Map-free benchmark\nis DUSt3R [106]",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.212164+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "the current top-performer on the Map-free benchmark\nis DUSt3R [106]",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.830729+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T04:20:56.212191+00:00"
+  },
+  {
+    "id": "F_4ed12033faf399caf4ec",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "LoFTR"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Map-free localization benchmark"
+      },
+      "quote": "even a top-performing methods like LoFTR [87] score a rela-\ntively disappointing VCRE precision of 34% on the Map-free localization bench-\nmark.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.262355+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "LoFTR"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Map-free localization benchmark"
+            },
+            "quote": "even a top-performing methods like LoFTR [87] score a rela-\ntively disappointing VCRE precision of 34% on the Map-free localization bench-\nmark.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.830921+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T04:20:56.262382+00:00"
+  },
+  {
+    "id": "F_2a976e5d91f5efc9796c",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "LoFTR"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "VCRE precision"
+      },
+      "quote": "score a rela-\ntively disappointing VCRE precision of 34%",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:10:28.257089+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "LoFTR"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "VCRE precision"
+            },
+            "quote": "score a rela-\ntively disappointing VCRE precision of 34%",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.831107+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T10:10:28.257169+00:00"
+  },
+  {
+    "id": "F_1076459b5210f62304f9",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Map-free localization benchmark"
+      },
+      "quote": "the current top-performer on the Map-free benchmark\nis DUSt3R [106]",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:10:28.264397+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Map-free localization benchmark"
+            },
+            "quote": "the current top-performer on the Map-free benchmark\nis DUSt3R [106]",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:21.831291+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0ff9cf7fef82681954b2832d05853cbaff52a64323db2edc85c514937baa9bcc",
+    "reviewed_at": "2026-11-16T10:10:28.264439+00:00"
+  },
+  {
+    "id": "F_fd6a53b6be0fbfdfeb1d",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "2  Related Works",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "quote": "we propose MASt3R, a 3D-aware matching approach building on the recently released DUSt3R framework",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.126269+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "quote": "we propose MASt3R, a 3D-aware matching approach building on the recently released DUSt3R framework",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:24.308388+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ddcd7d57ab86c9b4512c406720362ff91f60ecfdcd1828e63f2746f8c990c65f",
+    "reviewed_at": "2026-11-16T04:20:56.126302+00:00"
+  },
+  {
+    "id": "F_75f4572edfce97842cdd",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "2  Related Works",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "local feature maps"
+      },
+      "quote": "It outputs local feature maps that enable highly accurate and extremely robust matching",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.867781+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "local feature maps"
+            },
+            "quote": "It outputs local feature maps that enable highly accurate and extremely robust matching",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:24.308590+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ddcd7d57ab86c9b4512c406720362ff91f60ecfdcd1828e63f2746f8c990c65f",
+    "reviewed_at": "2026-11-16T10:13:51.867861+00:00"
+  },
+  {
+    "id": "F_f6526307eb207b66dd52",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "2  Related Works",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "coarse-to-fine matching scheme"
+      },
+      "quote": "we propose a coarse-to-fine matching scheme associated with a fast matching algorithm",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.875866+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "coarse-to-fine matching scheme"
+            },
+            "quote": "we propose a coarse-to-fine matching scheme associated with a fast matching algorithm",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:24.308770+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ddcd7d57ab86c9b4512c406720362ff91f60ecfdcd1828e63f2746f8c990c65f",
+    "reviewed_at": "2026-11-16T10:13:51.875910+00:00"
+  },
+  {
+    "id": "F_efb5438c2a2a56abc61e",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "2  Related Works",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "InfoNCE loss"
+      },
+      "quote": "regresses dense local feature maps, and train it with an InfoNCE loss",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.883274+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "InfoNCE loss"
+            },
+            "quote": "regresses dense local feature maps, and train it with an InfoNCE loss",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:24.309092+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ddcd7d57ab86c9b4512c406720362ff91f60ecfdcd1828e63f2746f8c990c65f",
+    "reviewed_at": "2026-11-16T10:13:51.883314+00:00"
+  },
+  {
+    "id": "F_901d17326eaf15f8fc15",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "2  Related Works",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DUSt3R"
+      },
+      "quote": "a 3D-aware matching approach building on the recently released DUSt3R framework",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.890390+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DUSt3R"
+            },
+            "quote": "a 3D-aware matching approach building on the recently released DUSt3R framework",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:24.309257+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ddcd7d57ab86c9b4512c406720362ff91f60ecfdcd1828e63f2746f8c990c65f",
+    "reviewed_at": "2026-11-16T10:13:51.890429+00:00"
+  },
+  {
+    "id": "F_8543cb742749533f01c9",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "2  Related Works",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "building on the recently released DUSt3R framework",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.218357+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "building on the recently released DUSt3R framework",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:24.309425+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ddcd7d57ab86c9b4512c406720362ff91f60ecfdcd1828e63f2746f8c990c65f",
+    "reviewed_at": "2026-11-16T04:20:56.218385+00:00"
+  },
+  {
+    "id": "F_aa13c6ad7d2547348322",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "2  Related Works",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SIFT"
+      },
+      "quote": "Departing from the former handcrafted methods like SIFT",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.167617+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SIFT"
+            },
+            "quote": "Departing from the former handcrafted methods like SIFT",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:24.309591+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ddcd7d57ab86c9b4512c406720362ff91f60ecfdcd1828e63f2746f8c990c65f",
+    "reviewed_at": "2026-11-16T04:20:56.167644+00:00"
+  },
+  {
+    "id": "F_30e2093311a61192176e",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "2  Related Works",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SuperGlue"
+      },
+      "quote": "SuperGlue and similar approaches [53,78] thus propose to perform global reasoning",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.194029+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SuperGlue"
+            },
+            "quote": "SuperGlue and similar approaches [53,78] thus propose to perform global reasoning",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:24.309759+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ddcd7d57ab86c9b4512c406720362ff91f60ecfdcd1828e63f2746f8c990c65f",
+    "reviewed_at": "2026-11-16T04:20:56.194059+00:00"
+  },
+  {
+    "id": "F_e97492b756b07dcb4901",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1        Pointmap",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "quote": "Overview of the proposed approach. Given two input images to match, our network regresses for each image and each input pixel a 3D point, a conﬁdence value and a local feature.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.131989+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "quote": "Overview of the proposed approach. Given two input images to match, our network regresses for each image and each input pixel a 3D point, a conﬁdence value and a local feature.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:27.574194+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c03534a97c3872767d2fab23755d7b32ae3a5bfed8b1bef42496391477af68b6",
+    "reviewed_at": "2026-11-16T04:20:56.132016+00:00"
+  },
+  {
+    "id": "F_7907af7a4d738e03ea0e",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1        Pointmap",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "3D point"
+      },
+      "quote": "our network regresses for each image and each input pixel a 3D point, a conﬁdence value and a local feature",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.904991+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "3D point"
+            },
+            "quote": "our network regresses for each image and each input pixel a 3D point, a conﬁdence value and a local feature",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:27.574398+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c03534a97c3872767d2fab23755d7b32ae3a5bfed8b1bef42496391477af68b6",
+    "reviewed_at": "2026-11-16T10:13:51.905031+00:00"
+  },
+  {
+    "id": "F_739101195cfbd1411408",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1        Pointmap",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "confidence value"
+      },
+      "quote": "our network regresses for each image and each input pixel a 3D point, a conﬁdence value and a local feature",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.912581+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "confidence value"
+            },
+            "quote": "our network regresses for each image and each input pixel a 3D point, a conﬁdence value and a local feature",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:27.574574+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c03534a97c3872767d2fab23755d7b32ae3a5bfed8b1bef42496391477af68b6",
+    "reviewed_at": "2026-11-16T10:13:51.912620+00:00"
+  },
+  {
+    "id": "F_dca524d0321919cdd534",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1        Pointmap",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "local feature"
+      },
+      "quote": "our network regresses for each image and each input pixel a 3D point, a conﬁdence value and a local feature",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.919908+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "local feature"
+            },
+            "quote": "our network regresses for each image and each input pixel a 3D point, a conﬁdence value and a local feature",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:27.574740+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c03534a97c3872767d2fab23755d7b32ae3a5bfed8b1bef42496391477af68b6",
+    "reviewed_at": "2026-11-16T10:13:51.919946+00:00"
+  },
+  {
+    "id": "F_efe56688f3ef67b5a4d0",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1        Pointmap",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "fast reciprocal NN matcher"
+      },
+      "quote": "Plugging either 3D points or local features into our fast reciprocal NN matcher (3.3) yields robust correspondences.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.927259+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "fast reciprocal NN matcher"
+            },
+            "quote": "Plugging either 3D points or local features into our fast reciprocal NN matcher (3.3) yields robust correspondences.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:27.574907+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c03534a97c3872767d2fab23755d7b32ae3a5bfed8b1bef42496391477af68b6",
+    "reviewed_at": "2026-11-16T10:13:51.927298+00:00"
+  },
+  {
+    "id": "F_d291a2ed4531d4863602",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1        Pointmap",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "Compared to the DUSt3R framework which we build upon, our contributions are highlighted in blue.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.224533+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "Compared to the DUSt3R framework which we build upon, our contributions are highlighted in blue.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:27.575065+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c03534a97c3872767d2fab23755d7b32ae3a5bfed8b1bef42496391477af68b6",
+    "reviewed_at": "2026-11-16T04:20:56.224560+00:00"
+  },
+  {
+    "id": "F_095f6a77c1e823de879d",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1        Pointmap",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "Finally, the recent DUSt3R [106] explore the possibility of recovering correspondences from the a-priori harder task of 3D reconstruction from uncalibrated images.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.230780+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "Finally, the recent DUSt3R [106] explore the possibility of recovering correspondences from the a-priori harder task of 3D reconstruction from uncalibrated images.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:27.575227+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c03534a97c3872767d2fab23755d7b32ae3a5bfed8b1bef42496391477af68b6",
+    "reviewed_at": "2026-11-16T04:20:56.230808+00:00"
+  },
+  {
+    "id": "F_5afd4d0fca213ec560b0",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "1        Pointmap",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "regressing local features and explicitly training them for pairwise matching"
+      },
+      "quote": "Our contribution is to pursue this idea, by regressing local features and explicitly training them for pairwise matching.",
+      "page": 4
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:14:30.336804+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "regressing local features and explicitly training them for pairwise matching"
+            },
+            "quote": "Our contribution is to pursue this idea, by regressing local features and explicitly training them for pairwise matching.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:27.575530+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c03534a97c3872767d2fab23755d7b32ae3a5bfed8b1bef42496391477af68b6",
+    "reviewed_at": "2026-11-16T10:14:30.336880+00:00"
+  },
+  {
+    "id": "F_f74f9eafa64dad1a0134",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "3.3  Fast Reciprocal Matching",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Fast Reciprocal Matching"
+      },
+      "quote": "We therefore propose a faster approach based on sub-sampling.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:15:53.539158+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Fast Reciprocal Matching"
+            },
+            "quote": "We therefore propose a faster approach based on sub-sampling.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:41.139234+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9e7de53efb6dfa3256724a26a0ff389e7f250d5fda89029854224b355358e0cb",
+    "reviewed_at": "2026-11-16T10:15:53.539232+00:00"
+  },
+  {
+    "id": "F_ee3e23d4d80c6ea48f66",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "3.3  Fast Reciprocal Matching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Fast Reciprocal Matching"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "reciprocal matching"
+      },
+      "quote": "naive implementation of reciprocal matching has a high com-putational complexity of O(W 2H2)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:15:53.547004+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Fast Reciprocal Matching"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "reciprocal matching"
+            },
+            "quote": "naive implementation of reciprocal matching has a high com-putational complexity of O(W 2H2)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:41.139478+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9e7de53efb6dfa3256724a26a0ff389e7f250d5fda89029854224b355358e0cb",
+    "reviewed_at": "2026-11-16T10:15:53.547044+00:00"
+  },
+  {
+    "id": "F_440f6ef119f324cfa5ae",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "3.3  Fast Reciprocal Matching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Fast Reciprocal Matching"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "pixel correspondences"
+      },
+      "quote": "the output set of correspondences consists of the concatenation of all reciprocal pairs Mk =",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:15:53.554515+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Fast Reciprocal Matching"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "pixel correspondences"
+            },
+            "quote": "the output set of correspondences consists of the concatenation of all reciprocal pairs Mk =",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:41.139686+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9e7de53efb6dfa3256724a26a0ff389e7f250d5fda89029854224b355358e0cb",
+    "reviewed_at": "2026-11-16T10:15:53.554554+00:00"
+  },
+  {
+    "id": "F_ed1a13e8bfdcc6da3e63",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "3.3  Fast Reciprocal Matching",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "K-d trees [1]"
+      },
+      "quote": "using K-d trees [1]",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:15:53.562022+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "K-d trees [1]"
+            },
+            "quote": "using K-d trees [1]",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:41.139879+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9e7de53efb6dfa3256724a26a0ff389e7f250d5fda89029854224b355358e0cb",
+    "reviewed_at": "2026-11-16T10:15:53.562060+00:00"
+  },
+  {
+    "id": "F_67d24401e9aa4d1662be",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "3.3  Fast Reciprocal Matching",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Map-free dataset"
+      },
+      "quote": "Performance-versus-time trade-oﬀon the Map-free dataset.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:15:53.569456+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Map-free dataset"
+            },
+            "quote": "Performance-versus-time trade-oﬀon the Map-free dataset.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:43.423278+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c8b5d57ee5a73bde5b94a37e5b030ad24e5ce13bea027bb74d8adf1ae2e4a618",
+    "reviewed_at": "2026-11-16T10:15:53.569497+00:00"
+  },
+  {
+    "id": "F_30913b26aa38b0f9b4c8",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "3.3  Fast Reciprocal Matching",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "[66]"
+      },
+      "quote": "ViTs do not generalize yet to larger test-time resolutions [66,69].",
+      "page": 8
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:15:57.981849+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "[66]"
+            },
+            "quote": "ViTs do not generalize yet to larger test-time resolutions [66,69].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:43.423518+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c8b5d57ee5a73bde5b94a37e5b030ad24e5ce13bea027bb74d8adf1ae2e4a618",
+    "reviewed_at": "2026-11-16T10:15:57.981916+00:00"
+  },
+  {
+    "id": "F_ea1beeedee64fded1f4d",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "3.3  Fast Reciprocal Matching",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "[69]"
+      },
+      "quote": "ViTs do not generalize yet to larger test-time resolutions [66,69].",
+      "page": 8
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:15:57.989855+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "[69]"
+            },
+            "quote": "ViTs do not generalize yet to larger test-time resolutions [66,69].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:43.423721+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c8b5d57ee5a73bde5b94a37e5b030ad24e5ce13bea027bb74d8adf1ae2e4a618",
+    "reviewed_at": "2026-11-16T10:15:57.989898+00:00"
+  },
+  {
+    "id": "F_9ef69993075eb368ca1f",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Habitat"
+      },
+      "quote": "We train our network with a mixture of 14 datasets: Habitat [79],",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:54.967286+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Habitat"
+            },
+            "quote": "We train our network with a mixture of 14 datasets: Habitat [79],",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.573762+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:54.967362+00:00"
+  },
+  {
+    "id": "F_1c2a5ab87e9e5cc38648",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ARKitScenes"
+      },
+      "quote": "ARKitScenes [20], Blended MVS [115], MegaDepth [50]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:54.975475+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ARKitScenes"
+            },
+            "quote": "ARKitScenes [20], Blended MVS [115], MegaDepth [50]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.573972+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:54.975519+00:00"
+  },
+  {
+    "id": "F_554380713810dca6af9e",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Blended MVS"
+      },
+      "quote": "ARKitScenes [20], Blended MVS [115], MegaDepth [50]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:54.983277+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Blended MVS"
+            },
+            "quote": "ARKitScenes [20], Blended MVS [115], MegaDepth [50]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.574128+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:54.983315+00:00"
+  },
+  {
+    "id": "F_0d68591a29d2e988a482",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MegaDepth"
+      },
+      "quote": "ARKitScenes [20], Blended MVS [115], MegaDepth [50]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:54.994832+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MegaDepth"
+            },
+            "quote": "ARKitScenes [20], Blended MVS [115], MegaDepth [50]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.574275+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:54.994873+00:00"
+  },
+  {
+    "id": "F_17046d6c4637d9936ccb",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Static Scenes 3D"
+      },
+      "quote": "Static Scenes 3D [59], ScanNet++ [117], CO3D-v2 [71]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.002667+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Static Scenes 3D"
+            },
+            "quote": "Static Scenes 3D [59], ScanNet++ [117], CO3D-v2 [71]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.574428+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:55.002707+00:00"
+  },
+  {
+    "id": "F_dea85da8c4e6ac774ee7",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet++"
+      },
+      "quote": "Static Scenes 3D [59], ScanNet++ [117], CO3D-v2 [71]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.010430+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet++"
+            },
+            "quote": "Static Scenes 3D [59], ScanNet++ [117], CO3D-v2 [71]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.574588+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:55.010468+00:00"
+  },
+  {
+    "id": "F_b7ec9910f5eb49e4e265",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "CO3D-v2"
+      },
+      "quote": "Static Scenes 3D [59], ScanNet++ [117], CO3D-v2 [71]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.018301+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "CO3D-v2"
+            },
+            "quote": "Static Scenes 3D [59], ScanNet++ [117], CO3D-v2 [71]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.574746+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:55.018338+00:00"
+  },
+  {
+    "id": "F_71f0f1b9d56e2bf50c6f",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Waymo"
+      },
+      "quote": "Waymo [88], Map-free [5], WildRgb [2]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.026109+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Waymo"
+            },
+            "quote": "Waymo [88], Map-free [5], WildRgb [2]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.574904+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:55.026150+00:00"
+  },
+  {
+    "id": "F_4abc862c5b536f0a5a72",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Map-free"
+      },
+      "quote": "Waymo [88], Map-free [5], WildRgb [2]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.033970+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Map-free"
+            },
+            "quote": "Waymo [88], Map-free [5], WildRgb [2]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.575059+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:55.034008+00:00"
+  },
+  {
+    "id": "F_efc3e2abc6ca99e8405a",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "WildRgb"
+      },
+      "quote": "Waymo [88], Map-free [5], WildRgb [2]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.041892+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "WildRgb"
+            },
+            "quote": "Waymo [88], Map-free [5], WildRgb [2]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.575209+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:55.041930+00:00"
+  },
+  {
+    "id": "F_cc5fcc5c0c2f071ed3fd",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DUSt3R"
+      },
+      "quote": "We base our model architecture on the public DUSt3R model [106]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:13:51.897451+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DUSt3R"
+            },
+            "quote": "We base our model architecture on the public DUSt3R model [106]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.575773+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:13:51.897491+00:00"
+  },
+  {
+    "id": "F_52fb9283c49c25405e24",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT-Large encoder"
+      },
+      "quote": "use the same backbone (ViT-Large encoder and ViT-Base decoder)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.049829+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT-Large encoder"
+            },
+            "quote": "use the same backbone (ViT-Large encoder and ViT-Base decoder)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.575931+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:55.049868+00:00"
+  },
+  {
+    "id": "F_3d774e958ac4a695013f",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT-Base decoder"
+      },
+      "quote": "use the same backbone (ViT-Large encoder and ViT-Base decoder)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.057828+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT-Base decoder"
+            },
+            "quote": "use the same backbone (ViT-Large encoder and ViT-Base decoder)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.576084+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:55.057867+00:00"
+  },
+  {
+    "id": "F_b868ca7a13810eb35784",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "We base our model architecture on the public DUSt3R model [106]",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.236998+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "We base our model architecture on the public DUSt3R model [106]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.576238+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T04:20:56.237025+00:00"
+  },
+  {
+    "id": "F_fb610e672508f7695639",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Map-Free Relocalization Benchmark"
+      },
+      "quote": "visual camera pose estimation on the Map-Free Relocalization Benchmark [5]",
+      "page": 9
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:58.024077+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Map-Free Relocalization Benchmark"
+            },
+            "quote": "visual camera pose estimation on the Map-Free Relocalization Benchmark [5]",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:48.576396+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9d828abcc7ef9fde5f68927b1af77c74362475551b2088e4ec6dd952919fdfaa",
+    "reviewed_at": "2026-11-16T10:16:58.024176+00:00"
+  },
+  {
+    "id": "F_ad67fa00c9ee3ad29035",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Map-free relocalization benchmark"
+      },
+      "quote": "We start our experiments with the Map-free relocalization benchmark [5]",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:16:55.065843+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Map-free relocalization benchmark"
+            },
+            "quote": "We start our experiments with the Map-free relocalization benchmark [5]",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:50.872789+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "dd29119394533c2caf8dc38217d541d8e8019645345f30141eafc990d4c5597b",
+    "reviewed_at": "2026-11-16T10:16:55.065882+00:00"
+  },
+  {
+    "id": "F_a83616c88dca82038d8c",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Virtual Correspondence Reprojection Error (VCRE)"
+      },
+      "quote": "we evaluate in term of Virtual Correspondence Reprojection Error (VCRE)",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:51.926434+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Virtual Correspondence Reprojection Error (VCRE)"
+            },
+            "quote": "we evaluate in term of Virtual Correspondence Reprojection Error (VCRE)",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:50.873000+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "dd29119394533c2caf8dc38217d541d8e8019645345f30141eafc990d4c5597b",
+    "reviewed_at": "2026-11-16T10:18:51.926510+00:00"
+  },
+  {
+    "id": "F_73abe56a6452343b8ed2",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "camera pose accuracy"
+      },
+      "quote": "we evaluate in term of Virtual Correspondence Reprojection Error (VCRE) and camera pose accuracy",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:51.935730+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "camera pose accuracy"
+            },
+            "quote": "we evaluate in term of Virtual Correspondence Reprojection Error (VCRE) and camera pose accuracy",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:50.873182+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "dd29119394533c2caf8dc38217d541d8e8019645345f30141eafc990d4c5597b",
+    "reviewed_at": "2026-11-16T10:18:51.935776+00:00"
+  },
+  {
+    "id": "F_f9c49f84626eadbcf9ff",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "FAISS library"
+      },
+      "quote": "we rely on the optimized FAISS library [25,47] in this case",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:51.946013+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "FAISS library"
+            },
+            "quote": "we rely on the optimized FAISS library [25,47] in this case",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:50.873509+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "dd29119394533c2caf8dc38217d541d8e8019645345f30141eafc990d4c5597b",
+    "reviewed_at": "2026-11-16T10:18:51.946053+00:00"
+  },
+  {
+    "id": "F_16ca744e2670cca882fb",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.1  Training",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "DUSt3R matching 3D points (I); MASt3R also matching 3D points",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.243276+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "DUSt3R matching 3D points (I); MASt3R also matching 3D points",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:31:50.873676+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "dd29119394533c2caf8dc38217d541d8e8019645345f30141eafc990d4c5597b",
+    "reviewed_at": "2026-11-16T04:20:56.243302+00:00"
+  },
+  {
+    "id": "F_48f6d38044c8bbc7ca2d",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "CO3Dv2"
+      },
+      "quote": "we evaluate\nMASt3R on 41 categories from CO3Dv2",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:51.954262+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "CO3Dv2"
+            },
+            "quote": "we evaluate\nMASt3R on 41 categories from CO3Dv2",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.455330+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:51.954302+00:00"
+  },
+  {
+    "id": "F_79abcd2abc2c48007aa5",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "RealEstate10k"
+      },
+      "quote": "1.8K video clips from the test set\nof RealEstate10k",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:51.962541+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "RealEstate10k"
+            },
+            "quote": "1.8K video clips from the test set\nof RealEstate10k",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.455571+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:51.962581+00:00"
+  },
+  {
+    "id": "F_c7b7629904e363385712",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RRA@15"
+      },
+      "quote": "we\nreport the Relative Rotation Accuracy (RRA) and Relative Translation Accu-\nracy (RTA)",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:51.971478+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RRA@15"
+            },
+            "quote": "we\nreport the Relative Rotation Accuracy (RRA) and Relative Translation Accu-\nracy (RTA)",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.455785+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:51.971519+00:00"
+  },
+  {
+    "id": "F_d9d344f4aeaabd1439a2",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RTA@15"
+      },
+      "quote": "select a\nthreshold τ = 15 to report RTA@15 and RRA@15",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:51.994941+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RTA@15"
+            },
+            "quote": "select a\nthreshold τ = 15 to report RTA@15 and RRA@15",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.455994+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:51.994989+00:00"
+  },
+  {
+    "id": "F_e3d87c3318ccac948704",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "mAA30"
+      },
+      "quote": "we calculate\nthe mean Average Accuracy (mAA30)",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.035539+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "mAA30"
+            },
+            "quote": "we calculate\nthe mean Average Accuracy (mAA30)",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.456190+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:52.035591+00:00"
+  },
+  {
+    "id": "F_3c53fb77faaa964eca87",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DTU"
+      },
+      "quote": "Dense MVS results on the DTU dataset",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.049693+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DTU"
+            },
+            "quote": "Dense MVS results on the DTU dataset",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.456386+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:52.049754+00:00"
+  },
+  {
+    "id": "F_ec2d04aab0ba226821bf",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "the recent RayDiﬀ[119] and DUSt3R [106]",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.249582+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "the recent RayDiﬀ[119] and DUSt3R [106]",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.456591+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T04:20:56.249609+00:00"
+  },
+  {
+    "id": "F_998248ca7ef21cb0a24b",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "RayDiﬀ"
+      },
+      "quote": "the recent RayDiﬀ[119] and DUSt3R [106]",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.092086+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "RayDiﬀ"
+            },
+            "quote": "the recent RayDiﬀ[119] and DUSt3R [106]",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.456786+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:52.092125+00:00"
+  },
+  {
+    "id": "F_50bd1e9139b10276fbe9",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "RelPose"
+      },
+      "quote": "We compare to recent data-driven\napproaches like RelPose [120]",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.100630+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "RelPose"
+            },
+            "quote": "We compare to recent data-driven\napproaches like RelPose [120]",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.456986+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:52.100668+00:00"
+  },
+  {
+    "id": "F_533aa86171cc22477671",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "PoseDiﬀ"
+      },
+      "quote": "PoseReg and PoseDiﬀ[104]",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.109075+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "PoseDiﬀ"
+            },
+            "quote": "PoseReg and PoseDiﬀ[104]",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.457180+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:52.109114+00:00"
+  },
+  {
+    "id": "F_b5ed52e37b901318e6b1",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "COLMAP"
+      },
+      "quote": "traditional SfM methods like PixSFM [52] and COLMAP [82]",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.179489+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "COLMAP"
+            },
+            "quote": "traditional SfM methods like PixSFM [52] and COLMAP [82]",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.457371+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T04:20:56.179515+00:00"
+  },
+  {
+    "id": "F_f2509df5f4624689a1df",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SuperPoint"
+      },
+      "quote": "extended with\nSuperPoint [21] and SuperGlue [78]",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.117544+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SuperPoint"
+            },
+            "quote": "extended with\nSuperPoint [21] and SuperGlue [78]",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.457563+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T10:18:52.117580+00:00"
+  },
+  {
+    "id": "F_b166f41a18b5d163fe92",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.3  Relative Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SuperGlue"
+      },
+      "quote": "SuperPoint [21] and SuperGlue [78]",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.200071+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SuperGlue"
+            },
+            "quote": "SuperPoint [21] and SuperGlue [78]",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:04.457752+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "102c06c23a1a6d8b8d52c1d0bb9bfcdc6db217f534e6a2c559d197187a2718dc",
+    "reviewed_at": "2026-11-16T04:20:56.200098+00:00"
+  },
+  {
+    "id": "F_cbeb23bbc39aebd6aeb2",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.4  Visual Localization",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Aachen Day-Night"
+      },
+      "quote": "We then evaluate MASt3R for the task of absolute pose estimation on the Aachen Day-Night [123] and InLoc [89] datasets.",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.125974+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Aachen Day-Night"
+            },
+            "quote": "We then evaluate MASt3R for the task of absolute pose estimation on the Aachen Day-Night [123] and InLoc [89] datasets.",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:07.103288+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "16a79d79939a8b114337e35ef0868508e2ea4c1dc99a1b2f04ec9cdab63244b9",
+    "reviewed_at": "2026-11-16T10:18:52.126011+00:00"
+  },
+  {
+    "id": "F_2b2f647a4627c5c1c0f8",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.4  Visual Localization",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "InLoc"
+      },
+      "quote": "We then evaluate MASt3R for the task of absolute pose estimation on the Aachen Day-Night [123] and InLoc [89] datasets.",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.134524+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "InLoc"
+            },
+            "quote": "We then evaluate MASt3R for the task of absolute pose estimation on the Aachen Day-Night [123] and InLoc [89] datasets.",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:07.103562+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "16a79d79939a8b114337e35ef0868508e2ea4c1dc99a1b2f04ec9cdab63244b9",
+    "reviewed_at": "2026-11-16T10:18:52.134560+00:00"
+  },
+  {
+    "id": "F_da444943a6f4ae11ecb6",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.4  Visual Localization",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "absolute pose estimation"
+      },
+      "quote": "We then evaluate MASt3R for the task of absolute pose estimation",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.142955+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "absolute pose estimation"
+            },
+            "quote": "We then evaluate MASt3R for the task of absolute pose estimation",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:07.103794+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "16a79d79939a8b114337e35ef0868508e2ea4c1dc99a1b2f04ec9cdab63244b9",
+    "reviewed_at": "2026-11-16T10:18:52.142994+00:00"
+  },
+  {
+    "id": "F_6d235616aa61eae26c0b",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.4  Visual Localization",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "percentage of successfully localized images"
+      },
+      "quote": "We report the percentage of successfully localized images within three thresholds",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:20:18.939332+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "percentage of successfully localized images within pose thresholds"
+            },
+            "quote": "We report the percentage of successfully localized images within three thresholds",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-16T10:20:52.681014+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "percentage of successfully localized images"
+            },
+            "quote": "We report the percentage of successfully localized images within three thresholds",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:07.104019+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "16a79d79939a8b114337e35ef0868508e2ea4c1dc99a1b2f04ec9cdab63244b9",
+    "reviewed_at": "2026-11-16T10:20:52.681094+00:00"
+  },
+  {
+    "id": "F_9e0e57936f23534de2b3",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.4  Visual Localization",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Aachen Day-Night"
+      },
+      "quote": "on the Aachen Day-Night [123] and InLoc [89] datasets",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:20:52.691373+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Aachen Day-Night"
+            },
+            "quote": "on the Aachen Day-Night [123] and InLoc [89] datasets",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:07.104232+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "16a79d79939a8b114337e35ef0868508e2ea4c1dc99a1b2f04ec9cdab63244b9",
+    "reviewed_at": "2026-11-16T10:20:52.691413+00:00"
+  },
+  {
+    "id": "F_8663378d44d3257996bf",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "4.4  Visual Localization",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "InLoc"
+      },
+      "quote": "on the Aachen Day-Night [123] and InLoc [89] datasets",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:20:52.700105+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "InLoc"
+            },
+            "quote": "on the Aachen Day-Night [123] and InLoc [89] datasets",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:07.104441+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "16a79d79939a8b114337e35ef0868508e2ea4c1dc99a1b2f04ec9cdab63244b9",
+    "reviewed_at": "2026-11-16T10:20:52.700144+00:00"
+  },
+  {
+    "id": "F_5da95a3b5d52fed7265e",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DTU"
+      },
+      "quote": "We evaluate our predictions on the DTU [3] dataset.",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:18:52.081890+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DTU"
+            },
+            "quote": "We evaluate our predictions on the DTU [3] dataset.",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:09.943553+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cdf3c66c514cc26aed87e5b9c3776b5d666c58a3e33230d5f2aa4488dc4ad890",
+    "reviewed_at": "2026-11-16T10:18:52.081939+00:00"
+  },
+  {
+    "id": "F_c9f8c43ee5ec62b541ac",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Chamfer distance"
+      },
+      "quote": "we report the average accuracy, completeness and Chamfer distances error metrics",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:20:52.709091+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Chamfer distance"
+            },
+            "quote": "we report the average accuracy, completeness and Chamfer distances error metrics",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:09.943745+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cdf3c66c514cc26aed87e5b9c3776b5d666c58a3e33230d5f2aa4488dc4ad890",
+    "reviewed_at": "2026-11-16T10:20:52.709131+00:00"
+  },
+  {
+    "id": "F_53e1fb95ed4e90007cad",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "accuracy"
+      },
+      "quote": "we report the average accuracy, completeness and Chamfer distances error metrics",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:20:52.717974+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "accuracy"
+            },
+            "quote": "we report the average accuracy, completeness and Chamfer distances error metrics",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:09.943908+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cdf3c66c514cc26aed87e5b9c3776b5d666c58a3e33230d5f2aa4488dc4ad890",
+    "reviewed_at": "2026-11-16T10:20:52.718014+00:00"
+  },
+  {
+    "id": "F_ee2c6e593e8c13034bed",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "completeness"
+      },
+      "quote": "we report the average accuracy, completeness and Chamfer distances error metrics",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:20:52.726998+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "completeness"
+            },
+            "quote": "we report the average accuracy, completeness and Chamfer distances error metrics",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:09.944062+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cdf3c66c514cc26aed87e5b9c3776b5d666c58a3e33230d5f2aa4488dc4ad890",
+    "reviewed_at": "2026-11-16T10:20:52.727038+00:00"
+  },
+  {
+    "id": "F_75b7c840da63c428f1c4",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "MASt3R not only outperforms the DUSt3R baseline",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:20:56.255951+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "MASt3R not only outperforms the DUSt3R baseline",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:09.944213+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cdf3c66c514cc26aed87e5b9c3776b5d666c58a3e33230d5f2aa4488dc4ad890",
+    "reviewed_at": "2026-11-16T04:20:56.255978+00:00"
+  },
+  {
+    "id": "F_0ccf51a5dba5924972dd",
+    "paper_id": "P004",
+    "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Large-scale data for multiple-view stereopsis"
+      },
+      "quote": "Aanæs, H., Jensen, R.R., Vogiatzis, G., Tola, E., Dahl, A.B.: Large-scale data for multiple-view stereopsis.",
+      "page": 15
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T10:20:56.183812+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Large-scale data for multiple-view stereopsis"
+            },
+            "quote": "Aanæs, H., Jensen, R.R., Vogiatzis, G., Tola, E., Dahl, A.B.: Large-scale data for multiple-view stereopsis.",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:32:09.944378+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cdf3c66c514cc26aed87e5b9c3776b5d666c58a3e33230d5f2aa4488dc4ad890",
+    "reviewed_at": "2026-11-16T10:20:56.183883+00:00"
+  }
+]

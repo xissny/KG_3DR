@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "F_4d08b20fdde76d8164b4",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera parameters"
+      },
+      "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.412854+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera parameters"
+            },
+            "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:43.487109+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "643ef7bec48c214e6f744dc15669d9733bd5f9a9516f8c9f0ee19ac51f7d2144",
+    "reviewed_at": "2026-11-11T09:54:56.412925+00:00"
+  },
+  {
+    "id": "F_c02ba1d1dffac6c9d324",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "point maps"
+      },
+      "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.417713+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "point maps"
+            },
+            "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:43.487292+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "643ef7bec48c214e6f744dc15669d9733bd5f9a9516f8c9f0ee19ac51f7d2144",
+    "reviewed_at": "2026-11-11T09:54:56.417780+00:00"
+  },
+  {
+    "id": "F_f3d0a23ef5711d5f0a52",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth maps"
+      },
+      "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.423086+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth maps"
+            },
+            "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:43.487464+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "643ef7bec48c214e6f744dc15669d9733bd5f9a9516f8c9f0ee19ac51f7d2144",
+    "reviewed_at": "2026-11-11T09:54:56.423118+00:00"
+  },
+  {
+    "id": "F_31db4cbc84ae29945134",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "point tracks"
+      },
+      "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.426899+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "point tracks"
+            },
+            "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:43.487621+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "643ef7bec48c214e6f744dc15669d9733bd5f9a9516f8c9f0ee19ac51f7d2144",
+    "reviewed_at": "2026-11-11T09:54:56.426928+00:00"
+  },
+  {
+    "id": "F_8a874f40d661ac5cc013",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "3D-annotated data"
+      },
+      "quote": "trained on a trove of 3D-annotated data",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.430657+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "3D-annotated data"
+            },
+            "quote": "trained on a trove of 3D-annotated data",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:43.487775+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "643ef7bec48c214e6f744dc15669d9733bd5f9a9516f8c9f0ee19ac51f7d2144",
+    "reviewed_at": "2026-11-11T09:54:56.430684+00:00"
+  },
+  {
+    "id": "F_029f76a43a149005c6e5",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "Recent contributions like DUSt3R [129] and its evolution",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.434403+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "Recent contributions like DUSt3R [129] and its evolution",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:43.488060+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "643ef7bec48c214e6f744dc15669d9733bd5f9a9516f8c9f0ee19ac51f7d2144",
+    "reviewed_at": "2026-11-11T09:54:56.434431+00:00"
+  },
+  {
+    "id": "F_e66826b5239119a2e11e",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "TAPTR"
+      },
+      "quote": "Recently, TAPTR [63] proposed",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.454789+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "TAPTR"
+            },
+            "quote": "Recently, TAPTR [63] proposed",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:48.632602+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f2e2487139623bcc690a77a0afc4f81f23acaf09ea07b241630aeec22916ec90",
+    "reviewed_at": "2026-11-11T09:54:56.454816+00:00"
+  },
+  {
+    "id": "F_aec1b06b6349284087e2",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DINO"
+      },
+      "quote": "Our model first patchifies the input images into tokens by DINO",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.458926+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DINO"
+            },
+            "quote": "Our model first patchifies the input images into tokens by DINO",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:56.331080+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc035964c505d998cabe0b5f1a41d529aa81cfa6620ac9ee215507e46ce39328",
+    "reviewed_at": "2026-11-11T09:54:56.458958+00:00"
+  },
+  {
+    "id": "F_8337ba9be1da81d53bc6",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Global Attention"
+      },
+      "quote": "It then alternates between frame-wise and global self attention layers.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.463099+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Global Attention"
+            },
+            "quote": "It then alternates between frame-wise and global self attention layers.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:56.331363+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc035964c505d998cabe0b5f1a41d529aa81cfa6620ac9ee215507e46ce39328",
+    "reviewed_at": "2026-11-11T09:54:56.463126+00:00"
+  },
+  {
+    "id": "F_a046e14c6b5fbd3818e1",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Frame Attention"
+      },
+      "quote": "It then alternates between frame-wise and global self attention layers.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.467261+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Frame Attention"
+            },
+            "quote": "It then alternates between frame-wise and global self attention layers.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:56.331606+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc035964c505d998cabe0b5f1a41d529aa81cfa6620ac9ee215507e46ce39328",
+    "reviewed_at": "2026-11-11T09:54:56.467287+00:00"
+  },
+  {
+    "id": "F_407e5e84f6628e2174bb",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Camera Head"
+      },
+      "quote": "A camera head makes the final prediction for camera extrinsics and intrinsics",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.471513+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Camera Head"
+            },
+            "quote": "A camera head makes the final prediction for camera extrinsics and intrinsics",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:56.331862+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc035964c505d998cabe0b5f1a41d529aa81cfa6620ac9ee215507e46ce39328",
+    "reviewed_at": "2026-11-11T09:54:56.471541+00:00"
+  },
+  {
+    "id": "F_9b537bc7ba72710da099",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DPT head"
+      },
+      "quote": "and a DPT [87] head for any dense output.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.475827+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DPT head"
+            },
+            "quote": "and a DPT [87] head for any dense output.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:56.332101+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc035964c505d998cabe0b5f1a41d529aa81cfa6620ac9ee215507e46ce39328",
+    "reviewed_at": "2026-11-11T09:54:56.475855+00:00"
+  },
+  {
+    "id": "F_e6933e1273a7f7571780",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "Point map"
+      },
+      "quote": "its point map Pi ∈R3×H×W",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.480207+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "Point map"
+            },
+            "quote": "its point map Pi ∈R3×H×W",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:56.332778+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc035964c505d998cabe0b5f1a41d529aa81cfa6620ac9ee215507e46ce39328",
+    "reviewed_at": "2026-11-11T09:54:56.480235+00:00"
+  },
+  {
+    "id": "F_0582704c8c1b0a581517",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "LocoTrack"
+      },
+      "quote": "an end-to-end transformer for this task, and LocoTrack [13]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.484556+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "LocoTrack"
+            },
+            "quote": "an end-to-end transformer for this task, and LocoTrack [13]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:56.333660+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc035964c505d998cabe0b5f1a41d529aa81cfa6620ac9ee215507e46ce39328",
+    "reviewed_at": "2026-11-11T09:54:56.484584+00:00"
+  },
+  {
+    "id": "F_ff083d9a7c56c13b72f2",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "Qualitative comparison of our predicted 3D points to DUSt3R on in-the-wild images",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.438269+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "Qualitative comparison of our predicted 3D points to DUSt3R on in-the-wild images",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:47:58.895207+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "faa70cd7d5fbac805d881d50e2a9b6705fb9ec67855e60b227ef0ecc109e8862",
+    "reviewed_at": "2026-11-11T09:54:56.438296+00:00"
+  },
+  {
+    "id": "F_5b39169f497d03fe49d5",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CoTracker2"
+      },
+      "quote": "we use the CoTracker2 architecture [57]",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.489131+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CoTracker2"
+            },
+            "quote": "we use the CoTracker2 architecture [57]",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:01.597694+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a1d5fd0894375e19d648b62ada6fa6f90ebccff810596524796f231c02c31483",
+    "reviewed_at": "2026-11-11T09:54:56.489161+00:00"
+  },
+  {
+    "id": "F_95fbc959d7ce997e673a",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "quote": "We train the VGGT model f end-to-end",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.498235+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "quote": "We train the VGGT model f end-to-end",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.425580+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.498261+00:00"
+  },
+  {
+    "id": "F_0f3772aff8ae98b2c98a",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera pose"
+      },
+      "quote": "The camera loss Lcamera supervises the cameras",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.502705+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera pose"
+            },
+            "quote": "The camera loss Lcamera supervises the cameras",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.426585+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.502732+00:00"
+  },
+  {
+    "id": "F_aac959fab3a5febf9f35",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth map"
+      },
+      "quote": "the discrepancy between the predicted depth",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.507237+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth map"
+            },
+            "quote": "the discrepancy between the predicted depth",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.426927+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.507264+00:00"
+  },
+  {
+    "id": "F_a68b512856123df2ca9d",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "BlendMVS"
+      },
+      "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.511769+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "BlendMVS"
+            },
+            "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.427837+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.511796+00:00"
+  },
+  {
+    "id": "F_ab648cc335ecf1d89900",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DL3DV"
+      },
+      "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.516333+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DL3DV"
+            },
+            "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.428151+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.516361+00:00"
+  },
+  {
+    "id": "F_701c5e9278c976e64dd3",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MegaDepth"
+      },
+      "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.520955+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MegaDepth"
+            },
+            "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.428464+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.520981+00:00"
+  },
+  {
+    "id": "F_e186eb436ce2d6b654b0",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Kubric"
+      },
+      "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.525587+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Kubric"
+            },
+            "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.428771+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.525614+00:00"
+  },
+  {
+    "id": "F_7cd89268f09cae9c5f66",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "WildRGB"
+      },
+      "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.530255+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "WildRGB"
+            },
+            "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.429079+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.530283+00:00"
+  },
+  {
+    "id": "F_818d46e2ab8eb7429329",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet"
+      },
+      "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.535036+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet"
+            },
+            "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.429403+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.535063+00:00"
+  },
+  {
+    "id": "F_806294a2a09214405e90",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Aria Digital Twin"
+      },
+      "quote": "Aria Synthetic Environments [82], Aria Digital Twin [82]",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.539805+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Aria Digital Twin"
+            },
+            "quote": "Aria Synthetic Environments [82], Aria Digital Twin [82]",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.431997+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.539833+00:00"
+  },
+  {
+    "id": "F_790f3f95dcc03224e5d1",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "The depth loss Ldepth follows DUSt3R [129]",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.442335+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "The depth loss Ldepth follows DUSt3R [129]",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.433745+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.442362+00:00"
+  },
+  {
+    "id": "F_3026b665fa005617f095",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CoTracker2"
+      },
+      "quote": "following CoTracker2 [57], we apply a visibility loss",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.493760+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CoTracker2"
+            },
+            "quote": "following CoTracker2 [57], we apply a visibility loss",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:08.434359+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "25e3a0ff72ae6322e7be6826bc33b6189f0995bf339cbdd9448a9d8895807b51",
+    "reviewed_at": "2026-11-11T09:54:56.493810+00:00"
+  },
+  {
+    "id": "F_fb3ae9edd12338d19eba",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AUC@30"
+      },
+      "quote": "ric AUC@30, which combines RRA and RTA.",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.544628+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AUC@30"
+            },
+            "quote": "ric AUC@30, which combines RRA and RTA.",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:10.326130+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3d04c1cda36e4810ef51a9ffa166f7883421ec25a9185812bd897c2545efe6b1",
+    "reviewed_at": "2026-11-11T09:54:56.544655+00:00"
+  },
+  {
+    "id": "F_d566c6741cc839f483b0",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "[129]"
+      },
+      "quote": "We follow [129] and, first, express all quantities in",
+      "page": 6
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:55:21.639244+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "[129]"
+            },
+            "quote": "We follow [129] and, first, express all quantities in",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:10.327009+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3d04c1cda36e4810ef51a9ffa166f7883421ec25a9185812bd897c2545efe6b1",
+    "reviewed_at": "2026-11-11T09:55:21.639314+00:00"
+  },
+  {
+    "id": "F_95bca69962b15f2e99d9",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AUC"
+      },
+      "quote": "AUC is the area under the accuracy-threshold curve",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.549445+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AUC"
+            },
+            "quote": "AUC is the area under the accuracy-threshold curve",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:20.605823+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d2f4098b2fa98f6e63d58ec28444281dd185f5499bbc05f413334a0d7ad224eb",
+    "reviewed_at": "2026-11-11T09:54:56.549473+00:00"
+  },
+  {
+    "id": "F_8aa4de4cdcd6babb9786",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Completeness"
+      },
+      "quote": "Completeness (the smallest Euclidean distance from",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.554292+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Completeness"
+            },
+            "quote": "Completeness (the smallest Euclidean distance from",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:20.606132+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d2f4098b2fa98f6e63d58ec28444281dd185f5499bbc05f413334a0d7ad224eb",
+    "reviewed_at": "2026-11-11T09:54:56.554328+00:00"
+  },
+  {
+    "id": "F_6caf2189c869184bea41",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Overall"
+      },
+      "quote": "and their average Overall",
+      "page": 7
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:55:21.646463+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Overall"
+            },
+            "quote": "and their average Overall",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:20.606404+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d2f4098b2fa98f6e63d58ec28444281dd185f5499bbc05f413334a0d7ad224eb",
+    "reviewed_at": "2026-11-11T09:55:21.646499+00:00"
+  },
+  {
+    "id": "F_b5e2e54038cab293eea1",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Chamfer distance"
+      },
+      "quote": "(i.e., Chamfer distance)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.559119+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Chamfer distance"
+            },
+            "quote": "(i.e., Chamfer distance)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:20.606677+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d2f4098b2fa98f6e63d58ec28444281dd185f5499bbc05f413334a0d7ad224eb",
+    "reviewed_at": "2026-11-11T09:54:56.559147+00:00"
+  },
+  {
+    "id": "F_2bf6624f7172087a23e2",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "RealEstate10K"
+      },
+      "quote": "trained on Co3Dv2 and not on RealEstate10K",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.564049+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "RealEstate10K"
+            },
+            "quote": "trained on Co3Dv2 and not on RealEstate10K",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:20.606942+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d2f4098b2fa98f6e63d58ec28444281dd185f5499bbc05f413334a0d7ad224eb",
+    "reviewed_at": "2026-11-11T09:54:56.564077+00:00"
+  },
+  {
+    "id": "F_afd70eeab63daba79e99",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "DUSt3R and our VGGT",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.446325+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "DUSt3R and our VGGT",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:20.607206+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d2f4098b2fa98f6e63d58ec28444281dd185f5499bbc05f413334a0d7ad224eb",
+    "reviewed_at": "2026-11-11T09:54:56.446358+00:00"
+  },
+  {
+    "id": "F_e05cafc276392c848ef8",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "quote": "MASt3R derives depth maps",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.568952+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "quote": "MASt3R derives depth maps",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:20.607468+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d2f4098b2fa98f6e63d58ec28444281dd185f5499bbc05f413334a0d7ad224eb",
+    "reviewed_at": "2026-11-11T09:54:56.568978+00:00"
+  },
+  {
+    "id": "F_7766bed0dad92c7ffb52",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Theseus"
+      },
+      "quote": "differentiable BA in PyTorch using Theseus [85]",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.578954+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Theseus"
+            },
+            "quote": "differentiable BA in PyTorch using Theseus [85]",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:40.918266+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a4abf1aeb3d336d29b84c2bc3351645ca3297b5ee09670b6e9aa32943a982f5e",
+    "reviewed_at": "2026-11-11T09:54:56.578981+00:00"
+  },
+  {
+    "id": "F_9c8367a1ebaf013bb79b",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "3D point tracking"
+      },
+      "quote": "and 3D point tracking. Our simple, neural-first approach",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.584113+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "3D point tracking"
+            },
+            "quote": "and 3D point tracking. Our simple, neural-first approach",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:44.425160+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "efb633e04f3d7ed53b5ca89f605428d31ffff3b6f5be82cdc902787b51158edd",
+    "reviewed_at": "2026-11-11T09:54:56.584141+00:00"
+  },
+  {
+    "id": "F_943a8bda31e6fc7c3e65",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DINOv2"
+      },
+      "quote": "For image tokenization, we use DINOv2 [78] and add positional embedding",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.589144+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DINOv2"
+            },
+            "quote": "For image tokenization, we use DINOv2 [78] and add positional embedding",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:44.425918+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "efb633e04f3d7ed53b5ca89f605428d31ffff3b6f5be82cdc902787b51158edd",
+    "reviewed_at": "2026-11-11T09:54:56.589172+00:00"
+  },
+  {
+    "id": "F_3a2c0c79945f689cc0bb",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DPT"
+      },
+      "quote": "we feed the tokens from the 4-th, 11-th, 17-th, and 23-rd block into DPT [87] for upsampling",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.594250+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DPT"
+            },
+            "quote": "we feed the tokens from the 4-th, 11-th, 17-th, and 23-rd block into DPT [87] for upsampling",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:44.426177+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "efb633e04f3d7ed53b5ca89f605428d31ffff3b6f5be82cdc902787b51158edd",
+    "reviewed_at": "2026-11-11T09:54:56.594278+00:00"
+  },
+  {
+    "id": "F_f163604efd77fffb3992",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "QKNorm"
+      },
+      "quote": "To stabilize training, we also use QKNorm [48] and LayerScale [115]",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.599288+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "QKNorm"
+            },
+            "quote": "To stabilize training, we also use QKNorm [48] and LayerScale [115]",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:44.426422+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "efb633e04f3d7ed53b5ca89f605428d31ffff3b6f5be82cdc902787b51158edd",
+    "reviewed_at": "2026-11-11T09:54:56.599314+00:00"
+  },
+  {
+    "id": "F_8d42f7a9ee0c74be93d3",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "LayerScale"
+      },
+      "quote": "we also use QKNorm [48] and LayerScale [115] for each attention layer",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.604418+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "LayerScale"
+            },
+            "quote": "we also use QKNorm [48] and LayerScale [115] for each attention layer",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:44.426664+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "efb633e04f3d7ed53b5ca89f605428d31ffff3b6f5be82cdc902787b51158edd",
+    "reviewed_at": "2026-11-11T09:54:56.604446+00:00"
+  },
+  {
+    "id": "F_1875d53c9966b0eda2f5",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "IMC"
+      },
+      "quote": "Camera Pose Estimation on IMC We also evaluate using",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.609812+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "IMC"
+            },
+            "quote": "Camera Pose Estimation on IMC We also evaluate using",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:47.296263+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e347f461121e8793221e3019c347f1d474454de9d7356215351c2ca3a849f477",
+    "reviewed_at": "2026-11-11T09:54:56.609839+00:00"
+  },
+  {
+    "id": "F_13e6bbfee896a1227676",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AUC@3°"
+      },
+      "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.615136+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AUC@3°"
+            },
+            "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:47.296602+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e347f461121e8793221e3019c347f1d474454de9d7356215351c2ca3a849f477",
+    "reviewed_at": "2026-11-11T09:54:56.615162+00:00"
+  },
+  {
+    "id": "F_f287f672dea5dff3bc06",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AUC@5°"
+      },
+      "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.620487+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AUC@5°"
+            },
+            "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:47.296918+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e347f461121e8793221e3019c347f1d474454de9d7356215351c2ca3a849f477",
+    "reviewed_at": "2026-11-11T09:54:56.620513+00:00"
+  },
+  {
+    "id": "F_df1aedb507059617a29d",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AUC@10°"
+      },
+      "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.625823+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AUC@10°"
+            },
+            "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:47.297220+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e347f461121e8793221e3019c347f1d474454de9d7356215351c2ca3a849f477",
+    "reviewed_at": "2026-11-11T09:54:56.625851+00:00"
+  },
+  {
+    "id": "F_beb297a6066a4ff93c2f",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGSfMv2"
+      },
+      "quote": "outperforming VGGSfMv2 [125] which ranked",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.631157+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGSfMv2"
+            },
+            "quote": "outperforming VGGSfMv2 [125] which ranked",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:47.297517+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e347f461121e8793221e3019c347f1d474454de9d7356215351c2ca3a849f477",
+    "reviewed_at": "2026-11-11T09:54:56.631183+00:00"
+  },
+  {
+    "id": "F_45e5ee0df823fb502166",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "we additionally compare to recently popularized DUSt3R [129] and MASt3R [62]",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.450605+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "we additionally compare to recently popularized DUSt3R [129] and MASt3R [62]",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:50.369921+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c508ea15d70a5bd905d782c8254367e62fdccc6df6ae548f4142645617400d1e",
+    "reviewed_at": "2026-11-11T09:54:56.450633+00:00"
+  },
+  {
+    "id": "F_48111187db8ec36ded44",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "quote": "we additionally compare to recently popularized DUSt3R [129] and MASt3R [62]",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.573972+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "quote": "we additionally compare to recently popularized DUSt3R [129] and MASt3R [62]",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:50.370405+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c508ea15d70a5bd905d782c8254367e62fdccc6df6ae548f4142645617400d1e",
+    "reviewed_at": "2026-11-11T09:54:56.573999+00:00"
+  },
+  {
+    "id": "F_781a248c548578b84aed",
+    "paper_id": "P001",
+    "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DINO"
+      },
+      "quote": "DINO [10] revealed",
+      "page": 12
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T09:54:56.636634+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DINO"
+            },
+            "quote": "DINO [10] revealed",
+            "page": 12
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T09:48:50.372145+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c508ea15d70a5bd905d782c8254367e62fdccc6df6ae548f4142645617400d1e",
+    "reviewed_at": "2026-11-11T09:54:56.636661+00:00"
+  }
+]

@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "F_90f6832fc10d8bc4aaf5",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Spatial Memory"
+      },
+      "quote": "Spann3R predicts a global pointmap in a common coordinate system via a spatial memory that stores all previous predictions.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.498423+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Spatial Memory"
+            },
+            "quote": "Spann3R predicts a global pointmap in a common coordinate system via a spatial memory that stores all previous predictions.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:35.997552+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ef91394b0c96f1ed4a64d1bd27fdf122b42a349a7a79c5db90337869d7329bc4",
+    "reviewed_at": "2026-11-17T16:29:34.498496+00:00"
+  },
+  {
+    "id": "F_ba41edd91684d40bba38",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "global pointmap"
+      },
+      "quote": "Spann3R predicts a global pointmap in a common coordinate system via a spatial memory that stores all previous predictions.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.527353+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "global pointmap"
+            },
+            "quote": "Spann3R predicts a global pointmap in a common coordinate system via a spatial memory that stores all previous predictions.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:35.997964+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ef91394b0c96f1ed4a64d1bd27fdf122b42a349a7a79c5db90337869d7329bc4",
+    "reviewed_at": "2026-11-17T16:29:34.527392+00:00"
+  },
+  {
+    "id": "F_32b60f53753bf6cb5230",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "online incremental reconstruction"
+      },
+      "quote": "Thus, our method can enable online incremental reconstruction without the need to build a dense pairwise graph and a final optimization-based alignment.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.541636+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "online incremental reconstruction"
+            },
+            "quote": "Thus, our method can enable online incremental reconstruction without the need to build a dense pairwise graph and a final optimization-based alignment.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:35.998308+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "ef91394b0c96f1ed4a64d1bd27fdf122b42a349a7a79c5db90337869d7329bc4",
+    "reviewed_at": "2026-11-17T16:29:34.541676+00:00"
+  },
+  {
+    "id": "F_046a3a8b48e8d6a4a957",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "quote": "Fig. 3 shows an overview of Spann3R. We aim to repurpose",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.570432+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "quote": "Fig. 3 shows an overview of Spann3R. We aim to repurpose",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.435807+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.570469+00:00"
+  },
+  {
+    "id": "F_0d6bc5651974ccb81e97",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT encoder"
+      },
+      "quote": "Our model contains a ViT [25] encoder and two intertwined decoders as in DUSt3R [81].",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.584746+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT encoder"
+            },
+            "quote": "Our model contains a ViT [25] encoder and two intertwined decoders as in DUSt3R [81].",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.436096+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.584783+00:00"
+  },
+  {
+    "id": "F_7f8dfab0afcde116e22a",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "two intertwined decoders"
+      },
+      "quote": "Our model contains a ViT [25] encoder and two intertwined decoders as in DUSt3R [81].",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.599217+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "two intertwined decoders"
+            },
+            "quote": "Our model contains a ViT [25] encoder and two intertwined decoders as in DUSt3R [81].",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.436333+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.599253+00:00"
+  },
+  {
+    "id": "F_5557dc9726173239d6e6",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "lightweight memory encoder"
+      },
+      "quote": "A lightweight memory encoder is used to encode the previously",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.613623+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "lightweight memory encoder"
+            },
+            "quote": "A lightweight memory encoder is used to encode the previously",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.436565+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.613660+00:00"
+  },
+  {
+    "id": "F_f021238cc523a95dcef7",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "spatial memory"
+      },
+      "quote": "introduce a spatial memory that encodes the previous pre-",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.513066+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "spatial memory"
+            },
+            "quote": "introduce a spatial memory that encodes the previous pre-",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.436793+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.513110+00:00"
+  },
+  {
+    "id": "F_eb74463e2cef369ff3fe",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "online incremental reconstruction"
+      },
+      "quote": "ing framework, enabling online incremental reconstruction",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.556151+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "online incremental reconstruction"
+            },
+            "quote": "ing framework, enabling online incremental reconstruction",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.437020+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.556188+00:00"
+  },
+  {
+    "id": "F_2dce06dd9d712c0009e2",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "pointmap"
+      },
+      "quote": "each It to its corresponding pointmap Xt, expressed in the",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.634223+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "pointmap"
+            },
+            "quote": "each It to its corresponding pointmap Xt, expressed in the",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.437249+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.634283+00:00"
+  },
+  {
+    "id": "F_b3190688f57fc6ae9611",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "two intertwined decoders as in DUSt3R [81]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.648874+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "two intertwined decoders as in DUSt3R [81]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.437472+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.648913+00:00"
+  },
+  {
+    "id": "F_7066b2c2d5da20f9238e",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "ViT"
+      },
+      "quote": "Our model contains a ViT [25] encoder",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.678345+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "ViT"
+            },
+            "quote": "Our model contains a ViT [25] encoder",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:27:38.437696+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "de5daad265c80f9693ecad06f4dbeee3e346d371e4377c9f3d73b9ba48024d32",
+    "reviewed_at": "2026-11-17T16:29:34.678384+00:00"
+  },
+  {
+    "id": "F_4b0921fc08a062dd2fa5",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Map-free Reloc"
+      },
+      "quote": "We visualize several reconstruction results of Spann3R on Map-free\nReloc [4]",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.692914+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Map-free Reloc"
+            },
+            "quote": "We visualize several reconstruction results of Spann3R on Map-free\nReloc [4]",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:07.002364+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66a8b5375d2789ffe88077e26546eafc6a635e00b92d9e3a6a92e5595b128cf7",
+    "reviewed_at": "2026-11-17T16:29:34.692950+00:00"
+  },
+  {
+    "id": "F_ec341a2dd72a53719f16",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "ETH3D [66], MipNeRF-360 [7], NeRF [50] and TUM-RGBD [70] datasets",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.707584+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "ETH3D [66], MipNeRF-360 [7], NeRF [50] and TUM-RGBD [70] datasets",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:07.002657+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66a8b5375d2789ffe88077e26546eafc6a635e00b92d9e3a6a92e5595b128cf7",
+    "reviewed_at": "2026-11-17T16:29:34.707621+00:00"
+  },
+  {
+    "id": "F_22d9347419b3691aa094",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MipNeRF-360"
+      },
+      "quote": "ETH3D [66], MipNeRF-360 [7], NeRF [50] and TUM-RGBD [70] datasets",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.722372+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MipNeRF-360"
+            },
+            "quote": "ETH3D [66], MipNeRF-360 [7], NeRF [50] and TUM-RGBD [70] datasets",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:07.002903+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66a8b5375d2789ffe88077e26546eafc6a635e00b92d9e3a6a92e5595b128cf7",
+    "reviewed_at": "2026-11-17T16:29:34.722409+00:00"
+  },
+  {
+    "id": "F_3eda98be8206479f7615",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NeRF"
+      },
+      "quote": "ETH3D [66], MipNeRF-360 [7], NeRF [50] and TUM-RGBD [70] datasets",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.737099+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NeRF"
+            },
+            "quote": "ETH3D [66], MipNeRF-360 [7], NeRF [50] and TUM-RGBD [70] datasets",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:07.003144+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66a8b5375d2789ffe88077e26546eafc6a635e00b92d9e3a6a92e5595b128cf7",
+    "reviewed_at": "2026-11-17T16:29:34.737136+00:00"
+  },
+  {
+    "id": "F_03b44b004cbde1d1fd43",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM-RGBD"
+      },
+      "quote": "ETH3D [66], MipNeRF-360 [7], NeRF [50] and TUM-RGBD [70] datasets",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.751897+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM-RGBD"
+            },
+            "quote": "ETH3D [66], MipNeRF-360 [7], NeRF [50] and TUM-RGBD [70] datasets",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:07.003381+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66a8b5375d2789ffe88077e26546eafc6a635e00b92d9e3a6a92e5595b128cf7",
+    "reviewed_at": "2026-11-17T16:29:34.751933+00:00"
+  },
+  {
+    "id": "F_19523a1b3c5f53abfa37",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "training on the entire datasets of DUSt3R [81]",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.663704+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "training on the entire datasets of DUSt3R [81]",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:07.004500+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66a8b5375d2789ffe88077e26546eafc6a635e00b92d9e3a6a92e5595b128cf7",
+    "reviewed_at": "2026-11-17T16:29:34.663744+00:00"
+  },
+  {
+    "id": "F_b7f9dcdcaef9d1ea2607",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7scenes"
+      },
+      "quote": "Table 7. Per-scene results on 7scenes dataset.",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.768231+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7scenes"
+            },
+            "quote": "Table 7. Per-scene results on 7scenes dataset.",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:18.116796+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c153e82dd3ecf2e099e91862ad5fa648a4e11e8cf1fb55ddf6b209bf1e5e6da3",
+    "reviewed_at": "2026-11-17T16:29:34.768288+00:00"
+  },
+  {
+    "id": "F_9b0d66664964099ab088",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NRGBD"
+      },
+      "quote": "Table 8. Per-scene results on NRGBD dataset.",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.783693+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NRGBD"
+            },
+            "quote": "Table 8. Per-scene results on NRGBD dataset.",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:18.117092+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c153e82dd3ecf2e099e91862ad5fa648a4e11e8cf1fb55ddf6b209bf1e5e6da3",
+    "reviewed_at": "2026-11-17T16:29:34.783738+00:00"
+  },
+  {
+    "id": "F_08b97616b8e575748933",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Acc"
+      },
+      "quote": "Acc↓       Comp↓        NC↑",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.805225+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Acc"
+            },
+            "quote": "Acc↓       Comp↓        NC↑",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:18.117343+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c153e82dd3ecf2e099e91862ad5fa648a4e11e8cf1fb55ddf6b209bf1e5e6da3",
+    "reviewed_at": "2026-11-17T16:29:34.805284+00:00"
+  },
+  {
+    "id": "F_e1dd58d0cf563f398462",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Comp"
+      },
+      "quote": "Acc↓       Comp↓        NC↑",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:34.851532+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Comp"
+            },
+            "quote": "Acc↓       Comp↓        NC↑",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:18.117577+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c153e82dd3ecf2e099e91862ad5fa648a4e11e8cf1fb55ddf6b209bf1e5e6da3",
+    "reviewed_at": "2026-11-17T16:29:34.851579+00:00"
+  },
+  {
+    "id": "F_e8216cf46e55f27b3c25",
+    "paper_id": "P020",
+    "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "NC"
+      },
+      "quote": "Acc↓       Comp↓        NC↑",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:29:35.044695+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "NC"
+            },
+            "quote": "Acc↓       Comp↓        NC↑",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:28:18.117839+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c153e82dd3ecf2e099e91862ad5fa648a4e11e8cf1fb55ddf6b209bf1e5e6da3",
+    "reviewed_at": "2026-11-17T16:29:35.044785+00:00"
+  }
+]

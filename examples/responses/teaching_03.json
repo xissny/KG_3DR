@@ -1,0 +1,69 @@
+{
+  "facts": [
+    {
+      "subject": {
+        "type": "Paper",
+        "name": "TEACHING ONLY - Synthetic Paper 03"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Teaching Method 03"
+      },
+      "quote": "TEACHING ONLY - Synthetic Paper 03 proposes Teaching Method 03 for this fictional teaching example.",
+      "page": 1
+    },
+    {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 03"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Global attention"
+      },
+      "quote": "Teaching Method 03 uses Global attention as its principal component.",
+      "page": 1
+    },
+    {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 03"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Teaching Dataset A"
+      },
+      "quote": "Teaching Method 03 is evaluated on Teaching Dataset A in the synthetic setup.",
+      "page": 1
+    },
+    {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 03"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "Camera estimation"
+      },
+      "quote": "Teaching Method 03 solves the task of Camera estimation in this fictional example.",
+      "page": 1
+    },
+    {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 03"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "Teaching geometry"
+      },
+      "quote": "Teaching Method 03 outputs Teaching geometry in this artificial example.",
+      "page": 1
+    }
+  ]
+}

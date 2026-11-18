@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "F_5f08c93a924a037240b5",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "pointmaps"
+      },
+      "quote": "DUSt3R takes as input an unconstrained collection of images and outputs pointmaps",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:32.975281+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "pointmaps"
+            },
+            "quote": "DUSt3R takes as input an unconstrained collection of images and outputs pointmaps",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:39.305891+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3246cc15acc51e64abf17a885436f289c78947eb9b6b94eb005cfd0f6d8b7722",
+    "reviewed_at": "2026-11-16T03:59:32.975332+00:00"
+  },
+  {
+    "id": "F_70e3e97f37b21bc38255",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "relative pose estimation"
+      },
+      "quote": "as well as relative pose estimation",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:32.980060+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "relative pose estimation"
+            },
+            "quote": "as well as relative pose estimation",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:39.306501+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3246cc15acc51e64abf17a885436f289c78947eb9b6b94eb005cfd0f6d8b7722",
+    "reviewed_at": "2026-11-16T03:59:32.980091+00:00"
+  },
+  {
+    "id": "F_34a15081d0ef7431455f",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SynSin"
+      },
+      "quote": "SynSin [115], for example, performs new viewpoint syn-",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:32.984865+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SynSin"
+            },
+            "quote": "SynSin [115], for example, performs new viewpoint syn-",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:49.501046+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e11fcbe261079cca34ee6a34d635899d44bbf972c67f9f7f7c9e927102513d2a",
+    "reviewed_at": "2026-11-16T03:59:32.984895+00:00"
+  },
+  {
+    "id": "F_d3fea69ca76e2e77b0ae",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "quote": "The architecture of our network f",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:32.989627+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "quote": "The architecture of our network f",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:51.879878+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "23bda90810d474958ce4ff88f18836353adc5efca7183d19bc345d636eb0743a",
+    "reviewed_at": "2026-11-16T03:59:32.989656+00:00"
+  },
+  {
+    "id": "F_cefc89907b69bace420c",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "CroCo"
+      },
+      "quote": "is inspired by CroCo [114], making it straightforward to",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:32.999305+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "CroCo"
+            },
+            "quote": "is inspired by CroCo [114], making it straightforward to",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:51.880285+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "23bda90810d474958ce4ff88f18836353adc5efca7183d19bc345d636eb0743a",
+    "reviewed_at": "2026-11-16T03:59:32.999334+00:00"
+  },
+  {
+    "id": "F_57f7969352c3625f5529",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "weight-sharing ViT encoder"
+      },
+      "quote": "in a Siamese manner by the same weight-sharing ViT en-",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.004233+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "weight-sharing ViT encoder"
+            },
+            "quote": "in a Siamese manner by the same weight-sharing ViT en-",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:51.880600+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "23bda90810d474958ce4ff88f18836353adc5efca7183d19bc345d636eb0743a",
+    "reviewed_at": "2026-11-16T03:59:33.004263+00:00"
+  },
+  {
+    "id": "F_c7d89efb10d77b3d8689",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "pointmaps"
+      },
+      "quote": "dense 2D fields of 3D points",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.009153+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "pointmaps"
+            },
+            "quote": "dense 2D fields of 3D points",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:51.880914+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "23bda90810d474958ce4ff88f18836353adc5efca7183d19bc345d636eb0743a",
+    "reviewed_at": "2026-11-16T03:59:33.009182+00:00"
+  },
+  {
+    "id": "F_12e3c0005bf7352ca385",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CroCo"
+      },
+      "quote": "is inspired by CroCo [114]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.019166+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CroCo"
+            },
+            "quote": "is inspired by CroCo [114]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:51.881488+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "23bda90810d474958ce4ff88f18836353adc5efca7183d19bc345d636eb0743a",
+    "reviewed_at": "2026-11-16T03:59:33.019196+00:00"
+  },
+  {
+    "id": "F_e26310b6e628d6b4da36",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "quote": "Architecture of the network. Two views of a scene (I1, I2) are first encoded in a Siamese manner with a shared ViT encoder.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:32.994495+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "quote": "Architecture of the network. Two views of a scene (I1, I2) are first encoded in a Siamese manner with a shared ViT encoder.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:54.542861+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a0c1e45999ffd1aa99b1c99f7f63a5785bb714d4d5819448b26ff0a8811ebbf8",
+    "reviewed_at": "2026-11-16T03:59:32.994524+00:00"
+  },
+  {
+    "id": "F_b9db176e7c2bb13a85d5",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "shared ViT encoder"
+      },
+      "quote": "Two views of a scene (I1, I2) are first encoded in a Siamese manner with a shared ViT encoder.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.024173+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "shared ViT encoder"
+            },
+            "quote": "Two views of a scene (I1, I2) are first encoded in a Siamese manner with a shared ViT encoder.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:54.543210+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a0c1e45999ffd1aa99b1c99f7f63a5785bb714d4d5819448b26ff0a8811ebbf8",
+    "reviewed_at": "2026-11-16T03:59:33.024202+00:00"
+  },
+  {
+    "id": "F_6dec71df5b97d87eed27",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "transformer decoders with cross-attention"
+      },
+      "quote": "The resulting token representations F 1 and F 2 are then passed to two transformer decoders that constantly exchange information via cross-attention.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.029209+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "transformer decoders with cross-attention"
+            },
+            "quote": "The resulting token representations F 1 and F 2 are then passed to two transformer decoders that constantly exchange information via cross-attention.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:54.543536+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a0c1e45999ffd1aa99b1c99f7f63a5785bb714d4d5819448b26ff0a8811ebbf8",
+    "reviewed_at": "2026-11-16T03:59:33.029238+00:00"
+  },
+  {
+    "id": "F_91db89626c648cba5870",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "pointmaps"
+      },
+      "quote": "Finally, two regression heads output the two corresponding pointmaps and associated confidence maps.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.014088+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "pointmaps"
+            },
+            "quote": "Finally, two regression heads output the two corresponding pointmaps and associated confidence maps.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:54.543844+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a0c1e45999ffd1aa99b1c99f7f63a5785bb714d4d5819448b26ff0a8811ebbf8",
+    "reviewed_at": "2026-11-16T03:59:33.014117+00:00"
+  },
+  {
+    "id": "F_14c91fd8100b8c9dbcef",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R network"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "confidence maps"
+      },
+      "quote": "Finally, two regression heads output the two corresponding pointmaps and associated confidence maps.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.034157+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R network"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "confidence maps"
+            },
+            "quote": "Finally, two regression heads output the two corresponding pointmaps and associated confidence maps.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:54.544146+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a0c1e45999ffd1aa99b1c99f7f63a5785bb714d4d5819448b26ff0a8811ebbf8",
+    "reviewed_at": "2026-11-16T03:59:33.034186+00:00"
+  },
+  {
+    "id": "F_15f583a2ab3f0ee900c4",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "train set containing geometrically consistent pointmaps"
+      },
+      "quote": "the train set, which only contains geometrically con-     hyper-parameter controlling the regularization term [17].",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.039140+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "train set containing geometrically consistent pointmaps"
+            },
+            "quote": "the train set, which only contains geometrically con-     hyper-parameter controlling the regularization term [17].",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:56.390867+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3056d64c2751c754223ceca8766d112952b45fb843b0621889bf29bcc8d4c590",
+    "reviewed_at": "2026-11-16T03:59:33.039169+00:00"
+  },
+  {
+    "id": "F_06c657eb6356e74ecf62",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "confidence scores"
+      },
+      "quote": "Training network\n                                                     f with this objective allows to estimate confidence scores",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.044184+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "confidence scores"
+            },
+            "quote": "Training network\n                                                     f with this objective allows to estimate confidence scores",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:56.391210+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3056d64c2751c754223ceca8766d112952b45fb843b0621889bf29bcc8d4c590",
+    "reviewed_at": "2026-11-16T03:59:33.044213+00:00"
+  },
+  {
+    "id": "F_f82748a25339f1db0490",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Weiszfeld algorithm"
+      },
+      "quote": "based on the Weiszfeld algorithm [71]",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.049176+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Weiszfeld algorithm"
+            },
+            "quote": "based on the Weiszfeld algorithm [71]",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:59.373962+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a72b79e8804b7b64472f531862e8c2fcd4d5da41453012f13b4d191346385b65",
+    "reviewed_at": "2026-11-16T03:59:33.049205+00:00"
+  },
+  {
+    "id": "F_ec82f2b6b4e84c5e3583",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Procrustes alignment"
+      },
+      "quote": "using Procrustes alignment [54]",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.054289+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Procrustes alignment"
+            },
+            "quote": "using Procrustes alignment [54]",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:59.374354+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a72b79e8804b7b64472f531862e8c2fcd4d5da41453012f13b4d191346385b65",
+    "reviewed_at": "2026-11-16T03:59:33.054317+00:00"
+  },
+  {
+    "id": "F_aa8a393a4b3e7b62c179",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "PnP-RANSAC"
+      },
+      "quote": "run PnP-RANSAC [29, 44]",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.059404+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "PnP-RANSAC"
+            },
+            "quote": "run PnP-RANSAC [29, 44]",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:26:59.374720+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a72b79e8804b7b64472f531862e8c2fcd4d5da41453012f13b4d191346385b65",
+    "reviewed_at": "2026-11-16T03:59:33.059432+00:00"
+  },
+  {
+    "id": "F_03ae5451dc1935afb83d",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "VCRE AUC"
+      },
+      "quote": "Methods are ranked by VCRE AUC.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.064526+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "VCRE AUC"
+            },
+            "quote": "Methods are ranked by VCRE AUC.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:17.945586+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "128ea4508763ca8bcb5099d2b200cdc7f3162ef466be72146c6a63d6fedac3e7",
+    "reviewed_at": "2026-11-16T03:59:33.064554+00:00"
+  },
+  {
+    "id": "F_64889e988111150349df",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DTU"
+      },
+      "quote": "the DTU [1], ETH3D [85], Tanks and Temples [43], and",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.069680+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DTU"
+            },
+            "quote": "the DTU [1], ETH3D [85], Tanks and Temples [43], and",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:21.062049+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6213b6623ca035e25350db017cd4126cf8e71848a425b8bf710746db83a58579",
+    "reviewed_at": "2026-11-16T03:59:33.069708+00:00"
+  },
+  {
+    "id": "F_7bb1c67080c88aa3f3d6",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "the DTU [1], ETH3D [85], Tanks and Temples [43], and",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.074995+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "the DTU [1], ETH3D [85], Tanks and Temples [43], and",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:21.062422+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6213b6623ca035e25350db017cd4126cf8e71848a425b8bf710746db83a58579",
+    "reviewed_at": "2026-11-16T03:59:33.075023+00:00"
+  },
+  {
+    "id": "F_a1b186e2c6c31a33e5f1",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Tanks and Temples"
+      },
+      "quote": "the DTU [1], ETH3D [85], Tanks and Temples [43], and",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.080305+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Tanks and Temples"
+            },
+            "quote": "the DTU [1], ETH3D [85], Tanks and Temples [43], and",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:21.062766+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6213b6623ca035e25350db017cd4126cf8e71848a425b8bf710746db83a58579",
+    "reviewed_at": "2026-11-16T03:59:33.080333+00:00"
+  },
+  {
+    "id": "F_e8e1e3a664f68cc11c4a",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet"
+      },
+      "quote": "ScanNet [20] datasets. We report the Absolute Relative",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:59:33.085557+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet"
+            },
+            "quote": "ScanNet [20] datasets. We report the Absolute Relative",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:21.063104+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6213b6623ca035e25350db017cd4126cf8e71848a425b8bf710746db83a58579",
+    "reviewed_at": "2026-11-16T03:59:33.085585+00:00"
+  },
+  {
+    "id": "F_fa373a9721a4d76a894c",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RTA@15"
+      },
+      "quote": "to report RTA@15 and RRA@15. Additionally, we calcu-",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.082105+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RTA@15"
+            },
+            "quote": "to report RTA@15 and RRA@15. Additionally, we calcu-",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:21.063627+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6213b6623ca035e25350db017cd4126cf8e71848a425b8bf710746db83a58579",
+    "reviewed_at": "2026-11-16T04:04:12.082181+00:00"
+  },
+  {
+    "id": "F_4227eed6a8eac397c2d7",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RRA@15"
+      },
+      "quote": "to report RTA@15 and RRA@15. Additionally, we calcu-",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.094910+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RRA@15"
+            },
+            "quote": "to report RTA@15 and RRA@15. Additionally, we calcu-",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:21.064129+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6213b6623ca035e25350db017cd4126cf8e71848a425b8bf710746db83a58579",
+    "reviewed_at": "2026-11-16T04:04:12.094953+00:00"
+  },
+  {
+    "id": "F_dfa51a0d7b5bb8db7c62",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Absolute Relative Error"
+      },
+      "quote": "We report the Absolute Relative",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.111356+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Absolute Relative Error"
+            },
+            "quote": "We report the Absolute Relative",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:21.065025+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6213b6623ca035e25350db017cd4126cf8e71848a425b8bf710746db83a58579",
+    "reviewed_at": "2026-11-16T04:04:12.111399+00:00"
+  },
+  {
+    "id": "F_b9d1e7298fe5283188f1",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Inlier Ratio"
+      },
+      "quote": "Error (rel) and Inlier Ratio (τ) with a threshold of 1.03 on",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.119189+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Inlier Ratio"
+            },
+            "quote": "Error (rel) and Inlier Ratio (τ) with a threshold of 1.03 on",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:21.065385+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6213b6623ca035e25350db017cd4126cf8e71848a425b8bf710746db83a58579",
+    "reviewed_at": "2026-11-16T04:04:12.119260+00:00"
+  },
+  {
+    "id": "F_8ae917e375565a4edaa5",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DDAD"
+      },
+      "quote": "DUSt3R 224-NoCroCo   T     19.63    70.03",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.127819+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DDAD"
+            },
+            "quote": "DUSt3R 224-NoCroCo   T     19.63    70.03",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.846958+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.127867+00:00"
+  },
+  {
+    "id": "F_c9aa70c35d87f0097627",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "DUSt3R         512                                                   10.74                                                           86.60",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.134506+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "DUSt3R         512                                                   10.74                                                           86.60",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.847717+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.134552+00:00"
+  },
+  {
+    "id": "F_55e9b0036c9a01a6d13c",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "BONN"
+      },
+      "quote": "DUSt3R         224                    T                                 16.32                                          77.58",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.141005+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "BONN"
+            },
+            "quote": "DUSt3R         224                    T                                 16.32                                          77.58",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.848434+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.141051+00:00"
+  },
+  {
+    "id": "F_4a825b15790329698e76",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NYUD-v2"
+      },
+      "quote": "DUSt3R         512                                                   10.74                                                           86.60                                                                       8.08    93.56",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.147541+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NYUD-v2"
+            },
+            "quote": "DUSt3R         512                                                   10.74                                                           86.60                                                                       8.08    93.56",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.849138+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.147585+00:00"
+  },
+  {
+    "id": "F_1d7e9019f26a09eaad6d",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM"
+      },
+      "quote": "DUSt3R         512                                                   10.74                                                           86.60                                                                       8.08    93.56                                                                                        6.50    94.09",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.154187+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM"
+            },
+            "quote": "DUSt3R         512                                                   10.74                                                           86.60                                                                       8.08    93.56                                                                                        6.50    94.09",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.849854+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.154230+00:00"
+  },
+  {
+    "id": "F_8f01b9f4d76b7c4ee9b6",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Co3Dv2"
+      },
+      "quote": "DUSt3R 512 (w/ PnP)     94.3      88.4      77.2          61.2",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.160635+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Co3Dv2"
+            },
+            "quote": "DUSt3R 512 (w/ PnP)     94.3      88.4      77.2          61.2",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.850505+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.160678+00:00"
+  },
+  {
+    "id": "F_42a28a69a569bf5601fd",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "RealEstate10K"
+      },
+      "quote": "DUSt3R 512 (w/ GA)     96.2      86.8      76.7          67.7",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.167201+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "RealEstate10K"
+            },
+            "quote": "DUSt3R 512 (w/ GA)     96.2      86.8      76.7          67.7",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.851059+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.167244+00:00"
+  },
+  {
+    "id": "F_1eae25a0894d1d79feee",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Rel"
+      },
+      "quote": "DUSt3R 224-NoCroCo   T     19.63    70.03    20.10    71.21",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:05:48.160668+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Rel"
+            },
+            "quote": "DUSt3R 224-NoCroCo   T     19.63    70.03    20.10    71.21",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.851619+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:05:48.160716+00:00"
+  },
+  {
+    "id": "F_fdbf85d2a17af25fc8f7",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ1.25"
+      },
+      "quote": "DUSt3R         512                                                   10.74                                                           86.60",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:05:48.167359+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ1.25"
+            },
+            "quote": "DUSt3R         512                                                   10.74                                                           86.60",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.852175+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:05:48.167392+00:00"
+  },
+  {
+    "id": "F_db29c5bb0567bfef5bfa",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RRA@15"
+      },
+      "quote": "DUSt3R 512 (w/ PnP)     94.3      88.4      77.2          61.2",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.105240+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RRA@15"
+            },
+            "quote": "DUSt3R 512 (w/ PnP)     94.3      88.4      77.2          61.2",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.852723+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.105283+00:00"
+  },
+  {
+    "id": "F_b776be1a6dea473767cc",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RTA@15"
+      },
+      "quote": "DUSt3R 512 (w/ PnP)     94.3      88.4      77.2          61.2",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:04:12.088642+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RTA@15"
+            },
+            "quote": "DUSt3R 512 (w/ PnP)     94.3      88.4      77.2          61.2",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.853265+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:04:12.088688+00:00"
+  },
+  {
+    "id": "F_0bffecd35592dd593b2e",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "mAA(30)"
+      },
+      "quote": "DUSt3R 512 (w/ GA)     96.2      86.8      76.7          67.7",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:05:48.173742+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "mAA(30)"
+            },
+            "quote": "DUSt3R 512 (w/ GA)     96.2      86.8      76.7          67.7",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:24.853817+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d3cb016c646b529808c470339abdab6433037071e60b6e6e29524846c0a5590d",
+    "reviewed_at": "2026-11-16T04:05:48.173771+00:00"
+  },
+  {
+    "id": "F_09edd4bfc9bcda1d4cdf",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "COLMAP"
+      },
+      "quote": "much faster than the traditional COLMAP pipeline [83, 84]",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:05:48.179937+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "COLMAP"
+            },
+            "quote": "much faster than the traditional COLMAP pipeline [83, 84]",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:36.065338+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f64bb8aff7f3b2a7c20e9c98d96ea1c62139a43b5f8e8a0c5d3282967b51f513",
+    "reviewed_at": "2026-11-16T04:05:48.179964+00:00"
+  },
+  {
+    "id": "F_fe7e3050b63797bdbf5b",
+    "paper_id": "P003",
+    "pdf_sha256": "c02a82e83d20c649c9424ccec6a6cf760112da58d47965d02e8efebd916afbc8",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "overall average distance"
+      },
+      "quote": "for an overall average distance of 1.7mm",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T04:05:52.511551+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "overall average distance"
+            },
+            "quote": "for an overall average distance of 1.7mm",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:27:38.174946+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "893f99d5926d232e198b0eec51211aef4da2d6a57126c396727bd77ebed19c79",
+    "reviewed_at": "2026-11-16T04:05:52.511602+00:00"
+  }
+]

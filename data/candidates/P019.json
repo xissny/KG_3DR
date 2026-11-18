@@ -1,0 +1,4402 @@
+[
+  {
+    "id": "F_52b6f5988adad5440a6f",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "1  INTRODUCTION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "streaming visual geometry transformer"
+      },
+      "quote": "we propose a streaming visual geometry transformer that shares a similar",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.670310+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "streaming visual geometry transformer"
+            },
+            "quote": "we propose a streaming visual geometry transformer that shares a similar",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:11.342976+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "32d5920b8c2fe484304d77338684108f8c61c9be5036aa84b1caf03c5bb35d55",
+    "reviewed_at": "2026-11-17T16:28:13.670387+00:00"
+  },
+  {
+    "id": "F_42809e14cf76e2854afd",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "1  INTRODUCTION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "3D geometry reconstruction"
+      },
+      "quote": "Perceiving and reconstructing 3D geometry from videos is a fundamental yet chal-",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.686088+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "3D geometry reconstruction"
+            },
+            "quote": "Perceiving and reconstructing 3D geometry from videos is a fundamental yet chal-",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:11.343439+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "32d5920b8c2fe484304d77338684108f8c61c9be5036aa84b1caf03c5bb35d55",
+    "reviewed_at": "2026-11-17T16:28:13.686131+00:00"
+  },
+  {
+    "id": "F_c1ec33f9dc7e17f771f8",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "1  INTRODUCTION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "causal transformer architecture"
+      },
+      "quote": "employ a causal transformer architecture to process the input",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.701328+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "causal transformer architecture"
+            },
+            "quote": "employ a causal transformer architecture to process the input",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:11.343605+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "32d5920b8c2fe484304d77338684108f8c61c9be5036aa84b1caf03c5bb35d55",
+    "reviewed_at": "2026-11-17T16:28:13.701366+00:00"
+  },
+  {
+    "id": "F_f0857ad2c69c3b60f748",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "1  INTRODUCTION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "knowledge distillation from VGGT"
+      },
+      "quote": "we propose to distill knowledge from the dense bidirectional visual geometry grounded transformer (VGGT) to our causal",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.716412+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "knowledge distillation from VGGT"
+            },
+            "quote": "we propose to distill knowledge from the dense bidirectional visual geometry grounded transformer (VGGT) to our causal",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:11.343768+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "32d5920b8c2fe484304d77338684108f8c61c9be5036aa84b1caf03c5bb35d55",
+    "reviewed_at": "2026-11-17T16:28:13.716451+00:00"
+  },
+  {
+    "id": "F_841bdec2829be0b5b35f",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "1  INTRODUCTION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "FlashAttention"
+      },
+      "quote": "supports the migration of optimized efficient attention operators (e.g., FlashAttention)",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.731669+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "FlashAttention"
+            },
+            "quote": "supports the migration of optimized efficient attention operators (e.g., FlashAttention)",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:11.343922+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "32d5920b8c2fe484304d77338684108f8c61c9be5036aa84b1caf03c5bb35d55",
+    "reviewed_at": "2026-11-17T16:28:13.731706+00:00"
+  },
+  {
+    "id": "F_96e37bca14887c1cc020",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3  PROPOSED APPROACH",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "DUSt3R (Wang et al., 2024a) directly regresses view-consistent 3D point maps from just two RGB images without camera calibration",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.751897+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "DUSt3R (Wang et al., 2024a) directly regresses view-consistent 3D point maps from just two RGB images without camera calibration",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:21.329621+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6f6c7c0e7942ba70ddfb1bb583905cf7233a7c92ba9eac48c368035592d2c5d6",
+    "reviewed_at": "2026-11-17T16:28:13.751939+00:00"
+  },
+  {
+    "id": "F_e6a148d1e7cc162adad3",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3  PROPOSED APPROACH",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "quote": "its successor MASt3R (Leroy et al., 2024) introduces confidence-weighted losses to approximate metric scale",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.798702+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "quote": "its successor MASt3R (Leroy et al., 2024) introduces confidence-weighted losses to approximate metric scale",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:21.329927+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6f6c7c0e7942ba70ddfb1bb583905cf7233a7c92ba9eac48c368035592d2c5d6",
+    "reviewed_at": "2026-11-17T16:28:13.798742+00:00"
+  },
+  {
+    "id": "F_2c72159fcf4c90c690a5",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3  PROPOSED APPROACH",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "VGGT (Wang et al., 2025a) scales this philosophy to a 1.2B parameter visual geometry grounded transformer",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.831123+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "VGGT (Wang et al., 2025a) scales this philosophy to a 1.2B parameter visual geometry grounded transformer",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:21.330404+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6f6c7c0e7942ba70ddfb1bb583905cf7233a7c92ba9eac48c368035592d2c5d6",
+    "reviewed_at": "2026-11-17T16:28:13.831163+00:00"
+  },
+  {
+    "id": "F_500a6da8f7c69da38e54",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3  PROPOSED APPROACH",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "CUT3R (Wang et al., 2025b) introduces a recurrent transformer that jointly reads and writes a learnable scene state",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.910155+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "CUT3R (Wang et al., 2025b) introduces a recurrent transformer that jointly reads and writes a learnable scene state",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:21.330864+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6f6c7c0e7942ba70ddfb1bb583905cf7233a7c92ba9eac48c368035592d2c5d6",
+    "reviewed_at": "2026-11-17T16:28:13.910192+00:00"
+  },
+  {
+    "id": "F_284ea26ace6865a8184c",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3  PROPOSED APPROACH",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "NeRF"
+      },
+      "quote": "Neural Radiance Fields (NeRF) (Mildenhall et al., 2021) extend this idea by fitting the volume-rendering equation",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.011620+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "NeRF"
+            },
+            "quote": "Neural Radiance Fields (NeRF) (Mildenhall et al., 2021) extend this idea by fitting the volume-rendering equation",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:21.331323+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6f6c7c0e7942ba70ddfb1bb583905cf7233a7c92ba9eac48c368035592d2c5d6",
+    "reviewed_at": "2026-11-17T16:28:14.011664+00:00"
+  },
+  {
+    "id": "F_4b67fc9e309c3a2b7993",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "image encoder"
+      },
+      "quote": "Our model consists of three main components: an image encoder, a spatio-temporal decoder, and multi-task prediction heads.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.027916+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "image encoder"
+            },
+            "quote": "Our model consists of three main components: an image encoder, a spatio-temporal decoder, and multi-task prediction heads.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.002850+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.027955+00:00"
+  },
+  {
+    "id": "F_fac51f395177dbf29645",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "spatio-temporal decoder"
+      },
+      "quote": "Our model consists of three main components: an image encoder, a spatio-temporal decoder, and multi-task prediction heads.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.044126+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "spatio-temporal decoder"
+            },
+            "quote": "Our model consists of three main components: an image encoder, a spatio-temporal decoder, and multi-task prediction heads.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.003077+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.044166+00:00"
+  },
+  {
+    "id": "F_a4d4a132ea4327667782",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "multi-task prediction heads"
+      },
+      "quote": "Our model consists of three main components: an image encoder, a spatio-temporal decoder, and multi-task prediction heads.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.060602+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "multi-task prediction heads"
+            },
+            "quote": "Our model consists of three main components: an image encoder, a spatio-temporal decoder, and multi-task prediction heads.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.003286+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.060643+00:00"
+  },
+  {
+    "id": "F_efd87f24f1167022c933",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "causal attention"
+      },
+      "quote": "To enforce temporal causality, we apply causal attention so the model can only attend to past frames at any given time step.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.076908+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "causal attention"
+            },
+            "quote": "To enforce temporal causality, we apply causal attention so the model can only attend to past frames at any given time step.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.003488+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.076947+00:00"
+  },
+  {
+    "id": "F_7ee08404a44c89803c3a",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DINO"
+      },
+      "quote": "We patchfy each input image It into a set of N image tokens Ft ∈RN×C through DINO(Oquab et al., 2023).",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.093168+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DINO"
+            },
+            "quote": "We patchfy each input image It into a set of N image tokens Ft ∈RN×C through DINO(Oquab et al., 2023).",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.003694+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.093205+00:00"
+  },
+  {
+    "id": "F_0d4d584b3e1ec6b92cc3",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "low-latency 3D visual geometry reconstruction"
+      },
+      "quote": "is well-suited for low-latency 3D visual geometry reconstruction tasks, where spatial consistency and causality play a crucial role.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.109502+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "low-latency 3D visual geometry reconstruction"
+            },
+            "quote": "is well-suited for low-latency 3D visual geometry reconstruction tasks, where spatial consistency and causality play a crucial role.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.003894+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.109540+00:00"
+  },
+  {
+    "id": "F_71eef35bea093c15517d",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "Point Map & Pose"
+      },
+      "quote": "Head Point   T-1                                                    Image                                                                                  Encoder                                                                                                     Point Map & Pose",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.125956+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "Point Map & Pose"
+            },
+            "quote": "Head Point   T-1                                                    Image                                                                                  Encoder                                                                                                     Point Map & Pose",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.004087+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.125995+00:00"
+  },
+  {
+    "id": "F_ac4e3f7d09ec3fd844d8",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "Depth Map"
+      },
+      "quote": "Depth Map\n                                        Spatial-Temporal Decoder",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.142479+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "Depth Map"
+            },
+            "quote": "Depth Map\n                                        Spatial-Temporal Decoder",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.004274+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.142521+00:00"
+  },
+  {
+    "id": "F_5a3e3c178a8ca3c7c9ef",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "Building on the success of VGGT (Wang et al., 2025a), we propose a token-cached causal archi-",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.846677+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "Building on the success of VGGT (Wang et al., 2025a), we propose a token-cached causal archi-",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.004466+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:13.846715+00:00"
+  },
+  {
+    "id": "F_7298b33114b71f139e49",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "For pair-wise approaches like DUSt3R (Wang et al., 2024a) and MASt3R (Leroy et al., 2024)",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.767315+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "For pair-wise approaches like DUSt3R (Wang et al., 2024a) and MASt3R (Leroy et al., 2024)",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.004654+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:13.767354+00:00"
+  },
+  {
+    "id": "F_061f1eac6ea7ad98a0a5",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "quote": "For pair-wise approaches like DUSt3R (Wang et al., 2024a) and MASt3R (Leroy et al., 2024)",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.814731+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "quote": "For pair-wise approaches like DUSt3R (Wang et al., 2024a) and MASt3R (Leroy et al., 2024)",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.004838+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:13.814770+00:00"
+  },
+  {
+    "id": "F_62c315a1d2f9e9f35e74",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "For memory-augmented approaches like Spann3R (Wang & Agapito, 2024) and CUT3R (Wang",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.159178+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "For memory-augmented approaches like Spann3R (Wang & Agapito, 2024) and CUT3R (Wang",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.005024+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.159217+00:00"
+  },
+  {
+    "id": "F_79b1c99453f0bbbe6ef3",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "For memory-augmented approaches like Spann3R (Wang & Agapito, 2024) and CUT3R (Wang",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.926040+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "For memory-augmented approaches like Spann3R (Wang & Agapito, 2024) and CUT3R (Wang",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.005209+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:13.926078+00:00"
+  },
+  {
+    "id": "F_9539bfb4e7b5e0424292",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Fast3R"
+      },
+      "quote": "For global interaction approaches like Fast3R (Yang et al., 2025) and VGGT (Wang et al., 2025a)",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.192485+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Fast3R"
+            },
+            "quote": "For global interaction approaches like Fast3R (Yang et al., 2025) and VGGT (Wang et al., 2025a)",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.005394+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.192526+00:00"
+  },
+  {
+    "id": "F_6e992fc6e65655fb4665",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "3.2  CAUSAL ARCHITECTURE WITH CACHED MEMORY TOKEN",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DINO"
+      },
+      "quote": "through DINO(Oquab et al., 2023)",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.209165+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DINO"
+            },
+            "quote": "through DINO(Oquab et al., 2023)",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:26.005580+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "9ba582979137b9ccfd3569193fdb54628040b5f8788df53102bb08ad31747f2e",
+    "reviewed_at": "2026-11-17T16:28:14.209202+00:00"
+  },
+  {
+    "id": "F_eae1550f0b9f1e838622",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Co3Dv2"
+      },
+      "quote": "Our StreamVGGT was fine-tuned on a curated multi-domain collection comprising 13 datasets: Co3Dv2 (Reizenstein et al., 2021)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.225912+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Co3Dv2"
+            },
+            "quote": "Our StreamVGGT was fine-tuned on a curated multi-domain collection comprising 13 datasets: Co3Dv2 (Reizenstein et al., 2021)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.078645+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.225952+00:00"
+  },
+  {
+    "id": "F_37c58c5bc1fc86937840",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "BlendMVS"
+      },
+      "quote": "Co3Dv2 (Reizenstein et al., 2021), BlendMVS (Yao et al., 2020)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.249010+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "BlendMVS"
+            },
+            "quote": "Co3Dv2 (Reizenstein et al., 2021), BlendMVS (Yao et al., 2020)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.078933+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.249053+00:00"
+  },
+  {
+    "id": "F_9fb17c91aa5f01968b14",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ARKitScenes"
+      },
+      "quote": "BlendMVS (Yao et al., 2020), ARKitScenes (Baruch et al., 2021)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.266090+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ARKitScenes"
+            },
+            "quote": "BlendMVS (Yao et al., 2020), ARKitScenes (Baruch et al., 2021)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.079194+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.266132+00:00"
+  },
+  {
+    "id": "F_157f776e0de54ea58948",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MegaDepth"
+      },
+      "quote": "ARKitScenes (Baruch et al., 2021), MegaDepth (Li & Snavely, 2018)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.282989+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MegaDepth"
+            },
+            "quote": "ARKitScenes (Baruch et al., 2021), MegaDepth (Li & Snavely, 2018)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.079448+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.283029+00:00"
+  },
+  {
+    "id": "F_632da5abbbb0e5e15dc0",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "WildRGB"
+      },
+      "quote": "MegaDepth (Li & Snavely, 2018), WildRGB (Xia et al., 2024)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.300329+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "WildRGB"
+            },
+            "quote": "MegaDepth (Li & Snavely, 2018), WildRGB (Xia et al., 2024)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.079695+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.300371+00:00"
+  },
+  {
+    "id": "F_01fffbe6163cbcaef7cf",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet"
+      },
+      "quote": "WildRGB (Xia et al., 2024), ScanNet (Dai et al., 2017)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.317262+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet"
+            },
+            "quote": "WildRGB (Xia et al., 2024), ScanNet (Dai et al., 2017)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.079942+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.317300+00:00"
+  },
+  {
+    "id": "F_0695ca260e046cf40621",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HyperSim"
+      },
+      "quote": "ScanNet (Dai et al., 2017), HyperSim (Roberts et al., 2021)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.334247+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HyperSim"
+            },
+            "quote": "ScanNet (Dai et al., 2017), HyperSim (Roberts et al., 2021)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.080192+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.334288+00:00"
+  },
+  {
+    "id": "F_11ef08cd888594c13d4d",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "OmniObject3D"
+      },
+      "quote": "HyperSim (Roberts et al., 2021), OmniObject3D (Wu et al., 2023)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.351200+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "OmniObject3D"
+            },
+            "quote": "HyperSim (Roberts et al., 2021), OmniObject3D (Wu et al., 2023)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.080438+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.351239+00:00"
+  },
+  {
+    "id": "F_f382b96b3bf3358126eb",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MVS-Synth"
+      },
+      "quote": "OmniObject3D (Wu et al., 2023), MVS-Synth (Huang et al., 2018)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.368540+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MVS-Synth"
+            },
+            "quote": "OmniObject3D (Wu et al., 2023), MVS-Synth (Huang et al., 2018)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.080684+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.368580+00:00"
+  },
+  {
+    "id": "F_fe066f1d63866bcd9a30",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "PointOdyssey"
+      },
+      "quote": "MVS-Synth (Huang et al., 2018), PointOdyssey (Zheng et al., 2023)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.387593+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "PointOdyssey"
+            },
+            "quote": "MVS-Synth (Huang et al., 2018), PointOdyssey (Zheng et al., 2023)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.080928+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.387665+00:00"
+  },
+  {
+    "id": "F_ed32ca0fd4dbb2836afe",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Virtual KITTI"
+      },
+      "quote": "PointOdyssey (Zheng et al., 2023), Virtual KITTI (Cabon et al., 2020)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.404796+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Virtual KITTI"
+            },
+            "quote": "PointOdyssey (Zheng et al., 2023), Virtual KITTI (Cabon et al., 2020)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.081170+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.404834+00:00"
+  },
+  {
+    "id": "F_80a269ad07632992d597",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Spring"
+      },
+      "quote": "Virtual KITTI (Cabon et al., 2020), Spring (Mehl et al., 2023)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.422015+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Spring"
+            },
+            "quote": "Virtual KITTI (Cabon et al., 2020), Spring (Mehl et al., 2023)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.081410+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.422054+00:00"
+  },
+  {
+    "id": "F_ecf1d4d978cad6963819",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Waymo"
+      },
+      "quote": "Spring (Mehl et al., 2023), and Waymo (Sun et al., 2020)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.439164+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Waymo"
+            },
+            "quote": "Spring (Mehl et al., 2023), and Waymo (Sun et al., 2020)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.081652+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.439202+00:00"
+  },
+  {
+    "id": "F_50857f312afbf4a19837",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "we evaulated the 3D reconstruction performance of StreamVGGT on 7-Scenes (Shotton et al., 2013)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.457018+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "we evaulated the 3D reconstruction performance of StreamVGGT on 7-Scenes (Shotton et al., 2013)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.081926+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.457059+00:00"
+  },
+  {
+    "id": "F_50114d9c0e02021c32f3",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NRGBD"
+      },
+      "quote": "we evaulated the 3D reconstruction performance of StreamVGGT on 7-Scenes (Shotton et al., 2013) and NRGBD (Azinovi´c et al., 2022)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.497221+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NRGBD"
+            },
+            "quote": "we evaulated the 3D reconstruction performance of StreamVGGT on 7-Scenes (Shotton et al., 2013) and NRGBD (Azinovi´c et al., 2022)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.082194+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.497262+00:00"
+  },
+  {
+    "id": "F_0ad6ebfdc615d44cc6fc",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "Table 2: Quantitative 3D reconstruction results on ETH3D dataset.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.532291+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "Table 2: Quantitative 3D reconstruction results on ETH3D dataset.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.082439+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.532330+00:00"
+  },
+  {
+    "id": "F_2b47512a16c877439fcf",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM-dynamics"
+      },
+      "quote": "Table 3: Quantitative 4D reconstruction results on TUM-dynamics.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.567698+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM-dynamics"
+            },
+            "quote": "Table 3: Quantitative 4D reconstruction results on TUM-dynamics.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.082679+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.567736+00:00"
+  },
+  {
+    "id": "F_842ad612b093184da2e6",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "FlashAttention-2"
+      },
+      "quote": "We integrated FlashAttention-2 (Dao, 2023) to accelerate the inference.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.585440+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "FlashAttention-2"
+            },
+            "quote": "We integrated FlashAttention-2 (Dao, 2023) to accelerate the inference.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.082925+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.585479+00:00"
+  },
+  {
+    "id": "F_51f1e523018fe513e8e4",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "VGGT pre-trained weights"
+      },
+      "quote": "We initialized StreamVGGT by using pre-trained weights from VGGT",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.603028+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "VGGT pre-trained weights"
+            },
+            "quote": "We initialized StreamVGGT by using pre-trained weights from VGGT",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.083171+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.603066+00:00"
+  },
+  {
+    "id": "F_3c1fbafdee602d7a66f4",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "Our model architecture follows VGGT (Wang et al., 2025a)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.862612+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "Our model architecture follows VGGT (Wang et al., 2025a)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.083414+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:13.862650+00:00"
+  },
+  {
+    "id": "F_725d0182cd11cd1a72f2",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "Following CUT3R (Wang et al., 2025b), we evaulated the 3D reconstruction performance",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.941966+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "Following CUT3R (Wang et al., 2025b), we evaulated the 3D reconstruction performance",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.083661+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:13.942003+00:00"
+  },
+  {
+    "id": "F_a4f27fb3528703e27fb8",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "quote": "Following Point3R (Wu et al., 2025), we processed input images with variable aspect ratios",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.620621+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "quote": "Following Point3R (Wu et al., 2025), we processed input images with variable aspect ratios",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.083904+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.620659+00:00"
+  },
+  {
+    "id": "F_f9410d7d81633dc1816f",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "FlashAttention-2"
+      },
+      "quote": "We integrated FlashAttention-2 (Dao, 2023) to accelerate the inference.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.638278+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "FlashAttention-2"
+            },
+            "quote": "We integrated FlashAttention-2 (Dao, 2023) to accelerate the inference.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:47.084144+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "536f72dfc8b48dba86bddb17a095a59aa76b121f5e05209c467a00e87d9b1ef4",
+    "reviewed_at": "2026-11-17T16:28:14.638317+00:00"
+  },
+  {
+    "id": "F_08ddba62cb20402817fe",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "we further evalu-\nated the accuracy of the predicted point clouds on the ETH3D (Schops et al., 2017) dataset.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.673757+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "we further evalu-\nated the accuracy of the predicted point clouds on the ETH3D (Schops et al., 2017) dataset.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.771256+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.673815+00:00"
+  },
+  {
+    "id": "F_af6aec19e8a89fd82cc8",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "we evaluated single-\nframe depth estimation across four datasets: KITTI (Geiger et al., 2013)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.715246+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "we evaluated single-\nframe depth estimation across four datasets: KITTI (Geiger et al., 2013)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.771901+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.715287+00:00"
+  },
+  {
+    "id": "F_8c3941ad648657c9ee55",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "we evaluated single-\nframe depth estimation across four datasets: KITTI (Geiger et al., 2013), Sintel (Alnegheimish et\nal., 2022)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.733113+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "we evaluated single-\nframe depth estimation across four datasets: KITTI (Geiger et al., 2013), Sintel (Alnegheimish et\nal., 2022)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.772222+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.733152+00:00"
+  },
+  {
+    "id": "F_4062842c698823726017",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "Sintel (Alnegheimish et\nal., 2022), Bonn (Palazzolo et al., 2019), and NYU-v2 (Silberman et al., 2012)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.751120+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "Sintel (Alnegheimish et\nal., 2022), Bonn (Palazzolo et al., 2019), and NYU-v2 (Silberman et al., 2012)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.772532+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.751158+00:00"
+  },
+  {
+    "id": "F_fad82e24bcee570c1852",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NYU-v2"
+      },
+      "quote": "Bonn (Palazzolo et al., 2019), and NYU-v2 (Silberman et al., 2012)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.769274+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NYU-v2"
+            },
+            "quote": "Bonn (Palazzolo et al., 2019), and NYU-v2 (Silberman et al., 2012)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.772835+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.769320+00:00"
+  },
+  {
+    "id": "F_1c106ef0f4fc9260cc23",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Abs Rel"
+      },
+      "quote": "we employ two principal metrics: Absolute Relative Error (Abs Rel)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.787487+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Abs Rel"
+            },
+            "quote": "we employ two principal metrics: Absolute Relative Error (Abs Rel)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.773137+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.787528+00:00"
+  },
+  {
+    "id": "F_c6d1d33df9ec1a7a720e",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ1.25"
+      },
+      "quote": "the percentage of predictions within a 1.25 factor of ground truth depth (δ1.25)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.806010+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ1.25"
+            },
+            "quote": "the percentage of predictions within a 1.25 factor of ground truth depth (δ1.25)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.773447+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.806051+00:00"
+  },
+  {
+    "id": "F_ef00014b42386c8a166e",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Chamfer distance"
+      },
+      "quote": "we measure accuracy (Acc), completeness (Comp), and over-\nall quality (Chamfer distance) for 3D reconstruction.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.824112+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Chamfer distance"
+            },
+            "quote": "we measure accuracy (Acc), completeness (Comp), and over-\nall quality (Chamfer distance) for 3D reconstruction.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.773752+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.824151+00:00"
+  },
+  {
+    "id": "F_0fd7879216a79327c433",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "Following VGGT (Wang et al., 2025a), we further evalu-",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.878502+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "Following VGGT (Wang et al., 2025a), we further evalu-",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.774061+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:13.878540+00:00"
+  },
+  {
+    "id": "F_1f729fa4f93da69372c6",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MonST3R"
+      },
+      "quote": "Following MonST3R (Zhang et al., 2024), we evaluated single-",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.842420+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MonST3R"
+            },
+            "quote": "Following MonST3R (Zhang et al., 2024), we evaluated single-",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.774357+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:14.842458+00:00"
+  },
+  {
+    "id": "F_09d253550e66322b0716",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "4.2  TRAINING DATASETS",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "Following\nDUSt3R (Wang et al., 2024a), we employ two principal metrics",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.782989+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "Following\nDUSt3R (Wang et al., 2024a), we employ two principal metrics",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:13:50.774654+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5a9d5760fcf90a63a4bd2b9f38502d28dc3aec89298a1f933aaa07ba09aa86cd",
+    "reviewed_at": "2026-11-17T16:28:13.783028+00:00"
+  },
+  {
+    "id": "F_e0f8bed355e27410ecfb",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "quote": "In this paper, we have presented StreamVGGT, a causal transformer architecture for low-latency streaming 3D visual geometry reconstruction.",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.861964+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "quote": "In this paper, we have presented StreamVGGT, a causal transformer architecture for low-latency streaming 3D visual geometry reconstruction.",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.718202+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:14.862006+00:00"
+  },
+  {
+    "id": "F_ccbea898509ed0c445a3",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "streaming 3D visual geometry reconstruction"
+      },
+      "quote": "a causal transformer architecture for low-latency streaming 3D visual geometry reconstruction",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.919891+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "streaming 3D visual geometry reconstruction"
+            },
+            "quote": "a causal transformer architecture for low-latency streaming 3D visual geometry reconstruction",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.718960+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:14.919945+00:00"
+  },
+  {
+    "id": "F_a0caf39b339dc42a79f9",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "we evaluated three variants on the 7-Scenes (Shotton et al., 2013), NRGBD (Azinovi´c et al., 2022), and ETH3D (Schops et al., 2017) datasets",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.479675+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "we evaluated three variants on the 7-Scenes (Shotton et al., 2013), NRGBD (Azinovi´c et al., 2022), and ETH3D (Schops et al., 2017) datasets",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.719239+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:14.479717+00:00"
+  },
+  {
+    "id": "F_f10b40265c50a523811b",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NRGBD"
+      },
+      "quote": "we evaluated three variants on the 7-Scenes (Shotton et al., 2013), NRGBD (Azinovi´c et al., 2022), and ETH3D (Schops et al., 2017) datasets",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.514731+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NRGBD"
+            },
+            "quote": "we evaluated three variants on the 7-Scenes (Shotton et al., 2013), NRGBD (Azinovi´c et al., 2022), and ETH3D (Schops et al., 2017) datasets",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.719499+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:14.514770+00:00"
+  },
+  {
+    "id": "F_55b563a68175a2b34092",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "we evaluated three variants on the 7-Scenes (Shotton et al., 2013), NRGBD (Azinovi´c et al., 2022), and ETH3D (Schops et al., 2017) datasets",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.549954+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "we evaluated three variants on the 7-Scenes (Shotton et al., 2013), NRGBD (Azinovi´c et al., 2022), and ETH3D (Schops et al., 2017) datasets",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.719755+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:14.549992+00:00"
+  },
+  {
+    "id": "F_38932831d445bc334898",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "windowed streaming"
+      },
+      "quote": "we introduce two strategies:  (i) windowed streaming, which partitions the sequence into fixed-length chunks",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:15.089080+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "windowed streaming"
+            },
+            "quote": "we introduce two strategies:  (i) windowed streaming, which partitions the sequence into fixed-length chunks",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.720223+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:15.089144+00:00"
+  },
+  {
+    "id": "F_3598efc2b43e38a082ca",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "K-nearest-frames caching"
+      },
+      "quote": "(ii) K-nearest-frames caching, where each frame attends only to tokens from the most recent K frames",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:15.115335+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "K-nearest-frames caching"
+            },
+            "quote": "(ii) K-nearest-frames caching, where each frame attends only to tokens from the most recent K frames",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.720457+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:15.115381+00:00"
+  },
+  {
+    "id": "F_31dd82df3b90adb5e7e1",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "knowledge distillation"
+      },
+      "quote": "To assess the effectiveness of our knowledge-distillation strategy, we evaluated three variants",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:15.322448+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "knowledge distillation"
+            },
+            "quote": "To assess the effectiveness of our knowledge-distillation strategy, we evaluated three variants",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.720690+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:15.322523+00:00"
+  },
+  {
+    "id": "F_b75b435dac13db20d024",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "the global self-attention teacher VGGT (Wang et al., 2025a)",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.894327+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "the global self-attention teacher VGGT (Wang et al., 2025a)",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.720924+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:13.894364+00:00"
+  },
+  {
+    "id": "F_c0d757d00e600fa4028e",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "Spann3R (Wang & Agapito, 2024)",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.175872+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "Spann3R (Wang & Agapito, 2024)",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.721155+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:14.175910+00:00"
+  },
+  {
+    "id": "F_c1c483d68556daff49ce",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "CUT3R (Wang et al., 2025b)",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.958109+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "CUT3R (Wang et al., 2025b)",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.721380+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:13.958147+00:00"
+  },
+  {
+    "id": "F_4fcea7ea71aad46cf38a",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "FlashAttention-2"
+      },
+      "quote": "FlashAttention-2 (Dao, 2023)",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.656176+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "FlashAttention-2"
+            },
+            "quote": "FlashAttention-2 (Dao, 2023)",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:02.721614+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "534883d36d56f988721aa9f904d1763d8ee10c9d3d22864424bd709d5d70e325",
+    "reviewed_at": "2026-11-17T16:28:14.656216+00:00"
+  },
+  {
+    "id": "F_e18859624616ae0a287b",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "We conduct this experiment on the 7-Scenes (Shotton et al., 2013) dataset, each sequence includes over 70 frames.",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:15.580398+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "We conduct this experiment on the 7-Scenes (Shotton et al., 2013) dataset, each sequence includes over 70 frames.",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:08.968405+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "43ad7c0b055232158d666e1b774b1e2b7206284d7fd682baba4c6f2850e3bb28",
+    "reviewed_at": "2026-11-17T16:28:15.580501+00:00"
+  },
+  {
+    "id": "F_4a4b9e959a72bc725d8b",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Avg. Translational Error (m)"
+      },
+      "quote": "Avg. Translational Error (m)↓",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:15.988353+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Avg. Translational Error (m)"
+            },
+            "quote": "Avg. Translational Error (m)↓",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:08.968630+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "43ad7c0b055232158d666e1b774b1e2b7206284d7fd682baba4c6f2850e3bb28",
+    "reviewed_at": "2026-11-17T16:28:15.988394+00:00"
+  },
+  {
+    "id": "F_c18f9ac435f831b13d70",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Avg. Rotational Error (◦)"
+      },
+      "quote": "Avg. Rotational Error (◦)↓",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:16.012466+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Avg. Rotational Error (◦)"
+            },
+            "quote": "Avg. Rotational Error (◦)↓",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:08.968830+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "43ad7c0b055232158d666e1b774b1e2b7206284d7fd682baba4c6f2850e3bb28",
+    "reviewed_at": "2026-11-17T16:28:16.012508+00:00"
+  },
+  {
+    "id": "F_05ec8df1347c10f66e9d",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "we evaluated StreamVGGT on the ETH3D (Schops et al., 2017) dataset under two settings",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:14.691578+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "we evaluated StreamVGGT on the ETH3D (Schops et al., 2017) dataset under two settings",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:08.969029+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "43ad7c0b055232158d666e1b774b1e2b7206284d7fd682baba4c6f2850e3bb28",
+    "reviewed_at": "2026-11-17T16:28:14.691617+00:00"
+  },
+  {
+    "id": "F_7b5e314a3b5c6c222fd1",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "better than the baseline CUT3R (Wang et al., 2025b)",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.974134+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "better than the baseline CUT3R (Wang et al., 2025b)",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:08.969222+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "43ad7c0b055232158d666e1b774b1e2b7206284d7fd682baba4c6f2850e3bb28",
+    "reviewed_at": "2026-11-17T16:28:13.974172+00:00"
+  },
+  {
+    "id": "F_e1298565c40f15426a1b",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "7-Scenes"
+      },
+      "quote": "7-Scenes (Shotton et al., 2013) dataset",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:16.030777+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "7-Scenes"
+            },
+            "quote": "7-Scenes (Shotton et al., 2013) dataset",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:08.969411+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "43ad7c0b055232158d666e1b774b1e2b7206284d7fd682baba4c6f2850e3bb28",
+    "reviewed_at": "2026-11-17T16:28:16.030815+00:00"
+  },
+  {
+    "id": "F_c13a634840e010d1175a",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "ETH3D"
+      },
+      "quote": "ETH3D (Schops et al., 2017) dataset",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:16.049011+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "ETH3D"
+            },
+            "quote": "ETH3D (Schops et al., 2017) dataset",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:08.969596+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "43ad7c0b055232158d666e1b774b1e2b7206284d7fd682baba4c6f2850e3bb28",
+    "reviewed_at": "2026-11-17T16:28:16.049049+00:00"
+  },
+  {
+    "id": "F_e8ccb80100e9c92aa1ea",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "Results on 7-Scenes when the video stream is interrupted.",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:15.968485+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "Results on 7-Scenes when the video stream is interrupted.",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:11.323138+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a2e7cfd6fb51038253540436bf68df9485f117fb9b91ab0c5e34df5e7df6becd",
+    "reviewed_at": "2026-11-17T16:28:15.968560+00:00"
+  },
+  {
+    "id": "F_66063907ff126cf29d59",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet"
+      },
+      "quote": "We provide visualizations of pose estimation on ScanNet (Dai et al., 2017)",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:16.067217+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet"
+            },
+            "quote": "We provide visualizations of pose estimation on ScanNet (Dai et al., 2017)",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:11.323295+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a2e7cfd6fb51038253540436bf68df9485f117fb9b91ab0c5e34df5e7df6becd",
+    "reviewed_at": "2026-11-17T16:28:16.067256+00:00"
+  },
+  {
+    "id": "F_492080e027a815c619e6",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Acc Mean"
+      },
+      "quote": "Method              Type     Acc Mean↓   Acc Med.↓  Comp Mean↓  Comp Med.↓  NC Mean↑  NC Med.↑",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:16.085897+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Acc Mean"
+            },
+            "quote": "Method              Type     Acc Mean↓   Acc Med.↓  Comp Mean↓  Comp Med.↓  NC Mean↑  NC Med.↑",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:11.323431+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a2e7cfd6fb51038253540436bf68df9485f117fb9b91ab0c5e34df5e7df6becd",
+    "reviewed_at": "2026-11-17T16:28:16.085953+00:00"
+  },
+  {
+    "id": "F_c40996adc88a57f2fe08",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Comp Mean"
+      },
+      "quote": "Method              Type     Acc Mean↓   Acc Med.↓  Comp Mean↓  Comp Med.↓  NC Mean↑  NC Med.↑",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:16.109489+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Comp Mean"
+            },
+            "quote": "Method              Type     Acc Mean↓   Acc Med.↓  Comp Mean↓  Comp Med.↓  NC Mean↑  NC Med.↑",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:11.323559+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a2e7cfd6fb51038253540436bf68df9485f117fb9b91ab0c5e34df5e7df6becd",
+    "reviewed_at": "2026-11-17T16:28:16.109538+00:00"
+  },
+  {
+    "id": "F_97f55e793829c8022187",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "NC Mean"
+      },
+      "quote": "Method              Type     Acc Mean↓   Acc Med.↓  Comp Mean↓  Comp Med.↓  NC Mean↑  NC Med.↑",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:16.128150+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "NC Mean"
+            },
+            "quote": "Method              Type     Acc Mean↓   Acc Med.↓  Comp Mean↓  Comp Med.↓  NC Mean↑  NC Med.↑",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:11.323685+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a2e7cfd6fb51038253540436bf68df9485f117fb9b91ab0c5e34df5e7df6becd",
+    "reviewed_at": "2026-11-17T16:28:16.128188+00:00"
+  },
+  {
+    "id": "F_300f0e07e974bc8e975a",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "CUT3R (Wang et al., 2025b) on the 7-Scenes (Shotton et al., 2013) dataset.",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:13.990041+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "CUT3R (Wang et al., 2025b) on the 7-Scenes (Shotton et al., 2013) dataset.",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:11.323809+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a2e7cfd6fb51038253540436bf68df9485f117fb9b91ab0c5e34df5e7df6becd",
+    "reviewed_at": "2026-11-17T16:28:13.990079+00:00"
+  },
+  {
+    "id": "F_93bd239c355645a3f230",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "StreamVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "STream3R"
+      },
+      "quote": "We provide a comprehensive comparison between StreamVGGT and a concurrent work STream3R (Lan et al., 2025)",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:16.146727+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "StreamVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "STream3R"
+            },
+            "quote": "We provide a comprehensive comparison between StreamVGGT and a concurrent work STream3R (Lan et al., 2025)",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:11.323930+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a2e7cfd6fb51038253540436bf68df9485f117fb9b91ab0c5e34df5e7df6becd",
+    "reviewed_at": "2026-11-17T16:28:16.146765+00:00"
+  },
+  {
+    "id": "F_eccccf710f37fabc942a",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "13 training datasets"
+      },
+      "quote": "our StreamVGGT achieves comparable results under constrained training resources by using only 13 training datasets",
+      "page": 17
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:22.285047+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "13 training datasets"
+            },
+            "quote": "our StreamVGGT achieves comparable results under constrained training resources by using only 13 training datasets",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:12.898735+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e0282bd5787eadb111b357e81c12dad2f1fb5e966060d2bbc5f21ecccd52c4c8",
+    "reviewed_at": "2026-11-17T16:28:22.285127+00:00"
+  },
+  {
+    "id": "F_161b08746a8e733d3ee7",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Scannet"
+      },
+      "quote": "Visualizations of the pose estimation of StreamVGGT and CUT3R on Scannet.",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:26.289756+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Scannet"
+            },
+            "quote": "Visualizations of the pose estimation of StreamVGGT and CUT3R on Scannet.",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:12.898850+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e0282bd5787eadb111b357e81c12dad2f1fb5e966060d2bbc5f21ecccd52c4c8",
+    "reviewed_at": "2026-11-17T16:28:26.289886+00:00"
+  },
+  {
+    "id": "F_ae33ac2d9b28514ee770",
+    "paper_id": "P019",
+    "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+    "section": "5  CONCLUSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "StreamVGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "knowledge distillation strategy"
+      },
+      "quote": "This fully demonstrates the effectiveness of our knowledge distillation strategy",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:28:26.309160+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "StreamVGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "knowledge distillation strategy"
+            },
+            "quote": "This fully demonstrates the effectiveness of our knowledge distillation strategy",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:14:12.898940+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "e0282bd5787eadb111b357e81c12dad2f1fb5e966060d2bbc5f21ecccd52c4c8",
+    "reviewed_at": "2026-11-17T16:28:26.309204+00:00"
+  }
+]

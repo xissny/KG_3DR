@@ -1,0 +1,2536 @@
+{
+  "status": "complete",
+  "time": "2026-11-11T04:28:20.792098+00:00",
+  "graph_version": "82c3cb1f13146903f8d0cc4715dcb67c1cb2fdc3abad7f7a85e7f1771d627741",
+  "path_model": {
+    "mrr": 0.5,
+    "hits_at_1": 0.0,
+    "hits_at_3": 1.0,
+    "covered": 12,
+    "total": 12,
+    "coverage": 1.0,
+    "end_to_end_mrr": 0.5
+  },
+  "frequency_baseline": {
+    "mrr": 0.5,
+    "hits_at_1": 0.0,
+    "hits_at_3": 1.0,
+    "covered": 12,
+    "total": 12,
+    "coverage": 1.0,
+    "end_to_end_mrr": 0.5
+  },
+  "cases": [
+    {
+      "held_out_paper": "P001",
+      "method_id": "method_3eaef579acca087c",
+      "target": "component_fa6c166f6bfba0f6",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_39558f39e1486cf8d5af"
+      ]
+    },
+    {
+      "held_out_paper": "P002",
+      "method_id": "method_97d5f900f61bc7d1",
+      "target": "component_fa6c166f6bfba0f6",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_ff1aa092089a358e14ea"
+      ]
+    },
+    {
+      "held_out_paper": "P003",
+      "method_id": "method_c094fcf024c00584",
+      "target": "component_fa6c166f6bfba0f6",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_0aa162c39dc75718f957"
+      ]
+    },
+    {
+      "held_out_paper": "P004",
+      "method_id": "method_65e128ff4b9b4b81",
+      "target": "component_fa6c166f6bfba0f6",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_59fcadbe86a112335a4f"
+      ]
+    },
+    {
+      "held_out_paper": "P005",
+      "method_id": "method_7ee757dbc088628a",
+      "target": "component_fa6c166f6bfba0f6",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_9e048a515051ff584f9e"
+      ]
+    },
+    {
+      "held_out_paper": "P006",
+      "method_id": "method_0fa9b7248eac55f6",
+      "target": "component_fa6c166f6bfba0f6",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_8cb7e175d03f48d7f86a"
+      ]
+    },
+    {
+      "held_out_paper": "P007",
+      "method_id": "method_63cbd15a5119f34f",
+      "target": "component_133231fd9608145f",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_f7c827969004ab7a6bb1"
+      ]
+    },
+    {
+      "held_out_paper": "P008",
+      "method_id": "method_f59acc38147ed687",
+      "target": "component_133231fd9608145f",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_df0e9c3aebce60a03eab"
+      ]
+    },
+    {
+      "held_out_paper": "P009",
+      "method_id": "method_2cd7c331ce00155e",
+      "target": "component_133231fd9608145f",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_2626b2fd2b763f0de36e"
+      ]
+    },
+    {
+      "held_out_paper": "P010",
+      "method_id": "method_09d9606ffb7abd91",
+      "target": "component_133231fd9608145f",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "dataset_b6d52943e26f329f",
+                "name": "Teaching Dataset B"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_edddf639f295bb7e8b44"
+      ]
+    },
+    {
+      "held_out_paper": "P011",
+      "method_id": "method_a8d9e57d6493e2f9",
+      "target": "component_133231fd9608145f",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_3eaef579acca087c",
+                "name": "Teaching Method 01"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "dataset_229913dd997f01ed",
+                "name": "Teaching Dataset A"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_efb68da54be91edb38b2"
+      ]
+    },
+    {
+      "held_out_paper": "P012",
+      "method_id": "method_bb7612d341d52086",
+      "target": "component_133231fd9608145f",
+      "rank": 2.0,
+      "popularity_rank": 2.0,
+      "covered": true,
+      "top_candidates": [
+        {
+          "component_id": "component_fa6c166f6bfba0f6",
+          "name": "Global attention",
+          "score": 4.5,
+          "popularity": 6,
+          "paths": [
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_65e128ff4b9b4b81",
+                "name": "Teaching Method 04"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_7ee757dbc088628a",
+                "name": "Teaching Method 05"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_0fa9b7248eac55f6",
+                "name": "Teaching Method 06"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_97d5f900f61bc7d1",
+                "name": "Teaching Method 02"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ],
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_c094fcf024c00584",
+                "name": "Teaching Method 03"
+              },
+              {
+                "id": "component_fa6c166f6bfba0f6",
+                "name": "Global attention"
+              }
+            ]
+          ]
+        },
+        {
+          "component_id": "component_133231fd9608145f",
+          "name": "Pairwise attention",
+          "score": 3.5,
+          "popularity": 5,
+          "paths": [
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_63cbd15a5119f34f",
+                "name": "Teaching Method 07"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_f59acc38147ed687",
+                "name": "Teaching Method 08"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_2cd7c331ce00155e",
+                "name": "Teaching Method 09"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_09d9606ffb7abd91",
+                "name": "Teaching Method 10"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ],
+            [
+              {
+                "id": "method_bb7612d341d52086",
+                "name": "Teaching Method 12"
+              },
+              {
+                "id": "representation_5d4ad80d2ac25534",
+                "name": "Teaching geometry"
+              },
+              {
+                "id": "method_a8d9e57d6493e2f9",
+                "name": "Teaching Method 11"
+              },
+              {
+                "id": "component_133231fd9608145f",
+                "name": "Pairwise attention"
+              }
+            ]
+          ]
+        }
+      ],
+      "hidden_edge_ids": [
+        "R_8953f6839d3beca82263"
+      ]
+    }
+  ],
+  "tie_policy": "平均秩；Hits 根据平均秩阈值计算",
+  "leakage_check": "目标组件边按论文与方法分组移除；不读取文本、任务关系或大模型答案。",
+  "limitations": "未观测关系是未知；新组件无法进入训练候选；同分候选多时排名证据较弱。"
+}

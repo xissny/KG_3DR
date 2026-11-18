@@ -1,0 +1,3146 @@
+[
+  {
+    "id": "F_49899c80625abd777eeb",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "dense RGB SLAM"
+      },
+      "quote": "VGGT-SLAM, a dense RGB SLAM system",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:20:32.386180+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "dense RGB SLAM"
+            },
+            "quote": "VGGT-SLAM, a dense RGB SLAM system",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-11T11:29:52.144156+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "dense RGB SLAM"
+            },
+            "quote": "VGGT-SLAM, a dense RGB SLAM system",
+            "page": 1
+          },
+          "status": "approved",
+          "reviewer": "hyx",
+          "note": "人工批量审核"
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-11T11:29:58.802394+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "dense RGB SLAM"
+            },
+            "quote": "VGGT-SLAM, a dense RGB SLAM system",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": "人工批量审核"
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:43.978078+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "762963198a75bbdd1bd013c2b08f73d5feb2917d731af87f55fb1b03c730587a",
+    "reviewed_at": "2026-11-11T11:29:58.802451+00:00"
+  },
+  {
+    "id": "F_80fe8d8e88b44a6c0827",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "SL(4) manifold optimization"
+      },
+      "quote": "optimizing over the SL(4) manifold",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:20:32.390499+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "SL(4) manifold optimization"
+            },
+            "quote": "optimizing over the SL(4) manifold",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:43.978276+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "762963198a75bbdd1bd013c2b08f73d5feb2917d731af87f55fb1b03c730587a",
+    "reviewed_at": "2026-11-11T11:20:32.390529+00:00"
+  },
+  {
+    "id": "F_98a7ff97bccaa46b0216",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "VGGT (Visual Geometry Grounded Transformer) [68]",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:20:32.399661+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "VGGT (Visual Geometry Grounded Transformer) [68]",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:43.978462+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "762963198a75bbdd1bd013c2b08f73d5feb2917d731af87f55fb1b03c730587a",
+    "reviewed_at": "2026-11-11T11:20:32.399686+00:00"
+  },
+  {
+    "id": "F_69c85a331e5a96d31f99",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "The seminal work DUSt3R [70] has spawned multiple",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.271592+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "The seminal work DUSt3R [70] has spawned multiple",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.657108+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.271641+00:00"
+  },
+  {
+    "id": "F_15d5168fd51ff264b0de",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "quote": "Most similar to ours is MASt3R-SLAM [44].",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.275900+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "quote": "Most similar to ours is MASt3R-SLAM [44].",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.657374+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.275927+00:00"
+  },
+  {
+    "id": "F_02837fbafa9f8b4ba177",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "we desire to build on top of the more powerful VGGT",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:20:32.403637+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "we desire to build on top of the more powerful VGGT",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.657614+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:20:32.403662+00:00"
+  },
+  {
+    "id": "F_a4900346974638ec9ca4",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "Spann3R [67] leverages a learned memory",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.284050+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "Spann3R [67] leverages a learned memory",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.658007+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.284077+00:00"
+  },
+  {
+    "id": "F_fa1f4df9cbdaea03aed5",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Pow3R"
+      },
+      "quote": "Recently, Pow3R [27] extends the",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.288114+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Pow3R"
+            },
+            "quote": "Recently, Pow3R [27] extends the",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.658259+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.288139+00:00"
+  },
+  {
+    "id": "F_a6bee4e63853906a46d7",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Sim-Sync"
+      },
+      "quote": "Recently, Sim-Sync [74]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.292239+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Sim-Sync"
+            },
+            "quote": "Recently, Sim-Sync [74]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.658506+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.292263+00:00"
+  },
+  {
+    "id": "F_7863b73ac3e174b8b9b9",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "ACE"
+      },
+      "quote": "with works such as ACE [3] and DSAC* [4]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.296475+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "ACE"
+            },
+            "quote": "with works such as ACE [3] and DSAC* [4]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.658745+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.296499+00:00"
+  },
+  {
+    "id": "F_f15cd9a001d9f5eed566",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DSAC*"
+      },
+      "quote": "with works such as ACE [3] and DSAC* [4]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.300678+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DSAC*"
+            },
+            "quote": "with works such as ACE [3] and DSAC* [4]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.658982+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.300702+00:00"
+  },
+  {
+    "id": "F_9a8ce8ab2a7bc73ada91",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "quote": "MASt3R follows a similar",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.304988+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "quote": "MASt3R follows a similar",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.659221+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.305013+00:00"
+  },
+  {
+    "id": "F_d5d1fc65ab5cab349ed1",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R-SFM"
+      },
+      "quote": "MASt3R-SFM [14] demonstrates global optimization",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.309304+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R-SFM"
+            },
+            "quote": "MASt3R-SFM [14] demonstrates global optimization",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.659452+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.309329+00:00"
+  },
+  {
+    "id": "F_a7fe682b525caf55515c",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Cut3R"
+      },
+      "quote": "Cut3R [69] uses a recurrent state model",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.313668+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Cut3R"
+            },
+            "quote": "Cut3R [69] uses a recurrent state model",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.659686+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.313693+00:00"
+  },
+  {
+    "id": "F_45361b766e89bdadf4ad",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Splatt3R"
+      },
+      "quote": "Splatt3R [60] extends the DUSt3R",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.318078+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Splatt3R"
+            },
+            "quote": "Splatt3R [60] extends the DUSt3R",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.659924+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.318103+00:00"
+  },
+  {
+    "id": "F_53741eaac919c2e8ba54",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "PreF3R"
+      },
+      "quote": "PreF3R [8] extends this to multiple views",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.322536+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "PreF3R"
+            },
+            "quote": "PreF3R [8] extends this to multiple views",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.660166+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.322561+00:00"
+  },
+  {
+    "id": "F_ff520d59bf324cceef84",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Reloc3r"
+      },
+      "quote": "Reloc3r [13] modifies the DUSt3R framework",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.327153+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Reloc3r"
+            },
+            "quote": "Reloc3r [13] modifies the DUSt3R framework",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.660403+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.327178+00:00"
+  },
+  {
+    "id": "F_1d3094b94169f7d94461",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Gaussian Splatting"
+      },
+      "quote": "extends the DUSt3R idea to Gaussian Splatting [29]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.331614+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Gaussian Splatting"
+            },
+            "quote": "extends the DUSt3R idea to Gaussian Splatting [29]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.660641+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.331639+00:00"
+  },
+  {
+    "id": "F_4cbc6626e6c3353d7925",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DINO"
+      },
+      "quote": "tokenizes them with a fine-tuned DINO [47]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.336094+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DINO"
+            },
+            "quote": "tokenizes them with a fine-tuned DINO [47]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.660883+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.336119+00:00"
+  },
+  {
+    "id": "F_50760211bc76167a93ac",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Dense Prediction Transformer"
+      },
+      "quote": "Dense Prediction Transformer (DPT) heads [52]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.340647+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Dense Prediction Transformer"
+            },
+            "quote": "Dense Prediction Transformer (DPT) heads [52]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.661124+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.340672+00:00"
+  },
+  {
+    "id": "F_7446adf6e2f39dc4ac17",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Weiszfeld algorithm"
+      },
+      "quote": "estimated using the Weiszfeld algorithm [49]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.345312+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Weiszfeld algorithm"
+            },
+            "quote": "estimated using the Weiszfeld algorithm [49]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.661358+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.345338+00:00"
+  },
+  {
+    "id": "F_1b590324fd373b59376d",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "3-point RANSAC"
+      },
+      "quote": "poses can be recovered using multiple methods such as a 3-point RANSAC [46, 38]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.349968+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "3-point RANSAC"
+            },
+            "quote": "poses can be recovered using multiple methods such as a 3-point RANSAC [46, 38]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.661600+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.349992+00:00"
+  },
+  {
+    "id": "F_ed9c9a7b81c41788afe0",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "bundle adjustment"
+      },
+      "quote": "using [30, 71] bundle adjustment [56, 48]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.354667+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "bundle adjustment"
+            },
+            "quote": "using [30, 71] bundle adjustment [56, 48]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.661838+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:23:38.354693+00:00"
+  },
+  {
+    "id": "F_41918190402fbc23eba5",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DUSt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "dense point map"
+      },
+      "quote": "outputs a dense point map in the reference frame of the first camera",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:29:30.298274+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DUSt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "dense point map"
+            },
+            "quote": "outputs a dense point map in the reference frame of the first camera",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.662072+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:29:30.298326+00:00"
+  },
+  {
+    "id": "F_680ee647202f3aff1fbd",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "descriptors"
+      },
+      "quote": "also outputs descriptors that can be used to generate pairwise correspondences",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:29:30.303447+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "descriptors"
+            },
+            "quote": "also outputs descriptors that can be used to generate pairwise correspondences",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.662303+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:29:30.303483+00:00"
+  },
+  {
+    "id": "F_c81b6040bc2daaed446b",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Spann3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "learned memory module"
+      },
+      "quote": "Spann3R [67] leverages a learned memory module",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.282563+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Spann3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "learned memory module"
+            },
+            "quote": "Spann3R [67] leverages a learned memory module",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.662534+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:38:36.282611+00:00"
+  },
+  {
+    "id": "F_e6351a45aa52be48a6a5",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Cut3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "recurrent state model"
+      },
+      "quote": "Cut3R [69] uses a recurrent state model",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.289553+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Cut3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "recurrent state model"
+            },
+            "quote": "Cut3R [69] uses a recurrent state model",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.662773+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:38:36.289615+00:00"
+  },
+  {
+    "id": "F_fccece9e5d46519ffd3b",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "MASt3R"
+      },
+      "quote": "MASt3R-SLAM leverages MASt3R to construct an impressive real time dense monocular SLAM system",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.295251+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "MASt3R"
+            },
+            "quote": "MASt3R-SLAM leverages MASt3R to construct an impressive real time dense monocular SLAM system",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.663009+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:38:36.295279+00:00"
+  },
+  {
+    "id": "F_9d6021ef4364bec2b0fe",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DINO backbone"
+      },
+      "quote": "tokenizes them with a fine-tuned DINO [47] backbone",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.300475+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DINO backbone"
+            },
+            "quote": "tokenizes them with a fine-tuned DINO [47] backbone",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.663249+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:38:36.300500+00:00"
+  },
+  {
+    "id": "F_088d20c05bc732a468c9",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Alternating-Attention"
+      },
+      "quote": "applies Alternating-Attention (alternating between applying global and frame-wise attention)",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.305600+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Alternating-Attention"
+            },
+            "quote": "applies Alternating-Attention (alternating between applying global and frame-wise attention)",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.663483+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:38:36.305626+00:00"
+  },
+  {
+    "id": "F_bd8308b3513806a3b472",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera intrinsics and camera poses"
+      },
+      "quote": "passed to a camera head to estimate intrinsics and camera poses",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.310830+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera intrinsics and camera poses"
+            },
+            "quote": "passed to a camera head to estimate intrinsics and camera poses",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.663719+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:38:36.310855+00:00"
+  },
+  {
+    "id": "F_5779d7b2194ae878c947",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "dense depth maps"
+      },
+      "quote": "which outputs dense depth maps for each image",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.315887+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "dense depth maps"
+            },
+            "quote": "which outputs dense depth maps for each image",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.663952+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:38:36.315912+00:00"
+  },
+  {
+    "id": "F_1f78cba7919f9aabc9bb",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "2  Related Work",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "dense point map"
+      },
+      "quote": "a dense point map (where the points of",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.322079+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "dense point map"
+            },
+            "quote": "a dense point map (where the points of",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:54.664192+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "13b24a1ad75bfff467345106975be7cb2f2534863853f9d6aa9996ab4b4d8e7e",
+    "reviewed_at": "2026-11-11T11:38:36.322133+00:00"
+  },
+  {
+    "id": "F_3c9db89a835088fb4772",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "4.2  Local submap alignment addressing projective ambiguity",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "VGGT-SLAM"
+      },
+      "quote": "Here we describe the design of our VGGT-SLAM system.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.327980+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "quote": "Here we describe the design of our VGGT-SLAM system.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:57.623774+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "242598b196e3c10db8985d1ac75ddab87e34a4300a8537f91618d67f3d08d2e0",
+    "reviewed_at": "2026-11-11T11:38:36.328012+00:00"
+  },
+  {
+    "id": "F_8e075d7b71743a7cac93",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "4.2  Local submap alignment addressing projective ambiguity",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "VGGT"
+      },
+      "quote": "This image set is then passed to VGGT to generate the submap, Slatest.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.333541+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "VGGT"
+            },
+            "quote": "This image set is then passed to VGGT to generate the submap, Slatest.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:57.624043+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "242598b196e3c10db8985d1ac75ddab87e34a4300a8537f91618d67f3d08d2e0",
+    "reviewed_at": "2026-11-11T11:38:36.333569+00:00"
+  },
+  {
+    "id": "F_98f695d7b251bf40594c",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "4.2  Local submap alignment addressing projective ambiguity",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "pose graph optimization"
+      },
+      "quote": "which will correspond to a node in pose graph optimization for VGGT-SLAM",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.339061+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "pose graph optimization"
+            },
+            "quote": "which will correspond to a node in pose graph optimization for VGGT-SLAM",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:57.624282+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "242598b196e3c10db8985d1ac75ddab87e34a4300a8537f91618d67f3d08d2e0",
+    "reviewed_at": "2026-11-11T11:38:36.339088+00:00"
+  },
+  {
+    "id": "F_c586f3545f044cf297a4",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "4.2  Local submap alignment addressing projective ambiguity",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Lucas-Kanade"
+      },
+      "quote": "we select an image as a keyframe if disparity (which we estimate using Lucas-Kanade [36])",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.345243+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Lucas-Kanade"
+            },
+            "quote": "we select an image as a keyframe if disparity (which we estimate using Lucas-Kanade [36])",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:57.624511+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "242598b196e3c10db8985d1ac75ddab87e34a4300a8537f91618d67f3d08d2e0",
+    "reviewed_at": "2026-11-11T11:38:36.345270+00:00"
+  },
+  {
+    "id": "F_2e45a54ad986bd09d0fd",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "4.2  Local submap alignment addressing projective ambiguity",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "SL(4) manifold optimization"
+      },
+      "quote": "globally optimize all submap alignments into a consistent map by optimizing on the SL(4) manifold",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:20:32.394436+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "SL(4) manifold optimization"
+            },
+            "quote": "globally optimize all submap alignments into a consistent map by optimizing on the SL(4) manifold",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:57.624737+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "242598b196e3c10db8985d1ac75ddab87e34a4300a8537f91618d67f3d08d2e0",
+    "reviewed_at": "2026-11-11T11:20:32.394461+00:00"
+  },
+  {
+    "id": "F_878d444659dea7488922",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "4.2  Local submap alignment addressing projective ambiguity",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "dense point cloud"
+      },
+      "quote": "giving us a dense point cloud which is defined with respect to the coordinate frame of the first camera in I",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:36.350535+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "dense point cloud"
+            },
+            "quote": "giving us a dense point cloud which is defined with respect to the coordinate frame of the first camera in I",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:57.624964+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "242598b196e3c10db8985d1ac75ddab87e34a4300a8537f91618d67f3d08d2e0",
+    "reviewed_at": "2026-11-11T11:38:36.350559+00:00"
+  },
+  {
+    "id": "F_dfa1486502c1aeda4d66",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "4.2  Local submap alignment addressing projective ambiguity",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Wang et al. [68]"
+      },
+      "quote": "it was observed in Wang et al. [68] that more accurate point clouds can be achieved",
+      "page": 4
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:38:43.097334+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Wang et al. [68]"
+            },
+            "quote": "it was observed in Wang et al. [68] that more accurate point clouds can be achieved",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:57.625401+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "242598b196e3c10db8985d1ac75ddab87e34a4300a8537f91618d67f3d08d2e0",
+    "reviewed_at": "2026-11-11T11:38:43.097393+00:00"
+  },
+  {
+    "id": "F_f5296c168f3b569b8bdf",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "4.2  Local submap alignment addressing projective ambiguity",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Projective Reconstruction Theorem [25, Chapter 10.3]"
+      },
+      "quote": "we recall the Projective Reconstruction Theorem [25, Chapter 10.3]",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.559783+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Projective Reconstruction Theorem [25, Chapter 10.3]"
+            },
+            "quote": "we recall the Projective Reconstruction Theorem [25, Chapter 10.3]",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:12:57.625629+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "242598b196e3c10db8985d1ac75ddab87e34a4300a8537f91618d67f3d08d2e0",
+    "reviewed_at": "2026-11-16T03:35:37.559942+00:00"
+  },
+  {
+    "id": "F_2dbd379f00149651837b",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "5.1  Experimental setup",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "For evaluation of pose estimation, we employ the 7-Scenes [58] and TUM RGB-D [63] datasets",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.566645+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "For evaluation of pose estimation, we employ the 7-Scenes [58] and TUM RGB-D [63] datasets",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:05.467746+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f43db8063e041513847f83fcb9d729563781eb23ccdfa3df6e0d3c1226d7d09",
+    "reviewed_at": "2026-11-16T03:35:37.566697+00:00"
+  },
+  {
+    "id": "F_5dcceda19bfa8bd1da1e",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "5.1  Experimental setup",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM RGB-D"
+      },
+      "quote": "For evaluation of pose estimation, we employ the 7-Scenes [58] and TUM RGB-D [63] datasets",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.609060+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM RGB-D"
+            },
+            "quote": "For evaluation of pose estimation, we employ the 7-Scenes [58] and TUM RGB-D [63] datasets",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:05.468036+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f43db8063e041513847f83fcb9d729563781eb23ccdfa3df6e0d3c1226d7d09",
+    "reviewed_at": "2026-11-16T03:35:37.609098+00:00"
+  },
+  {
+    "id": "F_9eb6e4703046660b78c8",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "5.1  Experimental setup",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RMSE"
+      },
+      "quote": "report root mean square error (RMSE) of the",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.627731+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RMSE"
+            },
+            "quote": "report root mean square error (RMSE) of the",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:05.468289+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f43db8063e041513847f83fcb9d729563781eb23ccdfa3df6e0d3c1226d7d09",
+    "reviewed_at": "2026-11-16T03:35:37.627771+00:00"
+  },
+  {
+    "id": "F_c400c70ebfa6f811fdf9",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "We provide addition results of evaluating on the 7-Scenes [58] and TUM RGB-D [63] datasets",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.590100+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "We provide addition results of evaluating on the 7-Scenes [58] and TUM RGB-D [63] datasets",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:24.885120+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7e6567db91036ac5fa8f9cbc05ae8fc4ab8f0113763601ebf2bb6671c4b2ad3f",
+    "reviewed_at": "2026-11-16T03:35:37.590164+00:00"
+  },
+  {
+    "id": "F_a6701c94f3fc18926daf",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM RGB-D"
+      },
+      "quote": "We provide addition results of evaluating on the 7-Scenes [58] and TUM RGB-D [63] datasets",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.615243+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM RGB-D"
+            },
+            "quote": "We provide addition results of evaluating on the 7-Scenes [58] and TUM RGB-D [63] datasets",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:24.885437+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7e6567db91036ac5fa8f9cbc05ae8fc4ab8f0113763601ebf2bb6671c4b2ad3f",
+    "reviewed_at": "2026-11-16T03:35:37.615282+00:00"
+  },
+  {
+    "id": "F_fad9af77f09726b9ab18",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "7-Scenes"
+      },
+      "quote": "evaluating on the 7-Scenes [58] and TUM RGB-D [63] datasets",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.640191+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "7-Scenes"
+            },
+            "quote": "evaluating on the 7-Scenes [58] and TUM RGB-D [63] datasets",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:24.885720+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7e6567db91036ac5fa8f9cbc05ae8fc4ab8f0113763601ebf2bb6671c4b2ad3f",
+    "reviewed_at": "2026-11-16T03:35:37.640232+00:00"
+  },
+  {
+    "id": "F_5d6afd88507861afbc57",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "TUM RGB-D"
+      },
+      "quote": "evaluating on the 7-Scenes [58] and TUM RGB-D [63] datasets",
+      "page": 13
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.659077+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "TUM RGB-D"
+            },
+            "quote": "evaluating on the 7-Scenes [58] and TUM RGB-D [63] datasets",
+            "page": 13
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:24.885994+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7e6567db91036ac5fa8f9cbc05ae8fc4ab8f0113763601ebf2bb6671c4b2ad3f",
+    "reviewed_at": "2026-11-16T03:35:37.659114+00:00"
+  },
+  {
+    "id": "F_15277d1dbe1699c453c1",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "Root mean square error (RMSE) of absolute trajectory error (ATE) on 7-Scenes [58] (unit: m).",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.596646+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "Root mean square error (RMSE) of absolute trajectory error (ATE) on 7-Scenes [58] (unit: m).",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:27.349282+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "18c4f34a47bd0702bc4171c73d40dbcbb415286a90dbd5f80dde33739bf3a8f3",
+    "reviewed_at": "2026-11-16T03:35:37.596686+00:00"
+  },
+  {
+    "id": "F_e6eece56f52e41dcb803",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM RGB-D"
+      },
+      "quote": "Root mean square error (RMSE) of absolute trajectory error (ATE) on TUM RGB-D [63] (unit: m).",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.621518+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM RGB-D"
+            },
+            "quote": "Root mean square error (RMSE) of absolute trajectory error (ATE) on TUM RGB-D [63] (unit: m).",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:27.349500+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "18c4f34a47bd0702bc4171c73d40dbcbb415286a90dbd5f80dde33739bf3a8f3",
+    "reviewed_at": "2026-11-16T03:35:37.621560+00:00"
+  },
+  {
+    "id": "F_0d6c44b005329f320caa",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "RMSE of absolute trajectory error (ATE)"
+      },
+      "quote": "Root mean square error (RMSE) of absolute trajectory error (ATE) on 7-Scenes [58] (unit: m).",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.671878+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "RMSE of absolute trajectory error (ATE)"
+            },
+            "quote": "Root mean square error (RMSE) of absolute trajectory error (ATE) on 7-Scenes [58] (unit: m).",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:27.349694+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "18c4f34a47bd0702bc4171c73d40dbcbb415286a90dbd5f80dde33739bf3a8f3",
+    "reviewed_at": "2026-11-16T03:35:37.671916+00:00"
+  },
+  {
+    "id": "F_6d0beb7a21816c32c820",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Chamfer distance"
+      },
+      "quote": "Dense reconstruction evaluation on 7-Scenes [58] (unit: m).",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.678286+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Chamfer distance"
+            },
+            "quote": "Dense reconstruction evaluation on 7-Scenes [58] (unit: m).",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:27.349893+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "18c4f34a47bd0702bc4171c73d40dbcbb415286a90dbd5f80dde33739bf3a8f3",
+    "reviewed_at": "2026-11-16T03:35:37.678324+00:00"
+  },
+  {
+    "id": "F_fe18f41da316b817cde2",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DROID-SLAM"
+      },
+      "quote": "DROID-SLAM* [65]",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.684703+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DROID-SLAM"
+            },
+            "quote": "DROID-SLAM* [65]",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:27.350073+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "18c4f34a47bd0702bc4171c73d40dbcbb415286a90dbd5f80dde33739bf3a8f3",
+    "reviewed_at": "2026-11-16T03:35:37.684741+00:00"
+  },
+  {
+    "id": "F_421d0c16feaf7dfb4a4f",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "quote": "MASt3R-SLAM* [44]",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-11T11:23:38.279950+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "quote": "MASt3R-SLAM* [44]",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:27.350252+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "18c4f34a47bd0702bc4171c73d40dbcbb415286a90dbd5f80dde33739bf3a8f3",
+    "reviewed_at": "2026-11-11T11:23:38.279977+00:00"
+  },
+  {
+    "id": "F_f2d88556ab260d116fa2",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "7-Scenes"
+      },
+      "quote": "on 7-Scenes [58]",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.646523+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "7-Scenes"
+            },
+            "quote": "on 7-Scenes [58]",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:27.350430+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "18c4f34a47bd0702bc4171c73d40dbcbb415286a90dbd5f80dde33739bf3a8f3",
+    "reviewed_at": "2026-11-16T03:35:37.646561+00:00"
+  },
+  {
+    "id": "F_2a353e183b5d2fc61db5",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "TUM RGB-D"
+      },
+      "quote": "on TUM RGB-D [63]",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.665423+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "TUM RGB-D"
+            },
+            "quote": "on TUM RGB-D [63]",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:27.350607+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "18c4f34a47bd0702bc4171c73d40dbcbb415286a90dbd5f80dde33739bf3a8f3",
+    "reviewed_at": "2026-11-16T03:35:37.665462+00:00"
+  },
+  {
+    "id": "F_54ed313d81595fa80516",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "Sequences in 7-Scenes [63]",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.602940+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "Sequences in 7-Scenes [63]",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:28.788227+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "08fdd04ae97d1393b0cd2bd46f5b3988fadf9bfa907f88de9ba704730d0f9b77",
+    "reviewed_at": "2026-11-16T03:35:37.602981+00:00"
+  },
+  {
+    "id": "F_1f18c8cbc5f977990e80",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM-RGB-D"
+      },
+      "quote": "Sequences in TUM-RGB-D [63]",
+      "page": 15
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:58.869069+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM-RGB-D"
+            },
+            "quote": "Sequences in TUM-RGB-D [63]",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:28.788359+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "08fdd04ae97d1393b0cd2bd46f5b3988fadf9bfa907f88de9ba704730d0f9b77",
+    "reviewed_at": "2026-11-16T03:35:58.869232+00:00"
+  },
+  {
+    "id": "F_fbe238d099fba9f19756",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "7-Scenes"
+      },
+      "quote": "Sequences in 7-Scenes [63]",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:37.652733+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "7-Scenes"
+            },
+            "quote": "Sequences in 7-Scenes [63]",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:28.788468+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "08fdd04ae97d1393b0cd2bd46f5b3988fadf9bfa907f88de9ba704730d0f9b77",
+    "reviewed_at": "2026-11-16T03:35:37.652771+00:00"
+  },
+  {
+    "id": "F_9fc70f7c571e378635b7",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "TUM-RGB-D"
+      },
+      "quote": "Sequences in TUM-RGB-D [63]",
+      "page": 15
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:58.876492+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "TUM-RGB-D"
+            },
+            "quote": "Sequences in TUM-RGB-D [63]",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:28.788572+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "08fdd04ae97d1393b0cd2bd46f5b3988fadf9bfa907f88de9ba704730d0f9b77",
+    "reviewed_at": "2026-11-16T03:35:58.876537+00:00"
+  },
+  {
+    "id": "F_b5232c1e43aa3deaa9aa",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM with SL(4)"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "visualizations of scene reconstructions from the 7-Scenes dataset experi-ments for VGGT-SLAM with SL(4)",
+      "page": 17
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:36:30.219055+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM with SL(4)"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "visualizations of scene reconstructions from the 7-Scenes dataset experi-ments for VGGT-SLAM with SL(4)",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:30.695032+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "846bb910675db2441001b781704ec684931dce3305ff267a5d590f4883c12aa8",
+    "reviewed_at": "2026-11-16T03:36:30.219142+00:00"
+  },
+  {
+    "id": "F_a02ebab8193d9571f5bf",
+    "paper_id": "P002",
+    "pdf_sha256": "2685552af106ffcc298b5971f659cd9abc5d9716b858f52fb84335be96952c94",
+    "section": "7  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM with SL(4)"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM RGB-D"
+      },
+      "quote": "visualizations of scene reconstructions from the TUM RGB-D dataset\nexperiments for VGGT-SLAM with SL(4)",
+      "page": 18
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T03:35:58.882967+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM with SL(4)"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM RGB-D"
+            },
+            "quote": "visualizations of scene reconstructions from the TUM RGB-D dataset\nexperiments for VGGT-SLAM with SL(4)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T10:13:31.460275+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "da51ceea60197bd29827083c0dd3d4dbef8d5b739b1d13a4f00553572f1540fc",
+    "reviewed_at": "2026-11-16T03:35:58.883005+00:00"
+  }
+]

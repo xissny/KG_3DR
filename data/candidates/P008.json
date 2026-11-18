@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "F_f11f44b5f1e5c771b816",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "SLAM3R"
+      },
+      "quote": "In this paper, we introduce SLAM3R, a novel and ef-fective system for real-time, high-quality, dense 3D recon-struction using RGB videos.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:28.567827+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "SLAM3R"
+            },
+            "quote": "In this paper, we introduce SLAM3R, a novel and ef-fective system for real-time, high-quality, dense 3D recon-struction using RGB videos.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:34.632754+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "84c279fc4311ca73eaa94beecd4546aefec666aac316233bc47e0aa302022cb9",
+    "reviewed_at": "2026-11-16T11:24:28.567914+00:00"
+  },
+  {
+    "id": "F_4654679635129e64c2a5",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "SLAM3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "real-time dense 3D reconstruction from monocular RGB videos"
+      },
+      "quote": "SLAM3R provides an end-to-end solution by seamlessly integrating local 3D recon-struction and global coordinate registration through feed-forward neural networks.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:28.601547+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "SLAM3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "real-time dense 3D reconstruction from monocular RGB videos"
+            },
+            "quote": "SLAM3R provides an end-to-end solution by seamlessly integrating local 3D recon-struction and global coordinate registration through feed-forward neural networks.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:34.633023+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "84c279fc4311ca73eaa94beecd4546aefec666aac316233bc47e0aa302022cb9",
+    "reviewed_at": "2026-11-16T11:24:28.601589+00:00"
+  },
+  {
+    "id": "F_ca3bf85cef66fa37794a",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "SLAM3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "3D pointmaps"
+      },
+      "quote": "SLAM3R directly regresses 3D pointmaps from RGB images in each window",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:28.609385+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "SLAM3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "3D pointmaps"
+            },
+            "quote": "SLAM3R directly regresses 3D pointmaps from RGB images in each window",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:34.633239+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "84c279fc4311ca73eaa94beecd4546aefec666aac316233bc47e0aa302022cb9",
+    "reviewed_at": "2026-11-16T11:24:28.609424+00:00"
+  },
+  {
+    "id": "F_05b2580d57885c7cce1a",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "SLAM3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "globally consistent scene reconstruction"
+      },
+      "quote": "progressively aligns and deforms these local pointmaps to create a globally con-sistent scene reconstruction",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:28.617271+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "SLAM3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "globally consistent scene reconstruction"
+            },
+            "quote": "progressively aligns and deforms these local pointmaps to create a globally con-sistent scene reconstruction",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:34.633456+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "84c279fc4311ca73eaa94beecd4546aefec666aac316233bc47e0aa302022cb9",
+    "reviewed_at": "2026-11-16T11:24:28.617312+00:00"
+  },
+  {
+    "id": "F_0346165efad2bde2882a",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "real-time end-to-end dense 3D reconstruction system"
+      },
+      "quote": "real-time end-to-end dense 3D recon-     of these systems is their slow runtime.",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:28.625316+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "real-time end-to-end dense 3D reconstruction system"
+            },
+            "quote": "real-time end-to-end dense 3D recon-     of these systems is their slow runtime.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:40.148551+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a1d3530f58141051122c5e85b20d2b116b5cb7a417271e6113004d31121e9389",
+    "reviewed_at": "2026-11-16T11:24:28.625357+00:00"
+  },
+  {
+    "id": "F_ff64fd5cec61e0f15910",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "multiple public benchmarks"
+      },
+      "quote": "We evaluate our method on multiple public benchmarks.",
+      "page": 2
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:34.306915+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "multiple public benchmarks"
+            },
+            "quote": "We evaluate our method on multiple public benchmarks.",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:40.149700+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a1d3530f58141051122c5e85b20d2b116b5cb7a417271e6113004d31121e9389",
+    "reviewed_at": "2026-11-16T11:24:34.306993+00:00"
+  },
+  {
+    "id": "F_2f3afb56ed7f20e63da7",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "GO-SLAM"
+      },
+      "quote": "GO-SLAM [75] achieves a speed of ∼8 FPS",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:28.633358+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "GO-SLAM"
+            },
+            "quote": "GO-SLAM [75] achieves a speed of ∼8 FPS",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:40.150107+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a1d3530f58141051122c5e85b20d2b116b5cb7a417271e6113004d31121e9389",
+    "reviewed_at": "2026-11-16T11:24:28.633399+00:00"
+  },
+  {
+    "id": "F_86d2d0c3cbc2e8d291c9",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Image-to-Points (I2P) network"
+      },
+      "quote": "Each window is fed into an Image-to-Points (I2P) network to recover 3D points in a local coordinate system.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.133535+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Image-to-Points (I2P) network"
+            },
+            "quote": "Each window is fed into an Image-to-Points (I2P) network to recover 3D points in a local coordinate system.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:46.968333+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa53f77e246f518ae7dae20b9a04cac4d2e14dbf820ecd637957a26389098d04",
+    "reviewed_at": "2026-11-16T11:35:57.133611+00:00"
+  },
+  {
+    "id": "F_f56ebf480bc7fde5a66b",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Local-to-World (L2W) network"
+      },
+      "quote": "the local points are incrementally fed into a Local-to-World (L2W) network to create a globally consistent scene model.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.143316+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Local-to-World (L2W) network"
+            },
+            "quote": "the local points are incrementally fed into a Local-to-World (L2W) network to create a globally consistent scene model.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:46.968603+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa53f77e246f518ae7dae20b9a04cac4d2e14dbf820ecd637957a26389098d04",
+    "reviewed_at": "2026-11-16T11:35:57.143364+00:00"
+  },
+  {
+    "id": "F_c2f68360b879b9be8390",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Image-to-Points (I2P) network"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "3D pointmaps"
+      },
+      "quote": "we apply a lin-ear head [64] to regress dense 3D pointmaps in the uni-fied coordinate system from decoded tokens.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.155645+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Image-to-Points (I2P) network"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "3D pointmaps"
+            },
+            "quote": "we apply a lin-ear head [64] to regress dense 3D pointmaps in the uni-fied coordinate system from decoded tokens.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:46.968812+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa53f77e246f518ae7dae20b9a04cac4d2e14dbf820ecd637957a26389098d04",
+    "reviewed_at": "2026-11-16T11:35:57.155690+00:00"
+  },
+  {
+    "id": "F_1d749a1369ce70b9d227",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Image-to-Points (I2P) network"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "confidence maps"
+      },
+      "quote": "In addition to the pointmaps, we also predict the confidence maps for all frames to evaluate their reliability.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.164296+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Image-to-Points (I2P) network"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "confidence maps"
+            },
+            "quote": "In addition to the pointmaps, we also predict the confidence maps for all frames to evaluate their reliability.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:46.969010+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa53f77e246f518ae7dae20b9a04cac4d2e14dbf820ecd637957a26389098d04",
+    "reviewed_at": "2026-11-16T11:35:57.164333+00:00"
+  },
+  {
+    "id": "F_1447e07386e9dd66e095",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Image-to-Points (I2P) network"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ground-truth scene points"
+      },
+      "quote": "the I2P network is trained end-to-end using ground-truth scene points",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.172349+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Image-to-Points (I2P) network"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ground-truth scene points"
+            },
+            "quote": "the I2P network is trained end-to-end using ground-truth scene points",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:46.969203+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa53f77e246f518ae7dae20b9a04cac4d2e14dbf820ecd637957a26389098d04",
+    "reviewed_at": "2026-11-16T11:35:57.172389+00:00"
+  },
+  {
+    "id": "F_b0e526c7612557c6ad6d",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "Similar to DUSt3R, we apply a lin-ear head [64] to regress dense 3D pointmaps",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.180355+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "Similar to DUSt3R, we apply a lin-ear head [64] to regress dense 3D pointmaps",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:46.969571+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa53f77e246f518ae7dae20b9a04cac4d2e14dbf820ecd637957a26389098d04",
+    "reviewed_at": "2026-11-16T11:35:57.180394+00:00"
+  },
+  {
+    "id": "F_a15ad27851fa7267219e",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "SLAM3R"
+      },
+      "quote": "SLAM3R (Ours)             1.63 / 1.31      0.84 / 0.83      2.95 / 1.22      2.32 / 2.26      1.81 / 2.05      1.84 / 1.94      4.19 / 6.91      2.13 / 2.34    ∼25",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:28.593637+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "SLAM3R"
+            },
+            "quote": "SLAM3R (Ours)             1.63 / 1.31      0.84 / 0.83      2.95 / 1.22      2.32 / 2.26      1.81 / 2.05      1.84 / 1.94      4.19 / 6.91      2.13 / 2.34    ∼25",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.607633+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:24:28.593681+00:00"
+  },
+  {
+    "id": "F_91d0b84b8cb16e3658b9",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "SLAM3R-NoConf"
+      },
+      "quote": "SLAM3R-NoConf (Ours)    2.12 / 1.21      0.95 / 0.80      3.23 / 1.67      2.59 / 2.21      1.99 / 2.04      2.09 / 1.88      4.54 / 6.38      2.40 / 2.24    ∼25",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.194464+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "SLAM3R-NoConf"
+            },
+            "quote": "SLAM3R-NoConf (Ours)    2.12 / 1.21      0.95 / 0.80      3.23 / 1.67      2.59 / 2.21      1.99 / 2.04      2.09 / 1.88      4.54 / 6.38      2.40 / 2.24    ∼25",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.607963+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:35:57.194544+00:00"
+  },
+  {
+    "id": "F_bda23c0b97c71c394cd0",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "SLAM3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7 Scenes"
+      },
+      "quote": "Table 1. Reconstruction results on 7 Scenes [51] dataset.",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.203394+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "SLAM3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7 Scenes"
+            },
+            "quote": "Table 1. Reconstruction results on 7 Scenes [51] dataset.",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.608246+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:35:57.203436+00:00"
+  },
+  {
+    "id": "F_008a3a250ecddb74c450",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "SLAM3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Replica"
+      },
+      "quote": "Table 2. Reconstruction results on Replica [54] dataset.",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:35:57.211622+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "SLAM3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Replica"
+            },
+            "quote": "Table 2. Reconstruction results on Replica [54] dataset.",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.608518+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:35:57.211663+00:00"
+  },
+  {
+    "id": "F_053b6c44d583e11f3520",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "SLAM3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "ATE-RMSE"
+      },
+      "quote": "Table 3. Camera pose results evaluated by ATE-RMSE (cm) on 7 Scenes [51] and Replica [54] datasets.",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:36:15.120702+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "SLAM3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "ATE-RMSE"
+            },
+            "quote": "Table 3. Camera pose results evaluated by ATE-RMSE (cm) on 7 Scenes [51] and Replica [54] datasets.",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.608790+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:36:15.120780+00:00"
+  },
+  {
+    "id": "F_0de261b089c66b653e8e",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "quote": "MASt3R [28]                 2.08 / 2.12      1.54 / 1.43      1.06 / 1.04      3.23 / 3.19      5.68 / 3.07      3.50 / 3.37     2.36 / 13.16     3.04 / 3.90   ≪1",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:36:15.129905+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "quote": "MASt3R [28]                 2.08 / 2.12      1.54 / 1.43      1.06 / 1.04      3.23 / 3.19      5.68 / 3.07      3.50 / 3.37     2.36 / 13.16     3.04 / 3.90   ≪1",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.610322+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:36:15.129951+00:00"
+  },
+  {
+    "id": "F_7d12a75adefc47e72332",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "Spann3R [61]                2.23 / 1.68      0.88 / 0.92      2.67 / 0.98      5.86 / 3.54      2.25 / 1.85      2.68 / 1.80      5.65 / 5.15      3.42 / 2.41    >50",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:36:15.141443+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "Spann3R [61]                2.23 / 1.68      0.88 / 0.92      2.67 / 0.98      5.86 / 3.54      2.25 / 1.85      2.68 / 1.80      5.65 / 5.15      3.42 / 2.41    >50",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.610585+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:36:15.141484+00:00"
+  },
+  {
+    "id": "F_ffb686b5e0e59c2d768c",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "NICER-SLAM"
+      },
+      "quote": "NICER-SLAM [79]*          2.53 / 3.04      3.93 / 4.10      3.40 / 3.42      5.49 / 6.09      3.45 / 4.42      4.02 / 4.29      3.34 / 4.03      3.03 / 3.87      3.65 / 4.16   ≪1",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:36:15.149919+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "NICER-SLAM"
+            },
+            "quote": "NICER-SLAM [79]*          2.53 / 3.04      3.93 / 4.10      3.40 / 3.42      5.49 / 6.09      3.45 / 4.42      4.02 / 4.29      3.34 / 4.03      3.03 / 3.87      3.65 / 4.16   ≪1",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.610839+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:36:15.149963+00:00"
+  },
+  {
+    "id": "F_3f79125b079bd93d99bd",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DROID-SLAM"
+      },
+      "quote": "DROID-SLAM [56]*         12.18 / 8.96     8.35 / 6.07     3.26 / 16.01    3.01 / 16.19    2.39 / 16.20    5.66 / 15.56     4.49 / 9.73      4.65 / 9.63     5.50 / 12.29   ∼20",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:36:15.158409+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DROID-SLAM"
+            },
+            "quote": "DROID-SLAM [56]*         12.18 / 8.96     8.35 / 6.07     3.26 / 16.01    3.01 / 16.19    2.39 / 16.20    5.66 / 15.56     4.49 / 9.73      4.65 / 9.63     5.50 / 12.29   ∼20",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.611089+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:36:15.158448+00:00"
+  },
+  {
+    "id": "F_0c9edbfc411c4fe716ad",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DIM-SLAM"
+      },
+      "quote": "DIM-SLAM [29]*           14.19 / 6.24     9.56 / 6.45     8.41 / 12.17    10.16 / 5.95     7.86 / 8.33     16.50 / 8.28    13.01 / 6.77    13.08 / 8.62    11.60 / 7.85   ∼3",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:36:15.166931+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DIM-SLAM"
+            },
+            "quote": "DIM-SLAM [29]*           14.19 / 6.24     9.56 / 6.45     8.41 / 12.17    10.16 / 5.95     7.86 / 8.33     16.50 / 8.28    13.01 / 6.77    13.08 / 8.62    11.60 / 7.85   ∼3",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.611336+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:36:15.166972+00:00"
+  },
+  {
+    "id": "F_e57c48e6f039fa43c315",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "GO-SLAM"
+      },
+      "quote": "GO-SLAM [75]                         -                   -                   -                   -                   -                   -                   -                   -          3.81 / 4.79    ∼8",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:24:28.641511+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "GO-SLAM"
+            },
+            "quote": "GO-SLAM [75]                         -                   -                   -                   -                   -                   -                   -                   -          3.81 / 4.79    ∼8",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:36:59.611578+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "689d10fe6a6d519665a96fbe4048939dcb2a6144c72f123a3bc73710773517fa",
+    "reviewed_at": "2026-11-16T11:24:28.641552+00:00"
+  },
+  {
+    "id": "F_da2231f6f937aba39c95",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Umeyama"
+      },
+      "quote": "traditional approaches such as Umeyama [58] and ICP [43] (I2P+UI)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:36:15.175432+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Umeyama"
+            },
+            "quote": "traditional approaches such as Umeyama [58] and ICP [43] (I2P+UI)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:37:12.610666+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "740eb1d99c5d2cf552775075cc838a6837e8365a82076454566b5464a508ee94",
+    "reviewed_at": "2026-11-16T11:36:15.175474+00:00"
+  },
+  {
+    "id": "F_c8423a9784a9d1987204",
+    "paper_id": "P008",
+    "pdf_sha256": "2e84db1cdd8a0da9d461678925dfb13ae65a2f5db25357b6388a21e0766fe91a",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "SLAM3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "ICP"
+      },
+      "quote": "traditional approaches such as Umeyama [58] and ICP [43] (I2P+UI)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:36:15.183990+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "SLAM3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "ICP"
+            },
+            "quote": "traditional approaches such as Umeyama [58] and ICP [43] (I2P+UI)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:37:12.610981+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "740eb1d99c5d2cf552775075cc838a6837e8365a82076454566b5464a508ee94",
+    "reviewed_at": "2026-11-16T11:36:15.184032+00:00"
+  }
+]

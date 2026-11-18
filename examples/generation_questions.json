@@ -1,0 +1,200 @@
+[
+  {
+    "id": "Q01",
+    "task_type": "qa",
+    "category": "单跳",
+    "question": "<方法A>采用哪些组件？",
+    "entity_ids": [],
+    "paper_ids": [],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q02",
+    "task_type": "qa",
+    "category": "多跳",
+    "question": "哪些论文提出的方法使用<组件A>？",
+    "entity_ids": [],
+    "paper_ids": [],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q03",
+    "task_type": "qa",
+    "category": "比较",
+    "question": "<方法A>与<方法B>在输出表示和评测数据集上有哪些异同？",
+    "entity_ids": [],
+    "paper_ids": [],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q04",
+    "task_type": "qa",
+    "category": "指标",
+    "question": "<方法A>使用哪些评价指标？",
+    "entity_ids": [],
+    "paper_ids": [],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q05",
+    "task_type": "qa",
+    "category": "证据不足",
+    "question": "<方法A>在未收录数据集上的速度是多少？",
+    "entity_ids": [],
+    "paper_ids": [],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": true
+  },
+  {
+    "id": "Q06",
+    "task_type": "qa",
+    "category": "证据不足",
+    "question": "图谱能否证明<方法A>一定优于所有其他方法？",
+    "entity_ids": [],
+    "paper_ids": [],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": true
+  },
+  {
+    "id": "Q07",
+    "task_type": "summary",
+    "category": "技术主题",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q08",
+    "task_type": "summary",
+    "category": "组件主题",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q09",
+    "task_type": "summary",
+    "category": "评测主题",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q10",
+    "task_type": "summary",
+    "category": "表示主题",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q11",
+    "task_type": "summary",
+    "category": "多论文",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q12",
+    "task_type": "summary",
+    "category": "范围不足",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": true
+  },
+  {
+    "id": "Q13",
+    "task_type": "review",
+    "category": "技术路线",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q14",
+    "task_type": "review",
+    "category": "组件路线",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q15",
+    "task_type": "review",
+    "category": "表示路线",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q16",
+    "task_type": "review",
+    "category": "评测路线",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q17",
+    "task_type": "review",
+    "category": "跨论文",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": false
+  },
+  {
+    "id": "Q18",
+    "task_type": "review",
+    "category": "范围不足",
+    "paper_ids": [
+      "<替换为所选正式论文ID>"
+    ],
+    "expected_fact_ids": [],
+    "reference_points": [],
+    "should_abstain": true
+  }
+]

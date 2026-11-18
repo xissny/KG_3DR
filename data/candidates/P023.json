@@ -1,0 +1,652 @@
+[
+  {
+    "id": "F_f30b5fba0a01dbb9adbc",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "Models such as\n           1. Introduction                                DUSt3R [36], VGGT [34], and their derivatives [19, 42]",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.253848+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "Models such as\n           1. Introduction                                DUSt3R [36], VGGT [34], and their derivatives [19, 42]",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:14.635188+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cbcf798ae920d43936beef237f849499720a5ac9847cef028fb6dcc184a587dd",
+    "reviewed_at": "2026-11-17T16:35:51.253936+00:00"
+  },
+  {
+    "id": "F_6aef8d4ec3a56fa3ff4f",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "DUSt3R [36], VGGT [34], and their derivatives [19, 42]",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.288414+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "DUSt3R [36], VGGT [34], and their derivatives [19, 42]",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:14.635463+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cbcf798ae920d43936beef237f849499720a5ac9847cef028fb6dcc184a587dd",
+    "reviewed_at": "2026-11-17T16:35:51.288457+00:00"
+  },
+  {
+    "id": "F_647e226c1eb154c783a6",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "online"
+      },
+      "quote": "To mitigate these limitations, we propose an online",
+      "page": 3
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:56.292890+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "online"
+            },
+            "quote": "To mitigate these limitations, we propose an online",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:31.257640+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3de8cf63886cfc5018ea93d84c53db37cf5097b64e964e053eec52e1cb816f5a",
+    "reviewed_at": "2026-11-17T16:35:56.292966+00:00"
+  },
+  {
+    "id": "F_c37f17e22f07a5959238",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DINO"
+      },
+      "quote": "the DINO [26] backbone being trained as a",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.304544+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DINO"
+            },
+            "quote": "the DINO [26] backbone being trained as a",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:31.258011+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3de8cf63886cfc5018ea93d84c53db37cf5097b64e964e053eec52e1cb816f5a",
+    "reviewed_at": "2026-11-17T16:35:51.304583+00:00"
+  },
+  {
+    "id": "F_dff572a2d2db6a7a6adb",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Diversity-aware Rolling Memory"
+      },
+      "quote": "3.3. Diversity-aware Rolling Memory",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.320415+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Diversity-aware Rolling Memory"
+            },
+            "quote": "3.3. Diversity-aware Rolling Memory",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:33.317038+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f7f4626a8496d89382432d1b2d3c16788325fc8dc26fec2968dd94ccfa3f01bb",
+    "reviewed_at": "2026-11-17T16:35:51.320452+00:00"
+  },
+  {
+    "id": "F_47bef385d4740a56f678",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "negative cosine similarity diversity score"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "L2-normalized keys"
+      },
+      "quote": "we operate on L2-normalized keys, where",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.336389+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "negative cosine similarity diversity score"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "L2-normalized keys"
+            },
+            "quote": "we operate on L2-normalized keys, where",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:34.642981+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "81e472501a672e3f07c813cbe8f56da2b11325fe709d9b223c24590edd2700fa",
+    "reviewed_at": "2026-11-17T16:35:51.336427+00:00"
+  },
+  {
+    "id": "F_1424f97cbd86b1849d53",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "3D Reconstruction Results on 7-Scenes [31] and NRGBD [2].",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.357908+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "3D Reconstruction Results on 7-Scenes [31] and NRGBD [2].",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:43.962043+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "79654a6fdfdabf59343ff880fb1b0cdbfc45e97a028ea029f544a28b2db52993",
+    "reviewed_at": "2026-11-17T16:35:51.358022+00:00"
+  },
+  {
+    "id": "F_d971a07761432d45e164",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NRGBD"
+      },
+      "quote": "3D Reconstruction Results on 7-Scenes [31] and NRGBD [2].",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.390363+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NRGBD"
+            },
+            "quote": "3D Reconstruction Results on 7-Scenes [31] and NRGBD [2].",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:43.962383+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "79654a6fdfdabf59343ff880fb1b0cdbfc45e97a028ea029f544a28b2db52993",
+    "reviewed_at": "2026-11-17T16:35:51.390400+00:00"
+  },
+  {
+    "id": "F_59b9f7e77a2ac4f5b7a8",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Completion (Comp.)"
+      },
+      "quote": "Completion (Comp.), Chamfer Distance(CD) and Normal",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.408257+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Completion (Comp.)"
+            },
+            "quote": "Completion (Comp.), Chamfer Distance(CD) and Normal",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:43.962957+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "79654a6fdfdabf59343ff880fb1b0cdbfc45e97a028ea029f544a28b2db52993",
+    "reviewed_at": "2026-11-17T16:35:51.408300+00:00"
+  },
+  {
+    "id": "F_248a62735b7eb295266a",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "quote": "Point3R’s explicit pointer mechanism [40] suffers",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.424806+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "quote": "Point3R’s explicit pointer mechanism [40] suffers",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:43.964903+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "79654a6fdfdabf59343ff880fb1b0cdbfc45e97a028ea029f544a28b2db52993",
+    "reviewed_at": "2026-11-17T16:35:51.424847+00:00"
+  },
+  {
+    "id": "F_d9f268dfb0a03f82e13d",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Long3D"
+      },
+      "quote": "3D Reconstruction Results on Long3D.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.441128+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Long3D"
+            },
+            "quote": "3D Reconstruction Results on Long3D.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:46.286467+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "10889da2b03629cebe9d63e4b79b6f0653b797da9f5ee02cedb904e191f7348d",
+    "reviewed_at": "2026-11-17T16:35:51.441167+00:00"
+  },
+  {
+    "id": "F_e20e55ff70656a4bb16d",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "token selection policies on the 7-Scenes dataset [31].",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.374350+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "token selection policies on the 7-Scenes dataset [31].",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:46.286882+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "10889da2b03629cebe9d63e4b79b6f0653b797da9f5ee02cedb904e191f7348d",
+    "reviewed_at": "2026-11-17T16:35:51.374390+00:00"
+  },
+  {
+    "id": "F_6af205131cf454939f9f",
+    "paper_id": "P023",
+    "pdf_sha256": "1c9b3a636c7bdfde2fd535045f1dc24e9602677368dd1e474d0b6918187a3a43",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "InfiniteVGGT"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "benchmarked against CUT3R [35]",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:51.457560+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "InfiniteVGGT"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "benchmarked against CUT3R [35]",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T06:20:46.287388+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "10889da2b03629cebe9d63e4b79b6f0653b797da9f5ee02cedb904e191f7348d",
+    "reviewed_at": "2026-11-17T16:35:51.457601+00:00"
+  }
+]

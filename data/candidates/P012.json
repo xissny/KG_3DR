@@ -1,0 +1,2468 @@
+[
+  {
+    "id": "F_448366f1382641a5f4a7",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Self-Guided Sparse 3D Refinement (SSR)"
+      },
+      "quote": "we propose MoGe-3, a fine-detail monocular geometry estimation model with Self-Guided Sparse 3D Refinement (SSR)",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.546280+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Self-Guided Sparse 3D Refinement (SSR)"
+            },
+            "quote": "we propose MoGe-3, a fine-detail monocular geometry estimation model with Self-Guided Sparse 3D Refinement (SSR)",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:09.977443+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c91bc9baa9ac1126f5ad773ae8d2128977ee300dcc71be466a80a5b26b480c10",
+    "reviewed_at": "2026-11-16T12:17:38.546355+00:00"
+  },
+  {
+    "id": "F_8fd6b3f8dcbb711e2901",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Self-Guided Sparse 3D Refinement (SSR)"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "fine-detail monocular geometry estimation"
+      },
+      "quote": "lifts monocular geometry modeling from 2D image space to 3D space for high-fidelity metric-scale point",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.585402+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Self-Guided Sparse 3D Refinement (SSR)"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "fine-detail monocular geometry estimation"
+            },
+            "quote": "lifts monocular geometry modeling from 2D image space to 3D space for high-fidelity metric-scale point",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:09.977601+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c91bc9baa9ac1126f5ad773ae8d2128977ee300dcc71be466a80a5b26b480c10",
+    "reviewed_at": "2026-11-16T12:17:38.585456+00:00"
+  },
+  {
+    "id": "F_a3834a2201692ac649ed",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-3"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "metric scale point maps"
+      },
+      "quote": "produces geometrically undistorted and detail-preserving metric scale point maps from a single image",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.595856+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-3"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "metric scale point maps"
+            },
+            "quote": "produces geometrically undistorted and detail-preserving metric scale point maps from a single image",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:09.977731+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c91bc9baa9ac1126f5ad773ae8d2128977ee300dcc71be466a80a5b26b480c10",
+    "reviewed_at": "2026-11-16T12:17:38.595898+00:00"
+  },
+  {
+    "id": "F_61807ee48203bf59a632",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Self-Guided Sparse 3D Refiner (SSR)"
+      },
+      "quote": "MoGe-3 consists of two main components: a base model initialized from MoGe-2 [45] that produces an initial point map prediction, and a Self-Guided Sparse 3D Refiner (SSR) that further enhances geometric fidelity in 3D space.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.606091+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Self-Guided Sparse 3D Refiner (SSR)"
+            },
+            "quote": "MoGe-3 consists of two main components: a base model initialized from MoGe-2 [45] that produces an initial point map prediction, and a Self-Guided Sparse 3D Refiner (SSR) that further enhances geometric fidelity in 3D space.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.148765+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.606134+00:00"
+  },
+  {
+    "id": "F_4b0e5799bd4429e62c2f",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-3 base model"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DINOv2 encoder"
+      },
+      "quote": "The base model also extracts a dense feature map F from a DINOv2 encoder [26], which we reuse in our refinement stage.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.626849+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-3 base model"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DINOv2 encoder"
+            },
+            "quote": "The base model also extracts a dense feature map F from a DINOv2 encoder [26], which we reuse in our refinement stage.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.149043+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.626893+00:00"
+  },
+  {
+    "id": "F_23f8bc7435d9e51c8d22",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-3 base model"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "dense per-pixel 3D point map"
+      },
+      "quote": "our base model extracts a dense feature map F and produces a dense per-pixel 3D point map P together with auxiliary predictions including a validity mask, surface normals, and a global metric scale",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.636993+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-3 base model"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "dense per-pixel 3D point map"
+            },
+            "quote": "our base model extracts a dense feature map F and produces a dense per-pixel 3D point map P together with auxiliary predictions including a validity mask, surface normals, and a global metric scale",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.149278+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.637035+00:00"
+  },
+  {
+    "id": "F_0e2c6efac6a84102e32c",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-3 base model"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "dense feature map"
+      },
+      "quote": "our base model extracts a dense feature map F and produces a dense per-pixel 3D point map P",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.647194+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-3 base model"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "dense feature map"
+            },
+            "quote": "our base model extracts a dense feature map F and produces a dense per-pixel 3D point map P",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.149502+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.647237+00:00"
+  },
+  {
+    "id": "F_d3b17516b81ea2b9b74e",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Self-Guided Sparse 3D Refiner (SSR)"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "sparse 3D convolutions"
+      },
+      "quote": "we are the first to lift monocular geometry modeling from the 2D image plane to 3D space and aggregate features via sparse 3D convolutions",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.657421+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Self-Guided Sparse 3D Refiner (SSR)"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "sparse 3D convolutions"
+            },
+            "quote": "we are the first to lift monocular geometry modeling from the 2D image plane to 3D space and aggregate features via sparse 3D convolutions",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.149717+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.657462+00:00"
+  },
+  {
+    "id": "F_8322ffee9fdfa83633fc",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "quote": "a base model initialized from MoGe-2 [45] that produces an initial point map prediction",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.668715+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "quote": "a base model initialized from MoGe-2 [45] that produces an initial point map prediction",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.149963+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.668758+00:00"
+  },
+  {
+    "id": "F_5b25ca79665d4ebb44d7",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "quote": "The base model also extracts a dense feature map F from a DINOv2 encoder [26]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.689240+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "quote": "The base model also extracts a dense feature map F from a DINOv2 encoder [26]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.150169+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.689283+00:00"
+  },
+  {
+    "id": "F_0f12a84e59a225610d11",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MiDaS"
+      },
+      "quote": "Early works such as MiDaS [18] and DPT [30] established large-scale training and transformer-based decoding for relative depth estimation.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.699651+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MiDaS"
+            },
+            "quote": "Early works such as MiDaS [18] and DPT [30] established large-scale training and transformer-based decoding for relative depth estimation.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.150382+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.699692+00:00"
+  },
+  {
+    "id": "F_542e3de8de5a83843e34",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DPT"
+      },
+      "quote": "Early works such as MiDaS [18] and DPT [30] established large-scale training and transformer-based decoding for relative depth estimation.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.709988+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DPT"
+            },
+            "quote": "Early works such as MiDaS [18] and DPT [30] established large-scale training and transformer-based decoding for relative depth estimation.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.150587+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.710030+00:00"
+  },
+  {
+    "id": "F_93e8d45afeb7af1b0be4",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "ZoeDepth"
+      },
+      "quote": "including ZoeDepth [3], Metric3D / Metric3D-v2 [57, 13], Depth Anything / V2 [53, 54], and UniDepth [27]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.724433+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "ZoeDepth"
+            },
+            "quote": "including ZoeDepth [3], Metric3D / Metric3D-v2 [57, 13], Depth Anything / V2 [53, 54], and UniDepth [27]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.150790+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.724477+00:00"
+  },
+  {
+    "id": "F_56dce9109fad0d112913",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Metric3D"
+      },
+      "quote": "including ZoeDepth [3], Metric3D / Metric3D-v2 [57, 13], Depth Anything / V2 [53, 54], and UniDepth [27]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.734936+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Metric3D"
+            },
+            "quote": "including ZoeDepth [3], Metric3D / Metric3D-v2 [57, 13], Depth Anything / V2 [53, 54], and UniDepth [27]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.150992+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.734978+00:00"
+  },
+  {
+    "id": "F_d44a4ca653ecba07c4ba",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Depth Anything"
+      },
+      "quote": "including ZoeDepth [3], Metric3D / Metric3D-v2 [57, 13], Depth Anything / V2 [53, 54], and UniDepth [27]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.745400+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Depth Anything"
+            },
+            "quote": "including ZoeDepth [3], Metric3D / Metric3D-v2 [57, 13], Depth Anything / V2 [53, 54], and UniDepth [27]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.151199+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.745442+00:00"
+  },
+  {
+    "id": "F_2c748eeece8d154bfc1c",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "UniDepth"
+      },
+      "quote": "including ZoeDepth [3], Metric3D / Metric3D-v2 [57, 13], Depth Anything / V2 [53, 54], and UniDepth [27]",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.760983+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "UniDepth"
+            },
+            "quote": "including ZoeDepth [3], Metric3D / Metric3D-v2 [57, 13], Depth Anything / V2 [53, 54], and UniDepth [27]",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.151400+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.761026+00:00"
+  },
+  {
+    "id": "F_4231f6489baafc738607",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Depth Pro"
+      },
+      "quote": "To address this problem, Depth Pro [4] turns to high-resolution image input and multi-scale vision encoder architecture.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.771576+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Depth Pro"
+            },
+            "quote": "To address this problem, Depth Pro [4] turns to high-resolution image input and multi-scale vision encoder architecture.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.151604+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:17:38.771619+00:00"
+  },
+  {
+    "id": "F_f47af56e2a576129907c",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Marigold"
+      },
+      "quote": "Marigold [16] and GeoWizard [9] introduce powerful generative priors for monocular geometry through VAE-based decoding.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:18:05.760156+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Marigold"
+            },
+            "quote": "Marigold [16] and GeoWizard [9] introduce powerful generative priors for monocular geometry through VAE-based decoding.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.151806+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:18:05.760244+00:00"
+  },
+  {
+    "id": "F_813150e0ad7e7c7b3f95",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "GeoWizard"
+      },
+      "quote": "Marigold [16] and GeoWizard [9] introduce powerful generative priors for monocular geometry through VAE-based decoding.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:18:05.772273+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "GeoWizard"
+            },
+            "quote": "Marigold [16] and GeoWizard [9] introduce powerful generative priors for monocular geometry through VAE-based decoding.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.152010+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:18:05.772319+00:00"
+  },
+  {
+    "id": "F_2b22b4d123f47a22f1e3",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Pixel-Perfect Depth"
+      },
+      "quote": "Pixel-Perfect Depth [51] further improves edge fidelity by directly performing diffusion generation in the pixel space",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:18:05.783333+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Pixel-Perfect Depth"
+            },
+            "quote": "Pixel-Perfect Depth [51] further improves edge fidelity by directly performing diffusion generation in the pixel space",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.152212+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:18:05.783380+00:00"
+  },
+  {
+    "id": "F_083e01e747291b3a8a1e",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.1  Base Model",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "InfiniDepth"
+      },
+      "quote": "InfiniDepth [58], instead, represents depth as a neural implicit field and adopts 2D UV queries for finer-grained depth estimation.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:18:05.794253+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "InfiniDepth"
+            },
+            "quote": "InfiniDepth [58], instead, represents depth as a neural implicit field and adopts 2D UV queries for finer-grained depth estimation.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:21.152415+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d06aa627f7690ad781c3dc0e9baabef52205f9f65839cebaa9b3e3679836c20e",
+    "reviewed_at": "2026-11-16T12:18:05.794296+00:00"
+  },
+  {
+    "id": "F_0a25dc317c07c263e6d1",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.3  Losses and Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "sparse 3D U-Net"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "scalar log-depth residual"
+      },
+      "quote": "The U-Net predicts a scalar log-depth residual ∆ζ(k)ij  corresponding to each input voxel.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:18:15.363700+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "sparse 3D U-Net"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "scalar log-depth residual ∆ζ(k)ij"
+            },
+            "quote": "The U-Net predicts a scalar log-depth residual ∆ζ(k)ij  corresponding to each input voxel.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-16T12:18:56.670308+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "sparse 3D U-Net"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "scalar log-depth residual"
+            },
+            "quote": "The U-Net predicts a scalar log-depth residual ∆ζ(k)ij  corresponding to each input voxel.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:31.722455+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "92def19ecbb747ac570b7a1f8daf7ff9c054986cfe0570e2bca84ff379a294d9",
+    "reviewed_at": "2026-11-16T12:18:56.670383+00:00"
+  },
+  {
+    "id": "F_7eb7184bcd6138d43f03",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.3  Losses and Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "sparse 3D U-Net"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "2D features from base model"
+      },
+      "quote": "the encoded voxels are concatenated with 2D features F from base model",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:19:05.268741+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "sparse 3D U-Net"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "2D features F from base model"
+            },
+            "quote": "the encoded voxels are concatenated with 2D features F from base model",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-16T12:19:05.693386+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "sparse 3D U-Net"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "2D features from base model"
+            },
+            "quote": "the encoded voxels are concatenated with 2D features F from base model",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-16T12:19:13.643746+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "sparse 3D U-Net"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "2D features from base model"
+            },
+            "quote": "the encoded voxels are concatenated with 2D features F from base model",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:31.722742+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "92def19ecbb747ac570b7a1f8daf7ff9c054986cfe0570e2bca84ff379a294d9",
+    "reviewed_at": "2026-11-16T12:19:13.643855+00:00"
+  },
+  {
+    "id": "F_8104463d08f04f797a40",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.3  Losses and Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "sparse 3D U-Net"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "zero-initialized output layer"
+      },
+      "quote": "we zero-initialize the output layer of sparse 3D U-Net, allowing identity mapping.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:18:56.682053+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "sparse 3D U-Net"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "zero-initialized output layer"
+            },
+            "quote": "we zero-initialize the output layer of sparse 3D U-Net, allowing identity mapping.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:31.722984+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "92def19ecbb747ac570b7a1f8daf7ff9c054986cfe0570e2bca84ff379a294d9",
+    "reviewed_at": "2026-11-16T12:18:56.682098+00:00"
+  },
+  {
+    "id": "F_520b276efb6c4d7a1ac5",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.3  Losses and Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "refiner"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "synthetic samples"
+      },
+      "quote": "the refiner receives gradients only from synthetic samples",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:18:56.693233+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "refiner"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "synthetic samples"
+            },
+            "quote": "the refiner receives gradients only from synthetic samples",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:31.723215+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "92def19ecbb747ac570b7a1f8daf7ff9c054986cfe0570e2bca84ff379a294d9",
+    "reviewed_at": "2026-11-16T12:18:56.693275+00:00"
+  },
+  {
+    "id": "F_7ff70f2d694d3146312c",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.3  Losses and Training",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "base model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "mixture of synthetic and real-world data"
+      },
+      "quote": "the base model is supervised on the full mixture of synthetic and real-world data",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:19:13.656141+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "base model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "mixture of synthetic and real-world data"
+            },
+            "quote": "the base model is supervised on the full mixture of synthetic and real-world data",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:31.723447+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "92def19ecbb747ac570b7a1f8daf7ff9c054986cfe0570e2bca84ff379a294d9",
+    "reviewed_at": "2026-11-16T12:19:13.656190+00:00"
+  },
+  {
+    "id": "F_5313d0c173e9884691ca",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "3.3  Losses and Training",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "[45]"
+      },
+      "quote": "We optimize a composite objective that generally follows the formulation in [45].",
+      "page": 5
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:19:16.638203+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "[45]"
+            },
+            "quote": "We optimize a composite objective that generally follows the formulation in [45].",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:31.723673+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "92def19ecbb747ac570b7a1f8daf7ff9c054986cfe0570e2bca84ff379a294d9",
+    "reviewed_at": "2026-11-16T12:19:16.638316+00:00"
+  },
+  {
+    "id": "F_756ac937f53b807732f9",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "4.5  Ablation studies",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Pixel-Perfect Depth (PPD)"
+      },
+      "quote": "Pixel-Perfect Depth (PPD) [51] and InfiniDepth [58] do not predict camera intrinsics",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:12.452419+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Pixel-Perfect Depth (PPD)"
+            },
+            "quote": "Pixel-Perfect Depth (PPD) [51] and InfiniDepth [58] do not predict camera intrinsics",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:54.051395+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c681623fd99b5f170b0d54d245b7278173f33a43776c62c922459a1391f80674",
+    "reviewed_at": "2026-11-16T12:20:12.452510+00:00"
+  },
+  {
+    "id": "F_39ccf892e4d0df009e30",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "4.5  Ablation studies",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "InfiniDepth"
+      },
+      "quote": "Pixel-Perfect Depth (PPD) [51] and InfiniDepth [58] do not predict camera intrinsics",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:18:05.804900+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "InfiniDepth"
+            },
+            "quote": "Pixel-Perfect Depth (PPD) [51] and InfiniDepth [58] do not predict camera intrinsics",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:54.051485+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c681623fd99b5f170b0d54d245b7278173f33a43776c62c922459a1391f80674",
+    "reviewed_at": "2026-11-16T12:18:05.804944+00:00"
+  },
+  {
+    "id": "F_9cdee99b0e68000471ff",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "4.5  Ablation studies",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "quote": "we use the intrinsics predicted by MoGe-2 [45] to lift their depth predictions into 3D",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.678882+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "quote": "we use the intrinsics predicted by MoGe-2 [45] to lift their depth predictions into 3D",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:49:54.051548+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c681623fd99b5f170b0d54d245b7278173f33a43776c62c922459a1391f80674",
+    "reviewed_at": "2026-11-16T12:17:38.678927+00:00"
+  },
+  {
+    "id": "F_b5eaf1b8b346443750ec",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Self-Guided Sparse 3D Refiner (SSR)"
+      },
+      "quote": "we propose a new paradigm that lifts geometry modeling from 2D image space to 3D space through a Self-Guided Sparse 3D Refiner (SSR)",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:17:38.616173+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Self-Guided Sparse 3D Refiner (SSR)"
+            },
+            "quote": "we propose a new paradigm that lifts geometry modeling from 2D image space to 3D space through a Self-Guided Sparse 3D Refiner (SSR)",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:00.659886+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0a75bd59d173ed2d74ef24c217b62e294f708c38c0d515281ac16e73ee715851",
+    "reviewed_at": "2026-11-16T12:17:38.616214+00:00"
+  },
+  {
+    "id": "F_5783020ff533fbf9a810",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Self-Guided Sparse 3D Refiner (SSR)"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "monocular geometry estimation"
+      },
+      "quote": "which performs geometry refinement directly on sparse 3D scene manifolds using 3D-aware feature aggregation",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:12.465973+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Self-Guided Sparse 3D Refiner (SSR)"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "monocular geometry estimation"
+            },
+            "quote": "which performs geometry refinement directly on sparse 3D scene manifolds using 3D-aware feature aggregation",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:00.660194+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0a75bd59d173ed2d74ef24c217b62e294f708c38c0d515281ac16e73ee715851",
+    "reviewed_at": "2026-11-16T12:20:12.466018+00:00"
+  },
+  {
+    "id": "F_b91d63f24164c786f838",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "global δp1"
+      },
+      "quote": "Figure 4 shows how global δp1, local δp0.01, and boundary F1 evolve with K",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:12.477563+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "global δp1"
+            },
+            "quote": "Figure 4 shows how global δp1, local δp0.01, and boundary F1 evolve with K",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:00.660476+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0a75bd59d173ed2d74ef24c217b62e294f708c38c0d515281ac16e73ee715851",
+    "reviewed_at": "2026-11-16T12:20:12.477609+00:00"
+  },
+  {
+    "id": "F_4a53f1c9877ed78bb25c",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "local δp0.01"
+      },
+      "quote": "Figure 4 shows how global δp1, local δp0.01, and boundary F1 evolve with K",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:12.489065+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "local δp0.01"
+            },
+            "quote": "Figure 4 shows how global δp1, local δp0.01, and boundary F1 evolve with K",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:00.660726+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0a75bd59d173ed2d74ef24c217b62e294f708c38c0d515281ac16e73ee715851",
+    "reviewed_at": "2026-11-16T12:20:12.489110+00:00"
+  },
+  {
+    "id": "F_f8eb1c2138c28332ff7a",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "boundary F1"
+      },
+      "quote": "Figure 4 shows how global δp1, local δp0.01, and boundary F1 evolve with K",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:12.500461+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "boundary F1"
+            },
+            "quote": "Figure 4 shows how global δp1, local δp0.01, and boundary F1 evolve with K",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:00.660987+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0a75bd59d173ed2d74ef24c217b62e294f708c38c0d515281ac16e73ee715851",
+    "reviewed_at": "2026-11-16T12:20:12.500503+00:00"
+  },
+  {
+    "id": "F_a5759962c0b06ecd3ab6",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "[51]"
+      },
+      "quote": "This could be addressed by integrating generative formulations such as [51] into our framework.",
+      "page": 10
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:15.015770+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "[51]"
+            },
+            "quote": "This could be addressed by integrating generative formulations such as [51] into our framework.",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:00.661232+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0a75bd59d173ed2d74ef24c217b62e294f708c38c0d515281ac16e73ee715851",
+    "reviewed_at": "2026-11-16T12:20:15.015852+00:00"
+  },
+  {
+    "id": "F_8bffa81acada6d39ba87",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "On the locally-aligned prediction within each segment, we compute AbsRel and δ0.01.",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.019754+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "On the locally-aligned prediction within each segment, we compute AbsRel and δ0.01.",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:22.035557+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4fb2f0a4cef8e0766b4dde2d59cf92546ff5610e1afb72e7c17a58c98037047",
+    "reviewed_at": "2026-11-16T12:20:31.019848+00:00"
+  },
+  {
+    "id": "F_5931ba0b3e51ca987bd2",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ0.01"
+      },
+      "quote": "On the locally-aligned prediction within each segment, we compute AbsRel and δ0.01.",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.038907+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ0.01"
+            },
+            "quote": "On the locally-aligned prediction within each segment, we compute AbsRel and δ0.01.",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:22.035755+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4fb2f0a4cef8e0766b4dde2d59cf92546ff5610e1afb72e7c17a58c98037047",
+    "reviewed_at": "2026-11-16T12:20:31.038958+00:00"
+  },
+  {
+    "id": "F_d5ed623ecc06a6bafe9e",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Synth4K"
+      },
+      "quote": "Figure E.3 illustrates several examples of our generated local fine-grained masks from the Synth4K dataset.",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.062561+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Synth4K"
+            },
+            "quote": "Figure E.3 illustrates several examples of our generated local fine-grained masks from the Synth4K dataset.",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:22.035924+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4fb2f0a4cef8e0766b4dde2d59cf92546ff5610e1afb72e7c17a58c98037047",
+    "reviewed_at": "2026-11-16T12:20:31.062605+00:00"
+  },
+  {
+    "id": "F_68d23873fdfc58b99e03",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Spring"
+      },
+      "quote": "Ours ViT-L Step 3  2.12   60.6   3.46   51.2   2.79   55.9    1.50",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.085938+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Spring"
+            },
+            "quote": "Ours ViT-L Step 3  2.12   60.6   3.46   51.2   2.79   55.9    1.50",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.142684+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.085982+00:00"
+  },
+  {
+    "id": "F_5f1988f26ae8f8ea5d56",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Synth4K"
+      },
+      "quote": "Ours ViT-G Step 3 2.24   57.5   3.36   56.0   2.80   56.8    1.75",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.074250+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Synth4K"
+            },
+            "quote": "Ours ViT-G Step 3 2.24   57.5   3.36   56.0   2.80   56.8    1.75",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.142890+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.074293+00:00"
+  },
+  {
+    "id": "F_20dd59b676bd40cf88bd",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "iBims-1"
+      },
+      "quote": "Ours ViT-G Step 3     18.8        5.92       35.8     8.70      17.3        3.00",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.097694+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "iBims-1"
+            },
+            "quote": "Ours ViT-G Step 3     18.8        5.92       35.8     8.70      17.3        3.00",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.143049+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.097736+00:00"
+  },
+  {
+    "id": "F_0217a8da869a51b05260",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HAMMER"
+      },
+      "quote": "Ours ViT-L Step 3     18.3        6.08       32.5     6.95      16.0        4.75",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.115058+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HAMMER"
+            },
+            "quote": "Ours ViT-L Step 3     18.3        6.08       32.5     6.95      16.0        4.75",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.143200+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.115104+00:00"
+  },
+  {
+    "id": "F_91615dde9367ff9b7f3c",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "Ours ViT-L Step 0     17.8        4.71       32.4     7.54      15.6        6.00",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.126954+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "Ours ViT-L Step 0     17.8        4.71       32.4     7.54      15.6        6.00",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.143352+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.126997+00:00"
+  },
+  {
+    "id": "F_72eeee05d325d6c918fa",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Rel"
+      },
+      "quote": "Rel↓δ0.01 ↑Rel↓δ0.01 ↑Rel↓δ0.01 ↑Rank↓",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.138894+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Rel"
+            },
+            "quote": "Rel↓δ0.01 ↑Rel↓δ0.01 ↑Rel↓δ0.01 ↑Rank↓",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.143513+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.138937+00:00"
+  },
+  {
+    "id": "F_a0ff217c55ec67e92885",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ0.01"
+      },
+      "quote": "Rel↓δ0.01 ↑Rel↓δ0.01 ↑Rel↓δ0.01 ↑Rank↓",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.050719+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ0.01"
+            },
+            "quote": "Rel↓δ0.01 ↑Rel↓δ0.01 ↑Rel↓δ0.01 ↑Rank↓",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.143667+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.050763+00:00"
+  },
+  {
+    "id": "F_eca02f9fb45f12b8f705",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Boundary F1 score"
+      },
+      "quote": "Table C.3: Boundary F1 score (radius=1) on iBims-1, HAMMER, Sintel, and Spring.",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.151238+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Boundary F1 score"
+            },
+            "quote": "Table C.3: Boundary F1 score (radius=1) on iBims-1, HAMMER, Sintel, and Spring.",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.143823+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.151282+00:00"
+  },
+  {
+    "id": "F_bb8302a3444e67815f7c",
+    "paper_id": "P012",
+    "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Latency"
+      },
+      "quote": "Latency (ms)",
+      "page": 19
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:20:31.163633+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Latency"
+            },
+            "quote": "Latency (ms)",
+            "page": 19
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:50:34.143969+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "60bbec97f5ceb9617dfc1e5e2499e85d039466ebdada8e0553a369d67b1208ba",
+    "reviewed_at": "2026-11-16T12:20:31.163677+00:00"
+  }
+]

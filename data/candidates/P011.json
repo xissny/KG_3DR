@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "F_ee5c588f2c70966b9f60",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NYUv2"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:59.947974+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NYUv2"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.634649+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:13:59.948057+00:00"
+  },
+  {
+    "id": "F_d0c2896f77969a9e8111",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.011680+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.634832+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.011727+00:00"
+  },
+  {
+    "id": "F_5ef8c47ed939dfff8d67",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.066708+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.634975+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.066762+00:00"
+  },
+  {
+    "id": "F_106841dfb8d909b52692",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "iBims-1"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.139878+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "iBims-1"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.635114+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.139925+00:00"
+  },
+  {
+    "id": "F_8f3794fd8f101a9df1eb",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "GSO"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.197684+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "GSO"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.635250+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.197737+00:00"
+  },
+  {
+    "id": "F_f33facd4ff202bf84480",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.221510+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.635386+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.221557+00:00"
+  },
+  {
+    "id": "F_02ad51d706602c9e9ff2",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DDAD"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.248015+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DDAD"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.635525+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.248059+00:00"
+  },
+  {
+    "id": "F_25ff68022ab8d8177be7",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DIODE"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.282177+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DIODE"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.635659+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.282222+00:00"
+  },
+  {
+    "id": "F_a7940050cc21211358cd",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Spring"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.328215+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Spring"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.635791+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.328263+00:00"
+  },
+  {
+    "id": "F_6085c6431dab0a45cf96",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HAMMER"
+      },
+      "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.351426+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HAMMER"
+            },
+            "quote": "We evaluate the accuracy of our method on 10 datasets: NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], GSO [12] , Sintel [8], DDAD [19], DIODE [57], Spring [38], and HAMMER [26].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.635924+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:00.351471+00:00"
+  },
+  {
+    "id": "F_971bf032ac3629af4484",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Relp"
+      },
+      "quote": "Table 1 presents the average relative error – Relp (∥ˆp−p∥2/∥p∥2) for point maps and Reld (|ˆz−z|/z) for depth map)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.619283+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Relp"
+            },
+            "quote": "Table 1 presents the average relative error – Relp (∥ˆp−p∥2/∥p∥2) for point maps and Reld (|ˆz−z|/z) for depth map)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.636073+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:37.619379+00:00"
+  },
+  {
+    "id": "F_0c61fddb9c5702d9c105",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Reld"
+      },
+      "quote": "Table 1 presents the average relative error – Relp (∥ˆp−p∥2/∥p∥2) for point maps and Reld (|ˆz−z|/z) for depth map)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.632129+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Reld"
+            },
+            "quote": "Table 1 presents the average relative error – Relp (∥ˆp−p∥2/∥p∥2) for point maps and Reld (|ˆz−z|/z) for depth map)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.636214+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:37.632177+00:00"
+  },
+  {
+    "id": "F_52fa476d6efdfa5ee5bf",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δp1"
+      },
+      "quote": "and the percentage of inliers (δp1, where ∥ˆp −p∥2/∥p∥2 < 0.25, and δd1, where",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.774528+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δp1"
+            },
+            "quote": "and the percentage of inliers (δp1, where ∥ˆp −p∥2/∥p∥2 < 0.25, and δd1, where",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.636351+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:37.774603+00:00"
+  },
+  {
+    "id": "F_8441645bfb612c86194d",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.1  Quantitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δd1"
+      },
+      "quote": "and the percentage of inliers (δp1, where ∥ˆp −p∥2/∥p∥2 < 0.25, and δd1, where",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.786839+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δd1"
+            },
+            "quote": "and the percentage of inliers (δp1, where ∥ˆp −p∥2/∥p∥2 < 0.25, and δd1, where",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:47.636485+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b2aa1c3364d9296dd83044aa2abe9ffbb7ae8a70a94480e36031c6ad18bd0d8",
+    "reviewed_at": "2026-11-16T12:14:37.786886+00:00"
+  },
+  {
+    "id": "F_0175518eec45743b56ea",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NYUv2"
+      },
+      "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:59.986909+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NYUv2"
+            },
+            "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.539544+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:13:59.986974+00:00"
+  },
+  {
+    "id": "F_b0bd840d3dae66deef86",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.022726+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.539807+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:00.022774+00:00"
+  },
+  {
+    "id": "F_51b118aee897e6366d69",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.100838+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.540044+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:00.100890+00:00"
+  },
+  {
+    "id": "F_75499eb5df68be0bcda6",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "iBims-1"
+      },
+      "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.152251+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "iBims-1"
+            },
+            "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.540276+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:00.152296+00:00"
+  },
+  {
+    "id": "F_625a7508d63f31d456d3",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DDAD"
+      },
+      "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.259293+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DDAD"
+            },
+            "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.540508+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:00.259336+00:00"
+  },
+  {
+    "id": "F_7e1e0bba720ddc79fe77",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DIODE"
+      },
+      "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.301602+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DIODE"
+            },
+            "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.540739+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:00.301755+00:00"
+  },
+  {
+    "id": "F_b845b11d32848fc5c707",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HAMMER"
+      },
+      "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.363133+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HAMMER"
+            },
+            "quote": "We evaluate the accuracy of metric scale geometry and depth using 7 datasets with metric scale annotations, including NYUv2 [41], KITTI [56], ETH3D [52], iBims-1 [31, 30], DDAD [19], DIODE [57] and HAMMER [26].",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.540963+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:00.363180+00:00"
+  },
+  {
+    "id": "F_8cdaae4a4df0b60422b0",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "relative point error (Relp)"
+      },
+      "quote": "We measure the relative point error (Relp) and percentage of inliers (δp1) on estimated metric point maps.",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.798678+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "relative point error (Relp)"
+            },
+            "quote": "We measure the relative point error (Relp) and percentage of inliers (δp1) on estimated metric point maps.",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.541610+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:37.798721+00:00"
+  },
+  {
+    "id": "F_f4c6ec4677d0145ab3a2",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "percentage of inliers (δp1)"
+      },
+      "quote": "We measure the relative point error (Relp) and percentage of inliers (δp1) on estimated metric point maps.",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.810602+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "percentage of inliers (δp1)"
+            },
+            "quote": "We measure the relative point error (Relp) and percentage of inliers (δp1) on estimated metric point maps.",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.541851+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:37.810643+00:00"
+  },
+  {
+    "id": "F_3436d061e3599cdc5a75",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "relative depth error (Reld)"
+      },
+      "quote": "Similarly, we evaluate the metric depth accuracy via relative depth error (Reld) and depth inliers (δd1).",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.822602+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "relative depth error (Reld)"
+            },
+            "quote": "Similarly, we evaluate the metric depth accuracy via relative depth error (Reld) and depth inliers (δd1).",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.542078+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:37.822657+00:00"
+  },
+  {
+    "id": "F_2bd0f9faf72c1a2923ad",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "depth inliers (δd1)"
+      },
+      "quote": "Similarly, we evaluate the metric depth accuracy via relative depth error (Reld) and depth inliers (δd1).",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.834926+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "depth inliers (δd1)"
+            },
+            "quote": "Similarly, we evaluate the metric depth accuracy via relative depth error (Reld) and depth inliers (δd1).",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.542312+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:37.834973+00:00"
+  },
+  {
+    "id": "F_c9bfa6cbb13e8548bbf9",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "boundary F1 score"
+      },
+      "quote": "We employ the boundary F1 score metric proposed by Depth Pro [7] to measure boundary sharpness.",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.847184+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "boundary F1 score"
+            },
+            "quote": "We employ the boundary F1 score metric proposed by Depth Pro [7] to measure boundary sharpness.",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.542530+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:37.847229+00:00"
+  },
+  {
+    "id": "F_69bee9f5ec291a55c7cc",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Depth Pro"
+      },
+      "quote": "We employ the boundary F1 score metric proposed by Depth Pro [7] to measure boundary sharpness.",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.861708+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Depth Pro"
+            },
+            "quote": "We employ the boundary F1 score metric proposed by Depth Pro [7] to measure boundary sharpness.",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.542748+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:37.861754+00:00"
+  },
+  {
+    "id": "F_45cb377b8ba454c5a3d9",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "4.2  Qualitative Evaluation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "quote": "Our method outperforms all existing baselines across every evaluation metric and achieves results comparable to the state-of-the-art relative geometry estimation method, MoGe.",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.886617+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "quote": "Our method outperforms all existing baselines across every evaluation metric and achieves results comparable to the state-of-the-art relative geometry estimation method, MoGe.",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:52.542980+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "69737578e41eb9c7607d40593874fda0defb41dfb4b3585d3eda402dd580d03b",
+    "reviewed_at": "2026-11-16T12:14:37.886663+00:00"
+  },
+  {
+    "id": "F_4710b68aaa89b8a6a95c",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "MoGe-2"
+      },
+      "quote": "We have presented MoGe-2, a foundational model for monocular geometry estimation in open-domain",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.911132+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "MoGe-2"
+            },
+            "quote": "We have presented MoGe-2, a foundational model for monocular geometry estimation in open-domain",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:54.957661+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d87ce9981304e7b3c2ffb5ef72db1a9275604147b39c7c5776e3e1c844897d87",
+    "reviewed_at": "2026-11-16T12:14:37.911177+00:00"
+  },
+  {
+    "id": "F_f9baa8e362f71f7dbc24",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "data refinement pipeline"
+      },
+      "quote": "we proposed a practical data refinement pipeline that enhances real data with synthetic labels",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:56.718319+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "data refinement pipeline"
+            },
+            "quote": "we proposed a practical data refinement pipeline that enhances real data with synthetic labels",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:54.957924+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d87ce9981304e7b3c2ffb5ef72db1a9275604147b39c7c5776e3e1c844897d87",
+    "reviewed_at": "2026-11-16T12:14:56.718400+00:00"
+  },
+  {
+    "id": "F_93811068a7686e35ca07",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-2"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "monocular geometry estimation"
+      },
+      "quote": "a foundational model for monocular geometry estimation in open-domain images",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:56.737515+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-2"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "monocular geometry estimation"
+            },
+            "quote": "a foundational model for monocular geometry estimation in open-domain images",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:54.958147+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d87ce9981304e7b3c2ffb5ef72db1a9275604147b39c7c5776e3e1c844897d87",
+    "reviewed_at": "2026-11-16T12:14:56.737568+00:00"
+  },
+  {
+    "id": "F_1eac876d93593ab790e2",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "MLP module"
+      },
+      "quote": "For the scale prediction head, the MLP module outperforms the convolutional head",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:56.750174+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "MLP module"
+            },
+            "quote": "For the scale prediction head, the MLP module outperforms the convolutional head",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:54.958361+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d87ce9981304e7b3c2ffb5ef72db1a9275604147b39c7c5776e3e1c844897d87",
+    "reviewed_at": "2026-11-16T12:14:56.750217+00:00"
+  },
+  {
+    "id": "F_d9f5e8447c71c78583dd",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-2"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "refined real-world data"
+      },
+      "quote": "Our refined real-world datasets achieve nearly the same geometric accuracy as the original datasets",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:56.767614+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-2"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "refined real-world data"
+            },
+            "quote": "Our refined real-world datasets achieve nearly the same geometric accuracy as the original datasets",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:54.958577+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d87ce9981304e7b3c2ffb5ef72db1a9275604147b39c7c5776e3e1c844897d87",
+    "reviewed_at": "2026-11-16T12:14:56.767674+00:00"
+  },
+  {
+    "id": "F_bfefcb4adaaae7a693ca",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-2"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "synthetic data"
+      },
+      "quote": "training exclusively on synthetic data yields the highest sharpness but significantly reduces geometric accuracy",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:56.787955+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-2"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "synthetic data"
+            },
+            "quote": "training exclusively on synthetic data yields the highest sharpness but significantly reduces geometric accuracy",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:54.958788+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d87ce9981304e7b3c2ffb5ef72db1a9275604147b39c7c5776e3e1c844897d87",
+    "reviewed_at": "2026-11-16T12:14:56.788015+00:00"
+  },
+  {
+    "id": "F_f53a3e57ba829da25976",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "10 test datasets"
+      },
+      "quote": "We evaluate these configurations across the 10 test datasets",
+      "page": 10
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:59.169338+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "10 test datasets"
+            },
+            "quote": "We evaluate these configurations across the 10 test datasets",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:54.958995+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d87ce9981304e7b3c2ffb5ef72db1a9275604147b39c7c5776e3e1c844897d87",
+    "reviewed_at": "2026-11-16T12:14:59.169429+00:00"
+  },
+  {
+    "id": "F_69a3b349fbf2e9388e6a",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "SI-log loss"
+      },
+      "quote": "using the commonly adopted SI-log loss [13]",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:15:58.300147+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "SI-log loss"
+            },
+            "quote": "using the commonly adopted SI-log loss [13]",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:45:54.959204+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d87ce9981304e7b3c2ffb5ef72db1a9275604147b39c7c5776e3e1c844897d87",
+    "reviewed_at": "2026-11-16T12:15:58.300273+00:00"
+  },
+  {
+    "id": "F_5d5964ce43efdf5cf8e8",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "quote": "MoGe [61] and UniDepth V2 [44] are both trained on diverse input resolutions",
+      "page": 25
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.898863+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "quote": "MoGe [61] and UniDepth V2 [44] are both trained on diverse input resolutions",
+            "page": 25
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:22.207607+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "af0339944f4bb330695e561f9a51319ebfe93d6d66e8fc2ce9fd61b3d1902a19",
+    "reviewed_at": "2026-11-16T12:14:37.898909+00:00"
+  },
+  {
+    "id": "F_1dc627f3044d6e0140fb",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "UniDepth V2"
+      },
+      "quote": "MoGe [61] and UniDepth V2 [44] are both trained on diverse input resolutions",
+      "page": 25
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:15:58.320419+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "UniDepth V2"
+            },
+            "quote": "MoGe [61] and UniDepth V2 [44] are both trained on diverse input resolutions",
+            "page": 25
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:22.207828+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "af0339944f4bb330695e561f9a51319ebfe93d6d66e8fc2ce9fd61b3d1902a19",
+    "reviewed_at": "2026-11-16T12:15:58.320480+00:00"
+  },
+  {
+    "id": "F_d13d44ac991090411591",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Depth Anything"
+      },
+      "quote": "models such as Depth Anything [67, 68] and Metric3D V2 [23] are",
+      "page": 25
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:15:58.340139+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Depth Anything"
+            },
+            "quote": "models such as Depth Anything [67, 68] and Metric3D V2 [23] are",
+            "page": 25
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:22.208021+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "af0339944f4bb330695e561f9a51319ebfe93d6d66e8fc2ce9fd61b3d1902a19",
+    "reviewed_at": "2026-11-16T12:15:58.340193+00:00"
+  },
+  {
+    "id": "F_9de55456056ed7bf462d",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Metric3D V2"
+      },
+      "quote": "models such as Depth Anything [67, 68] and Metric3D V2 [23] are",
+      "page": 25
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:15:58.354255+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Metric3D V2"
+            },
+            "quote": "models such as Depth Anything [67, 68] and Metric3D V2 [23] are",
+            "page": 25
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:22.208201+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "af0339944f4bb330695e561f9a51319ebfe93d6d66e8fc2ce9fd61b3d1902a19",
+    "reviewed_at": "2026-11-16T12:15:58.354305+00:00"
+  },
+  {
+    "id": "F_3eb6b300e8a625f80f9e",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Depth Pro"
+      },
+      "quote": "Note that Depth Pro operates at a fixed high resolution due to its",
+      "page": 25
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:37.873932+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Depth Pro"
+            },
+            "quote": "Note that Depth Pro operates at a fixed high resolution due to its",
+            "page": 25
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:22.208380+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "af0339944f4bb330695e561f9a51319ebfe93d6d66e8fc2ce9fd61b3d1902a19",
+    "reviewed_at": "2026-11-16T12:14:37.873976+00:00"
+  },
+  {
+    "id": "F_8fb247438e4ed6b22204",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NYUv2"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.000667+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NYUv2"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.322483+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.000717+00:00"
+  },
+  {
+    "id": "F_e6a46c9b4c75da74b0fe",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.034489+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.322927+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.034535+00:00"
+  },
+  {
+    "id": "F_8ab6e7c24c15c413660f",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.122441+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.323341+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.122489+00:00"
+  },
+  {
+    "id": "F_0ef10a89841304c555ae",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "iBims-1"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.169622+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "iBims-1"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.323746+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.169667+00:00"
+  },
+  {
+    "id": "F_49c3601ef8288b75b18f",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "GSO"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.210538+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "GSO"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.324153+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.210583+00:00"
+  },
+  {
+    "id": "F_59698b9f315055604108",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.232932+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.324557+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.232977+00:00"
+  },
+  {
+    "id": "F_d55129de843d2e9b0e54",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DDAD"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.270990+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DDAD"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.324960+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.271034+00:00"
+  },
+  {
+    "id": "F_2bd37c1c1c2c50323667",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DIODE"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.316657+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DIODE"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.325360+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.316704+00:00"
+  },
+  {
+    "id": "F_adf41f806ca8f5791b0f",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Spring"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.339960+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Spring"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.325768+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.340006+00:00"
+  },
+  {
+    "id": "F_7982bfa6ffc946ee9b48",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HAMMER"
+      },
+      "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:14:00.375203+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HAMMER"
+            },
+            "quote": "NYUv2   KITTI  ETH3D   iBims-1   GSO      Sintel  DDAD  DIODE    Spring HAMMER       Avg.",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.326178+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:14:00.375247+00:00"
+  },
+  {
+    "id": "F_ccdc02fe4ff861cb9b65",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Rel"
+      },
+      "quote": "Method\n         Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Re↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rank↓",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:15:58.371458+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Rel"
+            },
+            "quote": "Method\n         Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Re↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rank↓",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.326590+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:15:58.371504+00:00"
+  },
+  {
+    "id": "F_2162591ba6063b230b1f",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ1"
+      },
+      "quote": "Method\n         Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Re↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rank↓",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:15:58.390851+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ1"
+            },
+            "quote": "Method\n         Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Re↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rank↓",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.326998+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:15:58.390901+00:00"
+  },
+  {
+    "id": "F_e458a262f2a9bf3c5075",
+    "paper_id": "P011",
+    "pdf_sha256": "c44ae38f6a6e9b8dd5876d6030a9ab1481905a22239af5bf0d2611f94d14eddf",
+    "section": "5  Conclusion",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe-2"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Rank"
+      },
+      "quote": "Method\n         Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Re↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rank↓",
+      "page": 31
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:15:58.403975+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe-2"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Rank"
+            },
+            "quote": "Method\n         Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Re↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rel↓δ1↑Rank↓",
+            "page": 31
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:46:33.327407+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "653187a408f942f4f77b459eb89042deaa9b00861971371ce4934802762b4c25",
+    "reviewed_at": "2026-11-16T12:15:58.404022+00:00"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "stage": "02_parse",
+  "time": "2026-11-11T04:28:16.243458+00:00",
+  "input_version": "d9e16b6beb722250a61bbe91ebac3a4f51ad3c90ad3a5e58f155997f4d980199",
+  "outputs": [
+    {
+      "paper_id": "P001",
+      "cached": true
+    },
+    {
+      "paper_id": "P002",
+      "cached": true
+    },
+    {
+      "paper_id": "P003",
+      "cached": true
+    },
+    {
+      "paper_id": "P004",
+      "cached": true
+    },
+    {
+      "paper_id": "P005",
+      "cached": true
+    },
+    {
+      "paper_id": "P006",
+      "cached": true
+    },
+    {
+      "paper_id": "P007",
+      "cached": true
+    },
+    {
+      "paper_id": "P008",
+      "cached": true
+    },
+    {
+      "paper_id": "P009",
+      "cached": true
+    },
+    {
+      "paper_id": "P010",
+      "cached": true
+    },
+    {
+      "paper_id": "P011",
+      "cached": true
+    },
+    {
+      "paper_id": "P012",
+      "cached": true
+    }
+  ]
+}

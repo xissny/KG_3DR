@@ -1,0 +1,3352 @@
+[
+  {
+    "id": "F_e47b4bba4eb28f1e5cc3",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "quote": "We propose Point3R, an online framework targeting dense streaming 3D reconstruction.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:09.957855+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "quote": "We propose Point3R, an online framework targeting dense streaming 3D reconstruction.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:30:56.162986+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f2c1f8ba36c5ade2ec1e5050b9b88ac0465d935905a57fb7381f330997f084b2",
+    "reviewed_at": "2026-11-17T16:35:09.957947+00:00"
+  },
+  {
+    "id": "F_93b561b08b7859113e19",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "3D hierarchical position embedding"
+      },
+      "quote": "We design a 3D hierarchical position embedding to pro-mote this interaction",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.014295+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "3D hierarchical position embedding"
+            },
+            "quote": "We design a 3D hierarchical position embedding to pro-mote this interaction",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:30:56.164281+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f2c1f8ba36c5ade2ec1e5050b9b88ac0465d935905a57fb7381f330997f084b2",
+    "reviewed_at": "2026-11-17T16:35:10.014334+00:00"
+  },
+  {
+    "id": "F_c31118c852a5c281692b",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "fusion mechanism"
+      },
+      "quote": "design a simple yet effective fusion mechanism to ensure that our pointer memory is uniform and efficient",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.083358+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "fusion mechanism"
+            },
+            "quote": "design a simple yet effective fusion mechanism to ensure that our pointer memory is uniform and efficient",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:30:56.165005+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f2c1f8ba36c5ade2ec1e5050b9b88ac0465d935905a57fb7381f330997f084b2",
+    "reviewed_at": "2026-11-17T16:35:10.083412+00:00"
+  },
+  {
+    "id": "F_80e02298278af9cc8991",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "dense streaming 3D reconstruction"
+      },
+      "quote": "an online framework targeting dense streaming 3D reconstruction",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.100346+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "dense streaming 3D reconstruction"
+            },
+            "quote": "an online framework targeting dense streaming 3D reconstruction",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:30:56.165567+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f2c1f8ba36c5ade2ec1e5050b9b88ac0465d935905a57fb7381f330997f084b2",
+    "reviewed_at": "2026-11-17T16:35:10.100388+00:00"
+  },
+  {
+    "id": "F_c9a6ec1ab107dd8891d0",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "Following the paradigm introduced by DUSt3R, which unifies an image pair densely into a shared coordinate system",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.117274+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "Following the paradigm introduced by DUSt3R, which unifies an image pair densely into a shared coordinate system",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:30:56.166255+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f2c1f8ba36c5ade2ec1e5050b9b88ac0465d935905a57fb7381f330997f084b2",
+    "reviewed_at": "2026-11-17T16:35:10.117312+00:00"
+  },
+  {
+    "id": "F_a0a4849a1e7c28204d9a",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "1  Introduction",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "Spann3R [59] maintains a memory that essentially caches implicit features of processed frames.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.171099+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "Spann3R [59] maintains a memory that essentially caches implicit features of processed frames.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:30:56.166698+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f2c1f8ba36c5ade2ec1e5050b9b88ac0465d935905a57fb7381f330997f084b2",
+    "reviewed_at": "2026-11-17T16:35:10.171136+00:00"
+  },
+  {
+    "id": "F_7f8ed754dcd2f15d22ca",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "quote": "Overview of Point3R. Given streaming image inputs, our method maintains an explicit spatial pointer memory",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:09.980303+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "quote": "Overview of Point3R. Given streaming image inputs, our method maintains an explicit spatial pointer memory",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.923981+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:09.980353+00:00"
+  },
+  {
+    "id": "F_3fe343053c222d5881d9",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ViT encoder"
+      },
+      "quote": "We use a ViT [15, 64] encoder to encode the current input into image tokens",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.246661+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ViT encoder"
+            },
+            "quote": "We use a ViT [15, 64] encoder to encode the current input into image tokens",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.924252+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.246704+00:00"
+  },
+  {
+    "id": "F_b954f88c10f1c35dd866",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DPT heads"
+      },
+      "quote": "We use two DPT [43] heads to decode local and global pointmaps from the output image tokens.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.264354+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DPT heads"
+            },
+            "quote": "We use two DPT [43] heads to decode local and global pointmaps from the output image tokens.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.924474+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.264394+00:00"
+  },
+  {
+    "id": "F_61d276f130d0843b0ad0",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "spatial pointer memory"
+      },
+      "quote": "we propose an explicit spatial pointer memory M that stores a set of 3D pointers corresponding to the explored regions of the current scene",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.282052+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "spatial pointer memory"
+            },
+            "quote": "we propose an explicit spatial pointer memory M that stores a set of 3D pointers corresponding to the explored regions of the current scene",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.924695+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.282091+00:00"
+  },
+  {
+    "id": "F_6a34be16ed7206c49b4b",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "memory fusion mechanism"
+      },
+      "quote": "use a memory fusion mechanism to enrich and update our spatial pointer memory",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.317284+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "memory fusion mechanism"
+            },
+            "quote": "use a memory fusion mechanism to enrich and update our spatial pointer memory",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.924903+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.317324+00:00"
+  },
+  {
+    "id": "F_48a394e372732402e664",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "3D hierarchical position embedding"
+      },
+      "quote": "We also incorporate a 3D hierarchical position embedding into the interaction decoders",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.030918+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "3D hierarchical position embedding"
+            },
+            "quote": "We also incorporate a 3D hierarchical position embedding into the interaction decoders",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.925112+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.030956+00:00"
+  },
+  {
+    "id": "F_3bdf48a63ade8b4cb7d7",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "pointmap"
+      },
+      "quote": "It ∈RH×W ×3 and Xt ∈RH×W ×3 are the current image input and pointmap output",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.381428+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "pointmap"
+            },
+            "quote": "It ∈RH×W ×3 and Xt ∈RH×W ×3 are the current image input and pointmap output",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.925329+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.381470+00:00"
+  },
+  {
+    "id": "F_cb77f848147c35df2cdf",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera parameters"
+      },
+      "quote": "a learnable pose token is added during this stage so we can directly decode the camera parameters of the current frame",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.418219+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera parameters"
+            },
+            "quote": "a learnable pose token is added during this stage so we can directly decode the camera parameters of the current frame",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.925540+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.418255+00:00"
+  },
+  {
+    "id": "F_a985ec4b264c9d98bace",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "in Spann3R [59], M is a growing set of key-value-pair features",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.193212+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "in Spann3R [59], M is a growing set of key-value-pair features",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.925745+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.193251+00:00"
+  },
+  {
+    "id": "F_eb15c899db79ae64bfed",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "In CUT3R [63], M takes the form of a fixed-length feature sequence that is iteratively updated as new frame comes.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.623061+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "In CUT3R [63], M takes the form of a fixed-length feature sequence that is iteratively updated as new frame comes.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:08.926003+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "74fe7be799354196734d045c0f8f1b138b6571316bfc11c6dee71d57bef6d204",
+    "reviewed_at": "2026-11-17T16:35:10.623129+00:00"
+  },
+  {
+    "id": "F_0fd8d621328386b29fff",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Headpose"
+      },
+      "quote": "where Headpose is an MLP network, Headself and Headglobal are DPT [43] heads.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.678608+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Headpose"
+            },
+            "quote": "where Headpose is an MLP network, Headself and Headglobal are DPT [43] heads.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.350004+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.678646+00:00"
+  },
+  {
+    "id": "F_43be8cda37c7970f5c44",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Headself"
+      },
+      "quote": "where Headpose is an MLP network, Headself and Headglobal are DPT [43] heads.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.696691+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Headself"
+            },
+            "quote": "where Headpose is an MLP network, Headself and Headglobal are DPT [43] heads.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.350660+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.696730+00:00"
+  },
+  {
+    "id": "F_e02bb82a1de39077737f",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Headglobal"
+      },
+      "quote": "where Headpose is an MLP network, Headself and Headglobal are DPT [43] heads.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.715014+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Headglobal"
+            },
+            "quote": "where Headpose is an MLP network, Headself and Headglobal are DPT [43] heads.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.351474+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.715051+00:00"
+  },
+  {
+    "id": "F_af0d991bace601848a41",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Encoderf"
+      },
+      "quote": "Besides, Encoderf is a MLP and Encodergeo is a lightweight ViT.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.733135+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Encoderf"
+            },
+            "quote": "Besides, Encoderf is a MLP and Encodergeo is a lightweight ViT.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.352349+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.733173+00:00"
+  },
+  {
+    "id": "F_b1fea76b8f2461796335",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Encodergeo"
+      },
+      "quote": "Besides, Encoderf is a MLP and Encodergeo is a lightweight ViT.",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.751373+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Encodergeo"
+            },
+            "quote": "Besides, Encoderf is a MLP and Encodergeo is a lightweight ViT.",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.353052+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.751411+00:00"
+  },
+  {
+    "id": "F_c23944815c5a8285bb53",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "rotary position embedding (RoPE)"
+      },
+      "quote": "We expand the rotary position embedding (RoPE [23,54], a method of relative position embedding usually used in transformers) to a 3D hierarchical position embedding",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.775967+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "rotary position embedding (RoPE)"
+            },
+            "quote": "We expand the rotary position embedding (RoPE [23,54], a method of relative position embedding usually used in transformers) to a 3D hierarchical position embedding",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.353492+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.776007+00:00"
+  },
+  {
+    "id": "F_859eb639d8c70b5a0095",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera pose"
+      },
+      "quote": "and a camera pose ˆTt representing the rigid transformation between this two coordinate system",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.794201+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera pose"
+            },
+            "quote": "and a camera pose ˆTt representing the rigid transformation between this two coordinate system",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.354044+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.794239+00:00"
+  },
+  {
+    "id": "F_06db57f225af1ea9bb51",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "pointmap"
+      },
+      "quote": "use F t′ and z′t to predict two pointmaps",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.400408+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "pointmap"
+            },
+            "quote": "use F t′ and z′t to predict two pointmaps",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.354532+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.400447+00:00"
+  },
+  {
+    "id": "F_4da5f6bbf5b301b610f5",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "confidence map"
+      },
+      "quote": "with their own confidence maps (Ct selfand Ct global)",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.812580+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "confidence map"
+            },
+            "quote": "with their own confidence maps (Ct selfand Ct global)",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.354937+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.812619+00:00"
+  },
+  {
+    "id": "F_cfd263dc33fd0b52719d",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Memory Fusion Mechanism"
+      },
+      "quote": "Memory Fusion Mechanism. Apart from the first frame when we simply add all the obtained pointers into the memory",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.334970+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Memory Fusion Mechanism"
+            },
+            "quote": "Memory Fusion Mechanism. Apart from the first frame when we simply add all the obtained pointers into the memory",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.355375+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.335008+00:00"
+  },
+  {
+    "id": "F_1804c545efa821826755",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "3D Hierarchical Position Embedding"
+      },
+      "quote": "3D Hierarchical Position Embedding. We expand the rotary position embedding",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.049268+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "3D Hierarchical Position Embedding"
+            },
+            "quote": "3D Hierarchical Position Embedding. We expand the rotary position embedding",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.355862+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.049313+00:00"
+  },
+  {
+    "id": "F_d52e091ae7547c34b7e8",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DPT"
+      },
+      "quote": "Headself and Headglobal are DPT [43] heads",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.836733+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DPT"
+            },
+            "quote": "Headself and Headglobal are DPT [43] heads",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.356436+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.836775+00:00"
+  },
+  {
+    "id": "F_c43a04b5169227f89d27",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "3  Proposed Approach",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "RoPE"
+      },
+      "quote": "We expand the rotary position embedding (RoPE [23,54]",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.873161+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "RoPE"
+            },
+            "quote": "We expand the rotary position embedding (RoPE [23,54]",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:16.356908+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "66859be6457f306d0019d36b14d72c1953d8f554ed0f18a6150d933276d6fac0",
+    "reviewed_at": "2026-11-17T16:35:10.873209+00:00"
+  },
+  {
+    "id": "F_973a725da95bc7455a8f",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-scenes"
+      },
+      "quote": "We evaluate the 3D reconstruction performance on the 7-scenes [51] and NRGBD [3] datasets in Table 1",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.906922+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-scenes"
+            },
+            "quote": "We evaluate the 3D reconstruction performance on the 7-scenes [51] and NRGBD [3] datasets in Table 1",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.596313+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:10.906966+00:00"
+  },
+  {
+    "id": "F_4c112230e76b1e83f8c3",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NRGBD"
+      },
+      "quote": "We evaluate the 3D reconstruction performance on the 7-scenes [51] and NRGBD [3] datasets in Table 1",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.443877+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NRGBD"
+            },
+            "quote": "We evaluate the 3D reconstruction performance on the 7-scenes [51] and NRGBD [3] datasets in Table 1",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.596684+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:11.443960+00:00"
+  },
+  {
+    "id": "F_1cbe160db364420b1ce0",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Abs Rel"
+      },
+      "quote": "the evaluation metrics we used include absolute relative error (Abs Rel) and percentage of inlier points δ < 1.25",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.880499+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Abs Rel"
+            },
+            "quote": "the evaluation metrics we used include absolute relative error (Abs Rel) and percentage of inlier points δ < 1.25",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.598906+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:11.880575+00:00"
+  },
+  {
+    "id": "F_62ced60aa704742773b1",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ < 1.25"
+      },
+      "quote": "the evaluation metrics we used include absolute relative error (Abs Rel) and percentage of inlier points δ < 1.25",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.900098+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ < 1.25"
+            },
+            "quote": "the evaluation metrics we used include absolute relative error (Abs Rel) and percentage of inlier points δ < 1.25",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.599213+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:11.900143+00:00"
+  },
+  {
+    "id": "F_62759042a0cea430e433",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.135335+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.599510+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:10.135377+00:00"
+  },
+  {
+    "id": "F_6d3a7a029f4f1d294bd5",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.924074+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.599803+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:11.924116+00:00"
+  },
+  {
+    "id": "F_7074ab7dc43e5ba450d8",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MonST3R"
+      },
+      "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.961903+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MonST3R"
+            },
+            "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.600094+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:11.961942+00:00"
+  },
+  {
+    "id": "F_235ebab32df00c4a787e",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.210404+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.600385+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:10.210438+00:00"
+  },
+  {
+    "id": "F_24ef33897eeda219026b",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.2  Monocular and Video Depth Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.641984+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "We choose DUSt3R [64], MASt3R [29], MonST3R [75], Spann3R [59], and CUT3R [63] as our primary base-lines.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:32.600674+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "8baec106e461393577ae344eb4e2a651d84acba8ae27a8ea658596f672acbe40",
+    "reviewed_at": "2026-11-17T16:35:10.642027+00:00"
+  },
+  {
+    "id": "F_785cd9f12530b9a718eb",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet"
+      },
+      "quote": "We evaluate the camera pose estimation performance on ScanNet [12] (static), Sintel [6], and TUM-",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.999608+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet"
+            },
+            "quote": "We evaluate the camera pose estimation performance on ScanNet [12] (static), Sintel [6], and TUM-",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.270722+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:11.999646+00:00"
+  },
+  {
+    "id": "F_c1b2e6bc301d4aad3d7c",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "We evaluate the camera pose estimation performance on ScanNet [12] (static), Sintel [6], and TUM-",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.018286+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "We evaluate the camera pose estimation performance on ScanNet [12] (static), Sintel [6], and TUM-",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.270929+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.018327+00:00"
+  },
+  {
+    "id": "F_35f0674f3b0e15b9c27e",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM-dynamics"
+      },
+      "quote": "dynamics [53] datasets following MonST3R [75] and CUT3R [63].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.055918+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM-dynamics"
+            },
+            "quote": "dynamics [53] datasets following MonST3R [75] and CUT3R [63].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.271096+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.055956+00:00"
+  },
+  {
+    "id": "F_057408ba234f130b89b5",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Absolute Translation Error (ATE)"
+      },
+      "quote": "We report Absolute Translation Error (ATE), Relative Translation Error (RPE trans), and Relative Rotation Error (RPE rot)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.083132+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Absolute Translation Error (ATE)"
+            },
+            "quote": "We report Absolute Translation Error (ATE), Relative Translation Error (RPE trans), and Relative Rotation Error (RPE rot)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.271262+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.083177+00:00"
+  },
+  {
+    "id": "F_96e5ff5ff353b04903ea",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Relative Translation Error (RPE trans)"
+      },
+      "quote": "We report Absolute Translation Error (ATE), Relative Translation Error (RPE trans), and Relative Rotation Error (RPE rot)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.467850+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Relative Translation Error (RPE trans)"
+            },
+            "quote": "We report Absolute Translation Error (ATE), Relative Translation Error (RPE trans), and Relative Rotation Error (RPE rot)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.271418+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.467924+00:00"
+  },
+  {
+    "id": "F_01a54e792be791088b33",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Relative Rotation Error (RPE rot)"
+      },
+      "quote": "We report Absolute Translation Error (ATE), Relative Translation Error (RPE trans), and Relative Rotation Error (RPE rot)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.531409+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Relative Rotation Error (RPE rot)"
+            },
+            "quote": "We report Absolute Translation Error (ATE), Relative Translation Error (RPE trans), and Relative Rotation Error (RPE rot)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.271578+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.531468+00:00"
+  },
+  {
+    "id": "F_597a48e0bb4d932bb1e5",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "we compare scale-invariant depth (per-sequence alignment) and metric depth (no alignment) results on Sintel, Bonn, and KITTI datasets.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.037054+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "we compare scale-invariant depth (per-sequence alignment) and metric depth (no alignment) results on Sintel, Bonn, and KITTI datasets.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.271733+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.037103+00:00"
+  },
+  {
+    "id": "F_3a2b15c9476e3d114df4",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "we compare scale-invariant depth (per-sequence alignment) and metric depth (no alignment) results on Sintel, Bonn, and KITTI datasets.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.550554+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "we compare scale-invariant depth (per-sequence alignment) and metric depth (no alignment) results on Sintel, Bonn, and KITTI datasets.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.271885+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.550591+00:00"
+  },
+  {
+    "id": "F_82e79ebbec68f5004db2",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "we compare scale-invariant depth (per-sequence alignment) and metric depth (no alignment) results on Sintel, Bonn, and KITTI datasets.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.569394+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "we compare scale-invariant depth (per-sequence alignment) and metric depth (no alignment) results on Sintel, Bonn, and KITTI datasets.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.272033+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.569431+00:00"
+  },
+  {
+    "id": "F_c7b0f4af2bea9de30717",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-scenes"
+      },
+      "quote": "Qualitative results on sparse inputs from the 7-scenes and NRGBD datasets.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.092826+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-scenes"
+            },
+            "quote": "Qualitative results on sparse inputs from the 7-scenes and NRGBD datasets.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.272185+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:11.092874+00:00"
+  },
+  {
+    "id": "F_c6724f990d598d5f0f24",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NRGBD"
+      },
+      "quote": "Qualitative results on sparse inputs from the 7-scenes and NRGBD datasets.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.722516+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NRGBD"
+            },
+            "quote": "Qualitative results on sparse inputs from the 7-scenes and NRGBD datasets.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.272331+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:11.722754+00:00"
+  },
+  {
+    "id": "F_ccd73f17c49d7548b1b3",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MonST3R"
+      },
+      "quote": "datasets following MonST3R [75] and CUT3R [63].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.980749+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MonST3R"
+            },
+            "quote": "datasets following MonST3R [75] and CUT3R [63].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.272478+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:11.980790+00:00"
+  },
+  {
+    "id": "F_f491d5c66d00da7f8bed",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "CUT3R"
+      },
+      "quote": "datasets following MonST3R [75] and CUT3R [63].",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.660043+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "CUT3R"
+            },
+            "quote": "datasets following MonST3R [75] and CUT3R [63].",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.272625+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:10.660081+00:00"
+  },
+  {
+    "id": "F_3808e843067705675e24",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "our method outperforms DUSt3R [64], MASt3R [29], and Spann3R [59] by a large margin.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.154040+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "our method outperforms DUSt3R [64], MASt3R [29], and Spann3R [59] by a large margin.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.272774+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:10.154083+00:00"
+  },
+  {
+    "id": "F_34de0620df31c6645272",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R"
+      },
+      "quote": "our method outperforms DUSt3R [64], MASt3R [29], and Spann3R [59] by a large margin.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:11.942755+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R"
+            },
+            "quote": "our method outperforms DUSt3R [64], MASt3R [29], and Spann3R [59] by a large margin.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.272922+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:11.942794+00:00"
+  },
+  {
+    "id": "F_f72e58d41e48447c8517",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Spann3R"
+      },
+      "quote": "our method outperforms DUSt3R [64], MASt3R [29], and Spann3R [59] by a large margin.",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.227458+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Spann3R"
+            },
+            "quote": "our method outperforms DUSt3R [64], MASt3R [29], and Spann3R [59] by a large margin.",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.273070+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:10.227495+00:00"
+  },
+  {
+    "id": "F_85a2176e0c4c458f5f93",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "4.3  Camera Pose Estimation",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MonST3R-GA"
+      },
+      "quote": "Our method performs comparably, or even better than MonST3R-GA [75] and CUT3R [63]",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.593548+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MonST3R-GA"
+            },
+            "quote": "Our method performs comparably, or even better than MonST3R-GA [75] and CUT3R [63]",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:37.273219+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7869ce9e59e9e820215fbd8bd4216a56163f4ca33b1bbe606cf5f389e1e6883a",
+    "reviewed_at": "2026-11-17T16:35:12.593585+00:00"
+  },
+  {
+    "id": "F_9380e1a6a0c852d59368",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "quote": "In this paper, we have presented an online streaming 3D reconstruction framework, Point3R, with a spatial pointer memory.",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:09.997528+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "quote": "In this paper, we have presented an online streaming 3D reconstruction framework, Point3R, with a spatial pointer memory.",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.346734+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:09.997568+00:00"
+  },
+  {
+    "id": "F_3fa69c4a85d341fb54ab",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "spatial pointer memory"
+      },
+      "quote": "our method maintains a growing spatial pointer memory in which each pointer is assigned a specific 3D position",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.299634+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "spatial pointer memory"
+            },
+            "quote": "our method maintains a growing spatial pointer memory in which each pointer is assigned a specific 3D position",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.347112+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:10.299672+00:00"
+  },
+  {
+    "id": "F_1a194e452f44a7391517",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "3D hierarchical position embedding"
+      },
+      "quote": "Equipped with a 3D hierarchical position embedding and a simple yet effective memory fusion mechanism",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.066519+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "3D hierarchical position embedding"
+            },
+            "quote": "Equipped with a 3D hierarchical position embedding and a simple yet effective memory fusion mechanism",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.347424+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:10.066562+00:00"
+  },
+  {
+    "id": "F_bc34d73e8aa0be8f249a",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "memory fusion mechanism"
+      },
+      "quote": "Equipped with a 3D hierarchical position embedding and a simple yet effective memory fusion mechanism",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:10.358288+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "memory fusion mechanism"
+            },
+            "quote": "Equipped with a 3D hierarchical position embedding and a simple yet effective memory fusion mechanism",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.347718+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:10.358364+00:00"
+  },
+  {
+    "id": "F_7f57ba8095e4c07fcbc8",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "online streaming 3D reconstruction"
+      },
+      "quote": "we have presented an online streaming 3D reconstruction framework, Point3R",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.616460+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "online streaming 3D reconstruction"
+            },
+            "quote": "we have presented an online streaming 3D reconstruction framework, Point3R",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.348006+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:12.616495+00:00"
+  },
+  {
+    "id": "F_85cf156817bc56215362",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "We conduct the dense geometry evaluation on 7-Scenes seq-01",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.635615+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "We conduct the dense geometry evaluation on 7-Scenes seq-01",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.348289+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:12.635650+00:00"
+  },
+  {
+    "id": "F_edbd015a1800aa2a9642",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "ATE"
+      },
+      "quote": "also report the RMSE of the absolute trajectory error (ATE) in meters",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.654791+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "ATE"
+            },
+            "quote": "also report the RMSE of the absolute trajectory error (ATE) in meters",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.348574+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:12.654827+00:00"
+  },
+  {
+    "id": "F_7d2208cc45cbeb81a144",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Peak Memory Usage"
+      },
+      "quote": "We also compare these two methods in terms of peak memory usage and per-frame runtime.",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.673854+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Peak Memory Usage"
+            },
+            "quote": "We also compare these two methods in terms of peak memory usage and per-frame runtime.",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.348858+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:12.673890+00:00"
+  },
+  {
+    "id": "F_ff5cb178044399b12d75",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Per-frame Runtime"
+      },
+      "quote": "We also compare these two methods in terms of peak memory usage and per-frame runtime.",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.693077+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Per-frame Runtime"
+            },
+            "quote": "We also compare these two methods in terms of peak memory usage and per-frame runtime.",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.349137+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:12.693113+00:00"
+  },
+  {
+    "id": "F_064276a10e8e200246a9",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "quote": "we compare our method with MASt3R-SLAM [38] on its own established benchmarks",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.712482+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "quote": "we compare our method with MASt3R-SLAM [38] on its own established benchmarks",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:31:48.349417+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "293e7e3c1dc4a25f852f3b3ecb6a5ef8ddf84a89141065fd020ed78414f1b46c",
+    "reviewed_at": "2026-11-17T16:35:12.712519+00:00"
+  },
+  {
+    "id": "F_3cc697913f1c87a83c6c",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Point3R"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "dense streaming 3D scene reconstruction"
+      },
+      "quote": "Our method facilitates scalable and efficient dense streaming 3D scene reconstruction",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.731596+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Point3R"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "dense streaming 3D scene reconstruction"
+            },
+            "quote": "Our method facilitates scalable and efficient dense streaming 3D scene reconstruction",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:32:03.740077+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "87558fe6699c9768d6f30f4e312429d53d5354b5391865c0cefde948e7064363",
+    "reviewed_at": "2026-11-17T16:35:12.731632+00:00"
+  },
+  {
+    "id": "F_97e367034de135816a50",
+    "paper_id": "P022",
+    "pdf_sha256": "2380f1af8286ac02b632cf89fb13aefe8f93831dfe0e0ef65dbca130df68836c",
+    "section": "5  Conclusion and Discussions",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Point3R"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "explicit pointer memory"
+      },
+      "quote": "our explicit pointer memory is aligned with 3D structures of the current scene",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:35:12.750849+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Point3R"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "explicit pointer memory"
+            },
+            "quote": "our explicit pointer memory is aligned with 3D structures of the current scene",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:32:03.740197+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "87558fe6699c9768d6f30f4e312429d53d5354b5391865c0cefde948e7064363",
+    "reviewed_at": "2026-11-17T16:35:12.750885+00:00"
+  }
+]

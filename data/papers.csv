@@ -1,0 +1,25 @@
+﻿paper_id,title,authors,year,venue,doi_or_arxiv,url,pdf_file,topic_tags,inclusion_reason,status
+P001,VGGT,,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/VGGT.pdf,,,pending
+P002,VGGT-SLAM,,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/VGGT-SLAM.pdf,,,pending
+P003,DUSt3R,Shuzhe Wang; Vincent Leroy; Yohann Cabon; Boris Chidlovskii; Jerome Revaud,2024,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/DUSt3R.pdf,,,pending
+P004,MASt3R,Vincent Leroy ,2024,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/MASt3R.pdf,,,pending
+P005,Pi3,Yifan Wang; Jianjun Zhou; Haoyi Zhu; Wenzheng Chang; Yang Zhou; Zizun Li; Junyi Chen; Jiangmiao Pang; Chunhua Shen; Tong He,2026,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/Pi3.pdf,,,pending
+P006,DINOv2,,2024,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/DINOv2.pdf,,,pending
+P007,MASt3R-SLAM,Riku Murai; Eric Dexheimer; Andrew J. Davison,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/MASt3R-SLAM.pdf,,,pending
+P008,SLAM3R,Yuzheng Liu; Siyan Dong; Shuzhe Wang; Yingda Yin; Yanchao Yang; Qingnan Fan; Baoquan Chen,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/SLAM3R.pdf,,,pending
+P009,MUSt3R,Yohann Cabon; Lucas Stoffl; Leonid Antsfeld; Gabriela Csurka; Boris Chidlovskii; Jerome Revaud; Vincent Leroy,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/MUSt3R.pdf,,,pending
+P010,MoGe,Ruicheng Wang; Sicheng Xu; Cassie Dai; Jianfeng Xiang; Yu Deng; Xin Tong; Jiaolong Yang,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/MoGe.pdf,,,pending
+P011,MoGe-2,,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/MoGe-2.pdf,,,pending
+P012,MoGe-3,Lingyu Kong; Ruicheng Li; Ruicheng Wang; Sicheng Xu; Chengtang Yao; Jianfeng Xiang; Jiaolong Yang,2026,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/MoGe-3.pdf,,,pending
+P013,GemDepth,Yuecheng Liu; Junda Cheng; Longliang Liu; Wenjing Liao; Hanrui Cheng; Yuzhou Wang; Xin Yang,2026,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/GemDepth.pdf,,,pending
+P014,DA,Lihe Yang; Bingyi Kang; Zilong Huang; Xiaogang Xu; Jiashi Feng; Hengshuang Zhao,2024,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/DA.pdf,,,pending
+P015,DA2,,2024,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/DA2.pdf,,,pending
+P016,DA3,,2026,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/DA3.pdf,,,pending
+P017,VGGT-SLAM2.0,Dominic Maggio; Luca Carlone,2026,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/VGGT-SLAM2.0.pdf,,,pending
+P018,CUT3R,,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/CUT3R.pdf,,,pending
+P019,StreamVGGT,Dong Zhuo; Wenzhao Zheng; Jiahe Guo; Yuqi Wu; Jie Zhou; Jiwen Lu,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/StreamVGGT.pdf,,,pending
+P020,Spann3R,,2024,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/Spann3R.pdf,,,pending
+P021,Slot3R,Xiyuan Zhang; Yanming Yang; Kaiyuan Xu; Ruibo Li; Chi Zhang,2026,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/Slot3R.pdf,,,pending
+P022,Point3R,Yuqi Wu; Wenzhao Zheng; Jie Zhou; Jiwen Lu,2025,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/Point3R.pdf,,,pending
+P023,InfiniteVGGT,Shuai Yuan; Yantai Yang; Xiaotian Yang; Xupeng Zhang; Zhonghao Zhao; Lingming Zhang; Zhipeng Zhang,2026,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/InfiniteVGGT.pdf,,,pending
+P024,Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving,Tianyi Yang; Haojun Yang; Jipeng Xiao; Xuesong Chen; Shaoshuai Shi; Li Jiang; Zhipeng Zhang,,,,,/remote-home/share/huangyuxuan/CODE/homework/KG_3DR/data/pdfs/Drive3R.pdf,,,pending

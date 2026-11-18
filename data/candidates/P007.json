@@ -1,0 +1,552 @@
+[
+  {
+    "id": "F_a03f9a54651c7f7abe29",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Calib"
+      },
+      "quote": "Calib [48] on the first image of a sequence",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:07.046604+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Calib"
+            },
+            "quote": "Calib [48] on the first image of a sequence",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:28.510930+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0d4e476f278364b72d7bb59c103d65b9f3c4abed4c5c491b8cfd484628a7ffbc",
+    "reviewed_at": "2026-11-16T11:20:07.046693+00:00"
+  },
+  {
+    "id": "F_21906b47b77a157f7539",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "monocular SLAM"
+      },
+      "quote": "For localisation, we evaluate monocular SLAM",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:07.054378+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "monocular SLAM"
+            },
+            "quote": "For localisation, we evaluate monocular SLAM",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:28.511354+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0d4e476f278364b72d7bb59c103d65b9f3c4abed4c5c491b8cfd484628a7ffbc",
+    "reviewed_at": "2026-11-16T11:20:07.054423+00:00"
+  },
+  {
+    "id": "F_30041308b94bd29664f2",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "ATE"
+      },
+      "quote": "resulting in both the best ATE and area-under-curve (AUC).",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:07.061493+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "ATE"
+            },
+            "quote": "resulting in both the best ATE and area-under-curve (AUC).",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:31.505339+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d6767dd5dae6c68bb9b57bf66a86930e4927f2697179b7fb7d86016fbc5e630c",
+    "reviewed_at": "2026-11-16T11:20:07.061537+00:00"
+  },
+  {
+    "id": "F_1cec4a7f3770720c348b",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AUC"
+      },
+      "quote": "resulting in both the best ATE and area-under-curve (AUC).",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:07.068703+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AUC"
+            },
+            "quote": "resulting in both the best ATE and area-under-curve (AUC).",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:31.505557+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "d6767dd5dae6c68bb9b57bf66a86930e4927f2697179b7fb7d86016fbc5e630c",
+    "reviewed_at": "2026-11-16T11:20:07.068746+00:00"
+  },
+  {
+    "id": "F_5c4b00660fb486d5563a",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "novel method using a 3D reconstruction prior"
+      },
+      "quote": "we present a novel method using a 3D reconstruction prior.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:07.075879+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "novel method using a 3D reconstruction prior"
+            },
+            "quote": "we present a novel method using a 3D reconstruction prior.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:34.246215+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4275f284aa4cce90d1cf3649ea3cd518177ddb8f92a50a405362db68402b6e35",
+    "reviewed_at": "2026-11-16T11:20:07.075922+00:00"
+  },
+  {
+    "id": "F_7a61c928b497cd0a3a43",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Chamfer distance"
+      },
+      "quote": "best in both Accuracy and Chamfer distance.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:07.083096+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Chamfer distance"
+            },
+            "quote": "best in both Accuracy and Chamfer distance.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:34.246813+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4275f284aa4cce90d1cf3649ea3cd518177ddb8f92a50a405362db68402b6e35",
+    "reviewed_at": "2026-11-16T11:20:07.083139+00:00"
+  },
+  {
+    "id": "F_009876b11bf6c92ca4f6",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Dense scene reconstruction with points of interest"
+      },
+      "quote": "Qian-Yi Zhou and Vladlen Koltun. Dense scene reconstruc-\n      tion with points of interest.",
+      "page": 11
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:29.211348+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Dense scene reconstruction with points of interest"
+            },
+            "quote": "Qian-Yi Zhou and Vladlen Koltun. Dense scene reconstruc-\n      tion with points of interest.",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:45.157281+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2858a6521ee29c93030bedfd2c7a2484cd78a82363dff1fcda6e21a8f79aabe5",
+    "reviewed_at": "2026-11-16T11:20:29.211425+00:00"
+  },
+  {
+    "id": "F_d5caa82c5ec0e0616c81",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "NICE-SLAM: Neural implicit scalable encoding for SLAM"
+      },
+      "quote": "NICE-SLAM: Neural implicit scalable encoding for SLAM.",
+      "page": 11
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:29.219413+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "NICE-SLAM: Neural implicit scalable encoding for SLAM"
+            },
+            "quote": "NICE-SLAM: Neural implicit scalable encoding for SLAM.",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:45.157363+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2858a6521ee29c93030bedfd2c7a2484cd78a82363dff1fcda6e21a8f79aabe5",
+    "reviewed_at": "2026-11-16T11:20:29.219461+00:00"
+  },
+  {
+    "id": "F_76ac92cef491f18c9321",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "NICER-SLAM: Neural implicit scene encoding for RGB SLAM"
+      },
+      "quote": "NICER-SLAM: Neural implicit scene encoding for RGB\n    SLAM.",
+      "page": 11
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:29.228406+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "NICER-SLAM: Neural implicit scene encoding for RGB SLAM"
+            },
+            "quote": "NICER-SLAM: Neural implicit scene encoding for RGB\n    SLAM.",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:45.157422+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2858a6521ee29c93030bedfd2c7a2484cd78a82363dff1fcda6e21a8f79aabe5",
+    "reviewed_at": "2026-11-16T11:20:29.228465+00:00"
+  },
+  {
+    "id": "F_65d5cfed3302b546a203",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7-Scenes"
+      },
+      "quote": "Reconstruction comparison on 7-Scenes heads",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:20.515783+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7-Scenes"
+            },
+            "quote": "Reconstruction comparison on 7-Scenes heads",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:56.043611+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1f6b5fb7ac63abb7e488fdbb4f9ae4884da3f9e570999027e6ee4117fc57411d",
+    "reviewed_at": "2026-11-16T11:20:20.515863+00:00"
+  },
+  {
+    "id": "F_fde493fd01c1e36b490c",
+    "paper_id": "P007",
+    "pdf_sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MASt3R-SLAM"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "EuRoC"
+      },
+      "quote": "Reconstruction comparison on EuRoC V102",
+      "page": 14
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T11:20:20.524409+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MASt3R-SLAM"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "EuRoC"
+            },
+            "quote": "Reconstruction comparison on EuRoC V102",
+            "page": 14
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-11T14:44:56.043737+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1f6b5fb7ac63abb7e488fdbb4f9ae4884da3f9e570999027e6ee4117fc57411d",
+    "reviewed_at": "2026-11-16T11:20:20.524458+00:00"
+  }
+]

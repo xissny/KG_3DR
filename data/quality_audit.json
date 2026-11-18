@@ -1,0 +1,13 @@
+{
+  "status": "not_started",
+  "instruction": "正式抽取后选至少5篇通读复核，记录错误与遗漏。不要将程序校验视为人工复核。",
+  "papers": [],
+  "fields": [
+    "paper_id",
+    "reviewer",
+    "checked_fact_count",
+    "incorrect_fact_ids",
+    "missing_facts",
+    "notes"
+  ]
+}

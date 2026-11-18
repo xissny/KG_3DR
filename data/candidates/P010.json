@@ -1,0 +1,796 @@
+[
+  {
+    "id": "F_bc03ccb15866c992054b",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth map"
+      },
+      "quote": "our method reconstructs an affine-invariant 3D point map of the scene and can also produce a depth map and the camera focal length",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:12:51.246560+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth map"
+            },
+            "quote": "our method reconstructs an affine-invariant 3D point map of the scene and can also produce a depth map and the camera focal length",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:43.516121+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a681f1f9b1786f4068deb82c98f09080c162ba84b0d654aafd60a2a5e13102a3",
+    "reviewed_at": "2026-11-16T12:12:51.246636+00:00"
+  },
+  {
+    "id": "F_23a6d325da1b8572d5f8",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera focal length"
+      },
+      "quote": "can also produce a depth map and the camera focal length",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:12:51.255785+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera focal length"
+            },
+            "quote": "can also produce a depth map and the camera focal length",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:43.516303+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "a681f1f9b1786f4068deb82c98f09080c162ba84b0d654aafd60a2a5e13102a3",
+    "reviewed_at": "2026-11-16T12:12:51.255831+00:00"
+  },
+  {
+    "id": "F_a16b42d4cc771200637b",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "affine-invariant point maps"
+      },
+      "quote": "our method predicts affine-invariant point maps, where the 3D points are subject to an unknown global scale as well as a 3D shift",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:03.820606+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "affine-invariant point maps"
+            },
+            "quote": "our method predicts affine-invariant point maps, where the 3D points are subject to an unknown global scale as well as a 3D shift",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:46.302619+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2b2396c38516dda96e3ad16304b34cb77315b05c01a4a9e387bddd1365817e71",
+    "reviewed_at": "2026-11-16T12:13:03.820700+00:00"
+  },
+  {
+    "id": "F_0959b850b9c70975da63",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "affine-invariant point map"
+      },
+      "quote": "we propose to predict affine-invariant point map",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:03.830029+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "affine-invariant point map"
+            },
+            "quote": "we propose to predict affine-invariant point map",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:50.276111+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0cdf8045d2f13f7525f616b42c70a6b4760487629b0a376d33ce9f0b3d19b113",
+    "reviewed_at": "2026-11-16T12:13:03.830077+00:00"
+  },
+  {
+    "id": "F_22e109acb11e3ed8a188",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "solver to the optimal alignment parameters"
+      },
+      "quote": "In this work, we propose a solver to the optimal align-",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:03.838945+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "solver to the optimal alignment parameters"
+            },
+            "quote": "In this work, we propose a solver to the optimal align-",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:50.276469+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0cdf8045d2f13f7525f616b42c70a6b4760487629b0a376d33ce9f0b3d19b113",
+    "reviewed_at": "2026-11-16T12:13:03.839002+00:00"
+  },
+  {
+    "id": "F_98f5dd1c5f8fd2c61aa9",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "camera intrinsics estimation"
+      },
+      "quote": "we demonstrate that our camera parameter estimation de-",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:03.847794+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "camera intrinsics estimation"
+            },
+            "quote": "we demonstrate that our camera parameter estimation de-",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:50.276790+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0cdf8045d2f13f7525f616b42c70a6b4760487629b0a376d33ce9f0b3d19b113",
+    "reviewed_at": "2026-11-16T12:13:03.847841+00:00"
+  },
+  {
+    "id": "F_ee5fadee59ae4cb00241",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "point map"
+      },
+      "quote": "our model Fθ infers the 3D",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:03.859769+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "point map"
+            },
+            "quote": "our model Fθ infers the 3D",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:50.277099+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0cdf8045d2f13f7525f616b42c70a6b4760487629b0a376d33ce9f0b3d19b113",
+    "reviewed_at": "2026-11-16T12:13:03.859816+00:00"
+  },
+  {
+    "id": "F_dda52ad343f5163d0dbe",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "end-to-end model mapping two-view images to camera space point maps"
+      },
+      "quote": "DUSt3R [52] employs an end-to-end model to di-",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:03.868728+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "end-to-end model mapping two-view images to camera space point maps"
+            },
+            "quote": "DUSt3R [52] employs an end-to-end model to di-",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:50.277971+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0cdf8045d2f13f7525f616b42c70a6b4760487629b0a376d33ce9f0b3d19b113",
+    "reviewed_at": "2026-11-16T12:13:03.868773+00:00"
+  },
+  {
+    "id": "F_15af0f1f1552f5d5a245",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "DUSt3R [52] employs an end-to-end model",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:03.881504+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "DUSt3R [52] employs an end-to-end model",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:50.278829+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "0cdf8045d2f13f7525f616b42c70a6b4760487629b0a376d33ce9f0b3d19b113",
+    "reviewed_at": "2026-11-16T12:13:03.881581+00:00"
+  },
+  {
+    "id": "F_78ba790fabbe4917329d",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "scale-invariant supervision"
+      },
+      "quote": "Compared to the                      i∈M\nscale-invariant supervision [52] shown in Fig. 4 (b)",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:12:41.405431+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "scale-invariant supervision [52]"
+            },
+            "quote": "Compared to the                      i∈M\nscale-invariant supervision [52] shown in Fig. 4 (b)",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-16T12:13:03.901549+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "scale-invariant supervision"
+            },
+            "quote": "Compared to the                      i∈M\nscale-invariant supervision [52] shown in Fig. 4 (b)",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:41:51.554853+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c0a3b7489338cfbeed86fb5073903ea2de814330c3e8d8c60a8daf6a8e070532",
+    "reviewed_at": "2026-11-16T12:13:03.901595+00:00"
+  },
+  {
+    "id": "F_e8ff0bb8c809a376a118",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "MoGe"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "21 publicly available datasets"
+      },
+      "quote": "We collected 21 publicly available datasets from various do-",
+      "page": 5
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:06.526550+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "MoGe"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "21 publicly available datasets"
+            },
+            "quote": "We collected 21 publicly available datasets from various do-",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:42:10.217996+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc8d0a63820cb705efc0cd8a07ad4f11505e2cbd8f802d4f3ccdf0974f611bba",
+    "reviewed_at": "2026-11-16T12:13:06.526641+00:00"
+  },
+  {
+    "id": "F_be4d165ab21fc0c302f0",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "LeReS"
+      },
+      "quote": "We compare our method with LeReS [64],",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:15.768822+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "LeReS"
+            },
+            "quote": "We compare our method with LeReS [64],",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:42:10.218385+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc8d0a63820cb705efc0cd8a07ad4f11505e2cbd8f802d4f3ccdf0974f611bba",
+    "reviewed_at": "2026-11-16T12:13:15.768901+00:00"
+  },
+  {
+    "id": "F_8eb7feecdf8aff50b154",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "UniDepth"
+      },
+      "quote": "UniDepth [38], and DUSt3R [52], evaluating both camera-",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:15.780133+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "UniDepth"
+            },
+            "quote": "UniDepth [38], and DUSt3R [52], evaluating both camera-",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:42:10.218732+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc8d0a63820cb705efc0cd8a07ad4f11505e2cbd8f802d4f3ccdf0974f611bba",
+    "reviewed_at": "2026-11-16T12:13:15.780183+00:00"
+  },
+  {
+    "id": "F_32ff447353192607800a",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "UniDepth [38], and DUSt3R [52], evaluating both camera-",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:03.892373+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "UniDepth [38], and DUSt3R [52], evaluating both camera-",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:42:10.219070+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "bc8d0a63820cb705efc0cd8a07ad4f11505e2cbd8f802d4f3ccdf0974f611bba",
+    "reviewed_at": "2026-11-16T12:13:03.892420+00:00"
+  },
+  {
+    "id": "F_4708d6d3f62458d599e5",
+    "paper_id": "P010",
+    "pdf_sha256": "ccade004e5c62e258647760ea51aa62dc901fd162ff0d6a0a5572e870e692b4d",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "MoGe"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Depth Anything"
+      },
+      "quote": "Hengshuang Zhao. Depth anything: Unleashing\n     the power of large-scale unlabeled data. In Proceedings of\n     the IEEE/CVF Conference on Computer Vision and Pattern\n     Recognition, pages 10371–10381, 2024.",
+      "page": 11
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-16T12:13:23.460398+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data"
+            },
+            "quote": "Hengshuang Zhao. Depth anything: Unleashing\n     the power of large-scale unlabeled data. In Proceedings of\n     the IEEE/CVF Conference on Computer Vision and Pattern\n     Recognition, pages 10371–10381, 2024.",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      },
+      {
+        "time": "2026-11-16T12:13:27.170023+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "MoGe"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Depth Anything"
+            },
+            "quote": "Hengshuang Zhao. Depth anything: Unleashing\n     the power of large-scale unlabeled data. In Proceedings of\n     the IEEE/CVF Conference on Computer Vision and Pattern\n     Recognition, pages 10371–10381, 2024.",
+            "page": 11
+          },
+          "status": "pending",
+          "reviewer": "hyx",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:42:36.783939+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "665a508d68d3d022e617c4aa2ea29abbba088a910bd7580969733ef0055ba233",
+    "reviewed_at": "2026-11-16T12:13:27.170108+00:00"
+  }
+]

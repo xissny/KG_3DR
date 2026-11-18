@@ -1,0 +1,6352 @@
+[
+  {
+    "id": "F_997dc1b1fd0f01b157e4",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Depth Anything 3"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "quote": "We present Depth Anything 3 (DA3), a model that predicts spatially consistent ge-",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:01.269496+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Depth Anything 3"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "quote": "We present Depth Anything 3 (DA3), a model that predicts spatially consistent ge-",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:47.247026+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5f6fa755c902d683af8cae329ac1e61a6b313e6ec32dc5dd6c5b1a5782447066",
+    "reviewed_at": "2026-11-17T16:16:01.269847+00:00"
+  },
+  {
+    "id": "F_7ca2f8a4300c5b60a80e",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "plain transformer"
+      },
+      "quote": "a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:01.318167+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "plain transformer"
+            },
+            "quote": "a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:47.247220+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5f6fa755c902d683af8cae329ac1e61a6b313e6ec32dc5dd6c5b1a5782447066",
+    "reviewed_at": "2026-11-17T16:16:01.318212+00:00"
+  },
+  {
+    "id": "F_84d3267c25b3635e3956",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth and ray maps"
+      },
+      "quote": "producing accurate depth and ray maps that fuse into a consistent point cloud",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:01.332863+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth and ray maps"
+            },
+            "quote": "producing accurate depth and ray maps that fuse into a consistent point cloud",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:47.247374+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5f6fa755c902d683af8cae329ac1e61a6b313e6ec32dc5dd6c5b1a5782447066",
+    "reviewed_at": "2026-11-17T16:16:01.332903+00:00"
+  },
+  {
+    "id": "F_f8e79d9bfc42ac2a3c78",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "camera pose estimation"
+      },
+      "quote": "covering camera pose estimation, any-view geometry and visual rendering",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:01.347657+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "camera pose estimation"
+            },
+            "quote": "covering camera pose estimation, any-view geometry and visual rendering",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:47.247517+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5f6fa755c902d683af8cae329ac1e61a6b313e6ec32dc5dd6c5b1a5782447066",
+    "reviewed_at": "2026-11-17T16:16:01.347699+00:00"
+  },
+  {
+    "id": "F_a6522c9dbcc563e721de",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "visual geometry benchmark"
+      },
+      "quote": "We establish a new visual geometry benchmark covering camera pose estimation",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:01.362294+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "visual geometry benchmark"
+            },
+            "quote": "We establish a new visual geometry benchmark covering camera pose estimation",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:47.247658+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5f6fa755c902d683af8cae329ac1e61a6b313e6ec32dc5dd6c5b1a5782447066",
+    "reviewed_at": "2026-11-17T16:16:01.362334+00:00"
+  },
+  {
+    "id": "F_3b9a33a56d06658f73ba",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "public academic datasets"
+      },
+      "quote": "All models are trained exclusively on public academic datasets.",
+      "page": 1
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:05.377521+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "public academic datasets"
+            },
+            "quote": "All models are trained exclusively on public academic datasets.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:47.247804+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "5f6fa755c902d683af8cae329ac1e61a6b313e6ec32dc5dd6c5b1a5782447066",
+    "reviewed_at": "2026-11-17T16:16:05.377598+00:00"
+  },
+  {
+    "id": "F_66f7a5901c415e0afb4c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Depth Anything 3"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "quote": "2  DEPTH ANYTHING 3",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:01.299373+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Depth Anything 3"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "quote": "2  DEPTH ANYTHING 3",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.880115+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:01.299436+00:00"
+  },
+  {
+    "id": "F_8f38b89b0423e7a79137",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "vanilla DINOv2 model"
+      },
+      "quote": "Depth Anything 3 employs a single transformer (vanilla\nDINOv2 model) without any architectural modifications.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:29.157480+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "vanilla DINOv2 model"
+            },
+            "quote": "Depth Anything 3 employs a single transformer (vanilla\nDINOv2 model) without any architectural modifications.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.880431+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:29.157554+00:00"
+  },
+  {
+    "id": "F_c066796de4f92d595b1c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "input-adaptive cross-view self-attention mechanism"
+      },
+      "quote": "an input-\nadaptive cross-view self-attention mechanism is introduced.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:29.172936+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "input-adaptive cross-view self-attention mechanism"
+            },
+            "quote": "an input-\nadaptive cross-view self-attention mechanism is introduced.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.880693+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:29.172980+00:00"
+  },
+  {
+    "id": "F_abf2d5ee63e72a25f8c4",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "dual-DPT head"
+      },
+      "quote": "A dual-DPT head is used to predict\ndepth and ray maps from visual tokens.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:29.188288+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "dual-DPT head"
+            },
+            "quote": "A dual-DPT head is used to predict\ndepth and ray maps from visual tokens.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.880940+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:29.188328+00:00"
+  },
+  {
+    "id": "F_50a4e1a8f0c05506f6f7",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth-ray representation"
+      },
+      "quote": "a depth-ray representation forms a minimal yet sufficient disentangled\ntarget set for capturing both scene structure and camera motion",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:29.218702+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth-ray representation"
+            },
+            "quote": "a depth-ray representation forms a minimal yet sufficient disentangled\ntarget set for capturing both scene structure and camera motion",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.881190+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:29.218743+00:00"
+  },
+  {
+    "id": "F_6ed5d89f8aabc28a8454",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "consistent 3D geometry recovery"
+      },
+      "quote": "We tackle the recovery of consistent 3D geometry from diverse visual inputs",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:29.233581+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "consistent 3D geometry recovery"
+            },
+            "quote": "We tackle the recovery of consistent 3D geometry from diverse visual inputs",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.881427+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:29.233617+00:00"
+  },
+  {
+    "id": "F_f1d7527c269c401c303f",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Depth Anything 3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Wang et al., 2024b"
+      },
+      "quote": "for example, point maps alone (Wang et al.,\n2024b)",
+      "page": 3
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:37.363566+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Depth Anything 3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Wang et al., 2024b"
+            },
+            "quote": "for example, point maps alone (Wang et al.,\n2024b)",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.881664+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:37.363651+00:00"
+  },
+  {
+    "id": "F_028f3184c4f283dc7980",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Depth Anything 3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Wang et al., 2025a"
+      },
+      "quote": "combinations of pose, local/global point maps, and depth (Wang et al., 2025a;b; Yang et al., 2025a)",
+      "page": 3
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:37.379006+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Depth Anything 3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Wang et al., 2025a"
+            },
+            "quote": "combinations of pose, local/global point maps, and depth (Wang et al., 2025a;b; Yang et al., 2025a)",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.881924+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:37.379048+00:00"
+  },
+  {
+    "id": "F_4fabc42cb90e5a783c64",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Depth Anything 3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Yang et al., 2025a"
+      },
+      "quote": "combinations of pose, local/global point maps, and depth (Wang et al., 2025a;b; Yang et al., 2025a)",
+      "page": 3
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:37.394104+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Depth Anything 3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Yang et al., 2025a"
+            },
+            "quote": "combinations of pose, local/global point maps, and depth (Wang et al., 2025a;b; Yang et al., 2025a)",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.882159+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:37.394142+00:00"
+  },
+  {
+    "id": "F_7516f44ab43b96344c30",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.1  FORMULATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "Depth Anything 3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Xu et al., 2025c"
+      },
+      "quote": "substantially\noutperforms highly specialized task-specific models (Xu et al., 2025c)",
+      "page": 3
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:37.409164+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "Depth Anything 3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Xu et al., 2025c"
+            },
+            "quote": "substantially\noutperforms highly specialized task-specific models (Xu et al., 2025c)",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:00:57.882391+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "afd604154f4de60738f09c6fe8ac43f333b2349f6f5cfd6bf549c52bc5c76b85",
+    "reviewed_at": "2026-11-17T16:16:37.409200+00:00"
+  },
+  {
+    "id": "F_02a6e1a0d2ebdf3c8c9e",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "quote": "We now detail the architecture of Depth Anything 3, which is illustrated in Fig. 2.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.381417+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "quote": "We now detail the architecture of Depth Anything 3, which is illustrated in Fig. 2.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.896177+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.381493+00:00"
+  },
+  {
+    "id": "F_1f332d9c458df512cd95",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Vision Transformer backbone"
+      },
+      "quote": "We use a Vision Transformer with L blocks, pretrained on large-scale monocular image corpora",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.413196+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Vision Transformer backbone"
+            },
+            "quote": "We use a Vision Transformer with L blocks, pretrained on large-scale monocular image corpora",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.896453+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.413240+00:00"
+  },
+  {
+    "id": "F_7a71e876146fea78f0db",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "camera encoder"
+      },
+      "quote": "an optional camera encoder for pose conditioning",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.428847+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "camera encoder"
+            },
+            "quote": "an optional camera encoder for pose conditioning",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.896686+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.428891+00:00"
+  },
+  {
+    "id": "F_df60a0a7ecab146f852e",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Dual-DPT head"
+      },
+      "quote": "a Dual-DPT head for generating predictions",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:29.203784+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "Dual-DPT head"
+            },
+            "quote": "a Dual-DPT head for generating predictions",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.896907+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:16:29.203825+00:00"
+  },
+  {
+    "id": "F_4449aa3034c3d6b6aeb3",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "camera head DC"
+      },
+      "quote": "We address this by adding a camera head, DC, which has minimal computational overhead.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.444411+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "camera head DC"
+            },
+            "quote": "We address this by adding a camera head, DC, which has minimal computational overhead.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.897131+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.444451+00:00"
+  },
+  {
+    "id": "F_0ed9107c8a64b8418618",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth map"
+      },
+      "quote": "jointly outputs dense depth and ray values",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.465419+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth map"
+            },
+            "quote": "jointly outputs dense depth and ray values",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.897350+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.465461+00:00"
+  },
+  {
+    "id": "F_55f190bfc4f17c3542d5",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "ray map"
+      },
+      "quote": "jointly outputs dense depth and ray values",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.484232+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "ray map"
+            },
+            "quote": "jointly outputs dense depth and ray values",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.897573+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.484526+00:00"
+  },
+  {
+    "id": "F_17f4f3778797fafff51c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera pose"
+      },
+      "quote": "a depth map ˆD, a ray map ˆR, and an optional camera pose ˆc",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.501741+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera pose"
+            },
+            "quote": "a depth map ˆD, a ray map ˆR, and an optional camera pose ˆc",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.897829+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.501784+00:00"
+  },
+  {
+    "id": "F_80502f2900441358b894",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth-Anything-3-Teacher"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "synthetic data"
+      },
+      "quote": "we train a monocular relative depth estimation “teacher” model solely on synthetic data",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.517579+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth-Anything-3-Teacher"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "synthetic data"
+            },
+            "quote": "we train a monocular relative depth estimation “teacher” model solely on synthetic data",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.898273+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.517639+00:00"
+  },
+  {
+    "id": "F_e5cb22c63e962c334d6d",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "diverse sources including real-world depth captures, 3D reconstructions, and synthetic datasets"
+      },
+      "quote": "Our training data comes from diverse sources, including real-world depth captures, 3D reconstructions, and synthetic datasets.",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.533459+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "diverse sources including real-world depth captures, 3D reconstructions, and synthetic datasets"
+            },
+            "quote": "Our training data comes from diverse sources, including real-world depth captures, 3D reconstructions, and synthetic datasets.",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.898502+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.533498+00:00"
+  },
+  {
+    "id": "F_909063186b3a6e2c1717",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "2.3  TRAINING",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DINOv2"
+      },
+      "quote": "pretrained on large-scale monocular image corpora (e.g., DINOv2 Oquab et al. 2023)",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.549306+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DINOv2"
+            },
+            "quote": "pretrained on large-scale monocular image corpora (e.g., DINOv2 Oquab et al. 2023)",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:01.898716+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1207bae609ad795811e808e99ab1d5693e0ac3a03c38474aaec5ee3a34cb1de0",
+    "reviewed_at": "2026-11-17T16:19:34.549368+00:00"
+  },
+  {
+    "id": "F_689a3d048dbd5931fcfa",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HiRoom"
+      },
+      "quote": "on HiRoom, COLMAP achieves only 13.0 Auc3 compared to 81.7 from our method",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.565099+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HiRoom"
+            },
+            "quote": "on HiRoom, COLMAP achieves only 13.0 Auc3 compared to 81.7 from our method",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.028780+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:34.565138+00:00"
+  },
+  {
+    "id": "F_a46341d2cb89d22127f0",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "on ETH3D, COLMAP+PM achieves an F-score of only 20.7 (ours: 74.4)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.636386+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "on ETH3D, COLMAP+PM achieves an F-score of only 20.7 (ours: 74.4)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.029088+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:34.636424+00:00"
+  },
+  {
+    "id": "F_bd74d40ca9916c5344c2",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DTU"
+      },
+      "quote": "Classical methods excel on dense, well-textured scenes like DTU",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.707070+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DTU"
+            },
+            "quote": "Classical methods excel on dense, well-textured scenes like DTU",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.029349+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:34.707109+00:00"
+  },
+  {
+    "id": "F_1604ded78e27e6dc5463",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "using Auc3 and Auc30 metrics across five datasets",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.771859+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "using Auc3 and Auc30 metrics across five datasets",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.029847+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:34.771899+00:00"
+  },
+  {
+    "id": "F_a501133bdd8556ad0959",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet++"
+      },
+      "quote": "on ScanNet++, COLMAP obtains 13.3 Auc3 versus 83.2 from ours",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.116107+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet++"
+            },
+            "quote": "on ScanNet++, COLMAP obtains 13.3 Auc3 versus 83.2 from ours",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.030099+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:35.116167+00:00"
+  },
+  {
+    "id": "F_f29295cd46efc72a6595",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Auc3"
+      },
+      "quote": "using Auc3 and Auc30 metrics across five datasets",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.806638+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Auc3"
+            },
+            "quote": "using Auc3 and Auc30 metrics across five datasets",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.030346+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:35.806713+00:00"
+  },
+  {
+    "id": "F_fade84c36e7d0ab0193e",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Auc30"
+      },
+      "quote": "using Auc3 and Auc30 metrics across five datasets",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.850449+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Auc30"
+            },
+            "quote": "using Auc3 and Auc30 metrics across five datasets",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.030586+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:35.850492+00:00"
+  },
+  {
+    "id": "F_d8038951d0fb59336d18",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "F-score"
+      },
+      "quote": "COLMAP+PM achieves an F-score of only 20.7 (ours: 74.4)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.881118+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "F-score"
+            },
+            "quote": "COLMAP+PM achieves an F-score of only 20.7 (ours: 74.4)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.030829+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:35.881226+00:00"
+  },
+  {
+    "id": "F_403610cbbee4bc621388",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "chamfer distance"
+      },
+      "quote": "GLOMAP+PatchMatchStereo achieves 1.62 mm chamfer distance",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.898841+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "chamfer distance"
+            },
+            "quote": "GLOMAP+PatchMatchStereo achieves 1.62 mm chamfer distance",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.031072+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:35.898891+00:00"
+  },
+  {
+    "id": "F_01689bdc69c725b2be64",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "COLMAP"
+      },
+      "quote": "classical SfM pipelines (COLMAP Schönberger and Frahm (2016)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.302475+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "COLMAP"
+            },
+            "quote": "classical SfM pipelines (COLMAP Schönberger and Frahm (2016)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.031324+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:36.302554+00:00"
+  },
+  {
+    "id": "F_dd96bfa6201af1ce716c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "GLOMAP"
+      },
+      "quote": "GLOMAP Pan et al. (2024b)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.320029+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "GLOMAP"
+            },
+            "quote": "GLOMAP Pan et al. (2024b)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.031562+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:36.320073+00:00"
+  },
+  {
+    "id": "F_6151bed728cdc7bdb574",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "whereas VGGT and Pi3 exhibit substantially noisier paths",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.337309+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "whereas VGGT and Pi3 exhibit substantially noisier paths",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.031802+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:36.337349+00:00"
+  },
+  {
+    "id": "F_c7e878735157509eee22",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Pi3"
+      },
+      "quote": "whereas VGGT and Pi3 exhibit substantially noisier paths",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.388601+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Pi3"
+            },
+            "quote": "whereas VGGT and Pi3 exhibit substantially noisier paths",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:15.032038+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f854c401f0eb53ad779853d396f3f4e36a4a693d2594ad6251e0875d4242c924",
+    "reviewed_at": "2026-11-17T16:19:36.388640+00:00"
+  },
+  {
+    "id": "F_bfd3fe0dc5dbb77cc41b",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HiRoom"
+      },
+      "quote": "Comparisons with SOTA methods on reconstruction accuracy.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.584310+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HiRoom"
+            },
+            "quote": "Comparisons with SOTA methods on reconstruction accuracy.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.528195+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:34.584393+00:00"
+  },
+  {
+    "id": "F_25af005d93000576df23",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "Comparisons with SOTA methods on reconstruction accuracy.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.652551+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "Comparisons with SOTA methods on reconstruction accuracy.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.528509+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:34.652590+00:00"
+  },
+  {
+    "id": "F_7694dccaff48b3fb7cb7",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DTU"
+      },
+      "quote": "For DTU, we report the chamfer distance (CD ↓, unit: mm).",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.723315+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DTU"
+            },
+            "quote": "For DTU, we report the chamfer distance (CD ↓, unit: mm).",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.528730+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:34.723354+00:00"
+  },
+  {
+    "id": "F_cea60136cab8dc777b52",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "Comparisons with SOTA methods on reconstruction accuracy.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.801284+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "Comparisons with SOTA methods on reconstruction accuracy.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.528935+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:34.801330+00:00"
+  },
+  {
+    "id": "F_c2eba7fe6d8cca404ab9",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet++"
+      },
+      "quote": "Comparisons with SOTA methods on reconstruction accuracy.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.366939+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet++"
+            },
+            "quote": "Comparisons with SOTA methods on reconstruction accuracy.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.529129+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:35.367021+00:00"
+  },
+  {
+    "id": "F_e964397bc456472e0fd3",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "F-Score (F1)"
+      },
+      "quote": "we report the F-Score (F1 ↑)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.428315+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "F-Score (F1)"
+            },
+            "quote": "we report the F-Score (F1 ↑)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.529328+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.428356+00:00"
+  },
+  {
+    "id": "F_fd43055f02c281a4f84c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "chamfer distance (CD)"
+      },
+      "quote": "we report the chamfer distance (CD ↓, unit: mm)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.449352+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "chamfer distance (CD)"
+            },
+            "quote": "we report the chamfer distance (CD ↓, unit: mm)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.529527+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.449391+00:00"
+  },
+  {
+    "id": "F_5af598cfcf4f4e1ec122",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "Monocular depth comparisons. δ1 ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.466373+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "Monocular depth comparisons. δ1 ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.529724+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.466410+00:00"
+  },
+  {
+    "id": "F_bec3d9951e7bf1bdf19a",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "NYU"
+      },
+      "quote": "Monocular depth comparisons. δ1 ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.483539+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "NYU"
+            },
+            "quote": "Monocular depth comparisons. δ1 ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.529937+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.483580+00:00"
+  },
+  {
+    "id": "F_f970f962930220bab2e4",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "SINTEL"
+      },
+      "quote": "Monocular depth comparisons. δ1 ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.500750+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "SINTEL"
+            },
+            "quote": "Monocular depth comparisons. δ1 ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.530126+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.500788+00:00"
+  },
+  {
+    "id": "F_1a2a2e04ea8ef938477a",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DIODE"
+      },
+      "quote": "Monocular depth comparisons. δ1 ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.521893+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DIODE"
+            },
+            "quote": "Monocular depth comparisons. δ1 ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.530320+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.521932+00:00"
+  },
+  {
+    "id": "F_8cd93c400cd62c68ad09",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ1"
+      },
+      "quote": "Monocular depth comparisons. δ1 ↑",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.539081+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ1"
+            },
+            "quote": "Monocular depth comparisons. δ1 ↑",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.530508+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.539119+00:00"
+  },
+  {
+    "id": "F_e05ac5b2df1f9fc39255",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MVSplat"
+      },
+      "quote": "pixelSplat (Charatan et al., 2024), MVSplat (Chen et al., 2024)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.556321+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MVSplat"
+            },
+            "quote": "pixelSplat (Charatan et al., 2024), MVSplat (Chen et al., 2024)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.940848+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.556358+00:00"
+  },
+  {
+    "id": "F_956638b049be9bc08a91",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DepthSplat"
+      },
+      "quote": "and DepthSplat (Xu",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.573562+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DepthSplat"
+            },
+            "quote": "and DepthSplat (Xu",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:18.941082+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "2efcb90add62dfd64112d20bc2f7a540bbba82aa38729949dfd338915f14c554",
+    "reviewed_at": "2026-11-17T16:19:36.573600+00:00"
+  },
+  {
+    "id": "F_b25cce9725528563b0fa",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DL3DV"
+      },
+      "quote": "DA3         21.33    0.241    18.10    0.311   17.89    0.351",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.591038+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DL3DV"
+            },
+            "quote": "DA3         21.33    0.241    18.10    0.311   17.89    0.351",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.697221+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.591077+00:00"
+  },
+  {
+    "id": "F_e846be178b57dd6359e7",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Tanks&Temples"
+      },
+      "quote": "DA3         21.33    0.241    18.10    0.311   17.89    0.351",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.630101+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Tanks&Temples"
+            },
+            "quote": "DA3         21.33    0.241    18.10    0.311   17.89    0.351",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.697440+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.630140+00:00"
+  },
+  {
+    "id": "F_7a6fb4a8bb190c808d25",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MegaDepth"
+      },
+      "quote": "DA3         21.33    0.241    18.10    0.311   17.89    0.351",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.647497+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MegaDepth"
+            },
+            "quote": "DA3         21.33    0.241    18.10    0.311   17.89    0.351",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.697613+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.647536+00:00"
+  },
+  {
+    "id": "F_d980e480389b0b7f33c6",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "PSNR"
+      },
+      "quote": "PSNR↑  LPIPS↓  PSNR↑LPIPS↓PSNR↑LPIPS↓",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.688492+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "PSNR"
+            },
+            "quote": "PSNR↑  LPIPS↓  PSNR↑LPIPS↓PSNR↑LPIPS↓",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.697783+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.688538+00:00"
+  },
+  {
+    "id": "F_e7117353e70fe6adf2fc",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "LPIPS"
+      },
+      "quote": "PSNR↑  LPIPS↓  PSNR↑LPIPS↓PSNR↑LPIPS↓",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.707305+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "LPIPS"
+            },
+            "quote": "PSNR↑  LPIPS↓  PSNR↑LPIPS↓PSNR↑LPIPS↓",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.697962+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.707346+00:00"
+  },
+  {
+    "id": "F_ae6fcabb26ddcb4de455",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Auc3"
+      },
+      "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++\n  Methods\n                  Auc3   F1   Auc3   F1   Auc3   F1   Auc3   CD   Auc3   F1   Auc3   F1",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.829527+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Auc3"
+            },
+            "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++\n  Methods\n                  Auc3   F1   Auc3   F1   Auc3   F1   Auc3   CD   Auc3   F1   Auc3   F1",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.698129+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:35.829593+00:00"
+  },
+  {
+    "id": "F_6d8851c8b5a41d4d7ce6",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "F1"
+      },
+      "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++\n  Methods\n                  Auc3   F1   Auc3   F1   Auc3   F1   Auc3   CD   Auc3   F1   Auc3   F1",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.725534+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "F1"
+            },
+            "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++\n  Methods\n                  Auc3   F1   Auc3   F1   Auc3   F1   Auc3   CD   Auc3   F1   Auc3   F1",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.698292+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.725573+00:00"
+  },
+  {
+    "id": "F_a07ef91cbd2ca8380023",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "CD"
+      },
+      "quote": "Auc3   F1   Auc3   F1   Auc3   F1   Auc3   CD   Auc3   F1   Auc3   F1",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.743290+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "CD"
+            },
+            "quote": "Auc3   F1   Auc3   F1   Auc3   F1   Auc3   CD   Auc3   F1   Auc3   F1",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.698450+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.743328+00:00"
+  },
+  {
+    "id": "F_b4ecc3ecaf560e6350f2",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HiRoom"
+      },
+      "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.600446+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HiRoom"
+            },
+            "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.698606+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:34.600489+00:00"
+  },
+  {
+    "id": "F_2b94fc866164cdd95133",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.673686+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.698763+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:34.673730+00:00"
+  },
+  {
+    "id": "F_f8f4622cacea8063d66c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DTU"
+      },
+      "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.739398+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DTU"
+            },
+            "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.698917+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:34.739436+00:00"
+  },
+  {
+    "id": "F_e88e44fa339b7b438366",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.884168+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.699072+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:34.884224+00:00"
+  },
+  {
+    "id": "F_35f6cd265b10240f1873",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet++"
+      },
+      "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.458095+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet++"
+            },
+            "quote": "Avg       HiRoom     ETH3D      DTU         7Scenes     ScanNet++",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.699225+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:35.458145+00:00"
+  },
+  {
+    "id": "F_d658956339ebe9415d9a",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Fast3R"
+      },
+      "quote": "replacing our geometry backbone with\nFast3R (Yang et al., 2025b)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.760999+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Fast3R"
+            },
+            "quote": "replacing our geometry backbone with\nFast3R (Yang et al., 2025b)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.699384+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.761035+00:00"
+  },
+  {
+    "id": "F_3018eff038eef2327a87",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MV-DUSt3R"
+      },
+      "quote": "MV-DUSt3R (Tang et al., 2025), and VGGT (Wang et al., 2025a)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.796438+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MV-DUSt3R"
+            },
+            "quote": "MV-DUSt3R (Tang et al., 2025), and VGGT (Wang et al., 2025a)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.699541+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.796475+00:00"
+  },
+  {
+    "id": "F_6193f494a5826a5e4f91",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "4.1  VISUAL GEOMETRY ESTIMATION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "MV-DUSt3R (Tang et al., 2025), and VGGT (Wang et al., 2025a)",
+      "page": 8
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.354105+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "MV-DUSt3R (Tang et al., 2025), and VGGT (Wang et al., 2025a)",
+            "page": 8
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:23.699696+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "82ed51109b72f3d8adcdc6da6bfb5e9dfa1e5c9d9bf3727263fec06236991648",
+    "reviewed_at": "2026-11-17T16:19:36.354145+00:00"
+  },
+  {
+    "id": "F_67d70fdb4dcf321ce69a",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "quote": "Depth Anything 3 shows that a plain transformer, trained on depth-and-ray targets with teacher–student supervision, can unify any-view geometry without ornate architectures.",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.397643+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "quote": "Depth Anything 3 shows that a plain transformer, trained on depth-and-ray targets with teacher–student supervision, can unify any-view geometry without ornate architectures.",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:34.221386+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3277a6914857e4253d12aa1afc72258efb14e6ef9d7973b4af67caf36d7d5737",
+    "reviewed_at": "2026-11-17T16:19:34.397689+00:00"
+  },
+  {
+    "id": "F_e25cfd9081cb857861aa",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "depth-and-ray targets"
+      },
+      "quote": "trained on depth-and-ray targets with teacher–student supervision",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.814573+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "depth-and-ray targets"
+            },
+            "quote": "trained on depth-and-ray targets with teacher–student supervision",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:34.221665+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3277a6914857e4253d12aa1afc72258efb14e6ef9d7973b4af67caf36d7d5737",
+    "reviewed_at": "2026-11-17T16:19:36.814612+00:00"
+  },
+  {
+    "id": "F_75c1a6f5ff49dc175445",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "adaptive cross-view attention"
+      },
+      "quote": "Scale-aware depth, per-pixel rays, and adaptive cross-view attention let the model inherit strong pretrained features",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.832449+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "adaptive cross-view attention"
+            },
+            "quote": "Scale-aware depth, per-pixel rays, and adaptive cross-view attention let the model inherit strong pretrained features",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:34.221942+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3277a6914857e4253d12aa1afc72258efb14e6ef9d7973b4af67caf36d7d5737",
+    "reviewed_at": "2026-11-17T16:19:36.832488+00:00"
+  },
+  {
+    "id": "F_4489b735027ad138c74c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "scale-aware depth"
+      },
+      "quote": "Scale-aware depth, per-pixel rays, and adaptive cross-view attention let the model inherit strong pretrained features",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.850541+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "scale-aware depth"
+            },
+            "quote": "Scale-aware depth, per-pixel rays, and adaptive cross-view attention let the model inherit strong pretrained features",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:34.222172+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3277a6914857e4253d12aa1afc72258efb14e6ef9d7973b4af67caf36d7d5737",
+    "reviewed_at": "2026-11-17T16:19:36.850579+00:00"
+  },
+  {
+    "id": "F_6255c1444ad21ea27d67",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "per-pixel rays"
+      },
+      "quote": "Scale-aware depth, per-pixel rays, and adaptive cross-view attention let the model inherit strong pretrained features",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.868516+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "per-pixel rays"
+            },
+            "quote": "Scale-aware depth, per-pixel rays, and adaptive cross-view attention let the model inherit strong pretrained features",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:34.222397+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3277a6914857e4253d12aa1afc72258efb14e6ef9d7973b4af67caf36d7d5737",
+    "reviewed_at": "2026-11-17T16:19:36.868555+00:00"
+  },
+  {
+    "id": "F_34036adf25fc4fee88a7",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Depth Anything 3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "visual geometry benchmark"
+      },
+      "quote": "On the proposed visual geometry benchmark the approach sets new pose and reconstruction records",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:16:01.377220+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "Depth Anything 3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "visual geometry benchmark"
+            },
+            "quote": "On the proposed visual geometry benchmark the approach sets new pose and reconstruction records",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:34.222620+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3277a6914857e4253d12aa1afc72258efb14e6ef9d7973b4af67caf36d7d5737",
+    "reviewed_at": "2026-11-17T16:16:01.377259+00:00"
+  },
+  {
+    "id": "F_4ad271bbb27be9e78434",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "A turning point came with DUSt3R (Wang et al., 2024b), which leveraged transformers to directly",
+      "page": 10
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.886537+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "A turning point came with DUSt3R (Wang et al., 2024b), which leveraged transformers to directly",
+            "page": 10
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:34.222842+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3277a6914857e4253d12aa1afc72258efb14e6ef9d7973b4af67caf36d7d5737",
+    "reviewed_at": "2026-11-17T16:19:36.886576+00:00"
+  },
+  {
+    "id": "F_b025bcf9345bea04292a",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Hypersim"
+      },
+      "quote": "we train the teacher model exclusively on synthetic data",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.922693+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Hypersim"
+            },
+            "quote": "we train the teacher model exclusively on synthetic data",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.766964+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:36.922732+00:00"
+  },
+  {
+    "id": "F_f9fce1c5dba429736a54",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "IRS"
+      },
+      "quote": "IRS (Wang et al., 2019), vKITTI2 (Cabon et al., 2020)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.940889+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "IRS"
+            },
+            "quote": "IRS (Wang et al., 2019), vKITTI2 (Cabon et al., 2020)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.767376+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:36.940925+00:00"
+  },
+  {
+    "id": "F_eb17eab3ee1965233815",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "vKITTI2"
+      },
+      "quote": "IRS (Wang et al., 2019), vKITTI2 (Cabon et al., 2020)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.959057+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "vKITTI2"
+            },
+            "quote": "IRS (Wang et al., 2019), vKITTI2 (Cabon et al., 2020)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.767556+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:36.959096+00:00"
+  },
+  {
+    "id": "F_7b280d60e23f96d34211",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "BlendedMVS"
+      },
+      "quote": "BlendedMVS (Yao et al., 2020), SPRING (Mehl et al., 2023)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.982817+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "BlendedMVS"
+            },
+            "quote": "BlendedMVS (Yao et al., 2020), SPRING (Mehl et al., 2023)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.767734+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:36.982865+00:00"
+  },
+  {
+    "id": "F_95299d30bdced6f2c600",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "SPRING"
+      },
+      "quote": "BlendedMVS (Yao et al., 2020), SPRING (Mehl et al., 2023)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.001674+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "SPRING"
+            },
+            "quote": "BlendedMVS (Yao et al., 2020), SPRING (Mehl et al., 2023)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.767905+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.001717+00:00"
+  },
+  {
+    "id": "F_b499ab8981eff8db1a1e",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MVSSynth"
+      },
+      "quote": "MVSSynth (Huang et al., 2018), UnrealStereo4K (Zhang et al., 2018)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.020586+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MVSSynth"
+            },
+            "quote": "MVSSynth (Huang et al., 2018), UnrealStereo4K (Zhang et al., 2018)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.768078+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.020627+00:00"
+  },
+  {
+    "id": "F_c879c01874b137ac3073",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "UnrealStereo4K"
+      },
+      "quote": "MVSSynth (Huang et al., 2018), UnrealStereo4K (Zhang et al., 2018)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.039535+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "UnrealStereo4K"
+            },
+            "quote": "MVSSynth (Huang et al., 2018), UnrealStereo4K (Zhang et al., 2018)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.768246+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.039576+00:00"
+  },
+  {
+    "id": "F_25a807f3447ac3218a51",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "GTA-SfM"
+      },
+      "quote": "GTA-SfM (Wang and Shen, 2020), TauAgent (Gil et al., 2021)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.058342+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "GTA-SfM"
+            },
+            "quote": "GTA-SfM (Wang and Shen, 2020), TauAgent (Gil et al., 2021)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.768420+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.058381+00:00"
+  },
+  {
+    "id": "F_9bd72c5dd0c8ca490e8c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TauAgent"
+      },
+      "quote": "GTA-SfM (Wang and Shen, 2020), TauAgent (Gil et al., 2021)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.076922+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TauAgent"
+            },
+            "quote": "GTA-SfM (Wang and Shen, 2020), TauAgent (Gil et al., 2021)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.768593+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.076961+00:00"
+  },
+  {
+    "id": "F_ad22201c6dcc02045e37",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KenBurns"
+      },
+      "quote": "KenBurns Niklaus et al. (2019), MatrixCity (Li et al., 2023)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.095334+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KenBurns"
+            },
+            "quote": "KenBurns Niklaus et al. (2019), MatrixCity (Li et al., 2023)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.768777+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.095372+00:00"
+  },
+  {
+    "id": "F_5a7b64aec609dfccd0b0",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MatrixCity"
+      },
+      "quote": "KenBurns Niklaus et al. (2019), MatrixCity (Li et al., 2023)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.113993+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MatrixCity"
+            },
+            "quote": "KenBurns Niklaus et al. (2019), MatrixCity (Li et al., 2023)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.768948+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.114033+00:00"
+  },
+  {
+    "id": "F_093b4ae3e2e6f55ee432",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "EDEN"
+      },
+      "quote": "EDEN (Le et al., 2021), ReplicaGSO (Straub et al., 2019a)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.132445+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "EDEN"
+            },
+            "quote": "EDEN (Le et al., 2021), ReplicaGSO (Straub et al., 2019a)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.769118+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.132483+00:00"
+  },
+  {
+    "id": "F_056a3322e17b5f64f880",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ReplicaGSO"
+      },
+      "quote": "EDEN (Le et al., 2021), ReplicaGSO (Straub et al., 2019a)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.150945+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ReplicaGSO"
+            },
+            "quote": "EDEN (Le et al., 2021), ReplicaGSO (Straub et al., 2019a)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.769288+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.150983+00:00"
+  },
+  {
+    "id": "F_b54832c63ff5a0c26a86",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Structured3D"
+      },
+      "quote": "Structured3D (Zheng et al., 2020), Objaverse (Deitke et al., 2023)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.169438+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Structured3D"
+            },
+            "quote": "Structured3D (Zheng et al., 2020), Objaverse (Deitke et al., 2023)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.769764+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.169476+00:00"
+  },
+  {
+    "id": "F_15201e98ec039c2a062c",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Objaverse"
+      },
+      "quote": "Structured3D (Zheng et al., 2020), Objaverse (Deitke et al., 2023)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.188181+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Objaverse"
+            },
+            "quote": "Structured3D (Zheng et al., 2020), Objaverse (Deitke et al., 2023)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.769949+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.188220+00:00"
+  },
+  {
+    "id": "F_88bfc399218fc9805414",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Trellis"
+      },
+      "quote": "Trellis (Xiang et al., 2024), and OmniObject (Wu et al., 2023)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.209692+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Trellis"
+            },
+            "quote": "Trellis (Xiang et al., 2024), and OmniObject (Wu et al., 2023)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.770120+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.209856+00:00"
+  },
+  {
+    "id": "F_99f6a1134cebc9c49e88",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3 teacher model"
+      },
+      "relation": "TRAINED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "OmniObject"
+      },
+      "quote": "Trellis (Xiang et al., 2024), and OmniObject (Wu et al., 2023)",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.231302+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3 teacher model"
+            },
+            "relation": "TRAINED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "OmniObject"
+            },
+            "quote": "Trellis (Xiang et al., 2024), and OmniObject (Wu et al., 2023)",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.770292+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.231342+00:00"
+  },
+  {
+    "id": "F_9bf71a0465684f6e0561",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3-Giant"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HiRoom"
+      },
+      "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.250284+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3-Giant"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HiRoom"
+            },
+            "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.770613+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.250322+00:00"
+  },
+  {
+    "id": "F_3cd9d46e49366e772119",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3-Giant"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.269153+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3-Giant"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.770775+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.269190+00:00"
+  },
+  {
+    "id": "F_008a402b82d6ed3ee713",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3-Giant"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DTU"
+      },
+      "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.288020+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3-Giant"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DTU"
+            },
+            "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.770939+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.288059+00:00"
+  },
+  {
+    "id": "F_0613470790b9d4f78115",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3-Giant"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.306966+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3-Giant"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.771104+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.307005+00:00"
+  },
+  {
+    "id": "F_1f34e3464fdba589e9da",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "DA3-Giant"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet++"
+      },
+      "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.326261+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "DA3-Giant"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet++"
+            },
+            "quote": "Camera head 0.46 63.8 81.7 39.3 85.6 29.2 83.2",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.771271+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.326302+00:00"
+  },
+  {
+    "id": "F_7e5f6b25af121c45d74b",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DA2"
+      },
+      "quote": "Following DA2, we train the teacher model exclusively on synthetic data",
+      "page": 18
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.362819+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DA2"
+            },
+            "quote": "Following DA2, we train the teacher model exclusively on synthetic data",
+            "page": 18
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:01:49.771440+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "cc53a7bd6116cfc24160a9b4bf806053b01aba4126a385672fe63a5c894272af",
+    "reviewed_at": "2026-11-17T16:19:37.362865+00:00"
+  },
+  {
+    "id": "F_06684903a4813bf2213e",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "HiRoom"
+      },
+      "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.620530+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "HiRoom"
+            },
+            "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.469081+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:19:34.620571+00:00"
+  },
+  {
+    "id": "F_32a854b13a18776f4abd",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ETH3D"
+      },
+      "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.691046+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ETH3D"
+            },
+            "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.469384+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:19:34.691084+00:00"
+  },
+  {
+    "id": "F_8926cb79bf615eae4470",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DTU"
+      },
+      "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:34.755571+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DTU"
+            },
+            "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.469631+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:19:34.755609+00:00"
+  },
+  {
+    "id": "F_4511bcb828e806cbfb1f",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "7Scenes"
+      },
+      "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.072487+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "7Scenes"
+            },
+            "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.469900+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:19:35.072540+00:00"
+  },
+  {
+    "id": "F_74fef1d3653d5fa90b13",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "ScanNet++"
+      },
+      "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.534625+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "ScanNet++"
+            },
+            "quote": "Our benchmark is built on five datasets: HiRoom, ETH3D (Schops et al., 2017), DTU (Aanæs et al., 2016), 7Scenes (Shotton et al., 2013), and ScanNet++ (Yeshwanth et al., 2023).",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.470130+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:19:35.534682+00:00"
+  },
+  {
+    "id": "F_8b9ad1b5666c72cb2364",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AUC"
+      },
+      "quote": "For assessing pose estimation, we follow the evaluation protocol introduced in Wang et al. (2025a; 2023) and report results using the AUC.",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.382151+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AUC"
+            },
+            "quote": "For assessing pose estimation, we follow the evaluation protocol introduced in Wang et al. (2025a; 2023) and report results using the AUC.",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.470359+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:19:37.382191+00:00"
+  },
+  {
+    "id": "F_0100158176170b030760",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "Chamfer Distance"
+      },
+      "quote": "The Chamfer Distance (CD) is then defined as the average of these two terms.",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:35.950005+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "Chamfer Distance"
+            },
+            "quote": "The Chamfer Distance (CD) is then defined as the average of these two terms.",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.470594+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:19:35.950051+00:00"
+  },
+  {
+    "id": "F_fe06f6a1d9f725e84793",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "F1-score"
+      },
+      "quote": "To jointly capture both measures, we report the F1-score, computed as F1 = 2×precision×recallprecision+recall",
+      "page": 20
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:37.401396+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "F1-score"
+            },
+            "quote": "To jointly capture both measures, we report the F1-score, computed as F1 = 2×precision×recallprecision+recall",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.470830+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:19:37.401435+00:00"
+  },
+  {
+    "id": "F_9fc8b233f4767fb048bd",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Wang et al. (2025a; 2023)"
+      },
+      "quote": "we follow the evaluation protocol introduced in Wang et al. (2025a; 2023)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.001426+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Wang et al. (2025a; 2023)"
+            },
+            "quote": "we follow the evaluation protocol introduced in Wang et al. (2025a; 2023)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.471045+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.001527+00:00"
+  },
+  {
+    "id": "F_6e801de47c9e405238db",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Aanæs et al. (2016)"
+      },
+      "quote": "following Aanæs et al. (2016)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.021482+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Aanæs et al. (2016)"
+            },
+            "quote": "following Aanæs et al. (2016)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.471264+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.021538+00:00"
+  },
+  {
+    "id": "F_4b3e0174afe9ceba0e53",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Knapitsch et al. (2017b)"
+      },
+      "quote": "where [·] denotes the Iverson bracket Knapitsch et al. (2017b)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.041083+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Knapitsch et al. (2017b)"
+            },
+            "quote": "where [·] denotes the Iverson bracket Knapitsch et al. (2017b)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.471480+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.041126+00:00"
+  },
+  {
+    "id": "F_b8733706a104ddaafc28",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Schops et al. (2017)"
+      },
+      "quote": "ETH3D (Schops et al., 2017)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.060424+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Schops et al. (2017)"
+            },
+            "quote": "ETH3D (Schops et al., 2017)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.471693+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.060466+00:00"
+  },
+  {
+    "id": "F_d7d3ce6334e90ad7f163",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Shotton et al. (2013)"
+      },
+      "quote": "7Scenes (Shotton et al., 2013)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.080484+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Shotton et al. (2013)"
+            },
+            "quote": "7Scenes (Shotton et al., 2013)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.471905+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.080528+00:00"
+  },
+  {
+    "id": "F_43d5cf66ba8b595de9f0",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Yeshwanth et al. (2023)"
+      },
+      "quote": "ScanNet++ (Yeshwanth et al., 2023)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.105356+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Yeshwanth et al. (2023)"
+            },
+            "quote": "ScanNet++ (Yeshwanth et al., 2023)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.472117+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.105399+00:00"
+  },
+  {
+    "id": "F_1b89460da9ce19d629f4",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Yao et al. (2018)"
+      },
+      "quote": "We evaluate models on the 22 evaluation scans of the DTU dataset following Yao et al. (2018).",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.125092+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Yao et al. (2018)"
+            },
+            "quote": "We evaluate models on the 22 evaluation scans of the DTU dataset following Yao et al. (2018).",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.472337+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.125132+00:00"
+  },
+  {
+    "id": "F_6059989e0dfe5af09c3d",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Zheng et al. (2024)"
+      },
+      "quote": "We adopt the RMBG 2.0 Zheng et al. (2024) to remove meaningless background pixels",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.144675+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Zheng et al. (2024)"
+            },
+            "quote": "We adopt the RMBG 2.0 Zheng et al. (2024) to remove meaningless background pixels",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.472555+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.144717+00:00"
+  },
+  {
+    "id": "F_65b950fafb6901048e4e",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Zhang et al. (2023)"
+      },
+      "quote": "use the default depth fusion strategy proposed in Zhang et al. (2023)",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.168219+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Zhang et al. (2023)"
+            },
+            "quote": "use the default depth fusion strategy proposed in Zhang et al. (2023)",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.472769+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.168260+00:00"
+  },
+  {
+    "id": "F_8d80cb5545d1e510cf99",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Zhu et al. (2024)"
+      },
+      "quote": "We follow the implementation in Zhu et al. (2024) to fuse RGBD images with TSDF fusion",
+      "page": 20
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:05.187853+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Zhu et al. (2024)"
+            },
+            "quote": "We follow the implementation in Zhu et al. (2024) to fuse RGBD images with TSDF fusion",
+            "page": 20
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:00.472986+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1378853854942c8afe421cb4c0faba2e6014d7e00bf6f2b15a5518b2860f783d",
+    "reviewed_at": "2026-11-17T16:20:05.187894+00:00"
+  },
+  {
+    "id": "F_d909e3bd267734da99df",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "SqRel"
+      },
+      "quote": "we additionally report Squared Relative Error (SqRel), defined as the mean squared error between predictions and ground truth normalized by the ground truth",
+      "page": 22
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:17.188860+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "SqRel"
+            },
+            "quote": "we additionally report Squared Relative Error (SqRel), defined as the mean squared error between predictions and ground truth normalized by the ground truth",
+            "page": 22
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:06.857695+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa83ba971135a4d917e3aa4b2a10167ce888d1d04deec18d82cf3420b9d3bef4",
+    "reviewed_at": "2026-11-17T16:20:17.188931+00:00"
+  },
+  {
+    "id": "F_9ba009b91e4ec4f0cae9",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VGGT"
+      },
+      "quote": "Our method is similar to VGGT (Wang et al., 2025a), but adopts a new architecture and a different camera representation",
+      "page": 22
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.371375+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VGGT"
+            },
+            "quote": "Our method is similar to VGGT (Wang et al., 2025a), but adopts a new architecture and a different camera representation",
+            "page": 22
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:06.857962+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa83ba971135a4d917e3aa4b2a10167ce888d1d04deec18d82cf3420b9d3bef4",
+    "reviewed_at": "2026-11-17T16:19:36.371414+00:00"
+  },
+  {
+    "id": "F_aa8c61f12394669fb860",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Pi3"
+      },
+      "quote": "it is orthogonal to Pi3 (Wang et al., 2025d)",
+      "page": 22
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.406075+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Pi3"
+            },
+            "quote": "it is orthogonal to Pi3 (Wang et al., 2025d)",
+            "page": 22
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:06.858153+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa83ba971135a4d917e3aa4b2a10167ce888d1d04deec18d82cf3420b9d3bef4",
+    "reviewed_at": "2026-11-17T16:19:36.406113+00:00"
+  },
+  {
+    "id": "F_09351f940153a1134165",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MapAnything"
+      },
+      "quote": "MapAnything (Keetha et al., 2025) provides a feed-forward framework that can also take camera pose as input for dense geometric prediction",
+      "page": 22
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:17.209192+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MapAnything"
+            },
+            "quote": "MapAnything (Keetha et al., 2025) provides a feed-forward framework that can also take camera pose as input for dense geometric prediction",
+            "page": 22
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:06.858342+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa83ba971135a4d917e3aa4b2a10167ce888d1d04deec18d82cf3420b9d3bef4",
+    "reviewed_at": "2026-11-17T16:20:17.209234+00:00"
+  },
+  {
+    "id": "F_12be964964596c224cb9",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Fast3R"
+      },
+      "quote": "Fast3R (Yang et al., 2025b) extends point-map regression to hundreds or even thousands of images in a single forward pass",
+      "page": 22
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.778743+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Fast3R"
+            },
+            "quote": "Fast3R (Yang et al., 2025b) extends point-map regression to hundreds or even thousands of images in a single forward pass",
+            "page": 22
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:06.858536+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa83ba971135a4d917e3aa4b2a10167ce888d1d04deec18d82cf3420b9d3bef4",
+    "reviewed_at": "2026-11-17T16:19:36.778782+00:00"
+  },
+  {
+    "id": "F_d9359f4c2ead4592a5bc",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DUSt3R"
+      },
+      "quote": "DUSt3R (Wang et al., 2024c) tackles uncalibrated image pairs by regressing point maps and aligning them globally",
+      "page": 22
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.904626+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DUSt3R"
+            },
+            "quote": "DUSt3R (Wang et al., 2024c) tackles uncalibrated image pairs by regressing point maps and aligning them globally",
+            "page": 22
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:06.858727+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "aa83ba971135a4d917e3aa4b2a10167ce888d1d04deec18d82cf3420b9d3bef4",
+    "reviewed_at": "2026-11-17T16:19:36.904664+00:00"
+  },
+  {
+    "id": "F_d8b6956f128813b7cf68",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "DL3DV"
+      },
+      "quote": "The first three scenes are from DL3DV, the following two are from",
+      "page": 25
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.608672+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "DL3DV"
+            },
+            "quote": "The first three scenes are from DL3DV, the following two are from",
+            "page": 25
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:18.761993+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6217ac6b33962c11780e030b4881440c833dcf81a8ba5fe9cbba6af03a3f32a1",
+    "reviewed_at": "2026-11-17T16:19:36.608711+00:00"
+  },
+  {
+    "id": "F_1795914c7de09348d250",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Tanks and Temples"
+      },
+      "quote": "the following two are from Tanks and Temples, and the last three are",
+      "page": 25
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:20:17.228868+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Tanks and Temples"
+            },
+            "quote": "the following two are from Tanks and Temples, and the last three are",
+            "page": 25
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:18.762104+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6217ac6b33962c11780e030b4881440c833dcf81a8ba5fe9cbba6af03a3f32a1",
+    "reviewed_at": "2026-11-17T16:20:17.228909+00:00"
+  },
+  {
+    "id": "F_4f23f14d81ef4a99139d",
+    "paper_id": "P016",
+    "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+    "section": "6  CONCLUSION AND DISCUSSION",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "DA3"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "MegaDepth"
+      },
+      "quote": "Tanks and Temples, and the last three are from MegaDepth. Compared to other methods",
+      "page": 25
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:19:36.664744+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "DA3"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "MegaDepth"
+            },
+            "quote": "Tanks and Temples, and the last three are from MegaDepth. Compared to other methods",
+            "page": 25
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:02:18.762179+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "6217ac6b33962c11780e030b4881440c833dcf81a8ba5fe9cbba6af03a3f32a1",
+    "reviewed_at": "2026-11-17T16:19:36.664783+00:00"
+  }
+]

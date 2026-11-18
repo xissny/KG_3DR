@@ -1,0 +1,20 @@
+{
+  "paper_id": "P011",
+  "sha256": "26da939b9f5aeec27f9701d7ad5a961d2231570dd362a9ee8347bdb570af97cb",
+  "parser_version": "pages-v1",
+  "pages": [
+    {
+      "page": 1,
+      "text": "TEACHING ONLY - Synthetic Paper 11\n\nSYNTHETIC EDUCATIONAL DATA. NOT A REAL RESEARCH PAPER.\n\nTEACHING ONLY - Synthetic Paper 11 proposes Teaching Method 11 for this fictional teaching\nexample.\n\nTeaching Method 11 uses Pairwise attention as its principal component.\n\nTeaching Method 11 is evaluated on Teaching Dataset A in the synthetic setup.\n\nTeaching Method 11 solves the task of Depth estimation in this fictional example.\n\nTeaching Method 11 outputs Teaching geometry in this artificial example.",
+      "section": "Unknown"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "1_0",
+      "page": 1,
+      "section": "Unknown",
+      "text": "TEACHING ONLY - Synthetic Paper 11\n\nSYNTHETIC EDUCATIONAL DATA. NOT A REAL RESEARCH PAPER.\n\nTEACHING ONLY - Synthetic Paper 11 proposes Teaching Method 11 for this fictional teaching\nexample.\n\nTeaching Method 11 uses Pairwise attention as its principal component.\n\nTeaching Method 11 is evaluated on Teaching Dataset A in the synthetic setup.\n\nTeaching Method 11 solves the task of Depth estimation in this fictional example.\n\nTeaching Method 11 outputs Teaching geometry in this artificial example."
+    }
+  ]
+}

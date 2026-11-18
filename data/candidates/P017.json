@@ -1,0 +1,702 @@
+[
+  {
+    "id": "F_b7d9b87dd689124b2f5a",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM 2.0"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "VGGT-SLAM 2.0"
+      },
+      "quote": "We present VGGT-SLAM  2.0, a real-time RGB   retrieval verification for free without additional training, which\n         feed-forward SLAM system which substantially improves upon   enables both rejecting  false  positive matches and allows forarXiv:2601.19887v2  VGGT-SLAM  for  incrementally  aligning  submaps  created   completing more loop closures.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.337754+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM 2.0"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "VGGT-SLAM 2.0"
+            },
+            "quote": "We present VGGT-SLAM  2.0, a real-time RGB   retrieval verification for free without additional training, which\n         feed-forward SLAM system which substantially improves upon   enables both rejecting  false  positive matches and allows forarXiv:2601.19887v2  VGGT-SLAM  for  incrementally  aligning  submaps  created   completing more loop closures.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:03:54.674930+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "07d02c56255aba699f29d7d13395b32467829744fe92353d99459083de270bd4",
+    "reviewed_at": "2026-11-17T16:21:24.337829+00:00"
+  },
+  {
+    "id": "F_9ae10b436e0207291927",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM 2.0"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "VGGT"
+      },
+      "quote": "incrementally  aligning  submaps  created   completing more loop closures.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.349760+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM 2.0"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "VGGT"
+            },
+            "quote": "incrementally  aligning  submaps  created   completing more loop closures.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:03:54.675124+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "07d02c56255aba699f29d7d13395b32467829744fe92353d99459083de270bd4",
+    "reviewed_at": "2026-11-17T16:21:24.349834+00:00"
+  },
+  {
+    "id": "F_e06b22ab8542c548f804",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM 2.0"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "real-time RGB feed-forward SLAM"
+      },
+      "quote": "a real-time RGB   retrieval verification for free without additional training, which\n         feed-forward SLAM system",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.361844+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM 2.0"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "real-time RGB feed-forward SLAM"
+            },
+            "quote": "a real-time RGB   retrieval verification for free without additional training, which\n         feed-forward SLAM system",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:03:54.675283+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "07d02c56255aba699f29d7d13395b32467829744fe92353d99459083de270bd4",
+    "reviewed_at": "2026-11-17T16:21:24.361883+00:00"
+  },
+  {
+    "id": "F_9ef76d2a8e73841f8f58",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM 2.0"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "TUM dataset"
+      },
+      "quote": "we also demonstrate VGGT-SLAM 2.0 achieves\n                                                                            the highest accuracy on the TUM dataset with about 23 percent\n                                                                                          less pose error than VGGT-SLAM.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.373761+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM 2.0"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "TUM dataset"
+            },
+            "quote": "we also demonstrate VGGT-SLAM 2.0 achieves\n                                                                            the highest accuracy on the TUM dataset with about 23 percent\n                                                                                          less pose error than VGGT-SLAM.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:03:54.675438+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "07d02c56255aba699f29d7d13395b32467829744fe92353d99459083de270bd4",
+    "reviewed_at": "2026-11-17T16:21:24.373831+00:00"
+  },
+  {
+    "id": "F_5019ba846dbef5ba8ed8",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM 2.0"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "pose error"
+      },
+      "quote": "the highest accuracy on the TUM dataset with about 23 percent\n                                                                                          less pose error than VGGT-SLAM.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.385784+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM 2.0"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "pose error"
+            },
+            "quote": "the highest accuracy on the TUM dataset with about 23 percent\n                                                                                          less pose error than VGGT-SLAM.",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:03:54.675587+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "07d02c56255aba699f29d7d13395b32467829744fe92353d99459083de270bd4",
+    "reviewed_at": "2026-11-17T16:21:24.385859+00:00"
+  },
+  {
+    "id": "F_af3847af3d7592ccf37e",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "camera calibrations"
+      },
+      "quote": "use the output camera calibrations, K; poses, T ;",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.398330+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "camera calibrations"
+            },
+            "quote": "use the output camera calibrations, K; poses, T ;",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:11.955044+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "41ea387af413e7886209886cac5e5abdbe010e5af648dfe21b3f50dc01fdc281",
+    "reviewed_at": "2026-11-17T16:21:24.398371+00:00"
+  },
+  {
+    "id": "F_d84fd08421b7976180cb",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth maps"
+      },
+      "quote": "depth maps, D; and corresponding depth confidence maps, C.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.325400+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth maps"
+            },
+            "quote": "depth maps, D; and corresponding depth confidence maps, C.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:11.955482+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "41ea387af413e7886209886cac5e5abdbe010e5af648dfe21b3f50dc01fdc281",
+    "reviewed_at": "2026-11-17T16:21:24.325482+00:00"
+  },
+  {
+    "id": "F_79d03d1b8dfb87521632",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "depth confidence maps"
+      },
+      "quote": "depth maps, D; and corresponding depth confidence maps, C.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.410697+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT"
+            },
+            "relation": "OUTPUTS",
+            "object": {
+              "type": "Representation",
+              "name": "depth confidence maps"
+            },
+            "quote": "depth maps, D; and corresponding depth confidence maps, C.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:11.955874+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "41ea387af413e7886209886cac5e5abdbe010e5af648dfe21b3f50dc01fdc281",
+    "reviewed_at": "2026-11-17T16:21:24.410735+00:00"
+  },
+  {
+    "id": "F_77290b2bda5430206371",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM2.0"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "VGGT-SLAM 2.0 factor graph"
+      },
+      "quote": "Factor graph structure of VGGT-SLAM 2.0 showing edges inside and",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.423101+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM2.0"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "VGGT-SLAM 2.0 factor graph"
+            },
+            "quote": "Factor graph structure of VGGT-SLAM 2.0 showing edges inside and",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:14.891362+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1326755b6521f8b471d23837e5a5f7aa76c6e1046a18bdbc9a263e4ecf617cbd",
+    "reviewed_at": "2026-11-17T16:21:24.423140+00:00"
+  },
+  {
+    "id": "F_f8ec3a59f9364b23b535",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM 2.0 factor graph"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "VGGT estimated calibrations"
+      },
+      "quote": "the calibration components, Ki and Kj, of the homogra-",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.435511+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM 2.0 factor graph"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "VGGT estimated calibrations"
+            },
+            "quote": "the calibration components, Ki and Kj, of the homogra-",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:14.891986+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1326755b6521f8b471d23837e5a5f7aa76c6e1046a18bdbc9a263e4ecf617cbd",
+    "reviewed_at": "2026-11-17T16:21:24.435551+00:00"
+  },
+  {
+    "id": "F_8b277340af71346f2231",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VGGT-SLAM 2.0 factor graph"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "VGGT 3D points"
+      },
+      "quote": "Solving for the scale factor  is the only time we directly use the VGGT 3D points",
+      "page": 4
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:24.448002+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VGGT-SLAM 2.0 factor graph"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "VGGT 3D points"
+            },
+            "quote": "Solving for the scale factor  is the only time we directly use the VGGT 3D points",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:14.892289+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1326755b6521f8b471d23837e5a5f7aa76c6e1046a18bdbc9a263e4ecf617cbd",
+    "reviewed_at": "2026-11-17T16:21:24.448042+00:00"
+  },
+  {
+    "id": "F_b9deaccb36c838b3a7d9",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM2.0"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "[5]"
+      },
+      "quote": "The second is that unlike [5], with our new problem",
+      "page": 4
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:28.621453+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM2.0"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "[5]"
+            },
+            "quote": "The second is that unlike [5], with our new problem",
+            "page": 4
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:14.893373+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "1326755b6521f8b471d23837e5a5f7aa76c6e1046a18bdbc9a263e4ecf617cbd",
+    "reviewed_at": "2026-11-17T16:21:28.621522+00:00"
+  },
+  {
+    "id": "F_6414b6ccc6196737a3f1",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM2.0"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Parametric dense visual SLAM"
+      },
+      "quote": "S. Lovegrove, “Parametric dense visual SLAM,”",
+      "page": 9
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:28.634282+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM2.0"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Parametric dense visual SLAM"
+            },
+            "quote": "S. Lovegrove, “Parametric dense visual SLAM,”",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:49.671964+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "822ba9caa50eacdb70f0f758ea64f4eff09ae82306cc2289b3b13a43ee6cb535",
+    "reviewed_at": "2026-11-17T16:21:28.634320+00:00"
+  },
+  {
+    "id": "F_23d9253524c4d520e425",
+    "paper_id": "P017",
+    "pdf_sha256": "d0668918e3ddc9ca7546dd2cfbc277c80d74fe76956445a9455c80051a4f5e40",
+    "section": "Unknown",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "VGGT-SLAM2.0"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "3D reconstruction with spatial"
+      },
+      "quote": "H. Wang and L. Agapito, “3D reconstruction with spatial",
+      "page": 9
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:21:28.646679+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "VGGT-SLAM2.0"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "3D reconstruction with spatial"
+            },
+            "quote": "H. Wang and L. Agapito, “3D reconstruction with spatial",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T05:04:49.673032+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "822ba9caa50eacdb70f0f758ea64f4eff09ae82306cc2289b3b13a43ee6cb535",
+    "reviewed_at": "2026-11-17T16:21:28.646716+00:00"
+  }
+]

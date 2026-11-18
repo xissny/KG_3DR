@@ -1,0 +1,132 @@
+[
+  {
+    "id": "F_43c5c070d70e68edc92c",
+    "paper_id": "P004",
+    "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "TEACHING ONLY - Synthetic Paper 04"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "Teaching Method 04"
+      },
+      "quote": "TEACHING ONLY - Synthetic Paper 04 proposes Teaching Method 04 for this fictional teaching example.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.245444+00:00",
+    "created_at": "2026-11-11T04:28:16.245449+00:00",
+    "prompt_version": "fixture-v1"
+  },
+  {
+    "id": "F_2085f29e2f50c8926c1c",
+    "paper_id": "P004",
+    "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 04"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "Global attention"
+      },
+      "quote": "Teaching Method 04 uses Global attention as its principal component.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.245469+00:00",
+    "created_at": "2026-11-11T04:28:16.245472+00:00",
+    "prompt_version": "fixture-v1"
+  },
+  {
+    "id": "F_d6a48066877b2ab89eca",
+    "paper_id": "P004",
+    "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 04"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Teaching Dataset B"
+      },
+      "quote": "Teaching Method 04 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.245488+00:00",
+    "created_at": "2026-11-11T04:28:16.245491+00:00",
+    "prompt_version": "fixture-v1"
+  },
+  {
+    "id": "F_c37b0a42abe51f6f719d",
+    "paper_id": "P004",
+    "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 04"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "Camera estimation"
+      },
+      "quote": "Teaching Method 04 solves the task of Camera estimation in this fictional example.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.245507+00:00",
+    "created_at": "2026-11-11T04:28:16.245511+00:00",
+    "prompt_version": "fixture-v1"
+  },
+  {
+    "id": "F_6ea7bfa2d4e3d0568dc5",
+    "paper_id": "P004",
+    "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+    "section": "Teaching",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "Teaching Method 04"
+      },
+      "relation": "OUTPUTS",
+      "object": {
+        "type": "Representation",
+        "name": "Teaching geometry"
+      },
+      "quote": "Teaching Method 04 outputs Teaching geometry in this artificial example.",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "教学样例作者（非正式论文审核）",
+    "note": "虚构事实",
+    "history": [],
+    "reviewed_at": "2026-11-11T04:28:16.245527+00:00",
+    "created_at": "2026-11-11T04:28:16.245530+00:00",
+    "prompt_version": "fixture-v1"
+  }
+]

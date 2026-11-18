@@ -1,0 +1,1560 @@
+{
+  "nodes": [
+    {
+      "id": "P001",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 01"
+    },
+    {
+      "id": "P002",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 02"
+    },
+    {
+      "id": "P003",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 03"
+    },
+    {
+      "id": "P004",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 04"
+    },
+    {
+      "id": "P005",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 05"
+    },
+    {
+      "id": "P006",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 06"
+    },
+    {
+      "id": "P007",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 07"
+    },
+    {
+      "id": "P008",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 08"
+    },
+    {
+      "id": "P009",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 09"
+    },
+    {
+      "id": "P010",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 10"
+    },
+    {
+      "id": "P011",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 11"
+    },
+    {
+      "id": "P012",
+      "type": "Paper",
+      "name": "TEACHING ONLY - Synthetic Paper 12"
+    },
+    {
+      "id": "component_133231fd9608145f",
+      "type": "Component",
+      "name": "Pairwise attention"
+    },
+    {
+      "id": "component_fa6c166f6bfba0f6",
+      "type": "Component",
+      "name": "Global attention"
+    },
+    {
+      "id": "dataset_229913dd997f01ed",
+      "type": "Dataset",
+      "name": "Teaching Dataset A"
+    },
+    {
+      "id": "dataset_b6d52943e26f329f",
+      "type": "Dataset",
+      "name": "Teaching Dataset B"
+    },
+    {
+      "id": "method_09d9606ffb7abd91",
+      "type": "Method",
+      "name": "Teaching Method 10"
+    },
+    {
+      "id": "method_0fa9b7248eac55f6",
+      "type": "Method",
+      "name": "Teaching Method 06"
+    },
+    {
+      "id": "method_2cd7c331ce00155e",
+      "type": "Method",
+      "name": "Teaching Method 09"
+    },
+    {
+      "id": "method_3eaef579acca087c",
+      "type": "Method",
+      "name": "Teaching Method 01"
+    },
+    {
+      "id": "method_63cbd15a5119f34f",
+      "type": "Method",
+      "name": "Teaching Method 07"
+    },
+    {
+      "id": "method_65e128ff4b9b4b81",
+      "type": "Method",
+      "name": "Teaching Method 04"
+    },
+    {
+      "id": "method_7ee757dbc088628a",
+      "type": "Method",
+      "name": "Teaching Method 05"
+    },
+    {
+      "id": "method_97d5f900f61bc7d1",
+      "type": "Method",
+      "name": "Teaching Method 02"
+    },
+    {
+      "id": "method_a8d9e57d6493e2f9",
+      "type": "Method",
+      "name": "Teaching Method 11"
+    },
+    {
+      "id": "method_bb7612d341d52086",
+      "type": "Method",
+      "name": "Teaching Method 12"
+    },
+    {
+      "id": "method_c094fcf024c00584",
+      "type": "Method",
+      "name": "Teaching Method 03"
+    },
+    {
+      "id": "method_f59acc38147ed687",
+      "type": "Method",
+      "name": "Teaching Method 08"
+    },
+    {
+      "id": "representation_5d4ad80d2ac25534",
+      "type": "Representation",
+      "name": "Teaching geometry"
+    },
+    {
+      "id": "task_08dd7b0a579dbcae",
+      "type": "Task",
+      "name": "Camera estimation"
+    },
+    {
+      "id": "task_4c3245ba84dd251c",
+      "type": "Task",
+      "name": "Depth estimation"
+    }
+  ],
+  "edges": [
+    {
+      "id": "R_053c674c4f71783efeea",
+      "source": "method_c094fcf024c00584",
+      "target": "dataset_229913dd997f01ed",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_ffc74a240dc894954a92"
+      ],
+      "paper_ids": [
+        "P003"
+      ]
+    },
+    {
+      "id": "R_061c75e62c05d3af97d3",
+      "source": "method_2cd7c331ce00155e",
+      "target": "task_4c3245ba84dd251c",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_f27ff836a881cbb1a29e"
+      ],
+      "paper_ids": [
+        "P009"
+      ]
+    },
+    {
+      "id": "R_0aa162c39dc75718f957",
+      "source": "method_c094fcf024c00584",
+      "target": "component_fa6c166f6bfba0f6",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_e43f6b0a5eec6c51d494"
+      ],
+      "paper_ids": [
+        "P003"
+      ]
+    },
+    {
+      "id": "R_0c9d4c8b2003789db314",
+      "source": "method_a8d9e57d6493e2f9",
+      "target": "dataset_229913dd997f01ed",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_cf95dd467e644bd5c2f4"
+      ],
+      "paper_ids": [
+        "P011"
+      ]
+    },
+    {
+      "id": "R_130da3596f68f914225d",
+      "source": "method_63cbd15a5119f34f",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_c5ca8eb6c9542a2e3f0d"
+      ],
+      "paper_ids": [
+        "P007"
+      ]
+    },
+    {
+      "id": "R_13609752cd87f4b74928",
+      "source": "method_c094fcf024c00584",
+      "target": "task_08dd7b0a579dbcae",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_359d116f00af34f5b07e"
+      ],
+      "paper_ids": [
+        "P003"
+      ]
+    },
+    {
+      "id": "R_1452710809661f39457c",
+      "source": "method_63cbd15a5119f34f",
+      "target": "task_4c3245ba84dd251c",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_dabcd8a6c39a15d6b282"
+      ],
+      "paper_ids": [
+        "P007"
+      ]
+    },
+    {
+      "id": "R_19f395c9430dd8208dc1",
+      "source": "method_3eaef579acca087c",
+      "target": "dataset_229913dd997f01ed",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_a72c9af98ff1f5c2df87"
+      ],
+      "paper_ids": [
+        "P001"
+      ]
+    },
+    {
+      "id": "R_1ef017106f07160dddb5",
+      "source": "method_09d9606ffb7abd91",
+      "target": "task_4c3245ba84dd251c",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_e4d0ed82b2da55edaf80"
+      ],
+      "paper_ids": [
+        "P010"
+      ]
+    },
+    {
+      "id": "R_2388cd1eb40f4a993eba",
+      "source": "P006",
+      "target": "method_0fa9b7248eac55f6",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_afb70ee62ce2d2a23ee1"
+      ],
+      "paper_ids": [
+        "P006"
+      ]
+    },
+    {
+      "id": "R_2626b2fd2b763f0de36e",
+      "source": "method_2cd7c331ce00155e",
+      "target": "component_133231fd9608145f",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_f0dec38168e5cdd75e96"
+      ],
+      "paper_ids": [
+        "P009"
+      ]
+    },
+    {
+      "id": "R_29133ad68530111c003a",
+      "source": "method_0fa9b7248eac55f6",
+      "target": "task_08dd7b0a579dbcae",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_3c77f2092f49591a704b"
+      ],
+      "paper_ids": [
+        "P006"
+      ]
+    },
+    {
+      "id": "R_2ed63b43f8a37bf8d4c4",
+      "source": "method_f59acc38147ed687",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_e35c0aa46ad7ea244953"
+      ],
+      "paper_ids": [
+        "P008"
+      ]
+    },
+    {
+      "id": "R_39558f39e1486cf8d5af",
+      "source": "method_3eaef579acca087c",
+      "target": "component_fa6c166f6bfba0f6",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_cddfe5fa95b98af7d748"
+      ],
+      "paper_ids": [
+        "P001"
+      ]
+    },
+    {
+      "id": "R_3efdb2a90844ab2015cc",
+      "source": "method_65e128ff4b9b4b81",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_6ea7bfa2d4e3d0568dc5"
+      ],
+      "paper_ids": [
+        "P004"
+      ]
+    },
+    {
+      "id": "R_4133be3acf8ca7433997",
+      "source": "method_2cd7c331ce00155e",
+      "target": "dataset_229913dd997f01ed",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_880d7f514a8b1c0d93f0"
+      ],
+      "paper_ids": [
+        "P009"
+      ]
+    },
+    {
+      "id": "R_4b0b89bc2686ce84f5d6",
+      "source": "method_7ee757dbc088628a",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_836aaafa1199e2933756"
+      ],
+      "paper_ids": [
+        "P005"
+      ]
+    },
+    {
+      "id": "R_4d77142a5b80f47453fa",
+      "source": "method_0fa9b7248eac55f6",
+      "target": "dataset_b6d52943e26f329f",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_4ada993eb7e8a7a102d8"
+      ],
+      "paper_ids": [
+        "P006"
+      ]
+    },
+    {
+      "id": "R_4f0cca3f128f50294248",
+      "source": "P001",
+      "target": "method_3eaef579acca087c",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_4ffd3ffa9fada0cb60f4"
+      ],
+      "paper_ids": [
+        "P001"
+      ]
+    },
+    {
+      "id": "R_530d2e9f1d84cd8c8d50",
+      "source": "method_09d9606ffb7abd91",
+      "target": "dataset_b6d52943e26f329f",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_365bc1c1776a6cbe876b"
+      ],
+      "paper_ids": [
+        "P010"
+      ]
+    },
+    {
+      "id": "R_59fcadbe86a112335a4f",
+      "source": "method_65e128ff4b9b4b81",
+      "target": "component_fa6c166f6bfba0f6",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_2085f29e2f50c8926c1c"
+      ],
+      "paper_ids": [
+        "P004"
+      ]
+    },
+    {
+      "id": "R_5ca2314ee2a6efca4478",
+      "source": "method_2cd7c331ce00155e",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_d8661952133e86cbe011"
+      ],
+      "paper_ids": [
+        "P009"
+      ]
+    },
+    {
+      "id": "R_7185ca05c015d741c316",
+      "source": "P008",
+      "target": "method_f59acc38147ed687",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_90cfda72771cadab5d02"
+      ],
+      "paper_ids": [
+        "P008"
+      ]
+    },
+    {
+      "id": "R_7335b1965f9962b7eadb",
+      "source": "method_0fa9b7248eac55f6",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_89cb3dc2df9ab0edfed4"
+      ],
+      "paper_ids": [
+        "P006"
+      ]
+    },
+    {
+      "id": "R_78ebd79ca2283e78cd45",
+      "source": "method_97d5f900f61bc7d1",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_01be5eb7c12ecb5cae0a"
+      ],
+      "paper_ids": [
+        "P002"
+      ]
+    },
+    {
+      "id": "R_81dfe5a5a57be0303bc5",
+      "source": "P012",
+      "target": "method_bb7612d341d52086",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_2fa220233c87440ae09c"
+      ],
+      "paper_ids": [
+        "P012"
+      ]
+    },
+    {
+      "id": "R_888847071207e6e31104",
+      "source": "method_c094fcf024c00584",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_904e3ed254b6784abffa"
+      ],
+      "paper_ids": [
+        "P003"
+      ]
+    },
+    {
+      "id": "R_8953f6839d3beca82263",
+      "source": "method_bb7612d341d52086",
+      "target": "component_133231fd9608145f",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_2528d08d6fff9ff40c38"
+      ],
+      "paper_ids": [
+        "P012"
+      ]
+    },
+    {
+      "id": "R_8cb7e175d03f48d7f86a",
+      "source": "method_0fa9b7248eac55f6",
+      "target": "component_fa6c166f6bfba0f6",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_1e6a41efcca54e17cf66"
+      ],
+      "paper_ids": [
+        "P006"
+      ]
+    },
+    {
+      "id": "R_904c790ce6ed1aa8c164",
+      "source": "P002",
+      "target": "method_97d5f900f61bc7d1",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_e7eb7b95dbb11cc7b94f"
+      ],
+      "paper_ids": [
+        "P002"
+      ]
+    },
+    {
+      "id": "R_979897147c4a5e8747b6",
+      "source": "method_bb7612d341d52086",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_1b48af509dad79db58c7"
+      ],
+      "paper_ids": [
+        "P012"
+      ]
+    },
+    {
+      "id": "R_9be4c8b35e17ea5eb6da",
+      "source": "method_bb7612d341d52086",
+      "target": "dataset_b6d52943e26f329f",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_8a51c919765c2ca53788"
+      ],
+      "paper_ids": [
+        "P012"
+      ]
+    },
+    {
+      "id": "R_9e048a515051ff584f9e",
+      "source": "method_7ee757dbc088628a",
+      "target": "component_fa6c166f6bfba0f6",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_428dc7cec626701664ee"
+      ],
+      "paper_ids": [
+        "P005"
+      ]
+    },
+    {
+      "id": "R_a51779e4828f9f9b78a0",
+      "source": "P003",
+      "target": "method_c094fcf024c00584",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_c690618c390884003e57"
+      ],
+      "paper_ids": [
+        "P003"
+      ]
+    },
+    {
+      "id": "R_a5c05ef074ddf5a562bc",
+      "source": "method_f59acc38147ed687",
+      "target": "dataset_b6d52943e26f329f",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_d6c02791fa21bd120c24"
+      ],
+      "paper_ids": [
+        "P008"
+      ]
+    },
+    {
+      "id": "R_ae07d49c1f69d0ddf8e3",
+      "source": "method_65e128ff4b9b4b81",
+      "target": "dataset_b6d52943e26f329f",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_d6a48066877b2ab89eca"
+      ],
+      "paper_ids": [
+        "P004"
+      ]
+    },
+    {
+      "id": "R_b2b74b98a0ac031ecd4c",
+      "source": "method_97d5f900f61bc7d1",
+      "target": "dataset_b6d52943e26f329f",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_32ad0531328396f55f19"
+      ],
+      "paper_ids": [
+        "P002"
+      ]
+    },
+    {
+      "id": "R_b7fa427c482f54e1f290",
+      "source": "P007",
+      "target": "method_63cbd15a5119f34f",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_2fff224ff7b36dcb8b99"
+      ],
+      "paper_ids": [
+        "P007"
+      ]
+    },
+    {
+      "id": "R_ba4d887ca1285432b9d3",
+      "source": "method_09d9606ffb7abd91",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_1d396126f5d3e7e154c8"
+      ],
+      "paper_ids": [
+        "P010"
+      ]
+    },
+    {
+      "id": "R_d239cea76347b25e50f0",
+      "source": "method_7ee757dbc088628a",
+      "target": "dataset_229913dd997f01ed",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_9ae010df6ffbcf3c3a14"
+      ],
+      "paper_ids": [
+        "P005"
+      ]
+    },
+    {
+      "id": "R_d2b459091fc0ae29c9d6",
+      "source": "method_bb7612d341d52086",
+      "target": "task_4c3245ba84dd251c",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_bd4f0498d90c6a46ef7e"
+      ],
+      "paper_ids": [
+        "P012"
+      ]
+    },
+    {
+      "id": "R_d714911821b0245dcf0c",
+      "source": "method_3eaef579acca087c",
+      "target": "task_08dd7b0a579dbcae",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_f16a9e1ed6db8b3c3c09"
+      ],
+      "paper_ids": [
+        "P001"
+      ]
+    },
+    {
+      "id": "R_db9c784ec26ee8e4c298",
+      "source": "method_a8d9e57d6493e2f9",
+      "target": "task_4c3245ba84dd251c",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_c0ae18e7e69f344f8cf7"
+      ],
+      "paper_ids": [
+        "P011"
+      ]
+    },
+    {
+      "id": "R_dc46aeea2a52a349df0c",
+      "source": "method_97d5f900f61bc7d1",
+      "target": "task_08dd7b0a579dbcae",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_cee139a96e95e788a9c9"
+      ],
+      "paper_ids": [
+        "P002"
+      ]
+    },
+    {
+      "id": "R_df0e9c3aebce60a03eab",
+      "source": "method_f59acc38147ed687",
+      "target": "component_133231fd9608145f",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_f962db9daf18d94a84cf"
+      ],
+      "paper_ids": [
+        "P008"
+      ]
+    },
+    {
+      "id": "R_e2e509739a26636efbfd",
+      "source": "P009",
+      "target": "method_2cd7c331ce00155e",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_06930550f634a18a7684"
+      ],
+      "paper_ids": [
+        "P009"
+      ]
+    },
+    {
+      "id": "R_e30720d551c2bc9aeb21",
+      "source": "method_a8d9e57d6493e2f9",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_949ef0f2564e2e62798c"
+      ],
+      "paper_ids": [
+        "P011"
+      ]
+    },
+    {
+      "id": "R_e4bac5e31e19b96e752f",
+      "source": "method_63cbd15a5119f34f",
+      "target": "dataset_229913dd997f01ed",
+      "relation": "EVALUATED_ON",
+      "evidence_ids": [
+        "F_0d34a8538ffc07bb7893"
+      ],
+      "paper_ids": [
+        "P007"
+      ]
+    },
+    {
+      "id": "R_e7174dea9e427b8bb6b9",
+      "source": "P004",
+      "target": "method_65e128ff4b9b4b81",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_43c5c070d70e68edc92c"
+      ],
+      "paper_ids": [
+        "P004"
+      ]
+    },
+    {
+      "id": "R_ea2c6f9a8d4f6f0ed1b3",
+      "source": "method_7ee757dbc088628a",
+      "target": "task_08dd7b0a579dbcae",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_6878f8d55004b859fbad"
+      ],
+      "paper_ids": [
+        "P005"
+      ]
+    },
+    {
+      "id": "R_edddf639f295bb7e8b44",
+      "source": "method_09d9606ffb7abd91",
+      "target": "component_133231fd9608145f",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_6c626966f7983d4b0b5e"
+      ],
+      "paper_ids": [
+        "P010"
+      ]
+    },
+    {
+      "id": "R_ee66a93b35893d30b12d",
+      "source": "P005",
+      "target": "method_7ee757dbc088628a",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_c3de042373c3451621ee"
+      ],
+      "paper_ids": [
+        "P005"
+      ]
+    },
+    {
+      "id": "R_ef598029914c0d84aa6b",
+      "source": "method_3eaef579acca087c",
+      "target": "representation_5d4ad80d2ac25534",
+      "relation": "OUTPUTS",
+      "evidence_ids": [
+        "F_f34b4a5b3fd1175f4bc8"
+      ],
+      "paper_ids": [
+        "P001"
+      ]
+    },
+    {
+      "id": "R_efb68da54be91edb38b2",
+      "source": "method_a8d9e57d6493e2f9",
+      "target": "component_133231fd9608145f",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_3d46f24d6d77dedee33d"
+      ],
+      "paper_ids": [
+        "P011"
+      ]
+    },
+    {
+      "id": "R_f008475c03bb6480dd5f",
+      "source": "P010",
+      "target": "method_09d9606ffb7abd91",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_8ba798d1596fbd1b732f"
+      ],
+      "paper_ids": [
+        "P010"
+      ]
+    },
+    {
+      "id": "R_f5dfc5a2a2645204d650",
+      "source": "method_f59acc38147ed687",
+      "target": "task_4c3245ba84dd251c",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_16127b2d6fe689306678"
+      ],
+      "paper_ids": [
+        "P008"
+      ]
+    },
+    {
+      "id": "R_f7c827969004ab7a6bb1",
+      "source": "method_63cbd15a5119f34f",
+      "target": "component_133231fd9608145f",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_6f225ac778d91881ceff"
+      ],
+      "paper_ids": [
+        "P007"
+      ]
+    },
+    {
+      "id": "R_f9ff2e27e4d35cef2729",
+      "source": "P011",
+      "target": "method_a8d9e57d6493e2f9",
+      "relation": "PROPOSES",
+      "evidence_ids": [
+        "F_7fc290a8800e2e19d054"
+      ],
+      "paper_ids": [
+        "P011"
+      ]
+    },
+    {
+      "id": "R_fed794632db63356894a",
+      "source": "method_65e128ff4b9b4b81",
+      "target": "task_08dd7b0a579dbcae",
+      "relation": "SOLVES",
+      "evidence_ids": [
+        "F_c37b0a42abe51f6f719d"
+      ],
+      "paper_ids": [
+        "P004"
+      ]
+    },
+    {
+      "id": "R_ff1aa092089a358e14ea",
+      "source": "method_97d5f900f61bc7d1",
+      "target": "component_fa6c166f6bfba0f6",
+      "relation": "USES_COMPONENT",
+      "evidence_ids": [
+        "F_88533dfd6feae55cd882"
+      ],
+      "paper_ids": [
+        "P002"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "F_4ffd3ffa9fada0cb60f4",
+      "paper_id": "P001",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 01 proposes Teaching Method 01 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "f0ee2b33d6f2810b3e158cceba6280336fbd897cd97aaf30b9b498ed4c2410c5",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244020+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_cddfe5fa95b98af7d748",
+      "paper_id": "P001",
+      "page": 1,
+      "quote": "Teaching Method 01 uses Global attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "f0ee2b33d6f2810b3e158cceba6280336fbd897cd97aaf30b9b498ed4c2410c5",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244058+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_a72c9af98ff1f5c2df87",
+      "paper_id": "P001",
+      "page": 1,
+      "quote": "Teaching Method 01 is evaluated on Teaching Dataset A in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "f0ee2b33d6f2810b3e158cceba6280336fbd897cd97aaf30b9b498ed4c2410c5",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244083+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_f16a9e1ed6db8b3c3c09",
+      "paper_id": "P001",
+      "page": 1,
+      "quote": "Teaching Method 01 solves the task of Camera estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "f0ee2b33d6f2810b3e158cceba6280336fbd897cd97aaf30b9b498ed4c2410c5",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244107+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_f34b4a5b3fd1175f4bc8",
+      "paper_id": "P001",
+      "page": 1,
+      "quote": "Teaching Method 01 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "f0ee2b33d6f2810b3e158cceba6280336fbd897cd97aaf30b9b498ed4c2410c5",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244129+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_e7eb7b95dbb11cc7b94f",
+      "paper_id": "P002",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 02 proposes Teaching Method 02 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "3f5cb8842846126c4a6d297bd26c8b5cd8063d9dfe58dafb0998f14d548bd53c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244573+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_88533dfd6feae55cd882",
+      "paper_id": "P002",
+      "page": 1,
+      "quote": "Teaching Method 02 uses Global attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "3f5cb8842846126c4a6d297bd26c8b5cd8063d9dfe58dafb0998f14d548bd53c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244602+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_32ad0531328396f55f19",
+      "paper_id": "P002",
+      "page": 1,
+      "quote": "Teaching Method 02 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "3f5cb8842846126c4a6d297bd26c8b5cd8063d9dfe58dafb0998f14d548bd53c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244623+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_cee139a96e95e788a9c9",
+      "paper_id": "P002",
+      "page": 1,
+      "quote": "Teaching Method 02 solves the task of Camera estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "3f5cb8842846126c4a6d297bd26c8b5cd8063d9dfe58dafb0998f14d548bd53c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244642+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_01be5eb7c12ecb5cae0a",
+      "paper_id": "P002",
+      "page": 1,
+      "quote": "Teaching Method 02 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "3f5cb8842846126c4a6d297bd26c8b5cd8063d9dfe58dafb0998f14d548bd53c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.244662+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_c690618c390884003e57",
+      "paper_id": "P003",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 03 proposes Teaching Method 03 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "70c6064756d0ee7ff7830633c7b8c06a39850b62cb577958a0f14db81deecab8",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245017+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_e43f6b0a5eec6c51d494",
+      "paper_id": "P003",
+      "page": 1,
+      "quote": "Teaching Method 03 uses Global attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "70c6064756d0ee7ff7830633c7b8c06a39850b62cb577958a0f14db81deecab8",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245042+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_ffc74a240dc894954a92",
+      "paper_id": "P003",
+      "page": 1,
+      "quote": "Teaching Method 03 is evaluated on Teaching Dataset A in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "70c6064756d0ee7ff7830633c7b8c06a39850b62cb577958a0f14db81deecab8",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245062+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_359d116f00af34f5b07e",
+      "paper_id": "P003",
+      "page": 1,
+      "quote": "Teaching Method 03 solves the task of Camera estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "70c6064756d0ee7ff7830633c7b8c06a39850b62cb577958a0f14db81deecab8",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245081+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_904e3ed254b6784abffa",
+      "paper_id": "P003",
+      "page": 1,
+      "quote": "Teaching Method 03 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "70c6064756d0ee7ff7830633c7b8c06a39850b62cb577958a0f14db81deecab8",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245100+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_43c5c070d70e68edc92c",
+      "paper_id": "P004",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 04 proposes Teaching Method 04 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245444+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_2085f29e2f50c8926c1c",
+      "paper_id": "P004",
+      "page": 1,
+      "quote": "Teaching Method 04 uses Global attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245469+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_d6a48066877b2ab89eca",
+      "paper_id": "P004",
+      "page": 1,
+      "quote": "Teaching Method 04 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245488+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_c37b0a42abe51f6f719d",
+      "paper_id": "P004",
+      "page": 1,
+      "quote": "Teaching Method 04 solves the task of Camera estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245507+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_6ea7bfa2d4e3d0568dc5",
+      "paper_id": "P004",
+      "page": 1,
+      "quote": "Teaching Method 04 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "b503af4ace8201a3f4fab3198d74b9a0113c1e1dcf80350d718d6db366502d8f",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245527+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_c3de042373c3451621ee",
+      "paper_id": "P005",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 05 proposes Teaching Method 05 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "ab21c5c87ab3fd1470c0157dca02603d40c76bc1e9fef7e4d165c7fbc8549743",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245882+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_428dc7cec626701664ee",
+      "paper_id": "P005",
+      "page": 1,
+      "quote": "Teaching Method 05 uses Global attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "ab21c5c87ab3fd1470c0157dca02603d40c76bc1e9fef7e4d165c7fbc8549743",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245907+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_9ae010df6ffbcf3c3a14",
+      "paper_id": "P005",
+      "page": 1,
+      "quote": "Teaching Method 05 is evaluated on Teaching Dataset A in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "ab21c5c87ab3fd1470c0157dca02603d40c76bc1e9fef7e4d165c7fbc8549743",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245926+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_6878f8d55004b859fbad",
+      "paper_id": "P005",
+      "page": 1,
+      "quote": "Teaching Method 05 solves the task of Camera estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "ab21c5c87ab3fd1470c0157dca02603d40c76bc1e9fef7e4d165c7fbc8549743",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245945+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_836aaafa1199e2933756",
+      "paper_id": "P005",
+      "page": 1,
+      "quote": "Teaching Method 05 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "ab21c5c87ab3fd1470c0157dca02603d40c76bc1e9fef7e4d165c7fbc8549743",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.245964+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_afb70ee62ce2d2a23ee1",
+      "paper_id": "P006",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 06 proposes Teaching Method 06 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "6478eab10175849e847b06696a9fbc1ed9cff4e3fa468245f3bfd2ee848c2e74",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246298+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_1e6a41efcca54e17cf66",
+      "paper_id": "P006",
+      "page": 1,
+      "quote": "Teaching Method 06 uses Global attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "6478eab10175849e847b06696a9fbc1ed9cff4e3fa468245f3bfd2ee848c2e74",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246322+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_4ada993eb7e8a7a102d8",
+      "paper_id": "P006",
+      "page": 1,
+      "quote": "Teaching Method 06 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "6478eab10175849e847b06696a9fbc1ed9cff4e3fa468245f3bfd2ee848c2e74",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246341+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_3c77f2092f49591a704b",
+      "paper_id": "P006",
+      "page": 1,
+      "quote": "Teaching Method 06 solves the task of Camera estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "6478eab10175849e847b06696a9fbc1ed9cff4e3fa468245f3bfd2ee848c2e74",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246359+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_89cb3dc2df9ab0edfed4",
+      "paper_id": "P006",
+      "page": 1,
+      "quote": "Teaching Method 06 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "6478eab10175849e847b06696a9fbc1ed9cff4e3fa468245f3bfd2ee848c2e74",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246378+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_2fff224ff7b36dcb8b99",
+      "paper_id": "P007",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 07 proposes Teaching Method 07 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "5d4f900b823b86fe4a7bb6520023e97adb9a70463a1aa3365014ba9d9e3d3de2",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246815+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_6f225ac778d91881ceff",
+      "paper_id": "P007",
+      "page": 1,
+      "quote": "Teaching Method 07 uses Pairwise attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "5d4f900b823b86fe4a7bb6520023e97adb9a70463a1aa3365014ba9d9e3d3de2",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246843+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_0d34a8538ffc07bb7893",
+      "paper_id": "P007",
+      "page": 1,
+      "quote": "Teaching Method 07 is evaluated on Teaching Dataset A in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "5d4f900b823b86fe4a7bb6520023e97adb9a70463a1aa3365014ba9d9e3d3de2",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246864+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_dabcd8a6c39a15d6b282",
+      "paper_id": "P007",
+      "page": 1,
+      "quote": "Teaching Method 07 solves the task of Depth estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "5d4f900b823b86fe4a7bb6520023e97adb9a70463a1aa3365014ba9d9e3d3de2",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246884+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_c5ca8eb6c9542a2e3f0d",
+      "paper_id": "P007",
+      "page": 1,
+      "quote": "Teaching Method 07 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "5d4f900b823b86fe4a7bb6520023e97adb9a70463a1aa3365014ba9d9e3d3de2",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.246903+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_90cfda72771cadab5d02",
+      "paper_id": "P008",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 08 proposes Teaching Method 08 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247252+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_f962db9daf18d94a84cf",
+      "paper_id": "P008",
+      "page": 1,
+      "quote": "Teaching Method 08 uses Pairwise attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247277+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_d6c02791fa21bd120c24",
+      "paper_id": "P008",
+      "page": 1,
+      "quote": "Teaching Method 08 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247297+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_16127b2d6fe689306678",
+      "paper_id": "P008",
+      "page": 1,
+      "quote": "Teaching Method 08 solves the task of Depth estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247316+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_e35c0aa46ad7ea244953",
+      "paper_id": "P008",
+      "page": 1,
+      "quote": "Teaching Method 08 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "c05c82957da225cdb503ef6fea7cd810cf57b68d8fe65b01c6bfc184e97b9cd6",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247335+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_06930550f634a18a7684",
+      "paper_id": "P009",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 09 proposes Teaching Method 09 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "dfa8efc9ba905efcb6344b7ff105a55c59f654769a964cbf9c2418204b8f985e",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247664+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_f0dec38168e5cdd75e96",
+      "paper_id": "P009",
+      "page": 1,
+      "quote": "Teaching Method 09 uses Pairwise attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "dfa8efc9ba905efcb6344b7ff105a55c59f654769a964cbf9c2418204b8f985e",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247688+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_880d7f514a8b1c0d93f0",
+      "paper_id": "P009",
+      "page": 1,
+      "quote": "Teaching Method 09 is evaluated on Teaching Dataset A in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "dfa8efc9ba905efcb6344b7ff105a55c59f654769a964cbf9c2418204b8f985e",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247707+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_f27ff836a881cbb1a29e",
+      "paper_id": "P009",
+      "page": 1,
+      "quote": "Teaching Method 09 solves the task of Depth estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "dfa8efc9ba905efcb6344b7ff105a55c59f654769a964cbf9c2418204b8f985e",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247726+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_d8661952133e86cbe011",
+      "paper_id": "P009",
+      "page": 1,
+      "quote": "Teaching Method 09 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "dfa8efc9ba905efcb6344b7ff105a55c59f654769a964cbf9c2418204b8f985e",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.247744+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_8ba798d1596fbd1b732f",
+      "paper_id": "P010",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 10 proposes Teaching Method 10 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "3ffdec5b2c07c9259d3aeb39e1e1df6e84dd6d53999ede4a10241d52cd5efd58",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248071+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_6c626966f7983d4b0b5e",
+      "paper_id": "P010",
+      "page": 1,
+      "quote": "Teaching Method 10 uses Pairwise attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "3ffdec5b2c07c9259d3aeb39e1e1df6e84dd6d53999ede4a10241d52cd5efd58",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248095+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_365bc1c1776a6cbe876b",
+      "paper_id": "P010",
+      "page": 1,
+      "quote": "Teaching Method 10 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "3ffdec5b2c07c9259d3aeb39e1e1df6e84dd6d53999ede4a10241d52cd5efd58",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248114+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_e4d0ed82b2da55edaf80",
+      "paper_id": "P010",
+      "page": 1,
+      "quote": "Teaching Method 10 solves the task of Depth estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "3ffdec5b2c07c9259d3aeb39e1e1df6e84dd6d53999ede4a10241d52cd5efd58",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248132+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_1d396126f5d3e7e154c8",
+      "paper_id": "P010",
+      "page": 1,
+      "quote": "Teaching Method 10 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "3ffdec5b2c07c9259d3aeb39e1e1df6e84dd6d53999ede4a10241d52cd5efd58",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248150+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_7fc290a8800e2e19d054",
+      "paper_id": "P011",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 11 proposes Teaching Method 11 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "26da939b9f5aeec27f9701d7ad5a961d2231570dd362a9ee8347bdb570af97cb",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248462+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_3d46f24d6d77dedee33d",
+      "paper_id": "P011",
+      "page": 1,
+      "quote": "Teaching Method 11 uses Pairwise attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "26da939b9f5aeec27f9701d7ad5a961d2231570dd362a9ee8347bdb570af97cb",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248486+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_cf95dd467e644bd5c2f4",
+      "paper_id": "P011",
+      "page": 1,
+      "quote": "Teaching Method 11 is evaluated on Teaching Dataset A in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "26da939b9f5aeec27f9701d7ad5a961d2231570dd362a9ee8347bdb570af97cb",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248505+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_c0ae18e7e69f344f8cf7",
+      "paper_id": "P011",
+      "page": 1,
+      "quote": "Teaching Method 11 solves the task of Depth estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "26da939b9f5aeec27f9701d7ad5a961d2231570dd362a9ee8347bdb570af97cb",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248524+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_949ef0f2564e2e62798c",
+      "paper_id": "P011",
+      "page": 1,
+      "quote": "Teaching Method 11 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "26da939b9f5aeec27f9701d7ad5a961d2231570dd362a9ee8347bdb570af97cb",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248543+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_2fa220233c87440ae09c",
+      "paper_id": "P012",
+      "page": 1,
+      "quote": "TEACHING ONLY - Synthetic Paper 12 proposes Teaching Method 12 for this fictional teaching example.",
+      "section": "Teaching",
+      "pdf_sha256": "6294df0ba32bf53a9b875948a8cd0edb9ca75c0fa663d5daf44b3afc026d943c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248866+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_2528d08d6fff9ff40c38",
+      "paper_id": "P012",
+      "page": 1,
+      "quote": "Teaching Method 12 uses Pairwise attention as its principal component.",
+      "section": "Teaching",
+      "pdf_sha256": "6294df0ba32bf53a9b875948a8cd0edb9ca75c0fa663d5daf44b3afc026d943c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248889+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_8a51c919765c2ca53788",
+      "paper_id": "P012",
+      "page": 1,
+      "quote": "Teaching Method 12 is evaluated on Teaching Dataset B in the synthetic setup.",
+      "section": "Teaching",
+      "pdf_sha256": "6294df0ba32bf53a9b875948a8cd0edb9ca75c0fa663d5daf44b3afc026d943c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248909+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_bd4f0498d90c6a46ef7e",
+      "paper_id": "P012",
+      "page": 1,
+      "quote": "Teaching Method 12 solves the task of Depth estimation in this fictional example.",
+      "section": "Teaching",
+      "pdf_sha256": "6294df0ba32bf53a9b875948a8cd0edb9ca75c0fa663d5daf44b3afc026d943c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248927+00:00",
+      "note": "虚构事实"
+    },
+    {
+      "id": "F_1b48af509dad79db58c7",
+      "paper_id": "P012",
+      "page": 1,
+      "quote": "Teaching Method 12 outputs Teaching geometry in this artificial example.",
+      "section": "Teaching",
+      "pdf_sha256": "6294df0ba32bf53a9b875948a8cd0edb9ca75c0fa663d5daf44b3afc026d943c",
+      "reviewer": "教学样例作者（非正式论文审核）",
+      "reviewed_at": "2026-11-11T04:28:16.248945+00:00",
+      "note": "虚构事实"
+    }
+  ],
+  "paper_ids": [
+    "P001",
+    "P002",
+    "P003",
+    "P004",
+    "P005",
+    "P006",
+    "P007",
+    "P008",
+    "P009",
+    "P010",
+    "P011",
+    "P012"
+  ],
+  "teaching": false,
+  "version": "82c3cb1f13146903f8d0cc4715dcb67c1cb2fdc3abad7f7a85e7f1771d627741",
+  "created_at": "2026-11-11T04:28:16.270883+00:00"
+}

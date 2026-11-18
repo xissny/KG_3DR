@@ -1,0 +1,670 @@
+{
+  "status": "complete",
+  "graph_version": "82c3cb1f13146903f8d0cc4715dcb67c1cb2fdc3abad7f7a85e7f1771d627741",
+  "labels_version": "6e75122b67dd2d10898ec7ce4369d9bed6a3317153e169dca4b7db9a1dc77d04",
+  "time": "2026-11-11T04:28:20.783065+00:00",
+  "tasks": [
+    "task_08dd7b0a579dbcae",
+    "task_4c3245ba84dd251c"
+  ],
+  "papers": [
+    "P001",
+    "P002",
+    "P003",
+    "P004",
+    "P005",
+    "P006",
+    "P007",
+    "P008",
+    "P009",
+    "P010",
+    "P011",
+    "P012"
+  ],
+  "gaps": [],
+  "modes": {
+    "majority": {
+      "micro_f1": 0.0,
+      "macro_f1": 0.0,
+      "per_class": [
+        {
+          "task_id": "task_08dd7b0a579dbcae",
+          "f1": 0.0,
+          "positive": 6,
+          "negative": 6
+        },
+        {
+          "task_id": "task_4c3245ba84dd251c",
+          "f1": 0.0,
+          "positive": 6,
+          "negative": 6
+        }
+      ],
+      "cases": [
+        {
+          "paper_id": "P001",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45454545454545453,
+            0.5454545454545454
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P002",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45454545454545453,
+            0.5454545454545454
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P003",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45454545454545453,
+            0.5454545454545454
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P004",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45454545454545453,
+            0.5454545454545454
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P005",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45454545454545453,
+            0.5454545454545454
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P006",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45454545454545453,
+            0.5454545454545454
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P007",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5454545454545454,
+            0.45454545454545453
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P008",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5454545454545454,
+            0.45454545454545453
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P009",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5454545454545454,
+            0.45454545454545453
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P010",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5454545454545454,
+            0.45454545454545453
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P011",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5454545454545454,
+            0.45454545454545453
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P012",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5454545454545454,
+            0.45454545454545453
+          ],
+          "correct": false
+        }
+      ]
+    },
+    "one_hop": {
+      "micro_f1": 0.0,
+      "macro_f1": 0.0,
+      "per_class": [
+        {
+          "task_id": "task_08dd7b0a579dbcae",
+          "f1": 0.0,
+          "positive": 6,
+          "negative": 6
+        },
+        {
+          "task_id": "task_4c3245ba84dd251c",
+          "f1": 0.0,
+          "positive": 6,
+          "negative": 6
+        }
+      ],
+      "cases": [
+        {
+          "paper_id": "P001",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45300367832674826,
+            0.5469963216732517
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P002",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45300367832674826,
+            0.5469963216732517
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P003",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45300367832674826,
+            0.5469963216732517
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P004",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45300367832674826,
+            0.5469963216732517
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P005",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45300367832674826,
+            0.5469963216732517
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P006",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.45300367832674826,
+            0.5469963216732517
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P007",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5469963216732517,
+            0.45300367832674826
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P008",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5469963216732517,
+            0.4530036783267481
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P009",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5469963216732517,
+            0.45300367832674826
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P010",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5469963216732517,
+            0.45300367832674826
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P011",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5469963216732517,
+            0.45300367832674826
+          ],
+          "correct": false
+        },
+        {
+          "paper_id": "P012",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.5469963216732517,
+            0.45300367832674826
+          ],
+          "correct": false
+        }
+      ]
+    },
+    "two_hop": {
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "per_class": [
+        {
+          "task_id": "task_08dd7b0a579dbcae",
+          "f1": 1.0,
+          "positive": 6,
+          "negative": 6
+        },
+        {
+          "task_id": "task_4c3245ba84dd251c",
+          "f1": 1.0,
+          "positive": 6,
+          "negative": 6
+        }
+      ],
+      "cases": [
+        {
+          "paper_id": "P001",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.7163763546511814,
+            0.2836236453488185
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P002",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.7163763546511815,
+            0.2836236453488186
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P003",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.7163763546511815,
+            0.2836236453488185
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P004",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.7163763546511814,
+            0.2836236453488185
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P005",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.7163763546511814,
+            0.28362364534881845
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P006",
+          "gold": [
+            1,
+            0
+          ],
+          "prediction": [
+            1,
+            0
+          ],
+          "scores": [
+            0.7163763546511814,
+            0.28362364534881845
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P007",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.28362364534881845,
+            0.7163763546511815
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P008",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.2836236453488185,
+            0.7163763546511815
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P009",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.2836236453488185,
+            0.7163763546511815
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P010",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.28362364534881845,
+            0.7163763546511814
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P011",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.28362364534881845,
+            0.7163763546511815
+          ],
+          "correct": true
+        },
+        {
+          "paper_id": "P012",
+          "gold": [
+            0,
+            1
+          ],
+          "prediction": [
+            0,
+            1
+          ],
+          "scores": [
+            0.28362364534881845,
+            0.7163763546511815
+          ],
+          "correct": true
+        }
+      ]
+    }
+  },
+  "leakage_check": {
+    "task_nodes_removed": true,
+    "all_solves_edges_removed": true,
+    "text_not_used": true,
+    "vectorizer_fit_within_fold": true
+  },
+  "limitations": "小样本留一评测方差较大；同源或方法系列论文可能高度相关，应结合逐例结果解释。"
+}

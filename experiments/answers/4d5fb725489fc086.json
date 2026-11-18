@@ -1,0 +1,2738 @@
+{
+  "run_id": "4d5fb725489fc086",
+  "task_type": "qa",
+  "question": "“DINOv2”采用了哪些技术组件？请逐项列出支撑事实和论文来源。",
+  "is_evaluation": false,
+  "entity_ids": [
+    "method_f584bd28887f5ac3"
+  ],
+  "paper_ids": [],
+  "graph_version": "101279730f6b1d8462640cbea24cab10515763ba6c455d7a44fc729a2c15f089",
+  "context": {
+    "graph_version": "101279730f6b1d8462640cbea24cab10515763ba6c455d7a44fc729a2c15f089",
+    "matched_entities": [
+      {
+        "id": "method_f584bd28887f5ac3",
+        "project": "kg3dr-course",
+        "name": "DINOv2",
+        "type": "Method"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P004",
+        "project": "kg3dr-course",
+        "name": "MASt3R",
+        "type": "Paper"
+      },
+      {
+        "id": "P005",
+        "project": "kg3dr-course",
+        "name": "Pi3",
+        "type": "Paper"
+      },
+      {
+        "id": "P006",
+        "project": "kg3dr-course",
+        "name": "DINOv2",
+        "type": "Paper"
+      },
+      {
+        "id": "P012",
+        "project": "kg3dr-course",
+        "name": "MoGe-3",
+        "type": "Paper"
+      },
+      {
+        "id": "P015",
+        "project": "kg3dr-course",
+        "name": "DA2",
+        "type": "Paper"
+      },
+      {
+        "id": "P016",
+        "project": "kg3dr-course",
+        "name": "DA3",
+        "type": "Paper"
+      },
+      {
+        "id": "P018",
+        "project": "kg3dr-course",
+        "name": "CUT3R",
+        "type": "Paper"
+      },
+      {
+        "id": "P019",
+        "project": "kg3dr-course",
+        "name": "StreamVGGT",
+        "type": "Paper"
+      },
+      {
+        "id": "P020",
+        "project": "kg3dr-course",
+        "name": "Spann3R",
+        "type": "Paper"
+      },
+      {
+        "id": "P021",
+        "project": "kg3dr-course",
+        "name": "Slot3R",
+        "type": "Paper"
+      },
+      {
+        "id": "component_58bca36a17f89a85",
+        "project": "kg3dr-course",
+        "name": "exponential moving average teacher",
+        "type": "Component"
+      },
+      {
+        "id": "component_99a90f03463afe01",
+        "project": "kg3dr-course",
+        "name": "AdamW",
+        "type": "Component"
+      },
+      {
+        "id": "component_f78a9ca8cce7424f",
+        "project": "kg3dr-course",
+        "name": "SwiGLU",
+        "type": "Component"
+      },
+      {
+        "id": "dataset_0d29fca1d96ada52",
+        "project": "kg3dr-course",
+        "name": "Places205",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_24b2d54e54f771b7",
+        "project": "kg3dr-course",
+        "name": "ImageNet-22k",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_2cb9eabdd276e05e",
+        "project": "kg3dr-course",
+        "name": "Dollar Street",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_50f610210b17093b",
+        "project": "kg3dr-course",
+        "name": "CUB",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_5a20df396620760d",
+        "project": "kg3dr-course",
+        "name": "ImageNet-1k",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_602adfe0a3e3e15b",
+        "project": "kg3dr-course",
+        "name": "ImageNet-ReaL",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_6c54cb5c072e8b3e",
+        "project": "kg3dr-course",
+        "name": "UCF-101",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_6cfda2400972d7f5",
+        "project": "kg3dr-course",
+        "name": "large curated data",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_6efcbfb1f9f195ce",
+        "project": "kg3dr-course",
+        "name": "Met",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_75678e6018d911b4",
+        "project": "kg3dr-course",
+        "name": "ImageNet-R",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_9d5674ddb157fb57",
+        "project": "kg3dr-course",
+        "name": "ImageNet-V2",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_ae327313bf9a7771",
+        "project": "kg3dr-course",
+        "name": "ImageNet-A",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_b10f2716ff3ca5d9",
+        "project": "kg3dr-course",
+        "name": "AmsterTime",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_c8d6eef20a820beb",
+        "project": "kg3dr-course",
+        "name": "Something-Something v2",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_cfd899275eaf1a3e",
+        "project": "kg3dr-course",
+        "name": "LVD-142M",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_eafa94d67e84c4a7",
+        "project": "kg3dr-course",
+        "name": "iNaturalist 2021",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_f32b47940a13327a",
+        "project": "kg3dr-course",
+        "name": "Casual Conversations",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_f416b363c6c5f070",
+        "project": "kg3dr-course",
+        "name": "Sketch",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_f63eeaf3fe750275",
+        "project": "kg3dr-course",
+        "name": "Kinetics-400",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_f9381d7c2c092399",
+        "project": "kg3dr-course",
+        "name": "iNaturalist 2018",
+        "type": "Dataset"
+      },
+      {
+        "id": "method_1613d22359560eb6",
+        "project": "kg3dr-course",
+        "name": "ViT-g trained on LVD-142M",
+        "type": "Method"
+      },
+      {
+        "id": "method_2c54f0b56f6aa6bc",
+        "project": "kg3dr-course",
+        "name": "Slot3R",
+        "type": "Method"
+      },
+      {
+        "id": "method_36feea8f8e406bcf",
+        "project": "kg3dr-course",
+        "name": "linear probing",
+        "type": "Method"
+      },
+      {
+        "id": "method_f3ab4e4ac74a3f6b",
+        "project": "kg3dr-course",
+        "name": "ViT-L/16",
+        "type": "Method"
+      },
+      {
+        "id": "method_f584bd28887f5ac3",
+        "project": "kg3dr-course",
+        "name": "DINOv2",
+        "type": "Method"
+      },
+      {
+        "id": "metric_5879092f86c5e019",
+        "project": "kg3dr-course",
+        "name": "Accuracy",
+        "type": "Metric"
+      },
+      {
+        "id": "metric_e9414b8d39e06681",
+        "project": "kg3dr-course",
+        "name": "average accuracy",
+        "type": "Metric"
+      },
+      {
+        "id": "paper_042bb4428b5a1d64",
+        "project": "kg3dr-course",
+        "name": "OpenCLIP",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_222e292d98107dd3",
+        "project": "kg3dr-course",
+        "name": "MAE",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_67905ad3cc2dd52b",
+        "project": "kg3dr-course",
+        "name": "CLIP",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_6c54cb5c072e8b3e",
+        "project": "kg3dr-course",
+        "name": "UCF-101",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_6d339ec27cd9c021",
+        "project": "kg3dr-course",
+        "name": "SEERv2",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_6fe63d928c4455c3",
+        "project": "kg3dr-course",
+        "name": "MSN",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_712985cc1194dffe",
+        "project": "kg3dr-course",
+        "name": "SWAG",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_81210c13655c87b1",
+        "project": "kg3dr-course",
+        "name": "SimCLR",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_8fbefc95205d5645",
+        "project": "kg3dr-course",
+        "name": "DINO",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_acfb83fe94eaf4c2",
+        "project": "kg3dr-course",
+        "name": "EVA-CLIP",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_b0586b2b9792aaf0",
+        "project": "kg3dr-course",
+        "name": "Depth Anything",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_bb6e5531e24ede75",
+        "project": "kg3dr-course",
+        "name": "Mugs",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_c8d6eef20a820beb",
+        "project": "kg3dr-course",
+        "name": "Something-Something v2",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_ccc31dd4760b15fc",
+        "project": "kg3dr-course",
+        "name": "EsViT",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_d01d0565342c4ec1",
+        "project": "kg3dr-course",
+        "name": "iBOT",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_f63eeaf3fe750275",
+        "project": "kg3dr-course",
+        "name": "Kinetics-400",
+        "type": "Paper"
+      },
+      {
+        "id": "representation_aed75d1a5d3cd150",
+        "project": "kg3dr-course",
+        "name": "visual features",
+        "type": "Representation"
+      }
+    ],
+    "edges": [
+      {
+        "id": "R_882b9adcf82988ed3aac",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_793d2c7c6f235a9d79e7"
+        ],
+        "source": "method_1613d22359560eb6",
+        "target": "dataset_cfd899275eaf1a3e",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_51febd501c4a92e65946",
+        "paper_ids": [
+          "P021"
+        ],
+        "evidence_ids": [
+          "F_9b0ce4741e57de66f265",
+          "F_10387ca40ea32f414c95"
+        ],
+        "source": "method_2c54f0b56f6aa6bc",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_0786bb21ca7ff1339703",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_6b26fa2c88d2d692356e",
+          "F_fbc328f20af63645951d"
+        ],
+        "source": "method_36feea8f8e406bcf",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_a31178af7d637972ee4c",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_8cd28d78341ef3417e28"
+        ],
+        "source": "method_f3ab4e4ac74a3f6b",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_04a4ec52f49a31fe56b6",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_81dd94b11330d69ba206"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "dataset_f416b363c6c5f070",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_005dac6cf09d28194c6d",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_7da4a3b499366bca80f2"
+        ],
+        "source": "P006",
+        "target": "dataset_2cb9eabdd276e05e",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_a3bdf137845542c9f87c",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_bc57e462b320bb32704d"
+        ],
+        "source": "method_f3ab4e4ac74a3f6b",
+        "target": "dataset_5a20df396620760d",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_1000ee3a4c4325887de8",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_f9cdbbaa045d9fd2b475"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "dataset_ae327313bf9a7771",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_12c79da0b9a7a51fa092",
+        "paper_ids": [
+          "P016"
+        ],
+        "evidence_ids": [
+          "F_909063186b3a6e2c1717"
+        ],
+        "source": "P016",
+        "target": "P006",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_c4b84c30e24c4c956c2d",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_546923f8fc738f0db15e"
+        ],
+        "source": "method_f3ab4e4ac74a3f6b",
+        "target": "dataset_5a20df396620760d",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_1c962ff7d8a29b72da56",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_31123763e141e9397580"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_15e62d0ad6996459ce04",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_951743363166c346bf89"
+        ],
+        "source": "P006",
+        "target": "dataset_eafa94d67e84c4a7",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_1e976e11cb954938e616",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_88e1b20bf74d7fa71e20"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "component_f78a9ca8cce7424f",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_17f293ea05a5774f91b1",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_4722cf1be168beb26e29"
+        ],
+        "source": "P006",
+        "target": "paper_c8d6eef20a820beb",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_54da0230225f3cc8af9a",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_3b66c3d1c98c36639afd"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "dataset_5a20df396620760d",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_19d72fc87fda1403f341",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_2366e365ad747601ee35"
+        ],
+        "source": "P006",
+        "target": "paper_6fe63d928c4455c3",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_6633d2a5afe4200c651f",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_d4b49b7ff39115ba0709"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "dataset_75678e6018d911b4",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_1ba7fdcb319532ca3012",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_f2c038fee1ca60480ffc"
+        ],
+        "source": "P006",
+        "target": "metric_e9414b8d39e06681",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_93f1e90896f768dbc505",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_74b72ac5d527da734670"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "dataset_6cfda2400972d7f5",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_1eadd95af7bb32e01a36",
+        "paper_ids": [
+          "P004"
+        ],
+        "evidence_ids": [
+          "F_53e1fb95ed4e90007cad"
+        ],
+        "source": "P004",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_a18090825e832744a7f3",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_7cbb56c9eec92d27e03d"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "component_99a90f03463afe01",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_1f8ec62fd9d4e0230c35",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_0e46fb80780024cdf9b1"
+        ],
+        "source": "P006",
+        "target": "paper_67905ad3cc2dd52b",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_c1905812148c89e30f11",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_a19fa7047a69a7d91978",
+          "F_74301b08eb5531a1d7ed"
+        ],
+        "source": "P006",
+        "target": "method_f584bd28887f5ac3",
+        "relation": "PROPOSES"
+      },
+      {
+        "id": "R_2857223758e37bf97529",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_fced3ad863d58841fb73"
+        ],
+        "source": "P006",
+        "target": "paper_042bb4428b5a1d64",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_c2358f3e32c419607962",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_f23f53555ae7655acdd5"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "dataset_f32b47940a13327a",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_28a9bb3b3515f2cd6726",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_57a2c802e6b8053d2a05"
+        ],
+        "source": "P006",
+        "target": "paper_d01d0565342c4ec1",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_d58c8507fafcd0cb18b0",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_72e72de1413b9ff9e9b5",
+          "F_c0135d3a0ec48d7ce9f3"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "dataset_cfd899275eaf1a3e",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_2b0f178ff1837aebb444",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_737cdf14ce2c2d708d2d"
+        ],
+        "source": "P006",
+        "target": "paper_81210c13655c87b1",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_df63797585d35658e978",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_22ecf1c2dfae62dedbd2"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "component_58bca36a17f89a85",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_39ce17e0c5caaf2ffd92",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_86c6f5a67b7cc5705277"
+        ],
+        "source": "P006",
+        "target": "paper_bb6e5531e24ede75",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_eedab236a1f9dcfb75d0",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_aa69705bba802112dd77"
+        ],
+        "source": "method_f584bd28887f5ac3",
+        "target": "representation_aed75d1a5d3cd150",
+        "relation": "OUTPUTS"
+      },
+      {
+        "id": "R_3e71e6499bd74d30ffd4",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_ce90755e3872a25cd089"
+        ],
+        "source": "P006",
+        "target": "dataset_5a20df396620760d",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_40bb74d0b6d6cdf43e71",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_6ce39bd7e1bec2078d99"
+        ],
+        "source": "P006",
+        "target": "paper_f63eeaf3fe750275",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_461c07dc99ee9eef7a7b",
+        "paper_ids": [
+          "P020"
+        ],
+        "evidence_ids": [
+          "F_08b97616b8e575748933"
+        ],
+        "source": "P020",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_4af54cf1542aa1a45611",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_f6e4fa5eb8b54fc93448"
+        ],
+        "source": "P006",
+        "target": "paper_6c54cb5c072e8b3e",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_4c14ca5db8c815d0c589",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_3b96a71288f307785b56"
+        ],
+        "source": "P006",
+        "target": "dataset_f9381d7c2c092399",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_5559b5e4a78c0e7cf2e3",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_e3e73e4ac9fda91afc57"
+        ],
+        "source": "P006",
+        "target": "paper_6d339ec27cd9c021",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_59ccd3930e32ada21b2b",
+        "paper_ids": [
+          "P005"
+        ],
+        "evidence_ids": [
+          "F_19fd1c87db4a7e44b3b5"
+        ],
+        "source": "P005",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_605547bb4566c02cca8f",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_a4d6b91efce490be98c4"
+        ],
+        "source": "P006",
+        "target": "paper_acfb83fe94eaf4c2",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_69393962d18ba1598073",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_3db1bc171f68814330e1"
+        ],
+        "source": "P006",
+        "target": "dataset_50f610210b17093b",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_698eec9c86c516146599",
+        "paper_ids": [
+          "P021"
+        ],
+        "evidence_ids": [
+          "F_45915d0ef6f95f93b20d",
+          "F_77abfe247441c165e101",
+          "F_271d1c7b816ce88590b8"
+        ],
+        "source": "P021",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_6fd77ad19f241dfdd50d",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_a75a2b33f50240ff5105"
+        ],
+        "source": "P006",
+        "target": "paper_222e292d98107dd3",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_74c51d7041cb90c068f3",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_62c5aabb49f595af1908"
+        ],
+        "source": "P006",
+        "target": "dataset_6efcbfb1f9f195ce",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_7b30ceac9a9143169fac",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_c3031365b454415daf87"
+        ],
+        "source": "P006",
+        "target": "dataset_602adfe0a3e3e15b",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_886953817b68bb85264e",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_99505cf12cbda50fd5f2"
+        ],
+        "source": "P006",
+        "target": "paper_ccc31dd4760b15fc",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_89bc0608e2b488345377",
+        "paper_ids": [
+          "P015"
+        ],
+        "evidence_ids": [
+          "F_08e134f90d8166def134"
+        ],
+        "source": "P015",
+        "target": "P006",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_9140aff2080a3befc594",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_479bd829e752eb8aa959",
+          "F_0de45c27a5fbee5ebbb7"
+        ],
+        "source": "P006",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_943e2afcf88f61938d18",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_a75f1adecaddae11d1c3"
+        ],
+        "source": "P006",
+        "target": "dataset_9d5674ddb157fb57",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_9fa96eccc8890d4dabee",
+        "paper_ids": [
+          "P019"
+        ],
+        "evidence_ids": [
+          "F_492080e027a815c619e6"
+        ],
+        "source": "P019",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_a7571dfa0944c8776230",
+        "paper_ids": [
+          "P005"
+        ],
+        "evidence_ids": [
+          "F_094b819476f1f0635be2"
+        ],
+        "source": "P005",
+        "target": "P006",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_aa4c17bb2a2ae9deca2f",
+        "paper_ids": [
+          "P014"
+        ],
+        "evidence_ids": [
+          "F_19a8e239ae9cbdda8f1f"
+        ],
+        "source": "paper_b0586b2b9792aaf0",
+        "target": "P006",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_c41452c22e5fd8ec2a54",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_8debae069dc09aaf5e6f"
+        ],
+        "source": "P006",
+        "target": "dataset_6c54cb5c072e8b3e",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_cd19f17b63d3e3f7636b",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_088c152de003678e3520"
+        ],
+        "source": "P006",
+        "target": "dataset_b10f2716ff3ca5d9",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_d4f5630806005ca27f75",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_f3b658f4d9391984a062"
+        ],
+        "source": "P006",
+        "target": "dataset_24b2d54e54f771b7",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_dc980d81ff6f63795a3b",
+        "paper_ids": [
+          "P018"
+        ],
+        "evidence_ids": [
+          "F_a67da773f575d049c9f2",
+          "F_28698609e1df57b075e0"
+        ],
+        "source": "P018",
+        "target": "metric_5879092f86c5e019",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_e5712268796eec7f97eb",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_ee39a833c2ad460801b4"
+        ],
+        "source": "P006",
+        "target": "dataset_f63eeaf3fe750275",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_e65823b499c75affeb1a",
+        "paper_ids": [
+          "P012"
+        ],
+        "evidence_ids": [
+          "F_5b25ca79665d4ebb44d7"
+        ],
+        "source": "P012",
+        "target": "P006",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_e8e5cf7d687ef64f06ee",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_4c1a758bc02688855368"
+        ],
+        "source": "P006",
+        "target": "paper_8fbefc95205d5645",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_f19d624aaea1632d8724",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_163ad021f5cdd6932c7a"
+        ],
+        "source": "P006",
+        "target": "dataset_0d29fca1d96ada52",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_f33cac4c1e655912620f",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_90d978ad0b4cfff29773"
+        ],
+        "source": "P006",
+        "target": "dataset_c8d6eef20a820beb",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_f6ce835f1c334e3a5024",
+        "paper_ids": [
+          "P006"
+        ],
+        "evidence_ids": [
+          "F_d56044909fb44344f7a6"
+        ],
+        "source": "P006",
+        "target": "paper_712985cc1194dffe",
+        "relation": "CITES"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "F_088c152de003678e3520",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:48.733578+00:00",
+        "page": 14,
+        "quote": "We also evaluated on Met, a dataset of artworks from the Metropolitan museum, and AmsterTime, containing street view images matched to archival images of Amsterdam.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.3  Instance Recognition"
+      },
+      {
+        "id": "F_08b97616b8e575748933",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:29:34.805284+00:00",
+        "page": 10,
+        "quote": "Acc↓       Comp↓        NC↑",
+        "pdf_sha256": "cb8ea6903872c6dd34f9f7a6b06d56241ab71d984a755b6a35cbefa5b34c484d",
+        "reviewer": "hyx",
+        "paper_id": "P020",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_08e134f90d8166def134",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:15:21.922805+00:00",
+        "page": 19,
+        "quote": "Compared with the DINOv2 [50] encoder, our pre-trained model acts as a much stronger initialization",
+        "pdf_sha256": "a9bec83952481daa8b8e40fecf0b0cee255054683beb8e79bb28b8c93027ed4b",
+        "reviewer": "hyx",
+        "paper_id": "P015",
+        "note": "人工批量审核",
+        "section": "9  Conclusion"
+      },
+      {
+        "id": "F_094b819476f1f0635be2",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T10:40:48.002325+00:00",
+        "page": 4,
+        "quote": "using a DINOv2 (Oquab et al., 2023) backbone",
+        "pdf_sha256": "3391e1f931803de70868b1639e75ae97931708ddd360279a83777a846deec5cc",
+        "reviewer": "hyx",
+        "paper_id": "P005",
+        "note": "人工批量审核",
+        "section": "3  METHOD"
+      },
+      {
+        "id": "F_0de45c27a5fbee5ebbb7",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.164376+00:00",
+        "page": 13,
+        "quote": "We report top-1 accuracy for those three datasets in Table 7.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_0e46fb80780024cdf9b1",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.247470+00:00",
+        "page": 11,
+        "quote": "weakly-supervised models such as CLIP (Radford et al., 2021)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_10387ca40ea32f414c95",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:33:16.879597+00:00",
+        "page": 9,
+        "quote": "core Ours reduces Point3R’s point-cloud Acc by 57.1%–72.0%",
+        "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+        "reviewer": "hyx",
+        "paper_id": "P021",
+        "note": "人工批量审核",
+        "section": "2026                                               Abstract"
+      },
+      {
+        "id": "F_163ad021f5cdd6932c7a",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.632965+00:00",
+        "page": 13,
+        "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_19a8e239ae9cbdda8f1f",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:12:19.131941+00:00",
+        "page": 5,
+        "quote": "We adopt the DINOv2 encoder [42] for feature extraction.",
+        "pdf_sha256": "ff51f5d3220f6580edcea01103f1e27cfa3c1cba521d203669fe0831f409e25b",
+        "reviewer": "hyx",
+        "paper_id": "P014",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_19fd1c87db4a7e44b3b5",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T10:44:26.386863+00:00",
+        "page": 9,
+        "quote": "Acc. std. ↓    Comp. std. ↓     N.C. std. ↓",
+        "pdf_sha256": "3391e1f931803de70868b1639e75ae97931708ddd360279a83777a846deec5cc",
+        "reviewer": "hyx",
+        "paper_id": "P005",
+        "note": "人工批量审核",
+        "section": "4.5  ABLATION STUDY"
+      },
+      {
+        "id": "F_22ecf1c2dfae62dedbd2",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:19:24.711936+00:00",
+        "page": 31,
+        "quote": "The teacher is initialized with the same state as the student, and is an\nexponential moving average of the student network",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "10  Future work and Discussion"
+      },
+      {
+        "id": "F_2366e365ad747601ee35",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.203473+00:00",
+        "page": 11,
+        "quote": "MSN (Assran et al., 2022), EsViT (Li et al., 2022a)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_271d1c7b816ce88590b8",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:33:16.457335+00:00",
+        "page": 17,
+        "quote": "Method   K   Acc ↓   Comp ↓  NC ↑   FPS ↑  Avg. final tokens ↓",
+        "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+        "reviewer": "hyx",
+        "paper_id": "P021",
+        "note": "人工批量审核",
+        "section": "2026                                               Abstract"
+      },
+      {
+        "id": "F_28698609e1df57b075e0",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:24:51.212347+00:00",
+        "page": 7,
+        "quote": "Acc↓        Comp↓        NC↑",
+        "pdf_sha256": "5467dd822b4b45c0829115bbf361a5ca8c3319a930f4e0d861b6e9138d0d9db4",
+        "reviewer": "hyx",
+        "paper_id": "P018",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_31123763e141e9397580",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.788224+00:00",
+        "page": 12,
+        "quote": "We report Top-1 accuracy\non the validation set for publicly available models",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_3b66c3d1c98c36639afd",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.778231+00:00",
+        "page": 12,
+        "quote": "Linear evaluation on ImageNet-1k of frozen pretrained features.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_3b96a71288f307785b56",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.610800+00:00",
+        "page": 13,
+        "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_3db1bc171f68814330e1",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:48.744624+00:00",
+        "page": 14,
+        "quote": "We replace the Birdsnap dataset with CUB because the former was not publicly available in its entirety.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.3  Instance Recognition"
+      },
+      {
+        "id": "F_45915d0ef6f95f93b20d",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:33:16.411057+00:00",
+        "page": 7,
+        "quote": "Method                  Acc ↓            Comp ↓           NC ↑         Avg. FPS ↑",
+        "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+        "reviewer": "hyx",
+        "paper_id": "P021",
+        "note": "人工批量审核",
+        "section": "2026                                               Abstract"
+      },
+      {
+        "id": "F_4722cf1be168beb26e29",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.730064+00:00",
+        "page": 13,
+        "quote": "Something-Something v2 (Goyal et al., 2017)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_479bd829e752eb8aa959",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.154829+00:00",
+        "page": 11,
+        "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_492080e027a815c619e6",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:28:16.085953+00:00",
+        "page": 16,
+        "quote": "Method              Type     Acc Mean↓   Acc Med.↓  Comp Mean↓  Comp Med.↓  NC Mean↑  NC Med.↑",
+        "pdf_sha256": "05dab6167a035af2f779464decb8f80f55b67821f606f620fa29717e84bc6f57",
+        "reviewer": "hyx",
+        "paper_id": "P019",
+        "note": "人工批量审核",
+        "section": "5  CONCLUSION"
+      },
+      {
+        "id": "F_4c1a758bc02688855368",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.183525+00:00",
+        "page": 11,
+        "quote": "DINO (Caron et al., 2021), SEERv2 (Goyal et al., 2022a)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_53e1fb95ed4e90007cad",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T10:20:52.718014+00:00",
+        "page": 15,
+        "quote": "we report the average accuracy, completeness and Chamfer distances error metrics",
+        "pdf_sha256": "454b4472ec74d8bf5644a9fa278966f1273e63012a59528c710eca9eb53dc7af",
+        "reviewer": "hyx",
+        "paper_id": "P004",
+        "note": "人工批量审核",
+        "section": "5  Conclusion"
+      },
+      {
+        "id": "F_546923f8fc738f0db15e",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:12:25.326779+00:00",
+        "page": 10,
+        "quote": "a ViT-L/16 trained on ImageNet1k",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "6.6  Impact of Resolution"
+      },
+      {
+        "id": "F_57a2c802e6b8053d2a05",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.237116+00:00",
+        "page": 11,
+        "quote": "Mugs (Zhou et al., 2022b) and iBOT (Zhou et al., 2022a)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_5b25ca79665d4ebb44d7",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T12:17:38.689283+00:00",
+        "page": 3,
+        "quote": "The base model also extracts a dense feature map F from a DINOv2 encoder [26]",
+        "pdf_sha256": "85beceed1e2ffc91db541f21f5ec07c6d596d7e90c62458ce8462bc20b4741c1",
+        "reviewer": "hyx",
+        "paper_id": "P012",
+        "note": "人工批量审核",
+        "section": "3.1  Base Model"
+      },
+      {
+        "id": "F_62c5aabb49f595af1908",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:48.721644+00:00",
+        "page": 14,
+        "quote": "We also evaluated on Met, a dataset of artworks from the Metropolitan museum, and AmsterTime, containing street view images matched to archival images of Amsterdam.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.3  Instance Recognition"
+      },
+      {
+        "id": "F_6b26fa2c88d2d692356e",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:12:25.298583+00:00",
+        "page": 9,
+        "quote": "ImageNet-{1k,A} (classification with linear probe, accuracy %)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "6.5  Impact of Knowledge Distillation"
+      },
+      {
+        "id": "F_6ce39bd7e1bec2078d99",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.719029+00:00",
+        "page": 13,
+        "quote": "Kinetics-400 (Kay et al., 2017)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_72e72de1413b9ff9e9b5",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.757777+00:00",
+        "page": 12,
+        "quote": "DINOv2\n                   ViT-L/14      LVD-142M    ✕        83.5      86.3    89.5    78.0",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_737cdf14ce2c2d708d2d",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.697057+00:00",
+        "page": 13,
+        "quote": "we use the 12 image classification tasks originally proposed in SimCLR (Chen et al., 2020)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_74301b08eb5531a1d7ed",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.747242+00:00",
+        "page": 21,
+        "quote": "In this work, we present DINOv2, a new series of image encoders pretrained on large curated data with no supervision.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "10  Future work and Discussion"
+      },
+      {
+        "id": "F_74b72ac5d527da734670",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:17:48.874353+00:00",
+        "page": 21,
+        "quote": "a new series of image encoders pretrained on large curated data with no supervision",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "10  Future work and Discussion"
+      },
+      {
+        "id": "F_77abfe247441c165e101",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:33:16.437455+00:00",
+        "page": 14,
+        "quote": "Method                   Acc ↓                      Comp ↓                   NC ↑               Avg. FPS ↑",
+        "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+        "reviewer": "hyx",
+        "paper_id": "P021",
+        "note": "人工批量审核",
+        "section": "2026                                               Abstract"
+      },
+      {
+        "id": "F_793d2c7c6f235a9d79e7",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T10:52:50.997311+00:00",
+        "page": 9,
+        "quote": "The ViT-g trained on LVD-142M surpasses the ViT-g trained on ImageNet-22k on most benchmarks.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "6.5  Impact of Knowledge Distillation"
+      },
+      {
+        "id": "F_7cbb56c9eec92d27e03d",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:18:37.310110+00:00",
+        "page": 31,
+        "quote": "All\nmodels run for 625k iterations with optimizer AdamW",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "10  Future work and Discussion"
+      },
+      {
+        "id": "F_7da4a3b499366bca80f2",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:17:48.839553+00:00",
+        "page": 18,
+        "quote": "We evaluate geographical fairness on the Dollar Street dataset introduced in De Vries et al. (2019)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "8.1  Geographical Fairness"
+      },
+      {
+        "id": "F_81dd94b11330d69ba206",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.819326+00:00",
+        "page": 12,
+        "quote": "+23.0% on Sketch (Wang et al., 2019) compared to iBOT",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_86c6f5a67b7cc5705277",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.227270+00:00",
+        "page": 11,
+        "quote": "Mugs (Zhou et al., 2022b) and iBOT (Zhou et al., 2022a)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_88e1b20bf74d7fa71e20",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:18:37.324908+00:00",
+        "page": 31,
+        "quote": "We use MLP\nfeed-forward networks for distilled models, and SwiGLU (Shazeer, 2020) when training from scratch.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "10  Future work and Discussion"
+      },
+      {
+        "id": "F_8cd28d78341ef3417e28",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:12.989130+00:00",
+        "page": 10,
+        "quote": "report Top-1 accuracy on ImageNet and mIoU on ADE-20k",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "6.6  Impact of Resolution"
+      },
+      {
+        "id": "F_8debae069dc09aaf5e6f",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.643526+00:00",
+        "page": 13,
+        "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_909063186b3a6e2c1717",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:19:34.549368+00:00",
+        "page": 4,
+        "quote": "pretrained on large-scale monocular image corpora (e.g., DINOv2 Oquab et al. 2023)",
+        "pdf_sha256": "1bcc32e6f86596423800ccb7d78b471b7038218e94a79094dfc753d929f937c1",
+        "reviewer": "hyx",
+        "paper_id": "P016",
+        "note": "人工批量审核",
+        "section": "2.3  TRAINING"
+      },
+      {
+        "id": "F_90d978ad0b4cfff29773",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.669484+00:00",
+        "page": 13,
+        "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_951743363166c346bf89",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.622307+00:00",
+        "page": 13,
+        "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_99505cf12cbda50fd5f2",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.217365+00:00",
+        "page": 11,
+        "quote": "MSN (Assran et al., 2022), EsViT (Li et al., 2022a)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_9b0ce4741e57de66f265",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:31:04.558740+00:00",
+        "page": 2,
+        "quote": "Slot3R reduces Point3R’s Acc by 57.1%–63.1% on 7Scenes",
+        "pdf_sha256": "d1fa159839f02fadaa3333bc961592d83a65cb17d1aedece0110c5e8ac1a88ed",
+        "reviewer": "hyx",
+        "paper_id": "P021",
+        "note": "人工批量审核",
+        "section": "2026                                               Abstract"
+      },
+      {
+        "id": "F_a19fa7047a69a7d91978",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.736299+00:00",
+        "page": 12,
+        "quote": "DINOv2\n                   ViT-L/14      LVD-142M    ✕        83.5      86.3    89.5    78.0",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_a4d6b91efce490be98c4",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.288322+00:00",
+        "page": 11,
+        "quote": "surpases the performance of OpenCLIP with a ViT-G/14 architecture (+0.3%) and EVA-CLIP with a ViT-g/14 (+0.1%)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_a67da773f575d049c9f2",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-17T16:24:51.197093+00:00",
+        "page": 6,
+        "quote": "and NRGBD [4] datasets using accuracy (Acc), completion",
+        "pdf_sha256": "5467dd822b4b45c0829115bbf361a5ca8c3319a930f4e0d861b6e9138d0d9db4",
+        "reviewer": "hyx",
+        "paper_id": "P018",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_a75a2b33f50240ff5105",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.173992+00:00",
+        "page": 11,
+        "quote": "we run our evaluations for MAE (He et al., 2022)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_a75f1adecaddae11d1c3",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.144745+00:00",
+        "page": 11,
+        "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_aa69705bba802112dd77",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:17:48.885939+00:00",
+        "page": 21,
+        "quote": "leads to visual features that close the performance gap with (weakly) supervised alternatives",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "10  Future work and Discussion"
+      },
+      {
+        "id": "F_bc57e462b320bb32704d",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:12:25.336045+00:00",
+        "page": 10,
+        "quote": "we report the performance of a linear probe on ImageNet-1k and ADE-20k",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "6.6  Impact of Resolution"
+      },
+      {
+        "id": "F_c0135d3a0ec48d7ce9f3",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.767974+00:00",
+        "page": 19,
+        "quote": "DINOv2  ViT-g/14  LVD-142M",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "8.1  Geographical Fairness"
+      },
+      {
+        "id": "F_c3031365b454415daf87",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.025351+00:00",
+        "page": 11,
+        "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_ce90755e3872a25cd089",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.015284+00:00",
+        "page": 11,
+        "quote": "we probe the quality of the holistic image representation produced by the model on the ImageNet-1k classification dataset",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_d4b49b7ff39115ba0709",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.808929+00:00",
+        "page": 12,
+        "quote": "our models shows drastically better robustness (+29.6% on A (Hendrycks et al., 2021b), +22.1%\non R (Hendrycks et al., 2021a)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_d56044909fb44344f7a6",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.278347+00:00",
+        "page": 11,
+        "quote": "OpenCLIP (Ilharco et al., 2021; Cherti et al., 2023), and SWAG (Singh et al., 2022)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_e3e73e4ac9fda91afc57",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.193513+00:00",
+        "page": 11,
+        "quote": "DINO (Caron et al., 2021), SEERv2 (Goyal et al., 2022a)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_ee39a833c2ad460801b4",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.654423+00:00",
+        "page": 13,
+        "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012), Kinetics-400 (Kay et al., 2017) and Something-Something v2 (Goyal et al., 2017).",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_f23f53555ae7655acdd5",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:17:48.851319+00:00",
+        "page": 19,
+        "quote": "we run inference on 2955 images from the Casual Conversations dataset",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "8.1  Geographical Fairness"
+      },
+      {
+        "id": "F_f2c038fee1ca60480ffc",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.685953+00:00",
+        "page": 13,
+        "quote": "For each dataset, we measure average accuracy and report the results in Table 7.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_f3b658f4d9391984a062",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:17:48.862857+00:00",
+        "page": 20,
+        "quote": "we simply learn a linear classifier on the subset of 619 classes of ImageNet-22k.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "9  Estimating the Environmental Impact of Training our Models"
+      },
+      {
+        "id": "F_f6e4fa5eb8b54fc93448",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:16:25.708126+00:00",
+        "page": 13,
+        "quote": "We evaluated features on three datasets, namely UCF-101 (Soomro et al., 2012)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.2  Additional Image and Video classification Benchmarks"
+      },
+      {
+        "id": "F_f9cdbbaa045d9fd2b475",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:43.798507+00:00",
+        "page": 12,
+        "quote": "Our model\nalso improves upon the best weakly-supervised model on ImageNet-A",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      },
+      {
+        "id": "F_fbc328f20af63645951d",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:19:24.736842+00:00",
+        "page": 31,
+        "quote": "We then report the highest accuracy value obtained on the validation set as is common practice.",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "10  Future work and Discussion"
+      },
+      {
+        "id": "F_fced3ad863d58841fb73",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-16T11:14:13.257452+00:00",
+        "page": 11,
+        "quote": "OpenCLIP (Ilharco et al., 2021; Cherti et al., 2023), and SWAG (Singh et al., 2022)",
+        "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+        "reviewer": "hyx",
+        "paper_id": "P006",
+        "note": "人工批量审核",
+        "section": "7.1  ImageNet Classification"
+      }
+    ],
+    "papers": [
+      {
+        "paper_id": "P004",
+        "title": "MASt3R",
+        "year": "2024"
+      },
+      {
+        "paper_id": "P005",
+        "title": "Pi3",
+        "year": "2026"
+      },
+      {
+        "paper_id": "P006",
+        "title": "DINOv2",
+        "year": "2024"
+      },
+      {
+        "paper_id": "P012",
+        "title": "MoGe-3",
+        "year": "2026"
+      },
+      {
+        "paper_id": "P014",
+        "title": "DA",
+        "year": "2024"
+      },
+      {
+        "paper_id": "P015",
+        "title": "DA2",
+        "year": "2024"
+      },
+      {
+        "paper_id": "P016",
+        "title": "DA3",
+        "year": "2026"
+      },
+      {
+        "paper_id": "P018",
+        "title": "CUT3R",
+        "year": "2025"
+      },
+      {
+        "paper_id": "P019",
+        "title": "StreamVGGT",
+        "year": "2025"
+      },
+      {
+        "paper_id": "P020",
+        "title": "Spann3R",
+        "year": "2024"
+      },
+      {
+        "paper_id": "P021",
+        "title": "Slot3R",
+        "year": "2026"
+      }
+    ],
+    "scope": {
+      "requested_paper_ids": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P011",
+        "P012",
+        "P013",
+        "P014",
+        "P015",
+        "P016",
+        "P017",
+        "P018",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023"
+      ],
+      "paper_ids": [
+        "P004",
+        "P005",
+        "P006",
+        "P012",
+        "P014",
+        "P015",
+        "P016",
+        "P018",
+        "P019",
+        "P020",
+        "P021"
+      ],
+      "paper_count": 11,
+      "candidate_facts": 61,
+      "selected_facts": 61,
+      "limit": 300,
+      "truncated": false
+    },
+    "message": ""
+  },
+  "answer": {
+    "claims": [
+      {
+        "id": "C1",
+        "text": "DINOv2 是一系列在大型精选数据上以无监督方式预训练的图像编码器，输出视觉特征。",
+        "fact_ids": [
+          "R_c1905812148c89e30f11",
+          "R_93f1e90896f768dbc505",
+          "R_eedab236a1f9dcfb75d0"
+        ],
+        "evidence_ids": [
+          "F_74301b08eb5531a1d7ed",
+          "F_74b72ac5d527da734670",
+          "F_aa69705bba802112dd77"
+        ],
+        "sources": [
+          {
+            "id": "F_74301b08eb5531a1d7ed",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:43.747242+00:00",
+            "page": 21,
+            "quote": "In this work, we present DINOv2, a new series of image encoders pretrained on large curated data with no supervision.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "10  Future work and Discussion"
+          },
+          {
+            "id": "F_74b72ac5d527da734670",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:17:48.874353+00:00",
+            "page": 21,
+            "quote": "a new series of image encoders pretrained on large curated data with no supervision",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "10  Future work and Discussion"
+          },
+          {
+            "id": "F_aa69705bba802112dd77",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:17:48.885939+00:00",
+            "page": 21,
+            "quote": "leads to visual features that close the performance gap with (weakly) supervised alternatives",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "10  Future work and Discussion"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "DINOv2 的训练数据为 LVD-142M，其 ViT-g 模型在该数据集上训练。",
+        "fact_ids": [
+          "R_d58c8507fafcd0cb18b0",
+          "R_882b9adcf82988ed3aac"
+        ],
+        "evidence_ids": [
+          "F_72e72de1413b9ff9e9b5",
+          "F_c0135d3a0ec48d7ce9f3",
+          "F_793d2c7c6f235a9d79e7"
+        ],
+        "sources": [
+          {
+            "id": "F_72e72de1413b9ff9e9b5",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:43.757777+00:00",
+            "page": 12,
+            "quote": "DINOv2\n                   ViT-L/14      LVD-142M    ✕        83.5      86.3    89.5    78.0",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_c0135d3a0ec48d7ce9f3",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:43.767974+00:00",
+            "page": 19,
+            "quote": "DINOv2  ViT-g/14  LVD-142M",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "8.1  Geographical Fairness"
+          },
+          {
+            "id": "F_793d2c7c6f235a9d79e7",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T10:52:50.997311+00:00",
+            "page": 9,
+            "quote": "The ViT-g trained on LVD-142M surpasses the ViT-g trained on ImageNet-22k on most benchmarks.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "6.5  Impact of Knowledge Distillation"
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "DINOv2 使用指数滑动平均（EMA）教师网络，教师以与学生相同的状态初始化，并作为学生网络的指数滑动平均。",
+        "fact_ids": [
+          "R_df63797585d35658e978"
+        ],
+        "evidence_ids": [
+          "F_22ecf1c2dfae62dedbd2"
+        ],
+        "sources": [
+          {
+            "id": "F_22ecf1c2dfae62dedbd2",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:19:24.711936+00:00",
+            "page": 31,
+            "quote": "The teacher is initialized with the same state as the student, and is an\nexponential moving average of the student network",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "10  Future work and Discussion"
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "DINOv2 在从零训练时使用 SwiGLU 前馈网络（蒸馏模型则使用 MLP 前馈网络）。",
+        "fact_ids": [
+          "R_1e976e11cb954938e616"
+        ],
+        "evidence_ids": [
+          "F_88e1b20bf74d7fa71e20"
+        ],
+        "sources": [
+          {
+            "id": "F_88e1b20bf74d7fa71e20",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:18:37.324908+00:00",
+            "page": 31,
+            "quote": "We use MLP\nfeed-forward networks for distilled models, and SwiGLU (Shazeer, 2020) when training from scratch.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "10  Future work and Discussion"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "DINOv2 训练使用 AdamW 优化器，所有模型运行 625k 次迭代。",
+        "fact_ids": [
+          "R_a18090825e832744a7f3"
+        ],
+        "evidence_ids": [
+          "F_7cbb56c9eec92d27e03d"
+        ],
+        "sources": [
+          {
+            "id": "F_7cbb56c9eec92d27e03d",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:18:37.310110+00:00",
+            "page": 31,
+            "quote": "All\nmodels run for 625k iterations with optimizer AdamW",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "10  Future work and Discussion"
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "text": "DINOv2 采用线性探针（linear probing）在 ImageNet-1k 等数据集上评估冻结预训练特征的质量，报告 Top-1 准确率。",
+        "fact_ids": [
+          "R_0786bb21ca7ff1339703",
+          "R_54da0230225f3cc8af9a",
+          "R_1c962ff7d8a29b72da56"
+        ],
+        "evidence_ids": [
+          "F_6b26fa2c88d2d692356e",
+          "F_fbc328f20af63645951d",
+          "F_3b66c3d1c98c36639afd",
+          "F_31123763e141e9397580"
+        ],
+        "sources": [
+          {
+            "id": "F_6b26fa2c88d2d692356e",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:12:25.298583+00:00",
+            "page": 9,
+            "quote": "ImageNet-{1k,A} (classification with linear probe, accuracy %)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "6.5  Impact of Knowledge Distillation"
+          },
+          {
+            "id": "F_fbc328f20af63645951d",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:19:24.736842+00:00",
+            "page": 31,
+            "quote": "We then report the highest accuracy value obtained on the validation set as is common practice.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "10  Future work and Discussion"
+          },
+          {
+            "id": "F_3b66c3d1c98c36639afd",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:43.778231+00:00",
+            "page": 12,
+            "quote": "Linear evaluation on ImageNet-1k of frozen pretrained features.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_31123763e141e9397580",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:43.788224+00:00",
+            "page": 12,
+            "quote": "We report Top-1 accuracy\non the validation set for publicly available models",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "text": "DINOv2 在 ImageNet-A、ImageNet-R 等鲁棒性基准上评估，并报告相对弱监督模型的鲁棒性提升。",
+        "fact_ids": [
+          "R_1000ee3a4c4325887de8",
+          "R_6633d2a5afe4200c651f"
+        ],
+        "evidence_ids": [
+          "F_f9cdbbaa045d9fd2b475",
+          "F_d4b49b7ff39115ba0709"
+        ],
+        "sources": [
+          {
+            "id": "F_f9cdbbaa045d9fd2b475",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:43.798507+00:00",
+            "page": 12,
+            "quote": "Our model\nalso improves upon the best weakly-supervised model on ImageNet-A",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_d4b49b7ff39115ba0709",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:43.808929+00:00",
+            "page": 12,
+            "quote": "our models shows drastically better robustness (+29.6% on A (Hendrycks et al., 2021b), +22.1%\non R (Hendrycks et al., 2021a)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          }
+        ]
+      },
+      {
+        "id": "C9",
+        "text": "DINOv2 在实例识别与地理公平性等数据集上评估，包括 Sketch、Dollar Street、Casual Conversations、Met、AmsterTime、CUB 等。",
+        "fact_ids": [
+          "R_04a4ec52f49a31fe56b6",
+          "R_005dac6cf09d28194c6d",
+          "R_c2358f3e32c419607962",
+          "R_74c51d7041cb90c068f3",
+          "R_cd19f17b63d3e3f7636b",
+          "R_69393962d18ba1598073"
+        ],
+        "evidence_ids": [
+          "F_81dd94b11330d69ba206",
+          "F_7da4a3b499366bca80f2",
+          "F_f23f53555ae7655acdd5",
+          "F_62c5aabb49f595af1908",
+          "F_088c152de003678e3520",
+          "F_3db1bc171f68814330e1"
+        ],
+        "sources": [
+          {
+            "id": "F_81dd94b11330d69ba206",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:43.819326+00:00",
+            "page": 12,
+            "quote": "+23.0% on Sketch (Wang et al., 2019) compared to iBOT",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_7da4a3b499366bca80f2",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:17:48.839553+00:00",
+            "page": 18,
+            "quote": "We evaluate geographical fairness on the Dollar Street dataset introduced in De Vries et al. (2019)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "8.1  Geographical Fairness"
+          },
+          {
+            "id": "F_f23f53555ae7655acdd5",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:17:48.851319+00:00",
+            "page": 19,
+            "quote": "we run inference on 2955 images from the Casual Conversations dataset",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "8.1  Geographical Fairness"
+          },
+          {
+            "id": "F_62c5aabb49f595af1908",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:16:48.721644+00:00",
+            "page": 14,
+            "quote": "We also evaluated on Met, a dataset of artworks from the Metropolitan museum, and AmsterTime, containing street view images matched to archival images of Amsterdam.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.3  Instance Recognition"
+          },
+          {
+            "id": "F_088c152de003678e3520",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:16:48.733578+00:00",
+            "page": 14,
+            "quote": "We also evaluated on Met, a dataset of artworks from the Metropolitan museum, and AmsterTime, containing street view images matched to archival images of Amsterdam.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.3  Instance Recognition"
+          },
+          {
+            "id": "F_3db1bc171f68814330e1",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:16:48.744624+00:00",
+            "page": 14,
+            "quote": "We replace the Birdsnap dataset with CUB because the former was not publicly available in its entirety.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.3  Instance Recognition"
+          }
+        ]
+      },
+      {
+        "id": "C10",
+        "text": "DINOv2 在 iNaturalist 2018、iNaturalist 2021、Places205 等数据集上训练线性分类器进行评估。",
+        "fact_ids": [
+          "R_15e62d0ad6996459ce04",
+          "R_4c14ca5db8c815d0c589",
+          "R_f19d624aaea1632d8724"
+        ],
+        "evidence_ids": [
+          "F_951743363166c346bf89",
+          "F_3b96a71288f307785b56",
+          "F_163ad021f5cdd6932c7a"
+        ],
+        "sources": [
+          {
+            "id": "F_951743363166c346bf89",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:16:25.622307+00:00",
+            "page": 13,
+            "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.2  Additional Image and Video classification Benchmarks"
+          },
+          {
+            "id": "F_3b96a71288f307785b56",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:16:25.610800+00:00",
+            "page": 13,
+            "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.2  Additional Image and Video classification Benchmarks"
+          },
+          {
+            "id": "F_163ad021f5cdd6932c7a",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:16:25.632965+00:00",
+            "page": 13,
+            "quote": "For iNaturalist 2018, iNaturalist 2021, and Places205, we train a linear classifier with data augmentations as in Sec. 7.1",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.2  Additional Image and Video classification Benchmarks"
+          }
+        ]
+      },
+      {
+        "id": "C11",
+        "text": "DINOv2 在 ImageNet-ReaL、ImageNet-V2、ImageNet-22k 子集等基准上报告 Top-1 准确率。",
+        "fact_ids": [
+          "R_7b30ceac9a9143169fac",
+          "R_943e2afcf88f61938d18",
+          "R_d4f5630806005ca27f75"
+        ],
+        "evidence_ids": [
+          "F_c3031365b454415daf87",
+          "F_a75f1adecaddae11d1c3",
+          "F_f3b658f4d9391984a062"
+        ],
+        "sources": [
+          {
+            "id": "F_c3031365b454415daf87",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.025351+00:00",
+            "page": 11,
+            "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_a75f1adecaddae11d1c3",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.144745+00:00",
+            "page": 11,
+            "quote": "we also report the top-1 accuracy on ImageNet-ReaL and ImageNet-V2",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_f3b658f4d9391984a062",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:17:48.862857+00:00",
+            "page": 20,
+            "quote": "we simply learn a linear classifier on the subset of 619 classes of ImageNet-22k.",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "9  Estimating the Environmental Impact of Training our Models"
+          }
+        ]
+      },
+      {
+        "id": "C12",
+        "text": "DINOv2 论文引用并对比了 DINO、iBOT、MAE、SimCLR、CLIP、OpenCLIP、EVA-CLIP、SEERv2、MSN、EsViT、SWAG 等方法。",
+        "fact_ids": [
+          "R_e8e5cf7d687ef64f06ee",
+          "R_28a9bb3b3515f2cd6726",
+          "R_6fd77ad19f241dfdd50d",
+          "R_2b0f178ff1837aebb444",
+          "R_1f8ec62fd9d4e0230c35",
+          "R_2857223758e37bf97529",
+          "R_605547bb4566c02cca8f",
+          "R_5559b5e4a78c0e7cf2e3",
+          "R_19d72fc87fda1403f341",
+          "R_886953817b68bb85264e",
+          "R_f6ce835f1c334e3a5024"
+        ],
+        "evidence_ids": [
+          "F_4c1a758bc02688855368",
+          "F_57a2c802e6b8053d2a05",
+          "F_a75a2b33f50240ff5105",
+          "F_737cdf14ce2c2d708d2d",
+          "F_0e46fb80780024cdf9b1",
+          "F_fced3ad863d58841fb73",
+          "F_a4d6b91efce490be98c4",
+          "F_e3e73e4ac9fda91afc57",
+          "F_2366e365ad747601ee35",
+          "F_99505cf12cbda50fd5f2",
+          "F_d56044909fb44344f7a6"
+        ],
+        "sources": [
+          {
+            "id": "F_4c1a758bc02688855368",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.183525+00:00",
+            "page": 11,
+            "quote": "DINO (Caron et al., 2021), SEERv2 (Goyal et al., 2022a)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_57a2c802e6b8053d2a05",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.237116+00:00",
+            "page": 11,
+            "quote": "Mugs (Zhou et al., 2022b) and iBOT (Zhou et al., 2022a)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_a75a2b33f50240ff5105",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.173992+00:00",
+            "page": 11,
+            "quote": "we run our evaluations for MAE (He et al., 2022)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_737cdf14ce2c2d708d2d",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:16:25.697057+00:00",
+            "page": 13,
+            "quote": "we use the 12 image classification tasks originally proposed in SimCLR (Chen et al., 2020)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.2  Additional Image and Video classification Benchmarks"
+          },
+          {
+            "id": "F_0e46fb80780024cdf9b1",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.247470+00:00",
+            "page": 11,
+            "quote": "weakly-supervised models such as CLIP (Radford et al., 2021)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_fced3ad863d58841fb73",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.257452+00:00",
+            "page": 11,
+            "quote": "OpenCLIP (Ilharco et al., 2021; Cherti et al., 2023), and SWAG (Singh et al., 2022)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_a4d6b91efce490be98c4",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.288322+00:00",
+            "page": 11,
+            "quote": "surpases the performance of OpenCLIP with a ViT-G/14 architecture (+0.3%) and EVA-CLIP with a ViT-g/14 (+0.1%)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_e3e73e4ac9fda91afc57",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.193513+00:00",
+            "page": 11,
+            "quote": "DINO (Caron et al., 2021), SEERv2 (Goyal et al., 2022a)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_2366e365ad747601ee35",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.203473+00:00",
+            "page": 11,
+            "quote": "MSN (Assran et al., 2022), EsViT (Li et al., 2022a)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_99505cf12cbda50fd5f2",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.217365+00:00",
+            "page": 11,
+            "quote": "MSN (Assran et al., 2022), EsViT (Li et al., 2022a)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          },
+          {
+            "id": "F_d56044909fb44344f7a6",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-16T11:14:13.278347+00:00",
+            "page": 11,
+            "quote": "OpenCLIP (Ilharco et al., 2021; Cherti et al., 2023), and SWAG (Singh et al., 2022)",
+            "pdf_sha256": "684281466733486302ad8e2dbca2ce077e8763f1019190a3782b434e7ca2bc90",
+            "reviewer": "hyx",
+            "paper_id": "P006",
+            "note": "人工批量审核",
+            "section": "7.1  ImageNet Classification"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "DINOv2 的技术组件",
+        "claim_ids": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ]
+      },
+      {
+        "title": "DINOv2 的评估方式与基准",
+        "claim_ids": [
+          "C6",
+          "C7",
+          "C9",
+          "C10",
+          "C11"
+        ]
+      },
+      {
+        "title": "DINOv2 的对比与引用方法",
+        "claim_ids": [
+          "C12"
+        ]
+      }
+    ],
+    "suggestions": [],
+    "rejected_claims": [
+      {
+        "claim": {
+          "id": "C8",
+          "text": "DINOv2 在视频分类数据集 UCF-101、Kinetics-400、Something-Something v2 上评估特征，并报告平均准确率。",
+          "fact_ids": [
+            "R_c41452c22e5fd8ec2a54",
+            "R_e5712268796eec7f97eb",
+            "R_f33cac4c1e655912620f",
+            "R_1ba7fdcb319532ca3012"
+          ],
+          "evidence_ids": [
+            "F_8debae069dc09aaf5e6f",
+            "F_ee39a833c2ad460801b4",
+            "F_f2c038fee1ca60480ffc"
+          ]
+        },
+        "reason": "事实或证据不存在、关联不匹配，或结论格式无效"
+      }
+    ],
+    "limitations": "本回答仅基于提供的 facts 与 evidence，且这些材料主要来自 P006（DINOv2）论文的片段，属于部分材料综述。证据中可确认的技术组件限于：LVD-142M 训练数据、EMA 教师、SwiGLU 前馈网络、AdamW 优化器、线性探针评估；DINOv2 的完整方法细节（如自监督目标的具体形式、数据筛选流程、蒸馏策略细节等）在给定证据中未充分展开，不能据此断言其全部技术组件。图谱未收录不等于学术界未研究。不同论文的实验设置不可直接比较优劣；papers.year 仅为待核对元数据，不据此断言发展先后。",
+    "citation_check": "只验证引用结构，未自动证明语义支持"
+  },
+  "response_cache_key": "48c902ad610257946b296284c43f7cad325a36b7d89f327cc8457f4aad434715",
+  "time": "2026-11-18T02:00:37.153561+00:00"
+}

@@ -1,0 +1,3552 @@
+[
+  {
+    "id": "F_420794d98559ebc5f830",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "2026              VDA",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "Qualitative comparison on the KITTI (Geiger et al., 2013) dataset",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.506700+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "Qualitative comparison on the KITTI (Geiger et al., 2013) dataset",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:56.053171+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "47323ecd80152967c429f0c244ca23c4031898475d197b2c2655e1b892a53d20",
+    "reviewed_at": "2026-11-17T16:09:35.506854+00:00"
+  },
+  {
+    "id": "F_ad253ca4331c53dad8c1",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "2026              VDA",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VideoDepthAnything"
+      },
+      "quote": "Compared with the state-of-the-art VideoDepthAnything (VDA) (Chen et al., 2025)",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.518185+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VideoDepthAnything"
+            },
+            "quote": "Compared with the state-of-the-art VideoDepthAnything (VDA) (Chen et al., 2025)",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:56.053387+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "47323ecd80152967c429f0c244ca23c4031898475d197b2c2655e1b892a53d20",
+    "reviewed_at": "2026-11-17T16:09:35.518228+00:00"
+  },
+  {
+    "id": "F_f0f15c65f8f9d49f534e",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "2026              VDA",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "KITTI"
+      },
+      "quote": "Qualitative comparison on the KITTI (Geiger et al., 2013) dataset",
+      "page": 1
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.562951+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "KITTI"
+            },
+            "quote": "Qualitative comparison on the KITTI (Geiger et al., 2013) dataset",
+            "page": 1
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:56.053575+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "47323ecd80152967c429f0c244ca23c4031898475d197b2c2655e1b892a53d20",
+    "reviewed_at": "2026-11-17T16:09:35.562988+00:00"
+  },
+  {
+    "id": "F_b08969c55b80a6b0f90d",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "GemDepth ranks first across all four benchmark video datasets",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.585163+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "GemDepth ranks first across all four benchmark video datasets",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:58.591374+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4b36786ab51b3a2cfc086f246a7278aa2a3bfb32e1da404750942fe53086572b",
+    "reviewed_at": "2026-11-17T16:09:35.585202+00:00"
+  },
+  {
+    "id": "F_c0b844c5100e44af88e8",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "GemDepth ranks first across all four benchmark video datasets",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.640980+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "GemDepth ranks first across all four benchmark video datasets",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:58.591671+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4b36786ab51b3a2cfc086f246a7278aa2a3bfb32e1da404750942fe53086572b",
+    "reviewed_at": "2026-11-17T16:09:35.641021+00:00"
+  },
+  {
+    "id": "F_d26a9762c3c338cb51bf",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "GemDepth ranks first across all four benchmark video datasets",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.679071+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "GemDepth ranks first across all four benchmark video datasets",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:58.591946+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4b36786ab51b3a2cfc086f246a7278aa2a3bfb32e1da404750942fe53086572b",
+    "reviewed_at": "2026-11-17T16:09:35.679108+00:00"
+  },
+  {
+    "id": "F_ad23843e6cd61b1c42f2",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Scannet"
+      },
+      "quote": "GemDepth ranks first across all four benchmark video datasets",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.731708+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Scannet"
+            },
+            "quote": "GemDepth ranks first across all four benchmark video datasets",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:58.592221+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4b36786ab51b3a2cfc086f246a7278aa2a3bfb32e1da404750942fe53086572b",
+    "reviewed_at": "2026-11-17T16:09:35.731746+00:00"
+  },
+  {
+    "id": "F_44aaaf4ed507383b789f",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "quote": "To bridge this gap, we present GemDepth, a framework that",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.767897+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "quote": "To bridge this gap, we present GemDepth, a framework that",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:59.808148+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "051708a6ac05d9296d0768198d6df45d009513a641272a5044b883d824073bb2",
+    "reviewed_at": "2026-11-17T16:09:35.767935+00:00"
+  },
+  {
+    "id": "F_129a23f0ceb5cfa273c1",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ASTT module"
+      },
+      "quote": "We introduce the ASTT module, which leverages geomet-",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.842025+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ASTT module"
+            },
+            "quote": "We introduce the ASTT module, which leverages geomet-",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:59.808469+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "051708a6ac05d9296d0768198d6df45d009513a641272a5044b883d824073bb2",
+    "reviewed_at": "2026-11-17T16:09:35.842114+00:00"
+  },
+  {
+    "id": "F_79619cfcff3b6d929147",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "ASTT module"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "detail preservation and temporal stability conflict"
+      },
+      "quote": "ASTT resolves the conflict be-",
+      "page": 2
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.879761+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "ASTT module"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "detail preservation and temporal stability conflict"
+            },
+            "quote": "ASTT resolves the conflict be-",
+            "page": 2
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:51:59.808747+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "051708a6ac05d9296d0768198d6df45d009513a641272a5044b883d824073bb2",
+    "reviewed_at": "2026-11-17T16:09:35.879800+00:00"
+  },
+  {
+    "id": "F_ee432cfe95701964dbe4",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.781515+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:04.043907+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "784dc63b289200adf1bfcf3aa7ba2d9a7ee7e67ca688859a78cb1bfdd916f642",
+    "reviewed_at": "2026-11-17T16:09:35.781557+00:00"
+  },
+  {
+    "id": "F_357bd4c025d49989128f",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "Visualization of zero-shot point clouds on KITTI.",
+      "page": 3
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.596312+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "Visualization of zero-shot point clouds on KITTI.",
+            "page": 3
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:04.044749+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "784dc63b289200adf1bfcf3aa7ba2d9a7ee7e67ca688859a78cb1bfdd916f642",
+    "reviewed_at": "2026-11-17T16:09:35.596349+00:00"
+  },
+  {
+    "id": "F_e25a52da781292fe2153",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.793574+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:16.025159+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "364a172a52269032d48ce5217c43066605b838aff0d9424358a3d0ee33dd51f0",
+    "reviewed_at": "2026-11-17T16:09:35.793614+00:00"
+  },
+  {
+    "id": "F_e84f05c57e7822be7275",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DepthAnythingV2"
+      },
+      "quote": "GemDepth is implemented based on DepthAnythingV2 (DAv2) and VideoDepthAnything (VDA)",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.892000+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DepthAnythingV2"
+            },
+            "quote": "GemDepth is implemented based on DepthAnythingV2 (DAv2) and VideoDepthAnything (VDA)",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:16.028304+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "364a172a52269032d48ce5217c43066605b838aff0d9424358a3d0ee33dd51f0",
+    "reviewed_at": "2026-11-17T16:09:35.892037+00:00"
+  },
+  {
+    "id": "F_37b6cf1fdd5d5731198e",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "VideoDepthAnything"
+      },
+      "quote": "GemDepth is implemented based on DepthAnythingV2 (DAv2) and VideoDepthAnything (VDA)",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.904208+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "VideoDepthAnything"
+            },
+            "quote": "GemDepth is implemented based on DepthAnythingV2 (DAv2) and VideoDepthAnything (VDA)",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:16.028562+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "364a172a52269032d48ce5217c43066605b838aff0d9424358a3d0ee33dd51f0",
+    "reviewed_at": "2026-11-17T16:09:35.904246+00:00"
+  },
+  {
+    "id": "F_56383db575856b5b8fe0",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "MiDaS"
+      },
+      "quote": "following MiDaS (Birkl et al., 2023)",
+      "page": 5
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.916416+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "MiDaS"
+            },
+            "quote": "following MiDaS (Birkl et al., 2023)",
+            "page": 5
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:16.029704+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "364a172a52269032d48ce5217c43066605b838aff0d9424358a3d0ee33dd51f0",
+    "reviewed_at": "2026-11-17T16:09:35.916454+00:00"
+  },
+  {
+    "id": "F_fdaedc86ba2a438ee9f1",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.805724+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.426685+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.805762+00:00"
+  },
+  {
+    "id": "F_6b28e2c7baf3be9aca4c",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-DAv2"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "DepthAnythingV2"
+      },
+      "quote": "GemDepth-DAv2 and GemDepth-VDA denote our model variants instantiated on DepthAnythingV2",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.928705+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-DAv2"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "DepthAnythingV2"
+            },
+            "quote": "GemDepth-DAv2 and GemDepth-VDA denote our model variants instantiated on DepthAnythingV2",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.427018+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.928742+00:00"
+  },
+  {
+    "id": "F_704a4375c01bc5d12175",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-VDA"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "VideoDepthAnything"
+      },
+      "quote": "GemDepth-VDA denote our model variants instantiated on DepthAnythingV2 (Yang et al., 2024b) and VideoDepthAnything",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.940945+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-VDA"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "VideoDepthAnything"
+            },
+            "quote": "GemDepth-VDA denote our model variants instantiated on DepthAnythingV2 (Yang et al., 2024b) and VideoDepthAnything",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.427293+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.940980+00:00"
+  },
+  {
+    "id": "F_b3ba0573c725ecb02dcc",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "Sintel (∼50 frames)  Bonn (500 frames)  Scannet (500 frames)  KITTI (500 frames)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.652227+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "Sintel (∼50 frames)  Bonn (500 frames)  Scannet (500 frames)  KITTI (500 frames)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.428047+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.652264+00:00"
+  },
+  {
+    "id": "F_d0b883952ebd7336e30b",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "Sintel (∼50 frames)  Bonn (500 frames)  Scannet (500 frames)  KITTI (500 frames)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.690581+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "Sintel (∼50 frames)  Bonn (500 frames)  Scannet (500 frames)  KITTI (500 frames)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.428302+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.690627+00:00"
+  },
+  {
+    "id": "F_350931010c875392eb0f",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Scannet"
+      },
+      "quote": "Sintel (∼50 frames)  Bonn (500 frames)  Scannet (500 frames)  KITTI (500 frames)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.743759+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Scannet"
+            },
+            "quote": "Sintel (∼50 frames)  Bonn (500 frames)  Scannet (500 frames)  KITTI (500 frames)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.428548+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.743797+00:00"
+  },
+  {
+    "id": "F_fc2ef9cf91d90be4f923",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "Sintel (∼50 frames)  Bonn (500 frames)  Scannet (500 frames)  KITTI (500 frames)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.607451+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "Sintel (∼50 frames)  Bonn (500 frames)  Scannet (500 frames)  KITTI (500 frames)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.428796+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.607488+00:00"
+  },
+  {
+    "id": "F_083ed76d6550c0a21013",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DepthAnythingV2"
+      },
+      "quote": "instantiated on DepthAnythingV2 (Yang et al., 2024b)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.953252+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DepthAnythingV2"
+            },
+            "quote": "instantiated on DepthAnythingV2 (Yang et al., 2024b)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.430635+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.953289+00:00"
+  },
+  {
+    "id": "F_339c64d89022ed4a96cb",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VideoDepthAnything"
+      },
+      "quote": "VideoDepthAnything (Chen et al., 2025)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.529226+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VideoDepthAnything"
+            },
+            "quote": "VideoDepthAnything (Chen et al., 2025)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.430873+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:35.529264+00:00"
+  },
+  {
+    "id": "F_476378abdea7346b88ab",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "ChronoDepth"
+      },
+      "quote": "ChronoDepth (Shao et al., 2025)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:36.004612+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "ChronoDepth"
+            },
+            "quote": "ChronoDepth (Shao et al., 2025)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.431337+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:36.004653+00:00"
+  },
+  {
+    "id": "F_7af9eaf8ceba8aae7809",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "RollingDepth"
+      },
+      "quote": "RollingDepth (Ke et al., 2025)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:36.017279+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "RollingDepth"
+            },
+            "quote": "RollingDepth (Ke et al., 2025)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.431794+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:36.017316+00:00"
+  },
+  {
+    "id": "F_0fab2089723208b63331",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Scannet"
+      },
+      "quote": "Quantitative evaluation of temporal consistency on Scannet (Dai et al., 2017)",
+      "page": 6
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:36.042394+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Scannet"
+            },
+            "quote": "Quantitative evaluation of temporal consistency on Scannet (Dai et al., 2017)",
+            "page": 6
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:21.432031+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "7b9d68233271f20be996ba12f1b0f8708e9931115c043b833649950ef81c5c19",
+    "reviewed_at": "2026-11-17T16:09:36.042433+00:00"
+  },
+  {
+    "id": "F_35f48eab70cd6084bc9f",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Scannet"
+      },
+      "quote": "Quantitative comparison on three datasets.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:36.070212+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Scannet"
+            },
+            "quote": "Quantitative comparison on three datasets.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.052601+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:09:36.070367+00:00"
+  },
+  {
+    "id": "F_8cc7272d143af2cc3654",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "Quantitative comparison on three datasets.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:36.087091+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "Quantitative comparison on three datasets.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.052871+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:09:36.087141+00:00"
+  },
+  {
+    "id": "F_6a723ef6cfcb0628be7f",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "Quantitative comparison on three datasets.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.745850+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "Quantitative comparison on three datasets.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.053094+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:10:47.745933+00:00"
+  },
+  {
+    "id": "F_061c81727f89fde2d171",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "ATE"
+      },
+      "quote": "ATE (trajectory error) and F1 (F-Score) measure 3D structural fidelity.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.762742+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "ATE"
+            },
+            "quote": "ATE (trajectory error) and F1 (F-Score) measure 3D structural fidelity.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.053312+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:10:47.762789+00:00"
+  },
+  {
+    "id": "F_21fb34c75ef11d8afc5b",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "F1"
+      },
+      "quote": "ATE (trajectory error) and F1 (F-Score) measure 3D structural fidelity.",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.776329+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "F1"
+            },
+            "quote": "ATE (trajectory error) and F1 (F-Score) measure 3D structural fidelity.",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.053525+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:10:47.776380+00:00"
+  },
+  {
+    "id": "F_2da3c2353d9cda028fdd",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "AbsRel/TAE evaluate depth quality",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.789545+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "AbsRel/TAE evaluate depth quality",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.053737+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:10:47.789584+00:00"
+  },
+  {
+    "id": "F_e5a2635157f571599b2e",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "TAE"
+      },
+      "quote": "AbsRel/TAE evaluate depth quality",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.802295+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "TAE"
+            },
+            "quote": "AbsRel/TAE evaluate depth quality",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.053960+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:10:47.802334+00:00"
+  },
+  {
+    "id": "F_44d487918be47492335f",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DepthAnythingV2"
+      },
+      "quote": "We compared GemDepth-VDA with DepthAny-\nthingV2 (Yang et al., 2024b)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.970678+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DepthAnythingV2"
+            },
+            "quote": "We compared GemDepth-VDA with DepthAny-\nthingV2 (Yang et al., 2024b)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.054172+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:09:35.970717+00:00"
+  },
+  {
+    "id": "F_e48a5ab41ffc498f534d",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VideoDepthAnything"
+      },
+      "quote": "VideoDepthAnything (Chen et al., 2025)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.540134+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VideoDepthAnything"
+            },
+            "quote": "VideoDepthAnything (Chen et al., 2025)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.054381+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:09:35.540173+00:00"
+  },
+  {
+    "id": "F_bc0c587e51e899df3f4f",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Sintel"
+      },
+      "quote": "sequences of increasing lengths from Sintel (Butler\net al., 2012)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.815265+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Sintel"
+            },
+            "quote": "sequences of increasing lengths from Sintel (Butler\net al., 2012)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.054589+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:10:47.815304+00:00"
+  },
+  {
+    "id": "F_626be7e5929f6148bdea",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DAVIS"
+      },
+      "quote": "DAVIS (Perazzi et al., 2016)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.830469+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DAVIS"
+            },
+            "quote": "DAVIS (Perazzi et al., 2016)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.054808+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:10:47.830510+00:00"
+  },
+  {
+    "id": "F_766aecda829c6872326d",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "KITTI"
+      },
+      "quote": "KITTI (Geiger et al., 2013)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.573849+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "KITTI"
+            },
+            "quote": "KITTI (Geiger et al., 2013)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.055014+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:09:35.573886+00:00"
+  },
+  {
+    "id": "F_314f0563282b599e1256",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Bonn"
+      },
+      "quote": "Bonn (Palazzolo et al., 2019)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.843369+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Bonn"
+            },
+            "quote": "Bonn (Palazzolo et al., 2019)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.055220+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:10:47.843407+00:00"
+  },
+  {
+    "id": "F_773e92e9f1158d868004",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Scannet"
+      },
+      "quote": "Scannet (Dai et al., 2017)",
+      "page": 7
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:36.054907+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Scannet"
+            },
+            "quote": "Scannet (Dai et al., 2017)",
+            "page": 7
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:24.055427+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "b4553dab5eef97a81f496db24570dc5bee329aea789ebfca68116a8d36adac01",
+    "reviewed_at": "2026-11-17T16:09:36.054945+00:00"
+  },
+  {
+    "id": "F_a6cb2b9abfb0ad1920d9",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "KITTI            Sintel         Bonn              Scannet",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.618644+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "KITTI            Sintel         Bonn              Scannet",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:34.630340+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4404d7cc5afe63cbfc6e37d8394451c08183b7cff46d430974f8a2cbfb852d35",
+    "reviewed_at": "2026-11-17T16:09:35.618681+00:00"
+  },
+  {
+    "id": "F_5a977e24422aac8ed4a0",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "KITTI            Sintel         Bonn              Scannet",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.663495+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "KITTI            Sintel         Bonn              Scannet",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:34.630625+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4404d7cc5afe63cbfc6e37d8394451c08183b7cff46d430974f8a2cbfb852d35",
+    "reviewed_at": "2026-11-17T16:09:35.663535+00:00"
+  },
+  {
+    "id": "F_ac1680081600e9cd02c2",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "KITTI            Sintel         Bonn              Scannet",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.708042+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "KITTI            Sintel         Bonn              Scannet",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:34.630856+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4404d7cc5afe63cbfc6e37d8394451c08183b7cff46d430974f8a2cbfb852d35",
+    "reviewed_at": "2026-11-17T16:09:35.708081+00:00"
+  },
+  {
+    "id": "F_ad2041619f84ef44ab92",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Scannet"
+      },
+      "quote": "KITTI            Sintel         Bonn              Scannet",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.755835+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Scannet"
+            },
+            "quote": "KITTI            Sintel         Bonn              Scannet",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:34.631079+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4404d7cc5afe63cbfc6e37d8394451c08183b7cff46d430974f8a2cbfb852d35",
+    "reviewed_at": "2026-11-17T16:09:35.755875+00:00"
+  },
+  {
+    "id": "F_f452ef38f515ff3932a2",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "AbsRel ↓  δ1 ↑  AbsRel ↓  δ1 ↑",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.858778+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "AbsRel ↓  δ1 ↑  AbsRel ↓  δ1 ↑",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:34.631316+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4404d7cc5afe63cbfc6e37d8394451c08183b7cff46d430974f8a2cbfb852d35",
+    "reviewed_at": "2026-11-17T16:10:47.858818+00:00"
+  },
+  {
+    "id": "F_e71288ff644272eaf798",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ1"
+      },
+      "quote": "AbsRel ↓  δ1 ↑  AbsRel ↓  δ1 ↑",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.871833+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ1"
+            },
+            "quote": "AbsRel ↓  δ1 ↑  AbsRel ↓  δ1 ↑",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:34.631545+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4404d7cc5afe63cbfc6e37d8394451c08183b7cff46d430974f8a2cbfb852d35",
+    "reviewed_at": "2026-11-17T16:10:47.871872+00:00"
+  },
+  {
+    "id": "F_5b648d0a1fbfe8579210",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "TAE"
+      },
+      "quote": "AbsRel ↓  δ1 ↑  AbsRel ↓  δ1 ↑ TAE ↓",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.884889+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "TAE"
+            },
+            "quote": "AbsRel ↓  δ1 ↑  AbsRel ↓  δ1 ↑ TAE ↓",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:34.631780+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4404d7cc5afe63cbfc6e37d8394451c08183b7cff46d430974f8a2cbfb852d35",
+    "reviewed_at": "2026-11-17T16:10:47.884928+00:00"
+  },
+  {
+    "id": "F_de1da0683aae1abb1295",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VideoDepthAnything (Chen et al., 2025)"
+      },
+      "quote": "compare it with VideoDepthAnything (Chen et al., 2025)",
+      "page": 9
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.897981+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VideoDepthAnything (Chen et al., 2025)"
+            },
+            "quote": "compare it with VideoDepthAnything (Chen et al., 2025)",
+            "page": 9
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:34.632012+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "4404d7cc5afe63cbfc6e37d8394451c08183b7cff46d430974f8a2cbfb852d35",
+    "reviewed_at": "2026-11-17T16:10:47.898018+00:00"
+  },
+  {
+    "id": "F_f9382d8f654e02f454f3",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-VDA"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "GemDepth-VDA (Baseline)    0%        0.088     0.935",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.912402+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-VDA"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "GemDepth-VDA (Baseline)    0%        0.088     0.935",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.761415+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:47.912454+00:00"
+  },
+  {
+    "id": "F_6ea7d182e9d541dd3e45",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-VDA"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Sintel"
+      },
+      "quote": "GemDepth-VDA (Baseline)    0%        0.088     0.935     0.278     0.638",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.925504+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-VDA"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Sintel"
+            },
+            "quote": "GemDepth-VDA (Baseline)    0%        0.088     0.935     0.278     0.638",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.761657+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:47.925542+00:00"
+  },
+  {
+    "id": "F_12c5ecf1a5deb4cd27df",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-VDA"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "GemDepth-VDA (Baseline)    0%        0.088     0.935     0.278     0.638     0.065     0.965",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.946616+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-VDA"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "GemDepth-VDA (Baseline)    0%        0.088     0.935     0.278     0.638     0.065     0.965",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.761925+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:47.946658+00:00"
+  },
+  {
+    "id": "F_ad13c132fb4aa520dd6b",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-VDA"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Scannet"
+      },
+      "quote": "GemDepth-VDA (Baseline)    0%        0.088     0.935     0.278     0.638     0.065     0.965     0.078     0.949",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.960105+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-VDA"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Scannet"
+            },
+            "quote": "GemDepth-VDA (Baseline)    0%        0.088     0.935     0.278     0.638     0.065     0.965     0.078     0.949",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.762236+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:47.960144+00:00"
+  },
+  {
+    "id": "F_be7c91b08d4c2670e15b",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-VDA"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "AbsRel"
+      },
+      "quote": "AbsRel ↓    δ1 ↑   AbsRel ↓    δ1 ↑",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.973323+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-VDA"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "AbsRel"
+            },
+            "quote": "AbsRel ↓    δ1 ↑   AbsRel ↓    δ1 ↑",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.762484+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:47.973360+00:00"
+  },
+  {
+    "id": "F_103a52f887c54d1bb219",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-VDA"
+      },
+      "relation": "USES_METRIC",
+      "object": {
+        "type": "Metric",
+        "name": "δ1"
+      },
+      "quote": "AbsRel ↓    δ1 ↑   AbsRel ↓    δ1 ↑",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:47.986606+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-VDA"
+            },
+            "relation": "USES_METRIC",
+            "object": {
+              "type": "Metric",
+              "name": "δ1"
+            },
+            "quote": "AbsRel ↓    δ1 ↑   AbsRel ↓    δ1 ↑",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.762664+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:47.986645+00:00"
+  },
+  {
+    "id": "F_0981317442af8ecbd8b4",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth-DAv2"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "GemDepth-DAv2        0.055    0.970    0.054    0.970",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:48.000012+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth-DAv2"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "GemDepth-DAv2        0.055    0.970    0.054    0.970",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.762841+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:48.000053+00:00"
+  },
+  {
+    "id": "F_1c4541534ceaa91422b2",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "VideoDepthAnything"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "VideoDepthAnything    0.071    0.959    0.069    0.960",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:48.014192+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "VideoDepthAnything"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "VideoDepthAnything    0.071    0.959    0.069    0.960",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.763018+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:48.014239+00:00"
+  },
+  {
+    "id": "F_9418153f4c9e1875e50a",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "GEM"
+      },
+      "quote": "utilizing the intermediate camera poses predicted by our GEM module",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:48.028190+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "GEM"
+            },
+            "quote": "utilizing the intermediate camera poses predicted by our GEM module",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.763198+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:48.028229+00:00"
+  },
+  {
+    "id": "F_5646f5503576bb4c1ed1",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ASTT module"
+      },
+      "quote": "feeding poses predicted by GEM into the ASTT module",
+      "page": 15
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.854660+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ASTT module"
+            },
+            "quote": "feeding poses predicted by GEM into the ASTT module",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.763376+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:09:35.854709+00:00"
+  },
+  {
+    "id": "F_5203f34e92a14eea0dc3",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "Palazzolo et al., 2019"
+      },
+      "quote": "Quantitative comparison on the Bonn (Palazzolo et al., 2019) dataset",
+      "page": 15
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:50.677741+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "Palazzolo et al., 2019"
+            },
+            "quote": "Quantitative comparison on the Bonn (Palazzolo et al., 2019) dataset",
+            "page": 15
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:48.763552+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "f3c44abe4202d4328deb89a70a0402a840b27d7623e5eb4c58c8e205adcac141",
+    "reviewed_at": "2026-11-17T16:10:50.677933+00:00"
+  },
+  {
+    "id": "F_75a3981c45872e4f094d",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.817709+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:50.815322+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f750fc124c87c22bed7562f57c8f0a57c7a4356acde51d53ba4cc16ed416f83",
+    "reviewed_at": "2026-11-17T16:09:35.817756+00:00"
+  },
+  {
+    "id": "F_f26a9fa488eb285325db",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "Bonn"
+      },
+      "quote": "We evaluate the robustness of our model across varying video lengths using the Bonn (Palazzolo et al., 2019) dataset as a benchmark.",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.719772+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "Bonn"
+            },
+            "quote": "We evaluate the robustness of our model across varying video lengths using the Bonn (Palazzolo et al., 2019) dataset as a benchmark.",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:50.815554+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f750fc124c87c22bed7562f57c8f0a57c7a4356acde51d53ba4cc16ed416f83",
+    "reviewed_at": "2026-11-17T16:09:35.719812+00:00"
+  },
+  {
+    "id": "F_3c3b0e4288a5068859c6",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "EVALUATED_ON",
+      "object": {
+        "type": "Dataset",
+        "name": "KITTI"
+      },
+      "quote": "More qualitative comparison on the KITTI (Geiger et al., 2013) dataset.",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.629716+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "EVALUATED_ON",
+            "object": {
+              "type": "Dataset",
+              "name": "KITTI"
+            },
+            "quote": "More qualitative comparison on the KITTI (Geiger et al., 2013) dataset.",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:50.815753+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f750fc124c87c22bed7562f57c8f0a57c7a4356acde51d53ba4cc16ed416f83",
+    "reviewed_at": "2026-11-17T16:09:35.629755+00:00"
+  },
+  {
+    "id": "F_136929d6dcfdad64cda0",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "VideoDepthAnything"
+      },
+      "quote": "the current state-of-the-art method, VideoDepthAnything (VDA) (Chen et al., 2025)",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.551958+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "VideoDepthAnything"
+            },
+            "quote": "the current state-of-the-art method, VideoDepthAnything (VDA) (Chen et al., 2025)",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:50.816116+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f750fc124c87c22bed7562f57c8f0a57c7a4356acde51d53ba4cc16ed416f83",
+    "reviewed_at": "2026-11-17T16:09:35.551999+00:00"
+  },
+  {
+    "id": "F_e914a2f51a30d4a2429b",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "RollingDepth"
+      },
+      "quote": "massive generative frameworks such as RollingDepth (Ke et al., 2025)",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:36.029730+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "RollingDepth"
+            },
+            "quote": "massive generative frameworks such as RollingDepth (Ke et al., 2025)",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:50.816691+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f750fc124c87c22bed7562f57c8f0a57c7a4356acde51d53ba4cc16ed416f83",
+    "reviewed_at": "2026-11-17T16:09:36.029769+00:00"
+  },
+  {
+    "id": "F_679b1d0d98ed3eb7d25e",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "CITES",
+      "object": {
+        "type": "Paper",
+        "name": "DepthAnythingV2"
+      },
+      "quote": "specifically DepthAnythingV2 (Yang et al., 2024b) and VideoDepthAnything (Chen et al., 2025)",
+      "page": 16
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.988168+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "CITES",
+            "object": {
+              "type": "Paper",
+              "name": "DepthAnythingV2"
+            },
+            "quote": "specifically DepthAnythingV2 (Yang et al., 2024b) and VideoDepthAnything (Chen et al., 2025)",
+            "page": 16
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:50.817331+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "3f750fc124c87c22bed7562f57c8f0a57c7a4356acde51d53ba4cc16ed416f83",
+    "reviewed_at": "2026-11-17T16:09:35.988226+00:00"
+  },
+  {
+    "id": "F_6b6227519228294cea81",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Paper",
+        "name": "GemDepth"
+      },
+      "relation": "PROPOSES",
+      "object": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.829682+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Paper",
+              "name": "GemDepth"
+            },
+            "relation": "PROPOSES",
+            "object": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:52.609934+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c848eb4a4c8a7ac5e2d423a61272408e98dd3f81cbc05fdfb873d2d117d86bf5",
+    "reviewed_at": "2026-11-17T16:09:35.829723+00:00"
+  },
+  {
+    "id": "F_7d1e44417db39b04a6c2",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "ASTT module"
+      },
+      "quote": "These improvements stem from the ASTT module, which captures fine-grained spatial edges",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:09:35.866895+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "ASTT module"
+            },
+            "quote": "These improvements stem from the ASTT module, which captures fine-grained spatial edges",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:52.610072+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c848eb4a4c8a7ac5e2d423a61272408e98dd3f81cbc05fdfb873d2d117d86bf5",
+    "reviewed_at": "2026-11-17T16:09:35.866933+00:00"
+  },
+  {
+    "id": "F_8e82bd5f27082f1e5ce1",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "USES_COMPONENT",
+      "object": {
+        "type": "Component",
+        "name": "GEM module"
+      },
+      "quote": "and the GEM module, which enforces rigorous inter-frame geometric alignment",
+      "page": 17
+    },
+    "status": "rejected",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:50.691936+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "USES_COMPONENT",
+            "object": {
+              "type": "Component",
+              "name": "GEM module"
+            },
+            "quote": "and the GEM module, which enforces rigorous inter-frame geometric alignment",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:52.610141+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c848eb4a4c8a7ac5e2d423a61272408e98dd3f81cbc05fdfb873d2d117d86bf5",
+    "reviewed_at": "2026-11-17T16:10:50.691978+00:00"
+  },
+  {
+    "id": "F_d2bb95be527070c147ea",
+    "paper_id": "P013",
+    "pdf_sha256": "3a7918f1a19e580b9eb834ceadd78f6ddcc7429ef062dcf20f275698a842b0c0",
+    "section": "0.172                     Sintel",
+    "candidate": {
+      "subject": {
+        "type": "Method",
+        "name": "GemDepth"
+      },
+      "relation": "SOLVES",
+      "object": {
+        "type": "Task",
+        "name": "Video Depth"
+      },
+      "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+      "page": 17
+    },
+    "status": "approved",
+    "reviewer": "hyx",
+    "note": "人工批量审核",
+    "history": [
+      {
+        "time": "2026-11-17T16:10:48.041613+00:00",
+        "previous": {
+          "candidate": {
+            "subject": {
+              "type": "Method",
+              "name": "GemDepth"
+            },
+            "relation": "SOLVES",
+            "object": {
+              "type": "Task",
+              "name": "Video Depth"
+            },
+            "quote": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+            "page": 17
+          },
+          "status": "pending",
+          "reviewer": "",
+          "note": ""
+        },
+        "reviewer": "hyx"
+      }
+    ],
+    "created_at": "2026-11-12T04:52:52.610203+00:00",
+    "prompt_version": "evidence-v2-dedup",
+    "cache_key": "c848eb4a4c8a7ac5e2d423a61272408e98dd3f81cbc05fdfb873d2d117d86bf5",
+    "reviewed_at": "2026-11-17T16:10:48.041651+00:00"
+  }
+]

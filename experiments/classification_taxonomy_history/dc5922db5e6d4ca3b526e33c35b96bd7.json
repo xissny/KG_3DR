@@ -1,0 +1,281 @@
+{
+  "entity_names": {
+    "method_0b90847eef146c79": "permutation-equivariant architecture",
+    "method_0d8c7fbee98b0fe9": "affine-invariant camera pose modeling",
+    "method_15c662a2c7269c1d": "Spann3R",
+    "method_16d397b253f94e15": "CUT3R",
+    "method_1de672ec119bda1b": "VGGT-SLAM 2.0 factor graph",
+    "method_213c54e795ad6bdf": "coarse-to-fine matching scheme",
+    "method_24145fce894ff397": "Diversity-aware Rolling Memory",
+    "method_2c54f0b56f6aa6bc": "Slot3R",
+    "method_2cd699d0b0332eed": "streaming visual geometry transformer",
+    "method_3d3ad1aadc2504e6": "scale-invariant pointmaps",
+    "method_478db210605c8509": "SLAM3R",
+    "method_48e72d99248758dc": "Self-Guided Sparse 3D Refinement (SSR)",
+    "method_550d80193033ccd8": "StreamVGGT",
+    "method_5596c9cd5f8e7a4e": "MoGe-2",
+    "method_62cd53cd5e548119": "MUSt3R",
+    "method_71d1bf2e64bd32d6": "VGGT-SLAM",
+    "method_7d92d7047ec0d9f8": "GemDepth",
+    "method_9a0b5b2d11e5fb31": "solver to the optimal alignment parameters",
+    "method_b7eebbdd61f0f58f": "Point3R",
+    "method_c63105994882d4f6": "affine-invariant point map",
+    "method_c853028f00c6a1f4": "Image-to-Points (I2P) network",
+    "method_cf7c9de01d6f4a6b": "DUSt3R",
+    "method_d61764149785f307": "Depth Anything 3",
+    "method_dac1a4821175ee1a": "MASt3R",
+    "method_df1fd8ad734f397a": "VGGT",
+    "method_f2b02b94d5c85851": "Fast Reciprocal Matching",
+    "method_f584bd28887f5ac3": "DINOv2",
+    "task_12e274d9b403b398": "3D point tracking",
+    "task_28314bb3370fd1a8": "relative pose estimation",
+    "task_2a719fe003eded05": "streaming 3D reconstruction",
+    "task_3832d25619c1268d": "real-time dense 3D reconstruction from monocular RGB videos",
+    "task_3ea53bf56177aa36": "3D geometry reconstruction",
+    "task_5188beb558653d64": "consistent 3D geometry recovery",
+    "task_53b53c4e627d20cd": "reciprocal matching",
+    "task_565656dc3bfd1696": "Video Depth",
+    "task_5fd45dc301c2829c": "camera pose estimation",
+    "task_6027a941920605fd": "monocular depth estimation",
+    "task_6b7eb2a25ad14d55": "dense streaming 3D reconstruction",
+    "task_820a92cbcb85e773": "online incremental reconstruction",
+    "task_86ddbe1898d5e1cf": "long-sequence point-cloud reconstruction",
+    "task_8bcff355a74d0fbc": "Stereo 3D Reconstruction",
+    "task_8cdf9d5d566fd224": "monocular geometry estimation",
+    "task_954c419e3793f97e": "pairwise image matching",
+    "task_b6f1daa2f9fcdd4c": "pointmap estimation",
+    "task_b93d91cf356d93af": "dense 3D reconstruction",
+    "task_c0be2ceb7cbbe86f": "point cloud estimation",
+    "task_d59bf10bc715001e": "monocular SLAM",
+    "task_e7c0c2cf8feae100": "absolute pose estimation",
+    "task_f9bfd0b427922d95": "real-time RGB feed-forward SLAM"
+  },
+  "snapshot_id": "dc5922db5e6d4ca3b526e33c35b96bd7",
+  "recorded_at": "2026-11-17T17:21:04.281954+00:00",
+  "action": "update",
+  "previous_snapshot_id": "deba09c03c504010b9c17958feac4bcf",
+  "restored_from": null,
+  "taxonomy": {
+    "version": "7ef94554ba6c341ecadfcbeacdc42961be853defa0fefde70e1095e88d1f8017",
+    "graph_version": "2e958c61fa54165f6de128fe2a6e95fc9b3217af480efc0a99f6c9780307d174",
+    "categories": [
+      {
+        "id": "method_5d1797313b276edd",
+        "dimension": "method",
+        "name": "SLAM与位姿图优化",
+        "definition": "结合位姿图优化、流式前端与后端优化的建图技术路线。",
+        "entity_ids": [
+          "method_15c662a2c7269c1d",
+          "method_16d397b253f94e15",
+          "method_1de672ec119bda1b",
+          "method_2c54f0b56f6aa6bc",
+          "method_71d1bf2e64bd32d6"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "method_c221f5e72248c291",
+        "dimension": "method",
+        "name": "不变性几何建模",
+        "definition": "以尺度/仿射/置换不变性约束几何与位姿建模的技术路线。",
+        "entity_ids": [
+          "method_0b90847eef146c79",
+          "method_0d8c7fbee98b0fe9",
+          "method_3d3ad1aadc2504e6",
+          "method_c63105994882d4f6"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "method_0cf9c33007a31c25",
+        "dimension": "method",
+        "name": "前馈式三维重建网络",
+        "definition": "以端到端前馈网络直接从图像回归点图或几何的技术路线。",
+        "entity_ids": [
+          "method_5596c9cd5f8e7a4e",
+          "method_c853028f00c6a1f4",
+          "method_cf7c9de01d6f4a6b",
+          "method_d61764149785f307",
+          "method_dac1a4821175ee1a",
+          "method_df1fd8ad734f397a"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "method_cfeede934f13ef47",
+        "dimension": "method",
+        "name": "匹配与对应估计",
+        "definition": "通过特征匹配、互惠匹配或粗到细策略建立像素对应的技术路线。",
+        "entity_ids": [
+          "method_213c54e795ad6bdf",
+          "method_9a0b5b2d11e5fb31",
+          "method_f2b02b94d5c85851"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "method_23c3a5f184d952de",
+        "dimension": "method",
+        "name": "流式与增量重建",
+        "definition": "按帧流式处理、在线增量维护场景几何与记忆的技术路线。",
+        "entity_ids": [
+          "method_24145fce894ff397",
+          "method_2cd699d0b0332eed",
+          "method_478db210605c8509",
+          "method_550d80193033ccd8",
+          "method_62cd53cd5e548119",
+          "method_b7eebbdd61f0f58f"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "method_4fe86188cf024a2b",
+        "dimension": "method",
+        "name": "自监督表征学习",
+        "definition": "利用自监督目标与教师-学生机制学习通用视觉特征的技术路线。",
+        "entity_ids": [
+          "method_f584bd28887f5ac3"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "task_3a8b8e28fcfb54f4",
+        "dimension": "task",
+        "name": "图像匹配与对应",
+        "definition": "建立图像间像素对应、互惠匹配或立体匹配的任务。",
+        "entity_ids": [
+          "task_53b53c4e627d20cd",
+          "task_8bcff355a74d0fbc",
+          "task_954c419e3793f97e"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "task_7f918cecd10929cf",
+        "dimension": "task",
+        "name": "实时重建与SLAM",
+        "definition": "面向实时或在线场景的稠密重建与单目SLAM任务。",
+        "entity_ids": [
+          "task_3832d25619c1268d",
+          "task_d59bf10bc715001e",
+          "task_f9bfd0b427922d95"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "task_d03bc8dff32891d5",
+        "dimension": "task",
+        "name": "深度与几何估计",
+        "definition": "估计单目深度、视频深度或单目几何的任务。",
+        "entity_ids": [
+          "task_565656dc3bfd1696",
+          "task_6027a941920605fd",
+          "task_8cdf9d5d566fd224"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "task_21c294191792cf1f",
+        "dimension": "task",
+        "name": "点图与点云估计",
+        "definition": "预测点图、点云或三维点表示的任务。",
+        "entity_ids": [
+          "task_12e274d9b403b398",
+          "task_b6f1daa2f9fcdd4c",
+          "task_c0be2ceb7cbbe86f"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "task_3166df23d86e6c47",
+        "dimension": "task",
+        "name": "相机位姿估计",
+        "definition": "估计相机相对或绝对位姿的任务。",
+        "entity_ids": [
+          "task_28314bb3370fd1a8",
+          "task_5fd45dc301c2829c",
+          "task_e7c0c2cf8feae100"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "task_7056715bbbfc7435",
+        "dimension": "task",
+        "name": "稠密三维重建",
+        "definition": "从图像序列恢复稠密场景几何与点云的任务。",
+        "entity_ids": [
+          "task_2a719fe003eded05",
+          "task_3ea53bf56177aa36",
+          "task_5188beb558653d64",
+          "task_6b7eb2a25ad14d55",
+          "task_820a92cbcb85e773",
+          "task_86ddbe1898d5e1cf",
+          "task_b93d91cf356d93af"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "topic_307ea29a5ee72a10",
+        "dimension": "topic",
+        "name": "三维重建与几何估计",
+        "definition": "从图像恢复场景三维几何、点云或稠密重建的研究方向。",
+        "entity_ids": [
+          "method_478db210605c8509",
+          "method_5596c9cd5f8e7a4e",
+          "method_62cd53cd5e548119",
+          "method_b7eebbdd61f0f58f",
+          "method_cf7c9de01d6f4a6b",
+          "method_d61764149785f307",
+          "method_dac1a4821175ee1a",
+          "method_df1fd8ad734f397a"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "topic_5e69412d6ba5b0d1",
+        "dimension": "topic",
+        "name": "深度与视频几何",
+        "definition": "单目/视频深度估计及视频几何一致性的研究方向。",
+        "entity_ids": [
+          "method_3d3ad1aadc2504e6",
+          "method_48e72d99248758dc",
+          "method_7d92d7047ec0d9f8"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "topic_fe872e3ac14f02c3",
+        "dimension": "topic",
+        "name": "相机位姿与SLAM",
+        "definition": "估计相机位姿、相对/绝对定位及同步定位与建图的研究方向。",
+        "entity_ids": [
+          "method_0d8c7fbee98b0fe9",
+          "method_15c662a2c7269c1d",
+          "method_16d397b253f94e15",
+          "method_2c54f0b56f6aa6bc",
+          "method_550d80193033ccd8",
+          "method_71d1bf2e64bd32d6"
+        ],
+        "parent_id": null
+      },
+      {
+        "id": "topic_5adba797be705635",
+        "dimension": "topic",
+        "name": "视觉表征学习",
+        "definition": "学习通用视觉特征表示以支撑下游几何与匹配任务的研究方向。",
+        "entity_ids": [
+          "method_f584bd28887f5ac3"
+        ],
+        "parent_id": null
+      }
+    ],
+    "source": "deepseek",
+    "errors": [],
+    "cache_keys": [
+      "611b751984b464b19a4a9b777445dd53f0a361a180b9ea6c4e3ff80d86300672"
+    ],
+    "prompt_version": "graph-classification-v1",
+    "model": "deepseek-flash",
+    "time": "2026-11-17T17:21:04.271299+00:00"
+  }
+}

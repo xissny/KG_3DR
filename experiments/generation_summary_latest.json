@@ -1,0 +1,1961 @@
+{
+  "run_id": "8f1563f898a6ddfa",
+  "task_type": "summary",
+  "question": "基于所选论文的图谱事实生成主题总结，归纳主题、相关方法、共性与差异、数据集与评价指标，并说明资料缺口。",
+  "is_evaluation": false,
+  "entity_ids": [],
+  "paper_ids": [
+    "P001"
+  ],
+  "graph_version": "101279730f6b1d8462640cbea24cab10515763ba6c455d7a44fc729a2c15f089",
+  "context": {
+    "graph_version": "101279730f6b1d8462640cbea24cab10515763ba6c455d7a44fc729a2c15f089",
+    "matched_entities": [
+      {
+        "id": "P001",
+        "project": "kg3dr-course",
+        "name": "VGGT",
+        "type": "Paper"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "P001",
+        "project": "kg3dr-course",
+        "name": "VGGT",
+        "type": "Paper"
+      },
+      {
+        "id": "P003",
+        "project": "kg3dr-course",
+        "name": "DUSt3R",
+        "type": "Paper"
+      },
+      {
+        "id": "P004",
+        "project": "kg3dr-course",
+        "name": "MASt3R",
+        "type": "Paper"
+      },
+      {
+        "id": "component_3d9586aedd027a86",
+        "project": "kg3dr-course",
+        "name": "DPT head",
+        "type": "Component"
+      },
+      {
+        "id": "component_44e31be7f0de91d4",
+        "project": "kg3dr-course",
+        "name": "Frame Attention",
+        "type": "Component"
+      },
+      {
+        "id": "component_75e08adc548d65eb",
+        "project": "kg3dr-course",
+        "name": "LayerScale",
+        "type": "Component"
+      },
+      {
+        "id": "component_77054248c670982c",
+        "project": "kg3dr-course",
+        "name": "QKNorm",
+        "type": "Component"
+      },
+      {
+        "id": "component_7deebdb74b173826",
+        "project": "kg3dr-course",
+        "name": "Camera Head",
+        "type": "Component"
+      },
+      {
+        "id": "component_8fbefc95205d5645",
+        "project": "kg3dr-course",
+        "name": "DINO",
+        "type": "Component"
+      },
+      {
+        "id": "component_f584bd28887f5ac3",
+        "project": "kg3dr-course",
+        "name": "DINOv2",
+        "type": "Component"
+      },
+      {
+        "id": "component_fa6c166f6bfba0f6",
+        "project": "kg3dr-course",
+        "name": "Global Attention",
+        "type": "Component"
+      },
+      {
+        "id": "dataset_1c1fb2e386b95b97",
+        "project": "kg3dr-course",
+        "name": "Kubric",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_45e5b176754c2105",
+        "project": "kg3dr-course",
+        "name": "WildRGB-D",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_7b8b0d7a524f4f92",
+        "project": "kg3dr-course",
+        "name": "3D-annotated data",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_900ddbd157fa9c7e",
+        "project": "kg3dr-course",
+        "name": "Aria Digital Twin",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_9fd0a81d9b493322",
+        "project": "kg3dr-course",
+        "name": "ScanNet",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_b8c8c32d1de964ad",
+        "project": "kg3dr-course",
+        "name": "MegaDepth",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_c598203581040f62",
+        "project": "kg3dr-course",
+        "name": "IMC",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_c962c1fddd77b166",
+        "project": "kg3dr-course",
+        "name": "DL3DV",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_dbc499bf13825af7",
+        "project": "kg3dr-course",
+        "name": "RealEstate10K",
+        "type": "Dataset"
+      },
+      {
+        "id": "dataset_e04dff17f69676c7",
+        "project": "kg3dr-course",
+        "name": "BlendedMVS",
+        "type": "Dataset"
+      },
+      {
+        "id": "method_df1fd8ad734f397a",
+        "project": "kg3dr-course",
+        "name": "VGGT",
+        "type": "Method"
+      },
+      {
+        "id": "metric_7341e7aeeb41bc14",
+        "project": "kg3dr-course",
+        "name": "Completeness",
+        "type": "Metric"
+      },
+      {
+        "id": "metric_90f0bb8d3d51b37f",
+        "project": "kg3dr-course",
+        "name": "Chamfer Distance (CD)",
+        "type": "Metric"
+      },
+      {
+        "id": "metric_99c2c1c900d4f219",
+        "project": "kg3dr-course",
+        "name": "Area Under the Curve (AUC)",
+        "type": "Metric"
+      },
+      {
+        "id": "paper_3b2dd181b91061ed",
+        "project": "kg3dr-course",
+        "name": "Theseus",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_489c8a91bc57cc6a",
+        "project": "kg3dr-course",
+        "name": "LocoTrack",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_8fbefc95205d5645",
+        "project": "kg3dr-course",
+        "name": "DINO",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_94ddfa46354a0cdb",
+        "project": "kg3dr-course",
+        "name": "CoTracker2",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_a05be7fe6fad4771",
+        "project": "kg3dr-course",
+        "name": "VGGSfMv2",
+        "type": "Paper"
+      },
+      {
+        "id": "paper_b151f5be005c1ae2",
+        "project": "kg3dr-course",
+        "name": "TAPTR",
+        "type": "Paper"
+      },
+      {
+        "id": "representation_1a639af7021d7567",
+        "project": "kg3dr-course",
+        "name": "depth maps",
+        "type": "Representation"
+      },
+      {
+        "id": "representation_2b53ad58eadde9d5",
+        "project": "kg3dr-course",
+        "name": "pointmap",
+        "type": "Representation"
+      },
+      {
+        "id": "representation_9017704e9e823b1b",
+        "project": "kg3dr-course",
+        "name": "point tracks",
+        "type": "Representation"
+      },
+      {
+        "id": "representation_bc384de7c5b92835",
+        "project": "kg3dr-course",
+        "name": "camera pose",
+        "type": "Representation"
+      },
+      {
+        "id": "task_12e274d9b403b398",
+        "project": "kg3dr-course",
+        "name": "3D point tracking",
+        "type": "Task"
+      }
+    ],
+    "edges": [
+      {
+        "id": "R_044914fcc80920cf197c",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_31db4cbc84ae29945134"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "representation_9017704e9e823b1b",
+        "relation": "OUTPUTS"
+      },
+      {
+        "id": "R_05abe7236680a5888cb0",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_029f76a43a149005c6e5",
+          "F_ff083d9a7c56c13b72f2",
+          "F_790f3f95dcc03224e5d1",
+          "F_afd70eeab63daba79e99",
+          "F_45e5ee0df823fb502166"
+        ],
+        "source": "P001",
+        "target": "P003",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_161a0338356878acfce9",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_9b537bc7ba72710da099",
+          "F_3a2c0c79945f689cc0bb"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "component_3d9586aedd027a86",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_0cfd9e5d21126274a570",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_7766bed0dad92c7ffb52"
+        ],
+        "source": "P001",
+        "target": "paper_3b2dd181b91061ed",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_230033ad6a037ac51530",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_407e5e84f6628e2174bb"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "component_7deebdb74b173826",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_1509a4560ee19d2fda92",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_8aa4de4cdcd6babb9786"
+        ],
+        "source": "P001",
+        "target": "metric_7341e7aeeb41bc14",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_28fbed3c2d71625c7602",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_7cd89268f09cae9c5f66"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "dataset_45e5b176754c2105",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_512e40350a4ab496a648",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_1875d53c9966b0eda2f5"
+        ],
+        "source": "P001",
+        "target": "dataset_c598203581040f62",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_439c25796a07d329a2c5",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_aec1b06b6349284087e2"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "component_8fbefc95205d5645",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_6210e0999a435086d5f4",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_fb3ae9edd12338d19eba",
+          "F_95bca69962b15f2e99d9",
+          "F_13e6bbfee896a1227676",
+          "F_f287f672dea5dff3bc06",
+          "F_df1aedb507059617a29d"
+        ],
+        "source": "P001",
+        "target": "metric_99c2c1c900d4f219",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_4741a3436748218b5c6d",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_95fbc959d7ce997e673a"
+        ],
+        "source": "P001",
+        "target": "method_df1fd8ad734f397a",
+        "relation": "PROPOSES"
+      },
+      {
+        "id": "R_674e75bce18aab1177d3",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_781a248c548578b84aed"
+        ],
+        "source": "P001",
+        "target": "paper_8fbefc95205d5645",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_5ab7bce13cfef8927c14",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_e186eb436ce2d6b654b0"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "dataset_1c1fb2e386b95b97",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_6d2df5764efb00e1f932",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_e66826b5239119a2e11e"
+        ],
+        "source": "P001",
+        "target": "paper_b151f5be005c1ae2",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_5d830692c689d55f5906",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_9c8367a1ebaf013bb79b"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "task_12e274d9b403b398",
+        "relation": "SOLVES"
+      },
+      {
+        "id": "R_807bcf495fc2b6d52fdb",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_b5e2e54038cab293eea1"
+        ],
+        "source": "P001",
+        "target": "metric_90f0bb8d3d51b37f",
+        "relation": "USES_METRIC"
+      },
+      {
+        "id": "R_607ccabb8410f4dd85ac",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_f163604efd77fffb3992"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "component_77054248c670982c",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_88e582eca5644b8db275",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_e05cafc276392c848ef8",
+          "F_48111187db8ec36ded44"
+        ],
+        "source": "P001",
+        "target": "P004",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_6a4c3f77e4158a4c574e",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_a046e14c6b5fbd3818e1"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "component_44e31be7f0de91d4",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_b01ad26044c080e66fc5",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_5b39169f497d03fe49d5",
+          "F_3026b665fa005617f095"
+        ],
+        "source": "P001",
+        "target": "paper_94ddfa46354a0cdb",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_83ba80c3dbc23a09e56a",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_a68b512856123df2ca9d"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "dataset_e04dff17f69676c7",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_fa2c8cdc45cd7f8c377c",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_beb297a6066a4ff93c2f"
+        ],
+        "source": "P001",
+        "target": "paper_a05be7fe6fad4771",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_86c302fb456779177fd8",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_818d46e2ab8eb7429329"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "dataset_9fd0a81d9b493322",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_fedce726a9003a155336",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_0582704c8c1b0a581517"
+        ],
+        "source": "P001",
+        "target": "paper_489c8a91bc57cc6a",
+        "relation": "CITES"
+      },
+      {
+        "id": "R_890b86419abe4c8ad07b",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_4d08b20fdde76d8164b4",
+          "F_0f3772aff8ae98b2c98a"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "representation_bc384de7c5b92835",
+        "relation": "OUTPUTS"
+      },
+      {
+        "id": "R_fef17fb5ea1045ec747d",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_2bf6624f7172087a23e2"
+        ],
+        "source": "P001",
+        "target": "dataset_dbc499bf13825af7",
+        "relation": "EVALUATED_ON"
+      },
+      {
+        "id": "R_954ea00345b084c1beea",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_943a8bda31e6fc7c3e65"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "component_f584bd28887f5ac3",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_a8c277550d0960496348",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_8337ba9be1da81d53bc6"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "component_fa6c166f6bfba0f6",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_ac22e7c362339eae6e90",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_806294a2a09214405e90"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "dataset_900ddbd157fa9c7e",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_bc443aa4e14d7df43410",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_8a874f40d661ac5cc013"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "dataset_7b8b0d7a524f4f92",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_cec1b87e1ca3a79533b6",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_c02ba1d1dffac6c9d324",
+          "F_e6933e1273a7f7571780"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "representation_2b53ad58eadde9d5",
+        "relation": "OUTPUTS"
+      },
+      {
+        "id": "R_e9aa0eb8e969bc246c4b",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_f3d0a23ef5711d5f0a52",
+          "F_aac959fab3a5febf9f35"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "representation_1a639af7021d7567",
+        "relation": "OUTPUTS"
+      },
+      {
+        "id": "R_ea20a957ded26c709b14",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_701c5e9278c976e64dd3"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "dataset_b8c8c32d1de964ad",
+        "relation": "TRAINED_ON"
+      },
+      {
+        "id": "R_f5461e5983b81ff586fa",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_8d42f7a9ee0c74be93d3"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "component_75e08adc548d65eb",
+        "relation": "USES_COMPONENT"
+      },
+      {
+        "id": "R_f7262d4fd98061122911",
+        "paper_ids": [
+          "P001"
+        ],
+        "evidence_ids": [
+          "F_ab648cc335ecf1d89900"
+        ],
+        "source": "method_df1fd8ad734f397a",
+        "target": "dataset_c962c1fddd77b166",
+        "relation": "TRAINED_ON"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "F_029f76a43a149005c6e5",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.434431+00:00",
+        "page": 1,
+        "quote": "Recent contributions like DUSt3R [129] and its evolution",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_0582704c8c1b0a581517",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.484584+00:00",
+        "page": 3,
+        "quote": "an end-to-end transformer for this task, and LocoTrack [13]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_0f3772aff8ae98b2c98a",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.502732+00:00",
+        "page": 6,
+        "quote": "The camera loss Lcamera supervises the cameras",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_13e6bbfee896a1227676",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.615162+00:00",
+        "page": 12,
+        "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_1875d53c9966b0eda2f5",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.609839+00:00",
+        "page": 12,
+        "quote": "Camera Pose Estimation on IMC We also evaluate using",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_2bf6624f7172087a23e2",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.564077+00:00",
+        "page": 7,
+        "quote": "trained on Co3Dv2 and not on RealEstate10K",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_3026b665fa005617f095",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.493810+00:00",
+        "page": 6,
+        "quote": "following CoTracker2 [57], we apply a visibility loss",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_31db4cbc84ae29945134",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.426928+00:00",
+        "page": 1,
+        "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_3a2c0c79945f689cc0bb",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.594278+00:00",
+        "page": 11,
+        "quote": "we feed the tokens from the 4-th, 11-th, 17-th, and 23-rd block into DPT [87] for upsampling",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_407e5e84f6628e2174bb",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.471541+00:00",
+        "page": 3,
+        "quote": "A camera head makes the final prediction for camera extrinsics and intrinsics",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_45e5ee0df823fb502166",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.450633+00:00",
+        "page": 12,
+        "quote": "we additionally compare to recently popularized DUSt3R [129] and MASt3R [62]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_48111187db8ec36ded44",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.573999+00:00",
+        "page": 12,
+        "quote": "we additionally compare to recently popularized DUSt3R [129] and MASt3R [62]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_4d08b20fdde76d8164b4",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.412925+00:00",
+        "page": 1,
+        "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_5b39169f497d03fe49d5",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.489161+00:00",
+        "page": 5,
+        "quote": "we use the CoTracker2 architecture [57]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_701c5e9278c976e64dd3",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.520981+00:00",
+        "page": 6,
+        "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_7766bed0dad92c7ffb52",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.578981+00:00",
+        "page": 10,
+        "quote": "differentiable BA in PyTorch using Theseus [85]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_781a248c548578b84aed",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.636661+00:00",
+        "page": 12,
+        "quote": "DINO [10] revealed",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_790f3f95dcc03224e5d1",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.442362+00:00",
+        "page": 6,
+        "quote": "The depth loss Ldepth follows DUSt3R [129]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_7cd89268f09cae9c5f66",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.530283+00:00",
+        "page": 6,
+        "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_806294a2a09214405e90",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.539833+00:00",
+        "page": 6,
+        "quote": "Aria Synthetic Environments [82], Aria Digital Twin [82]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_818d46e2ab8eb7429329",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.535063+00:00",
+        "page": 6,
+        "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_8337ba9be1da81d53bc6",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.463126+00:00",
+        "page": 3,
+        "quote": "It then alternates between frame-wise and global self attention layers.",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_8a874f40d661ac5cc013",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.430684+00:00",
+        "page": 1,
+        "quote": "trained on a trove of 3D-annotated data",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_8aa4de4cdcd6babb9786",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.554328+00:00",
+        "page": 7,
+        "quote": "Completeness (the smallest Euclidean distance from",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_8d42f7a9ee0c74be93d3",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.604446+00:00",
+        "page": 11,
+        "quote": "we also use QKNorm [48] and LayerScale [115] for each attention layer",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_943a8bda31e6fc7c3e65",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.589172+00:00",
+        "page": 11,
+        "quote": "For image tokenization, we use DINOv2 [78] and add positional embedding",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_95bca69962b15f2e99d9",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.549473+00:00",
+        "page": 7,
+        "quote": "AUC is the area under the accuracy-threshold curve",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_95fbc959d7ce997e673a",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.498261+00:00",
+        "page": 6,
+        "quote": "We train the VGGT model f end-to-end",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_9b537bc7ba72710da099",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.475855+00:00",
+        "page": 3,
+        "quote": "and a DPT [87] head for any dense output.",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_9c8367a1ebaf013bb79b",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.584141+00:00",
+        "page": 11,
+        "quote": "and 3D point tracking. Our simple, neural-first approach",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_a046e14c6b5fbd3818e1",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.467287+00:00",
+        "page": 3,
+        "quote": "It then alternates between frame-wise and global self attention layers.",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_a68b512856123df2ca9d",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.511796+00:00",
+        "page": 6,
+        "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_aac959fab3a5febf9f35",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.507264+00:00",
+        "page": 6,
+        "quote": "the discrepancy between the predicted depth",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_ab648cc335ecf1d89900",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.516361+00:00",
+        "page": 6,
+        "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_aec1b06b6349284087e2",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.458958+00:00",
+        "page": 3,
+        "quote": "Our model first patchifies the input images into tokens by DINO",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_afd70eeab63daba79e99",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.446358+00:00",
+        "page": 7,
+        "quote": "DUSt3R and our VGGT",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_b5e2e54038cab293eea1",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.559147+00:00",
+        "page": 7,
+        "quote": "(i.e., Chamfer distance)",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_beb297a6066a4ff93c2f",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.631183+00:00",
+        "page": 12,
+        "quote": "outperforming VGGSfMv2 [125] which ranked",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_c02ba1d1dffac6c9d324",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.417780+00:00",
+        "page": 1,
+        "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_df1aedb507059617a29d",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.625851+00:00",
+        "page": 12,
+        "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_e05cafc276392c848ef8",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.568978+00:00",
+        "page": 7,
+        "quote": "MASt3R derives depth maps",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_e186eb436ce2d6b654b0",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.525614+00:00",
+        "page": 6,
+        "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_e66826b5239119a2e11e",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.454816+00:00",
+        "page": 2,
+        "quote": "Recently, TAPTR [63] proposed",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_e6933e1273a7f7571780",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.480235+00:00",
+        "page": 3,
+        "quote": "its point map Pi ∈R3×H×W",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_f163604efd77fffb3992",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.599314+00:00",
+        "page": 11,
+        "quote": "To stabilize training, we also use QKNorm [48] and LayerScale [115]",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_f287f672dea5dff3bc06",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.620513+00:00",
+        "page": 12,
+        "quote": "VGGT (ours)            ✗           39.23       52.74       71.26        0.2s",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_f3d0a23ef5711d5f0a52",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.423118+00:00",
+        "page": 1,
+        "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_fb3ae9edd12338d19eba",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.544655+00:00",
+        "page": 6,
+        "quote": "ric AUC@30, which combines RRA and RTA.",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      },
+      {
+        "id": "F_ff083d9a7c56c13b72f2",
+        "project": "kg3dr-course",
+        "reviewed_at": "2026-11-11T09:54:56.438296+00:00",
+        "page": 4,
+        "quote": "Qualitative comparison of our predicted 3D points to DUSt3R on in-the-wild images",
+        "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+        "reviewer": "hyx",
+        "paper_id": "P001",
+        "note": "人工批量审核",
+        "section": "Unknown"
+      }
+    ],
+    "papers": [
+      {
+        "paper_id": "P001",
+        "title": "VGGT",
+        "year": "2025"
+      }
+    ],
+    "scope": {
+      "requested_paper_ids": [
+        "P001"
+      ],
+      "paper_ids": [
+        "P001"
+      ],
+      "paper_count": 1,
+      "candidate_facts": 35,
+      "selected_facts": 35,
+      "limit": 300,
+      "truncated": false
+    },
+    "message": ""
+  },
+  "answer": {
+    "claims": [
+      {
+        "id": "C1",
+        "text": "VGGT 是一个端到端训练的模型，可一次性为所有输入图像预测相机参数、点图、深度图和点轨迹。",
+        "fact_ids": [
+          "R_4741a3436748218b5c6d",
+          "R_890b86419abe4c8ad07b",
+          "R_cec1b87e1ca3a79533b6",
+          "R_e9aa0eb8e969bc246c4b",
+          "R_044914fcc80920cf197c"
+        ],
+        "evidence_ids": [
+          "F_95fbc959d7ce997e673a",
+          "F_4d08b20fdde76d8164b4",
+          "F_c02ba1d1dffac6c9d324",
+          "F_f3d0a23ef5711d5f0a52",
+          "F_31db4cbc84ae29945134"
+        ],
+        "sources": [
+          {
+            "id": "F_95fbc959d7ce997e673a",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.498261+00:00",
+            "page": 6,
+            "quote": "We train the VGGT model f end-to-end",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_4d08b20fdde76d8164b4",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.412925+00:00",
+            "page": 1,
+            "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_c02ba1d1dffac6c9d324",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.417780+00:00",
+            "page": 1,
+            "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_f3d0a23ef5711d5f0a52",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.423118+00:00",
+            "page": 1,
+            "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_31db4cbc84ae29945134",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.426928+00:00",
+            "page": 1,
+            "quote": "predicts cameras, point maps, depth maps, and point tracks for all images at once",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "text": "VGGT 解决 3D 点跟踪任务，其点跟踪分支采用 CoTracker2 架构并沿用其可见性损失。",
+        "fact_ids": [
+          "R_5d830692c689d55f5906",
+          "R_b01ad26044c080e66fc5"
+        ],
+        "evidence_ids": [
+          "F_9c8367a1ebaf013bb79b",
+          "F_5b39169f497d03fe49d5",
+          "F_3026b665fa005617f095"
+        ],
+        "sources": [
+          {
+            "id": "F_9c8367a1ebaf013bb79b",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.584141+00:00",
+            "page": 11,
+            "quote": "and 3D point tracking. Our simple, neural-first approach",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_5b39169f497d03fe49d5",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.489161+00:00",
+            "page": 5,
+            "quote": "we use the CoTracker2 architecture [57]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_3026b665fa005617f095",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.493810+00:00",
+            "page": 6,
+            "quote": "following CoTracker2 [57], we apply a visibility loss",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "text": "VGGT 使用 DINO/DINOv2 对输入图像做 token 化，主干交替使用帧内自注意力与全局自注意力，并用 DPT 头上采样生成稠密输出。",
+        "fact_ids": [
+          "R_439c25796a07d329a2c5",
+          "R_954ea00345b084c1beea",
+          "R_6a4c3f77e4158a4c574e",
+          "R_a8c277550d0960496348",
+          "R_161a0338356878acfce9"
+        ],
+        "evidence_ids": [
+          "F_aec1b06b6349284087e2",
+          "F_943a8bda31e6fc7c3e65",
+          "F_a046e14c6b5fbd3818e1",
+          "F_8337ba9be1da81d53bc6",
+          "F_9b537bc7ba72710da099",
+          "F_3a2c0c79945f689cc0bb"
+        ],
+        "sources": [
+          {
+            "id": "F_aec1b06b6349284087e2",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.458958+00:00",
+            "page": 3,
+            "quote": "Our model first patchifies the input images into tokens by DINO",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_943a8bda31e6fc7c3e65",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.589172+00:00",
+            "page": 11,
+            "quote": "For image tokenization, we use DINOv2 [78] and add positional embedding",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_a046e14c6b5fbd3818e1",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.467287+00:00",
+            "page": 3,
+            "quote": "It then alternates between frame-wise and global self attention layers.",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_8337ba9be1da81d53bc6",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.463126+00:00",
+            "page": 3,
+            "quote": "It then alternates between frame-wise and global self attention layers.",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_9b537bc7ba72710da099",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.475855+00:00",
+            "page": 3,
+            "quote": "and a DPT [87] head for any dense output.",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_3a2c0c79945f689cc0bb",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.594278+00:00",
+            "page": 11,
+            "quote": "we feed the tokens from the 4-th, 11-th, 17-th, and 23-rd block into DPT [87] for upsampling",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "text": "VGGT 设有相机头预测相机外参与内参，并在注意力层中使用 QKNorm 与 LayerScale 以稳定训练。",
+        "fact_ids": [
+          "R_230033ad6a037ac51530",
+          "R_607ccabb8410f4dd85ac",
+          "R_f5461e5983b81ff586fa"
+        ],
+        "evidence_ids": [
+          "F_407e5e84f6628e2174bb",
+          "F_f163604efd77fffb3992",
+          "F_8d42f7a9ee0c74be93d3"
+        ],
+        "sources": [
+          {
+            "id": "F_407e5e84f6628e2174bb",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.471541+00:00",
+            "page": 3,
+            "quote": "A camera head makes the final prediction for camera extrinsics and intrinsics",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_f163604efd77fffb3992",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.599314+00:00",
+            "page": 11,
+            "quote": "To stabilize training, we also use QKNorm [48] and LayerScale [115]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_8d42f7a9ee0c74be93d3",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.604446+00:00",
+            "page": 11,
+            "quote": "we also use QKNorm [48] and LayerScale [115] for each attention layer",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "text": "VGGT 在训练中使用大量 3D 标注数据，包括 Kubric、WildRGB-D、ScanNet、BlendedMVS、DL3DV、MegaDepth、Aria Digital Twin 等数据集。",
+        "fact_ids": [
+          "R_bc443aa4e14d7df43410",
+          "R_5ab7bce13cfef8927c14",
+          "R_28fbed3c2d71625c7602",
+          "R_86c302fb456779177fd8",
+          "R_83ba80c3dbc23a09e56a",
+          "R_f7262d4fd98061122911",
+          "R_ea20a957ded26c709b14",
+          "R_ac22e7c362339eae6e90"
+        ],
+        "evidence_ids": [
+          "F_8a874f40d661ac5cc013",
+          "F_e186eb436ce2d6b654b0",
+          "F_7cd89268f09cae9c5f66",
+          "F_818d46e2ab8eb7429329",
+          "F_a68b512856123df2ca9d",
+          "F_ab648cc335ecf1d89900",
+          "F_701c5e9278c976e64dd3",
+          "F_806294a2a09214405e90"
+        ],
+        "sources": [
+          {
+            "id": "F_8a874f40d661ac5cc013",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.430684+00:00",
+            "page": 1,
+            "quote": "trained on a trove of 3D-annotated data",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_e186eb436ce2d6b654b0",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.525614+00:00",
+            "page": 6,
+            "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_7cd89268f09cae9c5f66",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.530283+00:00",
+            "page": 6,
+            "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_818d46e2ab8eb7429329",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.535063+00:00",
+            "page": 6,
+            "quote": "Kubric [41], WildRGB [135], ScanNet [18]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_a68b512856123df2ca9d",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.511796+00:00",
+            "page": 6,
+            "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_ab648cc335ecf1d89900",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.516361+00:00",
+            "page": 6,
+            "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_701c5e9278c976e64dd3",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.520981+00:00",
+            "page": 6,
+            "quote": "BlendMVS [146], DL3DV [69], MegaDepth [64]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_806294a2a09214405e90",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.539833+00:00",
+            "page": 6,
+            "quote": "Aria Synthetic Environments [82], Aria Digital Twin [82]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "text": "VGGT 在 IMC 上评估相机位姿估计，并在 RealEstate10K 上评估（该模型未在 RealEstate10K 上训练）。",
+        "fact_ids": [
+          "R_512e40350a4ab496a648",
+          "R_fef17fb5ea1045ec747d"
+        ],
+        "evidence_ids": [
+          "F_1875d53c9966b0eda2f5",
+          "F_2bf6624f7172087a23e2"
+        ],
+        "sources": [
+          {
+            "id": "F_1875d53c9966b0eda2f5",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.609839+00:00",
+            "page": 12,
+            "quote": "Camera Pose Estimation on IMC We also evaluate using",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_2bf6624f7172087a23e2",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.564077+00:00",
+            "page": 7,
+            "quote": "trained on Co3Dv2 and not on RealEstate10K",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "text": "VGGT 使用 AUC（精度-阈值曲线下面积，含 AUC@30 结合 RRA 与 RTA）、Chamfer 距离和 Completeness 等评价指标。",
+        "fact_ids": [
+          "R_6210e0999a435086d5f4",
+          "R_807bcf495fc2b6d52fdb",
+          "R_1509a4560ee19d2fda92"
+        ],
+        "evidence_ids": [
+          "F_fb3ae9edd12338d19eba",
+          "F_95bca69962b15f2e99d9",
+          "F_b5e2e54038cab293eea1",
+          "F_8aa4de4cdcd6babb9786"
+        ],
+        "sources": [
+          {
+            "id": "F_fb3ae9edd12338d19eba",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.544655+00:00",
+            "page": 6,
+            "quote": "ric AUC@30, which combines RRA and RTA.",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_95bca69962b15f2e99d9",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.549473+00:00",
+            "page": 7,
+            "quote": "AUC is the area under the accuracy-threshold curve",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_b5e2e54038cab293eea1",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.559147+00:00",
+            "page": 7,
+            "quote": "(i.e., Chamfer distance)",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_8aa4de4cdcd6babb9786",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.554328+00:00",
+            "page": 7,
+            "quote": "Completeness (the smallest Euclidean distance from",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "text": "VGGT 与 DUSt3R、MASt3R 等近期方法进行比较，其深度损失沿用 DUSt3R，并在野外图像上与 DUSt3R 做定性比较。",
+        "fact_ids": [
+          "R_05abe7236680a5888cb0",
+          "R_88e582eca5644b8db275"
+        ],
+        "evidence_ids": [
+          "F_45e5ee0df823fb502166",
+          "F_48111187db8ec36ded44",
+          "F_790f3f95dcc03224e5d1",
+          "F_ff083d9a7c56c13b72f2"
+        ],
+        "sources": [
+          {
+            "id": "F_45e5ee0df823fb502166",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.450633+00:00",
+            "page": 12,
+            "quote": "we additionally compare to recently popularized DUSt3R [129] and MASt3R [62]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_48111187db8ec36ded44",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.573999+00:00",
+            "page": 12,
+            "quote": "we additionally compare to recently popularized DUSt3R [129] and MASt3R [62]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_790f3f95dcc03224e5d1",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.442362+00:00",
+            "page": 6,
+            "quote": "The depth loss Ldepth follows DUSt3R [129]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_ff083d9a7c56c13b72f2",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.438296+00:00",
+            "page": 4,
+            "quote": "Qualitative comparison of our predicted 3D points to DUSt3R on in-the-wild images",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      },
+      {
+        "id": "C9",
+        "text": "VGGT 引用 TAPTR、LocoTrack、VGGSfMv2 等点跟踪与运动恢复结构相关工作，并使用 Theseus 实现可微光束法平差。",
+        "fact_ids": [
+          "R_6d2df5764efb00e1f932",
+          "R_fedce726a9003a155336",
+          "R_fa2c8cdc45cd7f8c377c",
+          "R_0cfd9e5d21126274a570"
+        ],
+        "evidence_ids": [
+          "F_e66826b5239119a2e11e",
+          "F_0582704c8c1b0a581517",
+          "F_beb297a6066a4ff93c2f",
+          "F_7766bed0dad92c7ffb52"
+        ],
+        "sources": [
+          {
+            "id": "F_e66826b5239119a2e11e",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.454816+00:00",
+            "page": 2,
+            "quote": "Recently, TAPTR [63] proposed",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_0582704c8c1b0a581517",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.484584+00:00",
+            "page": 3,
+            "quote": "an end-to-end transformer for this task, and LocoTrack [13]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_beb297a6066a4ff93c2f",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.631183+00:00",
+            "page": 12,
+            "quote": "outperforming VGGSfMv2 [125] which ranked",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          },
+          {
+            "id": "F_7766bed0dad92c7ffb52",
+            "project": "kg3dr-course",
+            "reviewed_at": "2026-11-11T09:54:56.578981+00:00",
+            "page": 10,
+            "quote": "differentiable BA in PyTorch using Theseus [85]",
+            "pdf_sha256": "5d7ab44d129172f39ef5918feb0014c4d041fd0e92f995d4dbbd7327a6e91d52",
+            "reviewer": "hyx",
+            "paper_id": "P001",
+            "note": "人工批量审核",
+            "section": "Unknown"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "主题概述",
+        "claim_ids": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "title": "相关方法",
+        "claim_ids": [
+          "C3",
+          "C4",
+          "C8",
+          "C9"
+        ]
+      },
+      {
+        "title": "共性与差异",
+        "claim_ids": [
+          "C8",
+          "C9"
+        ]
+      },
+      {
+        "title": "数据集与评价指标",
+        "claim_ids": [
+          "C5",
+          "C6",
+          "C7"
+        ]
+      }
+    ],
+    "suggestions": [],
+    "rejected_claims": [],
+    "limitations": "本总结仅基于 P001（VGGT）单篇论文的图谱事实与证据，属于部分材料综述；未收录其他论文，无法进行跨论文的系统比较。图谱未收录不等于学术界未研究。papers.year 仅为待核对元数据，不据此断言发展先后。共享组件（如 DINO、DPT、CoTracker2）不等于方法继承；不同实验设置不可直接比较优劣。证据中未提供完整数值结果，故不补充性能数值。",
+    "citation_check": "只验证引用结构，未自动证明语义支持"
+  },
+  "response_cache_key": "439d6c7dc5bcfec76fd35870f6ec5eb1cc8dadbbeca5cd6275b596afdc49b396",
+  "time": "2026-11-18T02:01:50.491912+00:00"
+}

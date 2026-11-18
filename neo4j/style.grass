@@ -1,0 +1,8 @@
+node { diameter: 30px; color: #8a9caf; caption: '{name}'; font-size: 10px; }
+node.Paper { color: #315df4; }
+node.Method { color: #17a591; }
+node.Component { color: #9271d9; }
+node.Task { color: #e59b42; }
+node.Representation { color: #4e9bd7; }
+node.Dataset { color: #dd728c; }
+relationship { color: #b5c2d8; shaft-width: 1px; font-size: 8px; caption: '<type>'; }
